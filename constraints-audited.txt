@@ -1,6 +1,6 @@
 # Audited dependency snapshot: 2026-10-20. See SECURITY.md.
 Jinja2==3.1.6
-MarkupSafe==3.0.3
+MarkupSafe==3.0.4
 Panda3D==1.10.16
 Pygments==2.21.0
 colorama==0.4.6
