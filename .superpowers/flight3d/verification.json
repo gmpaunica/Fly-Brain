@@ -1,0 +1,59 @@
+{
+  "full_suite": {
+    "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider",
+    "passed": 594,
+    "skipped": 0,
+    "warnings": 2,
+    "seconds": 573.03
+  },
+  "final_targeted": {
+    "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider tests -k flight3d",
+    "passed": 27,
+    "deselected": 567,
+    "warnings": 2,
+    "seconds": 33.06
+  },
+  "anatomy_audit": {
+    "source_archives_verified": true,
+    "source_cells_verified": 589,
+    "source_directed_edges_verified": 4139,
+    "skeletons_exact_transform_verified": 585,
+    "missing_skeletons": [
+      "720575941469583894",
+      "720575941472984439",
+      "720575941500851785",
+      "720575941562104947"
+    ],
+    "circuit_sha256": "c4f71df088ee964473b513c848fc0d3402c0f4f76d6b7427d71563f53100048a",
+    "geometry_transform": [
+      1e-06,
+      -1e-06,
+      1e-06
+    ]
+  },
+  "preservation": {
+    "preexisting_files_checked": 374,
+    "changed": [],
+    "all_preserved": true
+  },
+  "visual_review": {
+    "saved_views": [
+      "brain-and-cord",
+      "brain-front",
+      "brain-side",
+      "brain-top",
+      "project-only"
+    ],
+    "reference": "docs/reference/fly-brain-3d-visual-reference.png",
+    "comparison": "actual anatomical form, black/purple/pink palette and warm live markers; real morphology is denser than stylized reference",
+    "live_desktop_review": false,
+    "native_automation": "Node/sky entry point not exposed"
+  },
+  "experiment": {
+    "directory": "experiments/flight3d-landing-2026-09-30",
+    "status": "closed_failed_gate",
+    "stage": "teacher",
+    "optimizer_updates": 0,
+    "learned_landing_accepted": false
+  }
+}

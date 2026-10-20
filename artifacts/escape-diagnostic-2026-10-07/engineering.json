@@ -1,0 +1,186 @@
+{
+  "steps": 1747,
+  "calls": [
+    {
+      "label": "literal dynamics",
+      "steps": 2
+    },
+    {
+      "label": "parity original 1",
+      "steps": 1
+    },
+    {
+      "label": "parity measured 1",
+      "steps": 1
+    },
+    {
+      "label": "parity recorded 1",
+      "steps": 1
+    },
+    {
+      "label": "parity original 2",
+      "steps": 2
+    },
+    {
+      "label": "parity measured 2",
+      "steps": 2
+    },
+    {
+      "label": "parity recorded 2",
+      "steps": 2
+    },
+    {
+      "label": "parity original 20",
+      "steps": 20
+    },
+    {
+      "label": "parity measured 20",
+      "steps": 20
+    },
+    {
+      "label": "parity recorded 20",
+      "steps": 20
+    },
+    {
+      "label": "parity original 99",
+      "steps": 99
+    },
+    {
+      "label": "parity measured 99",
+      "steps": 99
+    },
+    {
+      "label": "parity recorded 99",
+      "steps": 99
+    },
+    {
+      "label": "pair wrapper parity, two pairs two intervals",
+      "steps": 160
+    },
+    {
+      "label": "literal dynamics",
+      "steps": 2
+    },
+    {
+      "label": "parity original 1",
+      "steps": 1
+    },
+    {
+      "label": "parity measured 1",
+      "steps": 1
+    },
+    {
+      "label": "parity recorded 1",
+      "steps": 1
+    },
+    {
+      "label": "parity original 2",
+      "steps": 2
+    },
+    {
+      "label": "parity measured 2",
+      "steps": 2
+    },
+    {
+      "label": "parity recorded 2",
+      "steps": 2
+    },
+    {
+      "label": "parity original 20",
+      "steps": 20
+    },
+    {
+      "label": "parity measured 20",
+      "steps": 20
+    },
+    {
+      "label": "parity recorded 20",
+      "steps": 20
+    },
+    {
+      "label": "parity original 99",
+      "steps": 99
+    },
+    {
+      "label": "parity measured 99",
+      "steps": 99
+    },
+    {
+      "label": "parity recorded 99",
+      "steps": 99
+    },
+    {
+      "label": "pair wrapper parity, two pairs two intervals",
+      "steps": 160
+    },
+    {
+      "label": "literal dynamics",
+      "steps": 2
+    },
+    {
+      "label": "parity original 1",
+      "steps": 1
+    },
+    {
+      "label": "parity measured 1",
+      "steps": 1
+    },
+    {
+      "label": "parity recorded 1",
+      "steps": 1
+    },
+    {
+      "label": "parity original 2",
+      "steps": 2
+    },
+    {
+      "label": "parity measured 2",
+      "steps": 2
+    },
+    {
+      "label": "parity recorded 2",
+      "steps": 2
+    },
+    {
+      "label": "parity original 20",
+      "steps": 20
+    },
+    {
+      "label": "parity measured 20",
+      "steps": 20
+    },
+    {
+      "label": "parity recorded 20",
+      "steps": 20
+    },
+    {
+      "label": "parity original 99",
+      "steps": 99
+    },
+    {
+      "label": "parity measured 99",
+      "steps": 99
+    },
+    {
+      "label": "parity recorded 99",
+      "steps": 99
+    },
+    {
+      "label": "pair wrapper parity, two pairs two intervals",
+      "steps": 160
+    },
+    {
+      "label": "literal dynamics",
+      "steps": 2
+    },
+    {
+      "label": "exact threshold equality",
+      "steps": 1
+    },
+    {
+      "label": "pair wrapper parity, two pairs two intervals",
+      "steps": 160
+    }
+  ],
+  "limit": 2000
+}

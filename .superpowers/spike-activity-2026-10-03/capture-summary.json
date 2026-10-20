@@ -1,0 +1,20 @@
+[
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "snapshot_time": 2.0,
+    "hidden_pulses": 359,
+    "shown_pulses": 527
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "snapshot_time": 2.0,
+    "hidden_pulses": 359,
+    "shown_pulses": 527
+  }
+]

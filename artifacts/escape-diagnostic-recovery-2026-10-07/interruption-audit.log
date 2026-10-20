@@ -1,0 +1,69 @@
+partial audit seed 1100000: 75 full records, 75 exact chunks
+partial audit seed 1100004: 75 full records, 75 exact chunks
+partial audit seed 1100001: 75 full records, 75 exact chunks
+partial audit seed 1100003: 75 full records, 75 exact chunks
+partial audit seed 1100002: 75 full records, 75 exact chunks
+partial audit seed 1100005: 75 full records, 75 exact chunks
+partial audit seed 1100010: 75 full records, 75 exact chunks
+partial audit seed 1100008: 27 full records, 28 exact chunks
+{
+  "status": "interruption-audit-passed",
+  "hypothesis": "unresolved: only 2 of 5 deficit-only failures completed",
+  "completed_cases": 7,
+  "started_cases": 8,
+  "full_historical_records": 552,
+  "complete_neural_chunks": 553,
+  "individual_kernel_steps": 22120,
+  "simulated_seconds": 11.06,
+  "cumulative_diagnostic_steps": 22160,
+  "cumulative_diagnostic_seconds": 11.08,
+  "added_audit_kernel_steps": 0,
+  "brain_sensor_simulation_calls": 0,
+  "all_records_equal_original": true,
+  "all_recorded_cell_edge_steps_exact": true,
+  "unlogged_last_interval": "Complete neural/RGB chunk for eighth case steps 541-560; corresponding JSON interval was not flushed.",
+  "partial_five_case_evidence": [
+    {
+      "seed": 1100000,
+      "four_conditions_observed": true,
+      "trigger_step": 1300,
+      "actual_window_steps": [
+        1144,
+        1244
+      ],
+      "reference_window_steps": [
+        1111,
+        1178,
+        1246
+      ],
+      "expiration_steps": [
+        1060,
+        1140,
+        1280
+      ],
+      "final_cumulative_b3": 1,
+      "first_right_DN_delivery": 824,
+      "first_b3_difference": 852
+    },
+    {
+      "seed": 1100001,
+      "four_conditions_observed": true,
+      "trigger_step": 900,
+      "actual_window_steps": [
+        754,
+        820
+      ],
+      "reference_window_steps": [
+        702,
+        754,
+        870
+      ],
+      "expiration_steps": [
+        900
+      ],
+      "final_cumulative_b3": 2,
+      "first_right_DN_delivery": 617,
+      "first_b3_difference": 627
+    }
+  ]
+}

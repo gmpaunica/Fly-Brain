@@ -1,0 +1,9 @@
+{
+  "existing_files": 2372,
+  "display_changes": [
+    "src/flybrain/flight3d/activity.py",
+    "src/flybrain/flight3d/brain_controls.py"
+  ],
+  "protected_unchanged": 2370,
+  "unexpected_changes": []
+}

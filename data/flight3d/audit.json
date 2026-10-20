@@ -1,0 +1,18 @@
+{
+  "source_archives_verified": true,
+  "source_cells_verified": 589,
+  "source_directed_edges_verified": 4139,
+  "skeletons_exact_transform_verified": 585,
+  "missing_skeletons": [
+    "720575941469583894",
+    "720575941472984439",
+    "720575941500851785",
+    "720575941562104947"
+  ],
+  "circuit_sha256": "c4f71df088ee964473b513c848fc0d3402c0f4f76d6b7427d71563f53100048a",
+  "geometry_transform": [
+    1e-06,
+    -1e-06,
+    1e-06
+  ]
+}

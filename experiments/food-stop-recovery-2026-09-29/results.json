@@ -1,0 +1,52 @@
+{
+  "schema": "food_stop_recovery_result_v1",
+  "protocol_sha256": "40cc1a9e178efa543a25177194a605f21b81db0a24ec7ae6296b8fb4fcce471d",
+  "case_manifest_sha256": "1941e4436fa3b857faf26746560c43874df1cea352a8fe55e0ffa91072ac1d32",
+  "journal_sha256": "ecbe45c7d068283c1f709f077f3aac823ae4fa84b2c227e11d7edfa2ef509d51",
+  "final_json_sha256": "9d37308c9b0a1ecfb40a8e0a388f1039f61395eba470191e346f4056479dab9d",
+  "final_csv_sha256": "ef45485255c2374e5d2d0e95c5e3d7f45b8801bdb2032da25b321e1f1ac0b2a0",
+  "checkpoint_sha256": "53526140b8b7f5e48b7f4a97f9db380171fad220275d339912638aadfaa8ee1b",
+  "validation_successes": {
+    "trained": 16,
+    "untrained": 0,
+    "fixed": 0
+  },
+  "validation_gate_passed": true,
+  "final_gates": {
+    "trained_successes": 63,
+    "sector_successes": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 7,
+      "5": 8,
+      "6": 8,
+      "7": 8
+    },
+    "paired": {
+      "untrained": {
+        "successes": 0,
+        "gain": 63,
+        "one_sided_exact_p": 1.0842021724855044e-19,
+        "passed": true
+      },
+      "fixed": {
+        "successes": 0,
+        "gain": 63,
+        "one_sided_exact_p": 1.0842021724855044e-19,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "contact_intervention_sha256": "fb1f19131e33e29d7ccc64248e75d7f02569ed75eb7584340d73325949a8f762",
+  "contact_intervention_changes_stop": true,
+  "parameters_unchanged": true,
+  "actual_episodes": 192,
+  "actual_world_ticks": 192000,
+  "actual_neural_steps": 3840000,
+  "optimizer_steps": 0,
+  "passed": true,
+  "completed_utc": "2026-09-29T00:11:53.322754+00:00"
+}

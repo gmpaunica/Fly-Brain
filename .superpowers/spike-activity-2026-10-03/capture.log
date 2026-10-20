@@ -1,0 +1,28 @@
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+[
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "snapshot_time": 2.0,
+    "hidden_pulses": 359,
+    "shown_pulses": 527
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "snapshot_time": 2.0,
+    "hidden_pulses": 359,
+    "shown_pulses": 527
+  }
+]

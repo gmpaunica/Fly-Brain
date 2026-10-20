@@ -1,0 +1,54 @@
+{
+  "kind": "development numerical illustration; held observation for 2 s, not behavioral evaluation",
+  "seed": 970000,
+  "rgb_shape": [
+    2,
+    24,
+    48,
+    3
+  ],
+  "pixel_index": [
+    1,
+    14,
+    2
+  ],
+  "rgb": [
+    0.4662499725818634,
+    0.20499999821186066,
+    0.29624998569488525
+  ],
+  "contrast": 0.21562498807907104,
+  "rate_tensor_shape": [
+    589
+  ],
+  "example_visual_cell": "720575941429767343",
+  "example_visual_rate_hz": 155.24999141693115,
+  "neural_history_shape": [
+    2,
+    589
+  ],
+  "motor_group_feature_sizes": [
+    48,
+    48,
+    56
+  ],
+  "motor_feature_shape": [
+    152
+  ],
+  "fixed_command_after_held_observation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "teacher_initial_command": [
+    0.49108052253723145,
+    0.10369525849819183,
+    0.06463241577148438,
+    0.05768265575170517,
+    1.0
+  ],
+  "forward_only": true,
+  "optimizer_updates": 0
+}

@@ -1,0 +1,6 @@
+seed,trigger_step,window_left_open_step,window_right_closed_step,actual_b3_window_steps,reference_b3_window_steps,actual_count,reference_count,increment,first_differential_right_DN_delivery_step,first_b3_timing_difference_step,deficit_expiration_steps,final_cumulative_b3,redistributed_before_trigger,all_four
+1100000,1300,1100,1300,"[1144, 1244]","[1111, 1178, 1246]",2,3,-1,824,852,"[1060, 1140, 1280]",1,True,True
+1100001,900,700,900,"[754, 820]","[702, 754, 870]",2,3,-1,617,627,[900],2,True,True
+1100012,1300,1100,1300,"[1170, 1237]","[1111, 1178, 1246]",2,3,-1,636,694,"[900, 1060, 1140, 1200, 1280]",1,True,True
+1100013,900,700,900,"[770, 820]","[702, 754, 870]",2,3,-1,612,627,[900],2,True,True
+1100036,1300,1100,1300,"[1169, 1228]","[1111, 1178, 1246]",2,3,-1,563,627,[1280],2,True,True

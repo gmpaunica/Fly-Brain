@@ -1,0 +1,112 @@
+{
+  "experiment": "m6_neural_charge_repair",
+  "hypothesis": "reset-corrected neural charge features enable the same readout to fit sensory turns",
+  "optimizer": "Adam full batch; train-only standardization folded into raw weights",
+  "learning_rate": 0.05,
+  "optimizer_step_ceiling": 500,
+  "planned_updates": 500,
+  "sample_ticks_per_case": 200,
+  "config": {
+    "horizon_ticks": 600,
+    "success_radius": 20.0,
+    "network_seed": 7,
+    "world_dt_seconds": 0.02,
+    "arena_width": 800.0,
+    "arena_height": 600.0,
+    "source_x": 600.0,
+    "source_y": 300.0,
+    "source_strength": 1000.0,
+    "source_softening": 20.0
+  },
+  "cases": [
+    {
+      "case_id": "train-0",
+      "split": "train",
+      "seed": 0,
+      "x": 689.1529296011761,
+      "y": 167.78486490492682,
+      "heading": 2.642529177293657
+    },
+    {
+      "case_id": "train-1",
+      "split": "train",
+      "seed": 1,
+      "x": 711.1712365350527,
+      "y": 425.08816007544306,
+      "heading": 4.798937463950548
+    },
+    {
+      "case_id": "train-2",
+      "split": "train",
+      "seed": 2,
+      "x": 769.1123315212826,
+      "y": 252.05783740020632,
+      "heading": 0.3553227228019942
+    },
+    {
+      "case_id": "train-3",
+      "split": "train",
+      "seed": 3,
+      "x": 610.4883970077904,
+      "y": 438.43336020168834,
+      "heading": 2.3244968667700685
+    },
+    {
+      "case_id": "train-4",
+      "split": "train",
+      "seed": 4,
+      "x": 607.0970669731752,
+      "y": 380.75155370779487,
+      "heading": 2.488507330758799
+    },
+    {
+      "case_id": "train-5",
+      "split": "train",
+      "seed": 5,
+      "x": 486.8151342736775,
+      "y": 189.76093495850324,
+      "heading": 4.996348527526132
+    },
+    {
+      "case_id": "train-6",
+      "split": "train",
+      "seed": 6,
+      "x": 644.4170259994085,
+      "y": 140.9421356229878,
+      "heading": 3.047562447689033
+    },
+    {
+      "case_id": "train-7",
+      "split": "train",
+      "seed": 7,
+      "x": 560.1185875183394,
+      "y": 379.71153710406855,
+      "heading": 4.089941916940695
+    }
+  ],
+  "contract": {
+    "schema": 3,
+    "feature_names": [
+      "sensory_left",
+      "sensory_right",
+      "interneuron_left",
+      "interneuron_right",
+      "motor_left",
+      "motor_forward",
+      "motor_right",
+      "sensory_left_log_charge",
+      "sensory_right_log_charge"
+    ],
+    "feature_count": 9,
+    "network_seed": 7,
+    "topology_sha256": "6a16dc392aaf69a0b6177ee3ac0a623f6253a0e3cb8befd09ece9e6e094c00f7",
+    "encoder_mode": "rational",
+    "encoder_scale": 0.005,
+    "feature_alpha": 0.5,
+    "charge_epsilon": 1e-06,
+    "encoder_gain": 2.5,
+    "charge_rule": "rounded membrane changes plus leak and reset losses / interval input fraction"
+  },
+  "stop_rule": "stop after one candidate; require turn MSE <= .016752 and <= .1 constant, train arrivals >=7/8",
+  "scope": "train only; no validation/final or live app promotion"
+}

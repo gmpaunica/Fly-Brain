@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "subset_sha256": "76c254e22741230b3d97aeb21c9938405b2e98c07ca29b8cde9331f3c4e6d0ae",
+  "transform_version": "nonself-selected-input-count-normalized-v1",
+  "dynamics_gate_passed": true,
+  "causal_gate_passed": true,
+  "probe_results_sha256": "559598bad475c14a96e5c3fe6ab91ca59d9e2385a1b490768ab4b8d1d7d64991",
+  "config": {
+    "synaptic_budget": 3,
+    "encoder_min_scale": 0.005,
+    "encoder_max_scale": 0.05,
+    "projection_filter_tau": 0,
+    "sensory_mode": "phase_rate",
+    "projection_dynamics": "charge_preserving"
+  }
+}

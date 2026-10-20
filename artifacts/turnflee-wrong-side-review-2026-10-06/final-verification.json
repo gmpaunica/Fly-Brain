@@ -1,0 +1,18 @@
+{
+  "status": "all-offline-checks-passed",
+  "saved_record_audit": "audit-passed",
+  "offline_unit_tests_passed": 1,
+  "protected_original_files": 2510,
+  "review_snapshot_files": 2720,
+  "changed_hashes": [],
+  "report_links_checked": 16,
+  "cases": 9,
+  "contribution_rows": 54,
+  "timeline_rows": 675,
+  "comparison_rows": 42,
+  "brain_sensor_simulation_calls": 0,
+  "presentations_added": 0,
+  "simulated_seconds_added": 0,
+  "paired_neural_steps_added": 0,
+  "full_simulation_suite": "not run: explicit zero budget"
+}

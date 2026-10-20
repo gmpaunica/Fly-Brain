@@ -1,0 +1,45 @@
+{
+  "experiment": "fb10_calibration_diagnosis",
+  "protocol_sha256": "e001ac66110858285231e0c96192f505c2a8fcf1854d3e5fc06430f0d93d879e",
+  "actual_world_ticks": 0,
+  "actual_neural_steps": 0,
+  "optimizer_steps": 0,
+  "mixing_matrix": [
+    [
+      0.6062065300842127,
+      0.39379347457240027
+    ],
+    [
+      0.3421052638441324,
+      0.6578947342932224
+    ]
+  ],
+  "inverse_matrix": [
+    [
+      2.491069999173556,
+      -1.491070013550839
+    ],
+    [
+      -1.2953564071872394,
+      2.2953564174946472
+    ]
+  ],
+  "singular_values": [
+    1.0014346593344865,
+    0.26372291098192263
+  ],
+  "histories": [
+    {
+      "raw_contrast_std_hz": 1.3078554479645776,
+      "unmixed_contrast_std_hz": 4.952098134373896,
+      "maximum_normalized_contrast_difference": 2.625352384377777e-07
+    },
+    {
+      "raw_contrast_std_hz": 1.2640674541994121,
+      "unmixed_contrast_std_hz": 4.786298015391511,
+      "maximum_normalized_contrast_difference": 2.6521204443685775e-07
+    }
+  ],
+  "candidate_fitted": false,
+  "provenance_preserved": true
+}

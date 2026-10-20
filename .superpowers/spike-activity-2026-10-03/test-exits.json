@@ -1,0 +1,29 @@
+[
+  {
+    "label": "targeted",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "-k",
+      "flight3d"
+    ],
+    "junit": "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\spike-activity-2026-10-03\\targeted.xml",
+    "returncode": 0,
+    "seconds": 143.69810679997317
+  },
+  {
+    "label": "full",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "junit": "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\spike-activity-2026-10-03\\full.xml",
+    "returncode": 0,
+    "seconds": 600.165633100085
+  }
+]

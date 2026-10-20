@@ -1,0 +1,10 @@
+{
+  "test_times": [
+    80.49,
+    144.48
+  ],
+  "maximum_p95_ms": 14.103649975731967,
+  "preview_pid": 27060,
+  "live_review": "class switches confirmed; other native interactions pending",
+  "user_feedback": "Yes, the switches work now"
+}

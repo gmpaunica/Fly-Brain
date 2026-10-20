@@ -1,0 +1,31 @@
+{
+  "status": "partial-record-audit-passed",
+  "hypothesis": "unresolved",
+  "completed_presentations": 0,
+  "started_presentations": 1,
+  "rendered_threat_intervals": 0,
+  "simulated_seconds": 0.02,
+  "actual_kernel_steps": 20,
+  "reference_kernel_steps": 20,
+  "total_kernel_steps": 40,
+  "all_neurons": 589,
+  "all_nonself_edges": 3636,
+  "saved_original_interval_exact": true,
+  "complete_step_recurrence_exact": true,
+  "brain_sensor_simulation_calls": 0,
+  "audit_kernel_steps": 0,
+  "cause": "Runtime asdict tuple fields compared directly with JSON lists; saved serialized record equals original exactly.",
+  "tuple_list_fields": [
+    "current_sum",
+    "current_peak",
+    "discarded_current",
+    "peak_voltage",
+    "peak_phase",
+    "spike_counts",
+    "first_spike_seconds",
+    "episode_first_spike_seconds",
+    "silenced"
+  ],
+  "original_receipt_unchanged": true,
+  "retry_authorized": false
+}

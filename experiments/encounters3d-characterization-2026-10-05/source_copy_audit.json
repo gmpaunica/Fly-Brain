@@ -1,0 +1,12 @@
+{
+  "static_config_sources_match_current_and_archived": [
+    "src\\flybrain\\encounters3d\\characterize.py",
+    "src\\flybrain\\encounters3d\\neural.py",
+    "src\\flybrain\\encounters3d\\scene.py",
+    "src\\flybrain\\flight3d\\neural.py",
+    "src\\flybrain\\flight3d\\sensors.py"
+  ],
+  "preliminary_neural_steps": 9000,
+  "formal_recorded_neural_steps": 171000,
+  "optimizer_updates": 0
+}

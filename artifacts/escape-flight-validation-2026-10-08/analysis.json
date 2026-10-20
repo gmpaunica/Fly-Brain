@@ -1,0 +1,269 @@
+{
+  "status": "closed-physical-failed",
+  "intact_successes": 19,
+  "per_state": {
+    "resting": 6,
+    "hovering": 7,
+    "cruising": 6
+  },
+  "silent_triggers": 0,
+  "failed_intact": [
+    {
+      "case": {
+        "azimuth": 0,
+        "state": "resting",
+        "intervention": "intact",
+        "seed": 1110000
+      },
+      "unmet": [
+        "collision_freedom"
+      ]
+    },
+    {
+      "case": {
+        "azimuth": 0,
+        "state": "cruising",
+        "intervention": "intact",
+        "seed": 1110002
+      },
+      "unmet": [
+        "weak_threat",
+        "braking",
+        "recovery",
+        "stable_recovery"
+      ]
+    },
+    {
+      "case": {
+        "azimuth": 180,
+        "state": "resting",
+        "intervention": "intact",
+        "seed": 1110012
+      },
+      "unmet": [
+        "collision_freedom"
+      ]
+    },
+    {
+      "case": {
+        "azimuth": 180,
+        "state": "hovering",
+        "intervention": "intact",
+        "seed": 1110013
+      },
+      "unmet": [
+        "collision_freedom"
+      ]
+    },
+    {
+      "case": {
+        "azimuth": 180,
+        "state": "cruising",
+        "intervention": "intact",
+        "seed": 1110014
+      },
+      "unmet": [
+        "weak_threat",
+        "braking",
+        "recovery",
+        "stable_recovery"
+      ]
+    }
+  ],
+  "first_collisions": {
+    "1110000-resting-intact": {
+      "end_seconds": 5.76,
+      "pre_position": [
+        0.001885650203369565,
+        0.2543630357033178,
+        0.09999987004947755
+      ],
+      "position": [
+        0.0015,
+        0.25326688106382206,
+        0.0999998898527677
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        -0.007122977356835515,
+        0.023583495172339815,
+        -2.655475784793917
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001518994767546,
+        "pitch": 0.04723634354069906,
+        "roll": -0.013938926106858464,
+        "yaw": -0.2513132569373786,
+        "legs": 0.0
+      }
+    },
+    "1110001-hovering-visual-silent": {
+      "end_seconds": 1.2,
+      "pre_position": [
+        0.2998794416000292,
+        0.3554844895503942,
+        0.09999956738021233
+      ],
+      "position": [
+        0.2998778883163142,
+        0.35578396866034295,
+        0.09999958506193234
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        -6.303384526588839e-05,
+        0.024481592885180137,
+        -0.004515780319526774
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001499695540753,
+        "pitch": 0.04894145148666467,
+        "roll": -0.00013240851018295842,
+        "yaw": -0.002298229572534005,
+        "legs": 0.0
+      }
+    },
+    "1110002-cruising-visual-silent": {
+      "end_seconds": 1.0,
+      "pre_position": [
+        0.3030683323589488,
+        0.3549147421421389,
+        0.09999801737894431
+      ],
+      "position": [
+        0.3032144973327597,
+        0.35579961606852745,
+        0.09999810882473116
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0.002150066509820882,
+        0.024409573157290976,
+        0.14058131667708368
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001509253292431,
+        "pitch": 0.04880383114054938,
+        "roll": 0.004181445182035187,
+        "yaw": 0.07320503623383656,
+        "legs": 0.0
+      }
+    },
+    "1110012-resting-intact": {
+      "end_seconds": 5.94,
+      "pre_position": [
+        0.5983594689810213,
+        0.34385645079084864,
+        0.09999991076353941
+      ],
+      "position": [
+        0.5985,
+        0.34442438027656225,
+        0.09999991874034443
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        -0.008748457631316483,
+        0.023123942210017574,
+        0.38115568204743244
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001529290668167,
+        "pitch": 0.04626999459517112,
+        "roll": -0.017414559445246867,
+        "yaw": -0.313224431127614,
+        "legs": 0.0
+      }
+    },
+    "1110013-hovering-intact": {
+      "end_seconds": 5.66,
+      "pre_position": [
+        0.5979463406010808,
+        0.2863168201210427,
+        0.10000008723092911
+      ],
+      "position": [
+        0.5985,
+        0.28531600905711746,
+        0.10000002588297648
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0.008820364588367172,
+        0.02311757382158036,
+        2.480412884926019
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001533013626694,
+        "pitch": 0.046178418133803294,
+        "roll": 0.01776555794192193,
+        "yaw": 0.31864447271488716,
+        "legs": 0.0
+      }
+    },
+    "1110019-hovering-visual-silent": {
+      "end_seconds": 5.66,
+      "pre_position": [
+        0.2167732932393095,
+        0.31846127866193086,
+        0.10000010664714427
+      ],
+      "position": [
+        0.21786487496677495,
+        0.3180149946687031,
+        0.10000011448979103
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        -0.006865113216206111,
+        0.023639632616651814,
+        -4.188731669491468
+      ],
+      "escape_state": "idle",
+      "behavior_state": "cruising",
+      "command": {
+        "power": 0.5001516416095508,
+        "pitch": 0.047703639142553225,
+        "roll": -0.012011956859123644,
+        "yaw": -0.22614427183337327,
+        "legs": 0.0
+      }
+    }
+  },
+  "max_downstream_hz": 215.0,
+  "analysis_neural_steps": 0
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="20" time="3.886" timestamp="2026-10-07T15:18:25.410708+01:00" hostname="Thinkpad"><testcase classname="tests.test_escape_diagnostic_recovery" name="test_accepts_all_runtime_tuple_fields_without_mutating_input" time="0.018" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[rgb]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[actual]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[reference]" time="0.003" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[current]" time="0.003" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[voltage]" time="0.003" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[phase]" time="0.007" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[timing]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[rolling]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[score]" time="0.005" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[threat]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[side]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_real_record_mutations[missing]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_nonfinite_values_before_equality[nan]" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_nonfinite_values_before_equality[inf]" time="0.003" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_rejects_nonfinite_values_before_equality[-inf]" time="0.003" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_real_number_nextafter_is_not_rounded_or_tolerated" time="0.004" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_new_lock_refuses_renamed_retry_and_keeps_old_lock" time="3.605" /><testcase classname="tests.test_escape_diagnostic_recovery" name="test_interruption_seals_before_brain_construction" time="0.083"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\escape-diagnostic-recovery-2026-10-07\\acceptance.json'">tmp_path = WindowsPath('C:/Users/Lenovo/AppData/Local/Temp/pytest-of-Lenovo/pytest-332/test_interruption_seals_before0')
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x0000019F0E415790&gt;
+
+    def test_interruption_seals_before_brain_construction(tmp_path,monkeypatch):
+        m=runner()
+        monkeypatch.setattr(m,'preflight',lambda: {})
+        monkeypatch.setattr(m,'historical_records',lambda: {})
+        # The new v2 runner faults during config archive setup, before any kernel.
+&gt;       with pytest.raises(KeyError): m.run(tmp_path/'v2')
+                                      ^^^^^^^^^^^^^^^^^^^^
+
+tests\test_escape_diagnostic_recovery.py:80: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\flybrain\escape_diagnostic_recovery\runner.py:165: in run
+    target.write_bytes((ART/name).read_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('artifacts/escape-diagnostic-recovery-2026-10-07/acceptance.json')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\escape-diagnostic-recovery-2026-10-07\\acceptance.json'
+
+..\..\..\..\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: FileNotFoundError</failure></testcase><testcase classname="tests.test_escape_diagnostic_recovery" name="test_source_tampering_and_budget_excess_refuse_next_action" time="0.006" /></testsuite></testsuites>

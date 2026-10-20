@@ -1,0 +1,985 @@
+{
+  "passed": true,
+  "episodes": [
+    {
+      "seed": 970000,
+      "success": true,
+      "dwell": 26.95999999999892,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 3.045,
+      "final_position": [
+        0.33105283764737636,
+        0.5154780465264716,
+        0.04994629217298091
+      ],
+      "flower": [
+        0.3312190728357643,
+        0.5162940154773202,
+        0.04694629217298091
+      ],
+      "minimum_horizontal_error": 0.0008327301283173697
+    },
+    {
+      "seed": 970001,
+      "success": true,
+      "dwell": 27.584999999998796,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.42,
+      "final_position": [
+        0.4553257656748521,
+        0.39781967755264824,
+        0.07722920099150804
+      ],
+      "flower": [
+        0.4558701730665893,
+        0.39610013710454356,
+        0.07422920099150804
+      ],
+      "minimum_horizontal_error": 0.0018036625961764918
+    },
+    {
+      "seed": 970002,
+      "success": true,
+      "dwell": 27.589999999998795,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.415,
+      "final_position": [
+        0.44267537362863557,
+        0.18343957783012535,
+        0.038512995181204414
+      ],
+      "flower": [
+        0.443744791308227,
+        0.18745075337838207,
+        0.03551299518120441
+      ],
+      "minimum_horizontal_error": 0.004151286963383211
+    },
+    {
+      "seed": 970003,
+      "success": true,
+      "dwell": 28.229999999998668,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.7750000000000001,
+      "final_position": [
+        0.3643055545645901,
+        0.21896994995059874,
+        0.06014052437481479
+      ],
+      "flower": [
+        0.3644593525398495,
+        0.22044776086937276,
+        0.05714052437481479
+      ],
+      "minimum_horizontal_error": 0.0012835859238502208
+    },
+    {
+      "seed": 970004,
+      "success": true,
+      "dwell": 27.149999999998883,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.855,
+      "final_position": [
+        0.24665966138735948,
+        0.0989656479344177,
+        0.05570234681549681
+      ],
+      "flower": [
+        0.2449701020181458,
+        0.09807411010302258,
+        0.052702346815496806
+      ],
+      "minimum_horizontal_error": 0.00191035351883006
+    },
+    {
+      "seed": 970005,
+      "success": true,
+      "dwell": 27.639999999998786,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.365,
+      "final_position": [
+        0.1538735530540124,
+        0.28868377389877187,
+        0.0668812077967838
+      ],
+      "flower": [
+        0.1530148111712158,
+        0.2897213853304878,
+        0.0638812077967838
+      ],
+      "minimum_horizontal_error": 0.001346876053873057
+    },
+    {
+      "seed": 970006,
+      "success": true,
+      "dwell": 27.984999999998717,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.02,
+      "final_position": [
+        0.18488390449372036,
+        0.333864517460345,
+        0.052647279991483754
+      ],
+      "flower": [
+        0.18411820819217506,
+        0.3338326341466956,
+        0.04964727999148375
+      ],
+      "minimum_horizontal_error": 0.0007663598188119044
+    },
+    {
+      "seed": 970007,
+      "success": true,
+      "dwell": 27.81499999999875,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.19,
+      "final_position": [
+        0.278985822119795,
+        0.43092632022775584,
+        0.044087105225525614
+      ],
+      "flower": [
+        0.2795100621320595,
+        0.431717697265663,
+        0.04108710522552561
+      ],
+      "minimum_horizontal_error": 0.0009492656143492021
+    },
+    {
+      "seed": 970008,
+      "success": true,
+      "dwell": 28.209999999998672,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.795,
+      "final_position": [
+        0.3457713080783068,
+        0.38943505268988,
+        0.11448786608163436
+      ],
+      "flower": [
+        0.34338475651143285,
+        0.39032905290273356,
+        0.11148786608163436
+      ],
+      "minimum_horizontal_error": 0.0025485024547625508
+    },
+    {
+      "seed": 970009,
+      "success": true,
+      "dwell": 27.534999999998806,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.47,
+      "final_position": [
+        0.45698943148342813,
+        0.3211125580282184,
+        0.08825076027070888
+      ],
+      "flower": [
+        0.4577328456093717,
+        0.32160200609782047,
+        0.08525076027070888
+      ],
+      "minimum_horizontal_error": 0.000890069646426413
+    },
+    {
+      "seed": 970010,
+      "success": true,
+      "dwell": 27.784999999998757,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.22,
+      "final_position": [
+        0.42098162275448453,
+        0.20562458782839757,
+        0.10714301619174463
+      ],
+      "flower": [
+        0.4218932669643276,
+        0.20980623518388103,
+        0.10414301619174463
+      ],
+      "minimum_horizontal_error": 0.004279867961860764
+    },
+    {
+      "seed": 970011,
+      "success": true,
+      "dwell": 28.059999999998702,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.945,
+      "final_position": [
+        0.34223326371778584,
+        0.19482175678385735,
+        0.11510360065689575
+      ],
+      "flower": [
+        0.34210129484407154,
+        0.19441950556799648,
+        0.11210360065689574
+      ],
+      "minimum_horizontal_error": 0.00042334598650628095
+    },
+    {
+      "seed": 970012,
+      "success": true,
+      "dwell": 27.994999999998715,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.0100000000000002,
+      "final_position": [
+        0.2234489066390602,
+        0.18859197923244223,
+        0.10328491191451006
+      ],
+      "flower": [
+        0.2243719638710275,
+        0.189097091891065,
+        0.10028491191451006
+      ],
+      "minimum_horizontal_error": 0.0007901740036246244
+    },
+    {
+      "seed": 970013,
+      "success": true,
+      "dwell": 28.044999999998705,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.96,
+      "final_position": [
+        0.20142645519047472,
+        0.22124176461877884,
+        0.1002528833618128
+      ],
+      "flower": [
+        0.20021353136874154,
+        0.22577966579933667,
+        0.0972528833618128
+      ],
+      "minimum_horizontal_error": 0.004697204628482347
+    },
+    {
+      "seed": 970014,
+      "success": true,
+      "dwell": 27.989999999998716,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.015,
+      "final_position": [
+        0.19465910111039664,
+        0.3875134271659787,
+        0.1118718018595057
+      ],
+      "flower": [
+        0.19568310816184742,
+        0.38614713222582236,
+        0.10887180185950569
+      ],
+      "minimum_horizontal_error": 0.0007448634302971188
+    },
+    {
+      "seed": 970015,
+      "success": true,
+      "dwell": 28.0749999999987,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.93,
+      "final_position": [
+        0.21744161258056527,
+        0.3928192456480347,
+        0.11696152837165649
+      ],
+      "flower": [
+        0.21996365498587359,
+        0.3929815129248859,
+        0.11396152837165649
+      ],
+      "minimum_horizontal_error": 0.0025272571225164377
+    },
+    {
+      "seed": 970016,
+      "success": true,
+      "dwell": 28.334999999998647,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.67,
+      "final_position": [
+        0.3620697587569711,
+        0.4055837006110789,
+        0.19110118790945438
+      ],
+      "flower": [
+        0.3587450336627213,
+        0.40831015414526783,
+        0.18810118790945438
+      ],
+      "minimum_horizontal_error": 0.004299691364089484
+    },
+    {
+      "seed": 970017,
+      "success": true,
+      "dwell": 28.01999999999871,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.985,
+      "final_position": [
+        0.42792389474478815,
+        0.35426105207896974,
+        0.1878387601597411
+      ],
+      "flower": [
+        0.4289794310837043,
+        0.35342582881147316,
+        0.1848387601597411
+      ],
+      "minimum_horizontal_error": 0.0013460144387561926
+    },
+    {
+      "seed": 970018,
+      "success": true,
+      "dwell": 27.26499999999886,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.74,
+      "final_position": [
+        0.47994416931926637,
+        0.2936109742576751,
+        0.20431918201084992
+      ],
+      "flower": [
+        0.4804769555001757,
+        0.2940494299343888,
+        0.20131918201084992
+      ],
+      "minimum_horizontal_error": 0.0006900032572462821
+    },
+    {
+      "seed": 970019,
+      "success": true,
+      "dwell": 27.429999999998827,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.575,
+      "final_position": [
+        0.4207208496213472,
+        0.1332786703620727,
+        0.1608289587007911
+      ],
+      "flower": [
+        0.41967062072105943,
+        0.13378696053437705,
+        0.1578289587007911
+      ],
+      "minimum_horizontal_error": 0.0010130191470416332
+    },
+    {
+      "seed": 970020,
+      "success": true,
+      "dwell": 28.099999999998694,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.905,
+      "final_position": [
+        0.26334834326730644,
+        0.18077784553616894,
+        0.18120606018816957
+      ],
+      "flower": [
+        0.2627732437129442,
+        0.17964523367460822,
+        0.17820606018816956
+      ],
+      "minimum_horizontal_error": 0.001270255535857131
+    },
+    {
+      "seed": 970021,
+      "success": true,
+      "dwell": 28.72999999999857,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.2750000000000001,
+      "final_position": [
+        0.22983004732889972,
+        0.2688018589157783,
+        0.16634919478489746
+      ],
+      "flower": [
+        0.22428199620251085,
+        0.27211320955008694,
+        0.16334919478489746
+      ],
+      "minimum_horizontal_error": 0.006461107824851797
+    },
+    {
+      "seed": 970022,
+      "success": true,
+      "dwell": 27.084999999998896,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.92,
+      "final_position": [
+        0.10075648832908941,
+        0.3197593522301552,
+        0.1690507149322511
+      ],
+      "flower": [
+        0.10016359322110147,
+        0.3201340953872868,
+        0.1660507149322511
+      ],
+      "minimum_horizontal_error": 0.0007013964947823711
+    },
+    {
+      "seed": 970023,
+      "success": true,
+      "dwell": 28.5799999999986,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1495,
+      "first_contact": 1.425,
+      "final_position": [
+        0.28950399917309266,
+        0.37772965432851413,
+        0.19377765774657282
+      ],
+      "flower": [
+        0.28970917871414126,
+        0.383782288603376,
+        0.19077765774657282
+      ],
+      "minimum_horizontal_error": 0.006056110988852287
+    },
+    {
+      "seed": 970024,
+      "success": true,
+      "dwell": 28.054999999998703,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.95,
+      "final_position": [
+        0.3305411061804253,
+        0.4056521303830855,
+        0.05371981246330669
+      ],
+      "flower": [
+        0.32926509330747766,
+        0.40651001501749334,
+        0.05071981246330669
+      ],
+      "minimum_horizontal_error": 0.001537587362682584
+    },
+    {
+      "seed": 970025,
+      "success": true,
+      "dwell": 28.089999999998696,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.915,
+      "final_position": [
+        0.40327320486379814,
+        0.32133829820591303,
+        0.05429000805340007
+      ],
+      "flower": [
+        0.4041043282435587,
+        0.3219009022845339,
+        0.05129000805340007
+      ],
+      "minimum_horizontal_error": 0.0010036380929724679
+    },
+    {
+      "seed": 970026,
+      "success": true,
+      "dwell": 28.009999999998712,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.995,
+      "final_position": [
+        0.4057196801307675,
+        0.2387291651967475,
+        0.06740207414900483
+      ],
+      "flower": [
+        0.40669852048944827,
+        0.2427227387402652,
+        0.06440207414900483
+      ],
+      "minimum_horizontal_error": 0.0041117828365888785
+    },
+    {
+      "seed": 970027,
+      "success": true,
+      "dwell": 27.134999999998886,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.87,
+      "final_position": [
+        0.35182899656215544,
+        0.09750193410930469,
+        0.052583779013015045
+      ],
+      "flower": [
+        0.35364445278348844,
+        0.09660332850990866,
+        0.04958377901301504
+      ],
+      "minimum_horizontal_error": 0.0020256784825935714
+    },
+    {
+      "seed": 970028,
+      "success": true,
+      "dwell": 28.349999999998644,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.655,
+      "final_position": [
+        0.2844453352909082,
+        0.22121962145897775,
+        0.07545146670600653
+      ],
+      "flower": [
+        0.283096916325779,
+        0.22035710151963828,
+        0.07245146670600652
+      ],
+      "minimum_horizontal_error": 0.0016006793405546023
+    },
+    {
+      "seed": 970029,
+      "success": true,
+      "dwell": 27.46499999999882,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.54,
+      "final_position": [
+        0.14062661359749795,
+        0.24930309373193676,
+        0.07340818520526035
+      ],
+      "flower": [
+        0.14001981261717247,
+        0.2502563690484222,
+        0.07040818520526035
+      ],
+      "minimum_horizontal_error": 0.0011300182559341012
+    },
+    {
+      "seed": 970030,
+      "success": true,
+      "dwell": 27.929999999998728,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.075,
+      "final_position": [
+        0.18231151996090256,
+        0.3002276144241804,
+        0.06054525931907841
+      ],
+      "flower": [
+        0.18156239079385345,
+        0.3015045474796179,
+        0.057545259319078404
+      ],
+      "minimum_horizontal_error": 0.0014804568676569762
+    },
+    {
+      "seed": 970031,
+      "success": true,
+      "dwell": 27.589999999998795,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.415,
+      "final_position": [
+        0.16109924261142072,
+        0.43822851732324264,
+        0.07708530438053834
+      ],
+      "flower": [
+        0.1630750188784554,
+        0.43783693321834793,
+        0.07408530438053834
+      ],
+      "minimum_horizontal_error": 0.0017658575580079912
+    },
+    {
+      "seed": 970032,
+      "success": true,
+      "dwell": 27.45999999999882,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.545,
+      "final_position": [
+        0.38203533146255647,
+        0.4613158758789089,
+        0.10694366047991957
+      ],
+      "flower": [
+        0.3809727391895932,
+        0.4619574509970312,
+        0.10394366047991957
+      ],
+      "minimum_horizontal_error": 0.0012412578180035778
+    },
+    {
+      "seed": 970033,
+      "success": true,
+      "dwell": 27.689999999998776,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.315,
+      "final_position": [
+        0.44364609125582954,
+        0.3587375931734585,
+        0.10514538684583946
+      ],
+      "flower": [
+        0.44434414340952766,
+        0.35826090917547415,
+        0.10214538684583946
+      ],
+      "minimum_horizontal_error": 0.0008452836466044458
+    },
+    {
+      "seed": 970034,
+      "success": true,
+      "dwell": 28.159999999998682,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.845,
+      "final_position": [
+        0.39037315724683824,
+        0.24339990870439127,
+        0.11022934319487779
+      ],
+      "flower": [
+        0.39161061822525345,
+        0.24762051331321389,
+        0.10722934319487779
+      ],
+      "minimum_horizontal_error": 0.004398273858812689
+    },
+    {
+      "seed": 970035,
+      "success": true,
+      "dwell": 27.499999999998813,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.505,
+      "final_position": [
+        0.41441893821739156,
+        0.13466624982766676,
+        0.09149782743035816
+      ],
+      "flower": [
+        0.4134122519526252,
+        0.13462818422656173,
+        0.08849782743035815
+      ],
+      "minimum_horizontal_error": 0.0010074056907009815
+    },
+    {
+      "seed": 970036,
+      "success": true,
+      "dwell": 28.029999999998708,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.975,
+      "final_position": [
+        0.2215363564003904,
+        0.194012539306339,
+        0.09001627175046654
+      ],
+      "flower": [
+        0.22217673990666043,
+        0.19500490906857415,
+        0.08701627175046654
+      ],
+      "minimum_horizontal_error": 0.00010686409451366526
+    },
+    {
+      "seed": 970037,
+      "success": true,
+      "dwell": 28.27499999999866,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.73,
+      "final_position": [
+        0.22483430421706263,
+        0.22893748683682358,
+        0.10735074507061479
+      ],
+      "flower": [
+        0.22366904719143355,
+        0.2324736207840259,
+        0.10435074507061479
+      ],
+      "minimum_horizontal_error": 0.0037231797201229162
+    },
+    {
+      "seed": 970038,
+      "success": true,
+      "dwell": 27.584999999998796,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.42,
+      "final_position": [
+        0.14865788321944187,
+        0.30650713483420616,
+        0.09089154809204184
+      ],
+      "flower": [
+        0.1479531095445239,
+        0.3071811325135828,
+        0.08789154809204183
+      ],
+      "minimum_horizontal_error": 0.0009751814214096233
+    },
+    {
+      "seed": 970039,
+      "success": true,
+      "dwell": 27.36999999999884,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.6350000000000002,
+      "final_position": [
+        0.24718380528465897,
+        0.4697303297988398,
+        0.09417629736909142
+      ],
+      "flower": [
+        0.247281292765068,
+        0.47045356677165545,
+        0.09117629736909141
+      ],
+      "minimum_horizontal_error": 0.0007297777248478367
+    },
+    {
+      "seed": 970040,
+      "success": true,
+      "dwell": 28.309999999998652,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.695,
+      "final_position": [
+        0.32558512212302215,
+        0.4012428722031339,
+        0.17422905814075176
+      ],
+      "flower": [
+        0.3241030135356851,
+        0.402921222233273,
+        0.17122905814075176
+      ],
+      "minimum_horizontal_error": 0.002239085681327534
+    },
+    {
+      "seed": 970041,
+      "success": true,
+      "dwell": 28.42499999999863,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1497,
+      "first_contact": 1.58,
+      "final_position": [
+        0.40020171017612005,
+        0.39037236742245474,
+        0.20089742678864447
+      ],
+      "flower": [
+        0.4015717829725628,
+        0.39276582212937783,
+        0.19789742678864447
+      ],
+      "minimum_horizontal_error": 0.002757847875000496
+    },
+    {
+      "seed": 970042,
+      "success": true,
+      "dwell": 28.009999999998712,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.995,
+      "final_position": [
+        0.4062547744124588,
+        0.23062400268175923,
+        0.15022538804738125
+      ],
+      "flower": [
+        0.4073038514013631,
+        0.23519930954323606,
+        0.14722538804738125
+      ],
+      "minimum_horizontal_error": 0.004694038283325519
+    },
+    {
+      "seed": 970043,
+      "success": true,
+      "dwell": 27.849999999998744,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.1550000000000002,
+      "final_position": [
+        0.3376028398392367,
+        0.16805585719577368,
+        0.17328644795870082
+      ],
+      "flower": [
+        0.3381737523791573,
+        0.16738971637413713,
+        0.17028644795870082
+      ],
+      "minimum_horizontal_error": 0.0008773167743119863
+    },
+    {
+      "seed": 970044,
+      "success": true,
+      "dwell": 28.204999999998673,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.8,
+      "final_position": [
+        0.22234327257471917,
+        0.1805449841169932,
+        0.190373197411766
+      ],
+      "flower": [
+        0.22333437525812083,
+        0.17971016687371782,
+        0.187373197411766
+      ],
+      "minimum_horizontal_error": 0.0012958411780445525
+    },
+    {
+      "seed": 970045,
+      "success": true,
+      "dwell": 27.124999999998888,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.88,
+      "final_position": [
+        0.11426618236001423,
+        0.21987782527438152,
+        0.20380767052286647
+      ],
+      "flower": [
+        0.11381599636066528,
+        0.220418534005625,
+        0.20080767052286647
+      ],
+      "minimum_horizontal_error": 0.0007035860757951056
+    },
+    {
+      "seed": 970046,
+      "success": true,
+      "dwell": 27.50999999999881,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.495,
+      "final_position": [
+        0.15088811095276725,
+        0.4308551757850324,
+        0.14871211494894718
+      ],
+      "flower": [
+        0.1517890637946317,
+        0.4294689513632084,
+        0.14571211494894717
+      ],
+      "minimum_horizontal_error": 0.0008335964867735942
+    },
+    {
+      "seed": 970047,
+      "success": true,
+      "dwell": 28.539999999998606,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 1.465,
+      "final_position": [
+        0.24264715212068522,
+        0.3740266593652279,
+        0.1492958137637778
+      ],
+      "flower": [
+        0.24546161488292595,
+        0.3757611717260605,
+        0.1462958137637778
+      ],
+      "minimum_horizontal_error": 0.0033060147867063207
+    },
+    {
+      "seed": 960000,
+      "success": true,
+      "dwell": 27.239999999998865,
+      "crashed": false,
+      "first_detection": 0.0,
+      "detections": 1500,
+      "first_contact": 2.765,
+      "final_position": [
+        0.3383413381559816,
+        0.48685282386378514,
+        0.06447475296965871
+      ],
+      "flower": [
+        0.3385172350262901,
+        0.487709658124051,
+        0.061474752969658715
+      ],
+      "minimum_horizontal_error": 0.0008747026114912601
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+phase,candidate,seed,azimuth,elevation,profile,onset_s,trigger_s,latency_ms,recorded_start_s,recorded_end_s,post_trigger_ms,i1_left,b3_left,b1_left,i1_right,b3_right,b1_right,left,right,difference,norm,bilateral,tie,side,first_later_negative_s,later_positive_intervals,later_zero_intervals,later_negative_intervals,final_left,final_right,final_difference
+validation,1,1100000,18.75,-20,0,1.3,1.3,0,0.02,1.5,200,0,-1,0,0,0,0,-1,0,1,1.0,False,False,right,1.32,1,1,8,2,0,-2
+validation,1,1100001,18.75,-20,1,0.88,0.9,20,0.02,1.5,600,0,-1,0,0,0,0,-1,0,1,1.0,False,False,right,0.92,2,7,21,1,1,0
+validation,1,1100002,18.75,0,0,1.3,1.3,0,0.02,1.5,200,0,-1,0,1,1,1,0,2,2,2.0,True,False,right,1.32,0,2,8,3,-1,-4
+validation,1,1100010,41.25,20,0,1.28,1.28,0,0.02,1.5,220,1,0,0,1,0,0,1,1,0,1.4142135623730951,True,True,right,1.32,1,4,6,3,1,-2
+validation,1,1100012,63.75,-20,0,1.3,1.3,0,0.02,1.5,200,0,-1,0,0,0,0,-1,0,1,1.0,False,False,right,1.32,1,2,7,1,0,-1
+validation,1,1100013,63.75,-20,1,0.88,0.9,20,0.02,1.5,600,0,-1,0,0,0,0,-1,0,1,1.0,False,False,right,0.92,2,8,20,0,0,0
+validation,1,1100017,63.75,20,1,0.8200000000000001,0.8200000000000001,0,0.02,1.5,680,1,1,0,1,1,0,2,2,0,2.0,True,True,right,0.84,2,0,32,5,1,-4
+validation,1,1100032,131.25,0,0,1.3,1.3,0,0.02,1.5,200,1,0,0,1,1,1,2,2,0,2.0,True,True,right,1.32,1,1,8,5,0,-5
+validation,1,1100036,153.75,-20,0,1.3,1.3,0,0.02,1.5,200,0,-1,0,0,0,0,-1,0,1,1.0,False,False,right,1.32,0,3,7,1,0,-1

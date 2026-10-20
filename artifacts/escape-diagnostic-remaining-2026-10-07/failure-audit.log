@@ -1,0 +1,73 @@
+partial audit seed 1100008: 75 full records, 75 exact chunks
+partial audit seed 1100012: 75 full records, 75 exact chunks
+partial audit seed 1100014: 75 full records, 75 exact chunks
+partial audit seed 1100013: 75 full records, 75 exact chunks
+partial audit seed 1100015: 75 full records, 75 exact chunks
+partial audit seed 1100017: 75 full records, 75 exact chunks
+partial audit seed 1100016: 55 full records, 55 exact chunks
+{
+  "status": "interruption-audit-passed",
+  "hypothesis": "unresolved: four of five deficit-only failures completed across runs",
+  "completed_cases": 6,
+  "started_cases": 7,
+  "full_historical_records": 552,
+  "complete_neural_chunks": 553,
+  "individual_kernel_steps": 20200,
+  "simulated_seconds": 10.1,
+  "cumulative_diagnostic_steps": 42360,
+  "cumulative_diagnostic_seconds": 21.18,
+  "attempted_reservation_steps": 20240,
+  "cumulative_attempted_reservation_steps": 42400,
+  "unexecuted_attempted_steps": 40,
+  "added_audit_kernel_steps": 0,
+  "brain_sensor_simulation_calls": 0,
+  "all_records_equal_original": true,
+  "all_recorded_cell_edge_steps_exact": true,
+  "unlogged_last_interval": "None. Next reservation failed before either kernel; 40 in-memory reserved steps were not executed.",
+  "partial_five_case_evidence": [
+    {
+      "seed": 1100012,
+      "four_conditions_observed": true,
+      "trigger_step": 1300,
+      "actual_window_steps": [
+        1170,
+        1237
+      ],
+      "reference_window_steps": [
+        1111,
+        1178,
+        1246
+      ],
+      "expiration_steps": [
+        900,
+        1060,
+        1140,
+        1200,
+        1280
+      ],
+      "final_cumulative_b3": 1,
+      "first_right_DN_delivery": 636,
+      "first_b3_difference": 694
+    },
+    {
+      "seed": 1100013,
+      "four_conditions_observed": true,
+      "trigger_step": 900,
+      "actual_window_steps": [
+        770,
+        820
+      ],
+      "reference_window_steps": [
+        702,
+        754,
+        870
+      ],
+      "expiration_steps": [
+        900
+      ],
+      "final_cumulative_b3": 2,
+      "first_right_DN_delivery": 612,
+      "first_b3_difference": 627
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+failure_seed,comparison_seed,azimuth,failure_elevation,comparison_elevation,elevation_difference,failure_profile,comparison_profile,profile_changed,failure_trigger_step,comparison_trigger_step,failure_side,comparison_side,label
+1100000,1100004,18.75,-20,20,40,0,0,False,1300,1280,right,left,historical context; elevation/profile confounded
+1100001,1100003,18.75,-20,0,20,1,1,False,900,860,right,left,historical context; elevation/profile confounded
+1100002,1100005,18.75,0,20,20,0,1,True,1300,820,right,left,historical context; elevation/profile confounded
+1100010,1100008,41.25,20,0,-20,0,0,False,1280,1300,right,left,historical context; elevation/profile confounded
+1100012,1100014,63.75,-20,0,20,0,0,False,1300,1300,right,left,historical context; elevation/profile confounded
+1100013,1100015,63.75,-20,0,20,1,1,False,900,860,right,left,historical context; elevation/profile confounded
+1100017,1100016,63.75,20,20,0,1,0,True,820,1280,right,left,historical context; elevation/profile confounded
+1100032,1100033,131.25,0,0,0,0,1,True,1300,860,right,left,historical context; elevation/profile confounded
+1100036,1100037,153.75,-20,-20,0,0,1,True,1300,880,right,left,historical context; elevation/profile confounded

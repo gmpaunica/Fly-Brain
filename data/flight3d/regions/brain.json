@@ -1,0 +1,25 @@
+{
+  "region": "brain",
+  "manifest": {
+    "url": "https://storage.googleapis.com/lee-lab_brain-and-nerve-cord-fly-connectome/region_outlines/meshes/3:0",
+    "generation": "1727283814088224",
+    "etag": "\"b4dc39cdde20b92c327c0b90fa424cc3\"",
+    "sha256": "ef018ed0f36add626664e1bd8a857478803073713d188cd44e69eb79d428180a",
+    "bytes": 23
+  },
+  "fragments": [
+    {
+      "url": "https://storage.googleapis.com/lee-lab_brain-and-nerve-cord-fly-connectome/region_outlines/meshes/3:0:1",
+      "generation": "1727283814646787",
+      "etag": "W/\"0f20d171323732dd29795b251dbb68d7\"",
+      "sha256": "87418c7cb33429e99d55ed51f81dde49daea51dcef3d384ceaed33e58299b42c",
+      "bytes": 163168
+    }
+  ],
+  "source_units": "nm",
+  "transform": [
+    1e-06,
+    -1e-06,
+    1e-06
+  ]
+}

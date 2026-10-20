@@ -1,0 +1,53 @@
+{
+  "verified": true,
+  "cases": {
+    "calibration": 48,
+    "validation": 96
+  },
+  "intervals": 10800,
+  "simulated_seconds": 216,
+  "actual_reference_neural_steps": 432000,
+  "validation_successes": 9,
+  "validation_groups": {
+    "11.25": 0,
+    "33.75": 0,
+    "56.25": 0,
+    "78.75": 0,
+    "101.25": 0,
+    "123.75": 0,
+    "146.25": 0,
+    "168.75": 3,
+    "191.25": 6,
+    "213.75": 0,
+    "236.25": 0,
+    "258.75": 0,
+    "281.25": 0,
+    "303.75": 0,
+    "326.25": 0,
+    "348.75": 0
+  },
+  "totals": {
+    "motion_baseline_intervals": 3600,
+    "calibration_actual_wing_spikes": 4804,
+    "calibration_reference_wing_spikes": 4752,
+    "validation_actual_wing_spikes": 9576,
+    "validation_reference_wing_spikes": 9504,
+    "usable_validation_windows": 20,
+    "nonzero_validation_windows": 88
+  },
+  "template_raw_norms": [
+    0.0,
+    0.0,
+    0.06666666666666667,
+    0.03333333333333333,
+    0.5,
+    0.268741924943285,
+    0.1201850425154663,
+    0.14142135623730953
+  ],
+  "postprocessing_neural_steps": 0,
+  "source_hashes_match": true,
+  "receipt_hashes_match": true,
+  "closed_loop_cases": 0,
+  "retreat_delivered": false
+}

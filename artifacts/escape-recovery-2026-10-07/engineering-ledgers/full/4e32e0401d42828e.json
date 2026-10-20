@@ -1,0 +1,14 @@
+{
+  "steps": 3,
+  "calls": [
+    {
+      "label": "literal dynamics",
+      "steps": 2
+    },
+    {
+      "label": "exact threshold equality",
+      "steps": 1
+    }
+  ],
+  "limit": 2000
+}

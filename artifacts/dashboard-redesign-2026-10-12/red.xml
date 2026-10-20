@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="9.835" timestamp="2026-10-12T13:16:43.742410+01:00" hostname="Thinkpad"><testcase classname="tests.test_dashboard_ui" name="test_compact_layout_has_ten_rows_and_nonoverlapping_viewport_routing" time="0.003"><failure message="AssertionError: pixel dashboard layout required&#10;assert None&#10; +  where None = &lt;function find_spec at 0x000001D08A2E14E0&gt;('flybrain.escape_ui.layout')&#10; +    where &lt;function find_spec at 0x000001D08A2E14E0&gt; = &lt;module 'importlib.util' (frozen)&gt;.find_spec&#10; +      where &lt;module 'importlib.util' (frozen)&gt; = importlib.util">tests\test_dashboard_ui.py:14: in test_compact_layout_has_ten_rows_and_nonoverlapping_viewport_routing
+    assert importlib.util.find_spec('flybrain.escape_ui.layout'), 'pixel dashboard layout required'
+E   AssertionError: pixel dashboard layout required
+E   assert None
+E    +  where None = &lt;function find_spec at 0x000001D08A2E14E0&gt;('flybrain.escape_ui.layout')
+E    +    where &lt;function find_spec at 0x000001D08A2E14E0&gt; = &lt;module 'importlib.util' (frozen)&gt;.find_spec
+E    +      where &lt;module 'importlib.util' (frozen)&gt; = importlib.util</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_owner_visibility_filters_alpha_without_changing_spike_history" time="0.001"><failure message="AssertionError: group presentation required&#10;assert None&#10; +  where None = &lt;function find_spec at 0x000001D08A2E14E0&gt;('flybrain.escape_ui.groups')&#10; +    where &lt;function find_spec at 0x000001D08A2E14E0&gt; = &lt;module 'importlib.util' (frozen)&gt;.find_spec&#10; +      where &lt;module 'importlib.util' (frozen)&gt; = importlib.util">tests\test_dashboard_ui.py:29: in test_owner_visibility_filters_alpha_without_changing_spike_history
+    assert importlib.util.find_spec('flybrain.escape_ui.groups'), 'group presentation required'
+E   AssertionError: group presentation required
+E   assert None
+E    +  where None = &lt;function find_spec at 0x000001D08A2E14E0&gt;('flybrain.escape_ui.groups')
+E    +    where &lt;function find_spec at 0x000001D08A2E14E0&gt; = &lt;module 'importlib.util' (frozen)&gt;.find_spec
+E    +      where &lt;module 'importlib.util' (frozen)&gt; = importlib.util</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_dashboard_real_checkboxes_tabs_and_passive_capture[size0]" time="2.793"><failure message="AssertionError: persistent checkbox sidebar required&#10;assert False&#10; +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096F83EF0&gt;, 'group_checks')">tests\test_dashboard_ui.py:58: in test_dashboard_real_checkboxes_tabs_and_passive_capture
+    assert hasattr(app, 'group_checks'), 'persistent checkbox sidebar required'
+E   AssertionError: persistent checkbox sidebar required
+E   assert False
+E    +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096F83EF0&gt;, 'group_checks')</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_dashboard_real_checkboxes_tabs_and_passive_capture[size1]" time="2.412"><failure message="AssertionError: persistent checkbox sidebar required&#10;assert False&#10; +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096E238F0&gt;, 'group_checks')">tests\test_dashboard_ui.py:58: in test_dashboard_real_checkboxes_tabs_and_passive_capture
+    assert hasattr(app, 'group_checks'), 'persistent checkbox sidebar required'
+E   AssertionError: persistent checkbox sidebar required
+E   assert False
+E    +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096E238F0&gt;, 'group_checks')</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_filtered_selection_bounds_empty_state_and_replay" time="2.791"><failure message="AssertionError: functional group isolation required&#10;assert False&#10; +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096D578C0&gt;, 'show_only_group')">tests\test_dashboard_ui.py:119: in test_filtered_selection_bounds_empty_state_and_replay
+    assert hasattr(app, 'show_only_group'), 'functional group isolation required'
+E   AssertionError: functional group isolation required
+E   assert False
+E    +  where False = hasattr(&lt;flybrain.escape_ui.viewer.DemoViewer object at 0x000001D096D578C0&gt;, 'show_only_group')</failure></testcase></testsuite></testsuites>

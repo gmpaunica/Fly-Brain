@@ -1,0 +1,59 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+development 1/48 | 0 resting intact | success=True | arrival=4.92
+development 2/48 | 0 resting visual-silent | success=False | arrival=None
+development 3/48 | 0 hovering intact | success=True | arrival=4.98
+development 4/48 | 0 hovering visual-silent | success=False | arrival=None
+development 5/48 | 0 cruising intact | success=True | arrival=4.9
+development 6/48 | 0 cruising visual-silent | success=False | arrival=None
+development 7/48 | 45 resting intact | success=True | arrival=4.92
+development 8/48 | 45 resting visual-silent | success=False | arrival=None
+development 9/48 | 45 hovering intact | success=True | arrival=4.88
+development 10/48 | 45 hovering visual-silent | success=False | arrival=None
+development 11/48 | 45 cruising intact | success=True | arrival=4.9
+development 12/48 | 45 cruising visual-silent | success=False | arrival=None
+development 13/48 | 90 resting intact | success=True | arrival=4.92
+development 14/48 | 90 resting visual-silent | success=False | arrival=None
+development 15/48 | 90 hovering intact | success=True | arrival=4.88
+development 16/48 | 90 hovering visual-silent | success=False | arrival=None
+development 17/48 | 90 cruising intact | success=True | arrival=4.9
+development 18/48 | 90 cruising visual-silent | success=False | arrival=None
+development 19/48 | 135 resting intact | success=True | arrival=4.92
+development 20/48 | 135 resting visual-silent | success=False | arrival=None
+development 21/48 | 135 hovering intact | success=True | arrival=4.88
+development 22/48 | 135 hovering visual-silent | success=False | arrival=None
+development 23/48 | 135 cruising intact | success=True | arrival=4.88
+development 24/48 | 135 cruising visual-silent | success=False | arrival=None
+development 25/48 | 180 resting intact | success=True | arrival=4.98
+development 26/48 | 180 resting visual-silent | success=False | arrival=None
+development 27/48 | 180 hovering intact | success=True | arrival=4.98
+development 28/48 | 180 hovering visual-silent | success=False | arrival=None
+development 29/48 | 180 cruising intact | success=True | arrival=4.9
+development 30/48 | 180 cruising visual-silent | success=False | arrival=None
+development 31/48 | 225 resting intact | success=True | arrival=4.96
+development 32/48 | 225 resting visual-silent | success=False | arrival=None
+development 33/48 | 225 hovering intact | success=True | arrival=4.88
+development 34/48 | 225 hovering visual-silent | success=False | arrival=None
+development 35/48 | 225 cruising intact | success=True | arrival=4.88
+development 36/48 | 225 cruising visual-silent | success=False | arrival=None
+development 37/48 | 270 resting intact | success=True | arrival=4.96
+development 38/48 | 270 resting visual-silent | success=False | arrival=None
+development 39/48 | 270 hovering intact | success=True | arrival=4.86
+development 40/48 | 270 hovering visual-silent | success=False | arrival=None
+development 41/48 | 270 cruising intact | success=True | arrival=4.84
+development 42/48 | 270 cruising visual-silent | success=False | arrival=None
+development 43/48 | 315 resting intact | success=True | arrival=5.0200000000000005
+development 44/48 | 315 resting visual-silent | success=False | arrival=None
+development 45/48 | 315 hovering intact | success=True | arrival=4.86
+development 46/48 | 315 hovering visual-silent | success=False | arrival=None
+development 47/48 | 315 cruising intact | success=True | arrival=4.86
+development 48/48 | 315 cruising visual-silent | success=False | arrival=None
+{
+  "status": "passed",
+  "error": null,
+  "cases": 48,
+  "intact_successes": 24,
+  "silent_triggers": 0,
+  "reserved_kernel_steps": 1152000,
+  "optimizer_updates": 0
+}

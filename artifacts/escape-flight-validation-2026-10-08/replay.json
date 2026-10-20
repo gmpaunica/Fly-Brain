@@ -1,0 +1,9 @@
+{
+  "status": "exact-replay-passed",
+  "error": null,
+  "cases": 48,
+  "replay_neural_steps": 576000,
+  "new_scientific_cases": 0,
+  "receipt_sha256": "00c7ecbd27ca5f10e4d092d3f9123f1b38486c7e88a36e6ca3a6eb19b9cfb592",
+  "driver_sha256": "872f8aaefd1367d81c5c9697d8b8f1d3e9f0cfc2b72b416e139c0523d1b2c97d"
+}

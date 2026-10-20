@@ -1,0 +1,47 @@
+{
+  "review": "author local acceptance review",
+  "one_agent": true,
+  "requirements": {
+    "original_step_parity": "passing numerical tests",
+    "leak_threshold_reset_delay": "numerical checks",
+    "interventions": "numerical checks and paired saved traces",
+    "sensory_only": "inference receives FlightObservation; geometry/shutter confined to presentation",
+    "spike_only_brain_colors": "original branch coloring unchanged",
+    "immutable_publication": "diagnostics attached to atomic EncounterSnapshot",
+    "pause_reset_replay_preferences": "passing numerical/real renderer tests plus user confirmation",
+    "scientific_budget": "receipt:120 presentations/120000 steps",
+    "historical_data": "2395 unchanged files;3 integration originals archived",
+    "missing_vs_weak_vs_direction": "row-level categories and saved functional-path check",
+    "repair": "one motion-plus-vision proposal only;not implemented",
+    "live_review": "user confirmed Panel and controls work"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "limits": [
+    "Existing unsigned dynamics and source-ID visual fields are assumptions",
+    "Distinct subthreshold vectors do not establish a motor decoder",
+    "Native automation failed; human review supplies live evidence",
+    "Viewer keeps only a 5-second memory ring; investigation streams all intervals"
+  ],
+  "verification": {
+    "targeted": {
+      "tests": 111,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "panel-final": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "full": {
+      "tests": 678,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "post_suite_preservation_verified": true
+}

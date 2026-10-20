@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": {
+    "above_below": {
+      "sensory_difference": 568.3673852585995,
+      "motor_difference": 14.760096549987793,
+      "pass": true
+    },
+    "left_right": {
+      "sensory_difference": 347.4757332949354,
+      "motor_difference": 8.631416320800781,
+      "pass": true
+    },
+    "behind_right": {
+      "sensory_difference": 294.6015560031483,
+      "motor_difference": 10.589801788330078,
+      "pass": true
+    },
+    "flight_power_dn": {
+      "motor_norm": 769.7801513671875,
+      "cut_difference": 167.16693115234375,
+      "pass": true
+    },
+    "flight_steering_dn": {
+      "motor_norm": 815.8321533203125,
+      "cut_difference": 321.1290283203125,
+      "pass": true
+    },
+    "landing_dn": {
+      "motor_norm": 778.5208129882812,
+      "cut_difference": 412.1891174316406,
+      "pass": true
+    },
+    "motor_silence_and_mechanics": {
+      "silent_output": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "fall_z": 0.003,
+      "rise_z": 0.16297686358759134,
+      "pass": true
+    }
+  }
+}

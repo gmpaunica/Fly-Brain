@@ -1,0 +1,13 @@
+{
+  "status": "closed-incomplete",
+  "classification": null,
+  "brain_sensor_simulation_calls": 0,
+  "project_calls": {
+    "__init__.py:<module>": 1,
+    "escape_diagnostic/__init__.py:<module>": 1,
+    "escape_diagnostic/audit.py:<module>": 1,
+    "escape_diagnostic/audit.py:audit": 1,
+    "escape_diagnostic/audit.py:sha": 75,
+    "escape_diagnostic/audit.py:<lambda>": 151
+  }
+}

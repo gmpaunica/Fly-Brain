@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "src/flybrain/escape_flight_validation/__init__.py": "d42ca79d9c594a8f98bf322b5f624d9868356916c27e0d9aac9f69a181573ee9",
+    "src/flybrain/escape_flight_validation/__main__.py": "938f603885bcd9209362afd87d9f2aa3b9dccb344a893cf3880245a78fac77b9",
+    "src/flybrain/escape_flight_validation/acceptance.py": "b831707a3fac261e4ccf98ecd7189f613a5ceb954df6de1c848ae5eaa57f15e2",
+    "src/flybrain/escape_flight_validation/activation.py": "73516c705337bb92dca819febfebd329eaf262c8301d2e4bdc7a2c5eb78ddd01",
+    "src/flybrain/escape_flight_validation/audit.py": "21fd6637bda85aec48b6a9e1410138c2ca3a7c35ff2b474eebdc0bd343fd7ee9",
+    "src/flybrain/escape_flight_validation/metrics.py": "1ac90dcf4a713325a4da78e0f71c986b59905539b89abe957e7622cb40eccc4c",
+    "src/flybrain/escape_flight_validation/records.py": "34c4efe80b26badcf69fe9ff799df56815f49d589bc1986c1df70aa7a266eb81",
+    "src/flybrain/escape_flight_validation/replay.py": "f9885434cdc220afbe421dea0e8f8f0ef2dc8d4538d2b92ab41cf330177726bf",
+    "src/flybrain/escape_flight_validation/runner.py": "13a076cdc5e62689799046b5ced0fc6dc65c9da889f0b31d70bbf0e2342772bd",
+    "src/flybrain/escape_flight_validation/viewer.py": "b264f5e82b0a8c1d09db653dfbf5c56e52a47cc696a28658e5566912957c0dae",
+    "src/flybrain/escape_flight_validation/visuals.py": "a01204b6b3fc18033ebf1938401cfb9e9ebc1f2e6719aa4152d5f0bae1d1f04f",
+    "src/flybrain/escape_flight_validation/worker.py": "cb63420c1f0d3f01633fa2071e618b8e7c7616f2a774f883d39a15965a94b122"
+  },
+  "verification_hashes": {
+    "artifacts/escape-flight-validation-2026-10-08/targeted-final.xml": "beebbd42f3fc752c2a5f8b05cb649ab5338574c323ca0111e8b356210163a3a2",
+    "artifacts/escape-flight-validation-2026-10-08/targeted-final.log": "72a1c8e4d8bececdcd264cff5c63f3cac664758ffda4c61f8dbb4cb326b459e9",
+    "artifacts/escape-flight-validation-2026-10-08/full.xml": "afc6c7b0c7d9d95c763fb728adc182dce83e86ee235caf2b1e58fa7f8dc83fce",
+    "artifacts/escape-flight-validation-2026-10-08/full.log": "c163f6adb269cc4a35ac224cfa64e0703cfd08b8d5d23b63675f976663446d4a",
+    "artifacts/escape-flight-validation-2026-10-08/directional-saved-audit.json": "9112ff9705f71c8dd6cc38854a16e04eae5639de5384101d457bbbb0bac970ae",
+    "artifacts/escape-flight-validation-2026-10-08/viewer-preflight.py": "4d7bdeadc407da9a840862ecd49380ca553b7f319292f5f0d747a726ea5a0d4e",
+    "artifacts/escape-flight-validation-2026-10-08/viewer-preflight.log": "aa318ace3043243a034b07756eca565c3532565777ca6e237a733cbb2a03ecc1",
+    "artifacts/escape-flight-validation-2026-10-08/viewer-preflight.png": "21535e4f974229934e8e803e7c72192f4227aba2ede4aa07ae7ea456efd2d8af",
+    "artifacts/escape-flight-validation-2026-10-08/protected.json": "386446240357a9388a6a697fd0ce32483062b9ec7470fa9af7b7f34597dda11e",
+    "artifacts/escape-flight-validation-2026-10-08/prototype-exception.json": "915f667b21683534f0a44abfd9588764a294d08241d8185c4fda7b4fa78c6c49",
+    "tests/test_escape_flight_validation.py": "b29d08ae6bea3a466b5b637217b7f11213268dc376aa5609568bab15cbfbe065",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/3196939350e1d4d0.json": "5bebf4a0b5cbc6603890bc494af264e66aa8195022403c4952a7bf4e2349f2af",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/42bef778e244ef05.json": "3714fb290f51fc9a751950e974ec2934497fba182a4cd9b16efc5caada0f27c1",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/4e32e0401d42828e.json": "154f1b5ce17194dda54db1adfc00f903d49cb92ea1cb18a896f8242c3544fd81",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/5beb56b5c7567ec1.json": "499223fb3b26ab1cd95a8f4acd6fd7fd7433c69718efebb4c91584d5cb3a6fb7",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/94e58a095901be81.json": "34fce221261ea53618d55ac147beb30db540248ebb9e9312ff998b89d0c9f59d",
+    "artifacts/escape-flight-validation-2026-10-08/engineering-ledgers/full/c57261a4743c4d2d.json": "3c6b8ce85bc578645a4e014150a7676b6a5546bf345782c97106e350f529f525"
+  },
+  "tests": {
+    "targeted-final.xml": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "117",
+      "time": "60.130",
+      "timestamp": "2026-10-08T17:24:05.078351+01:00",
+      "hostname": "Thinkpad"
+    },
+    "full.xml": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "841",
+      "time": "281.822",
+      "timestamp": "2026-10-08T17:25:07.162232+01:00",
+      "hostname": "Thinkpad"
+    }
+  },
+  "protected_files": 4858,
+  "ui_smoke": "offscreen zero-step construction/render; saved frame reviewed",
+  "live_review": "pending",
+  "new_validation_tests_paired_steps_per_complete_run": 680,
+  "saved_audit_neural_steps": 0,
+  "original_diagnostic_engineering_steps": 1747
+}

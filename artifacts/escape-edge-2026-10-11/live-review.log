@@ -1,0 +1,5 @@
+Live viewer API: 1.00s | turning | (np.float64(0.3), np.float64(0.3), np.float64(0.04076819547142983))
+Live viewer API: 3.00s | fleeing | (np.float64(0.19388205410517612), np.float64(0.2997114646181131), np.float64(0.10063632701845059))
+Live viewer API: 6.00s | edge_hover | (np.float64(0.014992386795639464), np.float64(0.3000004439069288), np.float64(0.10000013412632607))
+Live viewer API: 12.00s | edge_hover | (np.float64(0.015000093602229382), np.float64(0.30000003132990744), np.float64(0.10000002400012))
+Native viewer remains paused at verified edge hover; R starts a fresh trial.

@@ -1,0 +1,94 @@
+{
+  "diagnostic_only": true,
+  "cases": [
+    {
+      "case": {
+        "case_id": "historical-app-seed-7",
+        "seed": 7,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 2.034701269983068
+      },
+      "first_arrival": {
+        "tick": 238,
+        "seconds": 4.76,
+        "speed": 68.99235248565674
+      },
+      "min_distance": 2.8027036013740396,
+      "final_distance": 101.609964253626,
+      "speed_min": 65.3912901878357,
+      "speed_max": 73.62456917762756,
+      "speed_inside_radius_min": 68.99235248565674,
+      "time_inside_radius_seconds": 0.9,
+      "longest_slow_hold_seconds": 0.0,
+      "settled_for_two_seconds": false
+    },
+    {
+      "case": {
+        "case_id": "historical-train-0",
+        "seed": 0,
+        "x": 689.1529296011761,
+        "y": 167.78486490492682,
+        "heading": 2.642529177293657
+      },
+      "first_arrival": {
+        "tick": 102,
+        "seconds": 2.04,
+        "speed": 69.14870738983154
+      },
+      "min_distance": 0.4113826858606624,
+      "final_distance": 187.78077800711606,
+      "speed_min": 66.04848504066467,
+      "speed_max": 73.62610101699829,
+      "speed_inside_radius_min": 68.8630998134613,
+      "time_inside_radius_seconds": 0.76,
+      "longest_slow_hold_seconds": 0.0,
+      "settled_for_two_seconds": false
+    }
+  ],
+  "training_targets": {
+    "count": 15864,
+    "min": 0.699999988079071,
+    "max": 0.699999988079071,
+    "unique_count": 1
+  },
+  "historical_assay_headings": {
+    "validation": {
+      "count": 16,
+      "unique_headings": 16,
+      "min_degrees": 17.765875038815683,
+      "max_degrees": 306.1488396850879,
+      "quadrant_counts": [
+        5,
+        2,
+        7,
+        2
+      ]
+    },
+    "final": {
+      "count": 32,
+      "unique_headings": 32,
+      "min_degrees": 3.9681608187665995,
+      "max_degrees": 335.6543182335142,
+      "quadrant_counts": [
+        7,
+        6,
+        11,
+        8
+      ]
+    }
+  },
+  "global_saved_model_speed_bounds_units_per_second": [
+    7.406807713375906,
+    95.20437630628732
+  ],
+  "sensory_cap": {
+    "concentration": 0.29752066115702475,
+    "antenna_distance_at_cap": 54.416092391048366
+  },
+  "world_ticks": 2000,
+  "neural_steps": 40000,
+  "optimizer_steps": 0,
+  "parameters_unchanged": true,
+  "prior_files_unchanged": true
+}

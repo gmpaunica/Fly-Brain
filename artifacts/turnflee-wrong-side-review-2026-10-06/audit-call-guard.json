@@ -1,0 +1,32 @@
+{
+  "audit": {
+    "status": "audit-passed",
+    "experiment_status": "closed-validation-failed",
+    "cases": 144,
+    "intervals": 10800,
+    "baseline_intervals": 3600,
+    "paired_neural_steps": 432000,
+    "audit_neural_steps": 0
+  },
+  "project_calls": {
+    "__init__.py:<module>": 1,
+    "turnflee/__init__.py:<module>": 1,
+    "turnflee/audit.py:<module>": 1,
+    "flight3d/__init__.py:<module>": 1,
+    "flight3d/anatomy.py:<module>": 1,
+    "turnflee/audit.py:audit": 1,
+    "turnflee/audit.py:sha": 168,
+    "turnflee/audit.py:require": 224982,
+    "flight3d/anatomy.py:load_manifest": 1,
+    "flight3d/anatomy.py:validate_manifest": 1,
+    "flight3d/anatomy.py:<genexpr>": 590,
+    "flight3d/anatomy.py:digest": 1,
+    "flight3d/anatomy.py:<lambda>": 3,
+    "turnflee/audit.py:<lambda>": 10944,
+    "turnflee/audit.py:<genexpr>": 38073,
+    "turnflee/audit.py:audit_presentation": 144,
+    "turnflee/audit.py:audit_counts": 144,
+    "turnflee/audit.py:_correct": 144
+  },
+  "brain_sensor_simulation_calls": 0
+}

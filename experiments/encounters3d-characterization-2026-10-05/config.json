@@ -1,0 +1,195 @@
+{
+  "schema": "encounters3d-characterization-v1",
+  "date": "2026-10-05",
+  "hypothesis": "Existing visually driven wing spike histories distinguish escape directions.",
+  "budget": "16 physical RGB stimuli plus symmetric saturation; three matched interventions; 1 s each.",
+  "stop_condition": "Zero or directionally ambiguous wing responses close the gate; no decoder fitting/training.",
+  "objective": "Characterize visual -> DNp03 -> wing contributions before motor decoding.",
+  "seed_base": 980000,
+  "software": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cpu"
+  },
+  "device": "cpu",
+  "commit": null,
+  "neural_steps_per_trial": 1000,
+  "control_dt_seconds": 0.02,
+  "neural_dt_seconds": 0.001,
+  "learning_rate": null,
+  "optimizer_updates": 0,
+  "checkpoint": null,
+  "network_cells": 589,
+  "network_edges": 4139,
+  "circuit_sha256": "c4f71df088ee964473b513c848fc0d3402c0f4f76d6b7427d71563f53100048a",
+  "encoder": "Cyan min(G,B)-R > .05; 240*clip(.75 peak+.25 occupancy+.5 positive growth,0,1); existing ID-ranked 8x6 fields.",
+  "cases": [
+    {
+      "label": "0-far",
+      "seed": 980000,
+      "kind": "predator",
+      "position": [
+        0.3,
+        0.44999999999999996,
+        0.1
+      ]
+    },
+    {
+      "label": "0-expanded",
+      "seed": 980000,
+      "kind": "predator",
+      "position": [
+        0.3,
+        0.36,
+        0.1
+      ]
+    },
+    {
+      "label": "1-far",
+      "seed": 980001,
+      "kind": "predator",
+      "position": [
+        0.40606601717798213,
+        0.40606601717798213,
+        0.1
+      ]
+    },
+    {
+      "label": "1-expanded",
+      "seed": 980001,
+      "kind": "predator",
+      "position": [
+        0.34242640687119286,
+        0.34242640687119286,
+        0.1
+      ]
+    },
+    {
+      "label": "2-far",
+      "seed": 980002,
+      "kind": "predator",
+      "position": [
+        0.44999999999999996,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "label": "2-expanded",
+      "seed": 980002,
+      "kind": "predator",
+      "position": [
+        0.36,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "label": "3-far",
+      "seed": 980003,
+      "kind": "predator",
+      "position": [
+        0.40606601717798213,
+        0.19393398282201788,
+        0.1
+      ]
+    },
+    {
+      "label": "3-expanded",
+      "seed": 980003,
+      "kind": "predator",
+      "position": [
+        0.34242640687119286,
+        0.2575735931288071,
+        0.1
+      ]
+    },
+    {
+      "label": "4-far",
+      "seed": 980004,
+      "kind": "predator",
+      "position": [
+        0.3,
+        0.15,
+        0.1
+      ]
+    },
+    {
+      "label": "4-expanded",
+      "seed": 980004,
+      "kind": "predator",
+      "position": [
+        0.3,
+        0.24,
+        0.1
+      ]
+    },
+    {
+      "label": "5-far",
+      "seed": 980005,
+      "kind": "predator",
+      "position": [
+        0.19393398282201788,
+        0.19393398282201785,
+        0.1
+      ]
+    },
+    {
+      "label": "5-expanded",
+      "seed": 980005,
+      "kind": "predator",
+      "position": [
+        0.2575735931288071,
+        0.2575735931288071,
+        0.1
+      ]
+    },
+    {
+      "label": "6-far",
+      "seed": 980006,
+      "kind": "predator",
+      "position": [
+        0.15,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "label": "6-expanded",
+      "seed": 980006,
+      "kind": "predator",
+      "position": [
+        0.24,
+        0.3,
+        0.1
+      ]
+    },
+    {
+      "label": "7-far",
+      "seed": 980007,
+      "kind": "predator",
+      "position": [
+        0.19393398282201785,
+        0.4060660171779821,
+        0.1
+      ]
+    },
+    {
+      "label": "7-expanded",
+      "seed": 980007,
+      "kind": "predator",
+      "position": [
+        0.2575735931288071,
+        0.34242640687119286,
+        0.1
+      ]
+    }
+  ],
+  "source_sha256": {
+    "src\\flybrain\\encounters3d\\characterize.py": "22e6343912d848dd0b97775c40ca58cc7b1c8a54630eb50e464ef1c7021226ad",
+    "src\\flybrain\\encounters3d\\neural.py": "d41d0ca7ca2fd804ecbe61859c8f6abce59dd9517df35d1a1871ddf3892e0360",
+    "src\\flybrain\\encounters3d\\scene.py": "e9790e36bde534cf5e379db08f42cf826c46dce45e776f44c7eb3fc4e2ed4b9e",
+    "src\\flybrain\\flight3d\\neural.py": "0b3d6fc9809d893c1d8587c7a2593400f56f23809d08f2fee41a52bbefe5690a",
+    "src\\flybrain\\flight3d\\sensors.py": "c3dd07d81d1b0f111ebaa93981b0802b2717d21b2e9118c0d5a255d145d9fd00"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "schema": "food_stop_recovery_cases_v1",
+  "source_x": 600.0,
+  "source_y": 300.0,
+  "arena_width": 800.0,
+  "arena_height": 600.0,
+  "body_radius": 6.0,
+  "cases": [
+    {
+      "case_id": "food-recovery-final-840000",
+      "split": "final",
+      "seed": 840000,
+      "x": 595.0499271588396,
+      "y": 226.45185641140756,
+      "heading": 0.5354470773151649,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840001",
+      "split": "final",
+      "seed": 840001,
+      "x": 570.4463721216473,
+      "y": 159.17274249748252,
+      "heading": 1.5249688130247,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840002",
+      "split": "final",
+      "seed": 840002,
+      "x": 481.39128681871864,
+      "y": 228.3534205563468,
+      "heading": 2.212773006966901,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840003",
+      "split": "final",
+      "seed": 840003,
+      "x": 538.9314922697297,
+      "y": 396.61567588469666,
+      "heading": 2.4257726097486003,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840004",
+      "split": "final",
+      "seed": 840004,
+      "x": 564.9174202976017,
+      "y": 194.42819666895792,
+      "heading": 3.168161599974804,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840005",
+      "split": "final",
+      "seed": 840005,
+      "x": 725.1543673836937,
+      "y": 258.9170604978078,
+      "heading": 4.575063346487856,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840006",
+      "split": "final",
+      "seed": 840006,
+      "x": 458.37543812799305,
+      "y": 415.8494269318907,
+      "heading": 5.218381389445462,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840007",
+      "split": "final",
+      "seed": 840007,
+      "x": 704.6341233267689,
+      "y": 407.9024369417709,
+      "heading": 5.869925472578215,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840008",
+      "split": "final",
+      "seed": 840008,
+      "x": 413.8969133843673,
+      "y": 365.5678948718405,
+      "heading": 0.4278533459034717,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840009",
+      "split": "final",
+      "seed": 840009,
+      "x": 750.8402868088131,
+      "y": 362.2082098899991,
+      "heading": 0.8480928235973765,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840010",
+      "split": "final",
+      "seed": 840010,
+      "x": 748.9633896136677,
+      "y": 191.19569406148906,
+      "heading": 1.8127147966028407,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840011",
+      "split": "final",
+      "seed": 840011,
+      "x": 444.54866420668935,
+      "y": 152.2145784562056,
+      "heading": 2.412565900663293,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840012",
+      "split": "final",
+      "seed": 840012,
+      "x": 650.5211636258164,
+      "y": 438.28037808748866,
+      "heading": 3.6798303178729816,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840013",
+      "split": "final",
+      "seed": 840013,
+      "x": 585.2177956787959,
+      "y": 489.7593616112497,
+      "heading": 3.994898466287443,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840014",
+      "split": "final",
+      "seed": 840014,
+      "x": 633.38991681685,
+      "y": 192.13412655843462,
+      "heading": 4.967492137140674,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840015",
+      "split": "final",
+      "seed": 840015,
+      "x": 560.6267367793863,
+      "y": 221.38026772287674,
+      "heading": 5.965047251375359,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840016",
+      "split": "final",
+      "seed": 840016,
+      "x": 758.4686063830054,
+      "y": 295.86236102016477,
+      "heading": 0.7556512757441023,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840017",
+      "split": "final",
+      "seed": 840017,
+      "x": 718.7997654188142,
+      "y": 200.23613182307332,
+      "heading": 0.9118847324195001,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840018",
+      "split": "final",
+      "seed": 840018,
+      "x": 601.9148094975866,
+      "y": 440.5060340491576,
+      "heading": 2.0706564629983673,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840019",
+      "split": "final",
+      "seed": 840019,
+      "x": 697.3433591024408,
+      "y": 231.02477425962087,
+      "heading": 2.7523263900532875,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840020",
+      "split": "final",
+      "seed": 840020,
+      "x": 646.9177395988936,
+      "y": 473.2991750219785,
+      "heading": 3.6584121432862116,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840021",
+      "split": "final",
+      "seed": 840021,
+      "x": 597.5879280433393,
+      "y": 169.2839237719811,
+      "heading": 4.57023839598885,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840022",
+      "split": "final",
+      "seed": 840022,
+      "x": 651.8609618835303,
+      "y": 259.0858905917595,
+      "heading": 5.2427600145302735,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840023",
+      "split": "final",
+      "seed": 840023,
+      "x": 547.9556081488666,
+      "y": 123.42828619000878,
+      "heading": 6.062597701205962,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840024",
+      "split": "final",
+      "seed": 840024,
+      "x": 542.1075634385899,
+      "y": 94.29674325445305,
+      "heading": 0.44563676034558425,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840025",
+      "split": "final",
+      "seed": 840025,
+      "x": 648.2999661734029,
+      "y": 200.98100573956293,
+      "heading": 1.062732535924754,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840026",
+      "split": "final",
+      "seed": 840026,
+      "x": 470.67729534702676,
+      "y": 280.7030504476279,
+      "heading": 2.280588713046677,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840027",
+      "split": "final",
+      "seed": 840027,
+      "x": 737.4002963564203,
+      "y": 181.3743945465647,
+      "heading": 2.9516069363651773,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840028",
+      "split": "final",
+      "seed": 840028,
+      "x": 614.6234528615437,
+      "y": 382.6460220770767,
+      "heading": 3.4445214910501716,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840029",
+      "split": "final",
+      "seed": 840029,
+      "x": 662.5915560707654,
+      "y": 419.23231067104786,
+      "heading": 4.40561205444222,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840030",
+      "split": "final",
+      "seed": 840030,
+      "x": 541.9678256173324,
+      "y": 214.11243396018466,
+      "heading": 5.285062724838606,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840031",
+      "split": "final",
+      "seed": 840031,
+      "x": 637.2393524049169,
+      "y": 175.64435736307297,
+      "heading": 5.961112215253701,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840032",
+      "split": "final",
+      "seed": 840032,
+      "x": 665.4927985586436,
+      "y": 442.025199188654,
+      "heading": 0.18022817187542192,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840033",
+      "split": "final",
+      "seed": 840033,
+      "x": 600.1198684842454,
+      "y": 441.5119015384112,
+      "heading": 1.4992322535258744,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840034",
+      "split": "final",
+      "seed": 840034,
+      "x": 666.7048509264844,
+      "y": 232.61272025682436,
+      "heading": 1.818303202241486,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840035",
+      "split": "final",
+      "seed": 840035,
+      "x": 628.7886041454611,
+      "y": 355.81850219373393,
+      "heading": 2.3805714313546322,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840036",
+      "split": "final",
+      "seed": 840036,
+      "x": 400.1269778801883,
+      "y": 292.2196384636861,
+      "heading": 3.4740732858529157,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840037",
+      "split": "final",
+      "seed": 840037,
+      "x": 614.4840895147867,
+      "y": 448.1278496317003,
+      "heading": 4.679460345245095,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840038",
+      "split": "final",
+      "seed": 840038,
+      "x": 495.89031245158003,
+      "y": 473.8145182555306,
+      "heading": 5.277823217072395,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840039",
+      "split": "final",
+      "seed": 840039,
+      "x": 445.4066323895719,
+      "y": 329.89653068599847,
+      "heading": 6.282465280200745,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840040",
+      "split": "final",
+      "seed": 840040,
+      "x": 550.7582968856798,
+      "y": 211.0313450597206,
+      "heading": 0.12025193183716447,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840041",
+      "split": "final",
+      "seed": 840041,
+      "x": 731.0818052919337,
+      "y": 177.38775920112977,
+      "heading": 0.8001369442531633,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840042",
+      "split": "final",
+      "seed": 840042,
+      "x": 616.2014589928514,
+      "y": 203.4937717929719,
+      "heading": 2.3453948237646665,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840043",
+      "split": "final",
+      "seed": 840043,
+      "x": 593.5238515895545,
+      "y": 434.53059874725,
+      "heading": 2.3801687059262875,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840044",
+      "split": "final",
+      "seed": 840044,
+      "x": 559.9348407369554,
+      "y": 114.83306489515721,
+      "heading": 3.4269242111327043,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840045",
+      "split": "final",
+      "seed": 840045,
+      "x": 504.8493258765652,
+      "y": 444.07559048032863,
+      "heading": 4.500851698645718,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840046",
+      "split": "final",
+      "seed": 840046,
+      "x": 631.3699119456651,
+      "y": 505.6365874947827,
+      "heading": 4.96076708991801,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840047",
+      "split": "final",
+      "seed": 840047,
+      "x": 563.0929355982423,
+      "y": 380.4202547266726,
+      "heading": 5.950938276519269,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840048",
+      "split": "final",
+      "seed": 840048,
+      "x": 528.9388582812637,
+      "y": 388.0699154515231,
+      "heading": 0.2338370771296368,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840049",
+      "split": "final",
+      "seed": 840049,
+      "x": 739.2409986121208,
+      "y": 359.0383849843993,
+      "heading": 1.2985093089299518,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840050",
+      "split": "final",
+      "seed": 840050,
+      "x": 484.78202546338343,
+      "y": 228.85896207160545,
+      "heading": 1.6138417448627305,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840051",
+      "split": "final",
+      "seed": 840051,
+      "x": 632.088853851365,
+      "y": 447.1767754349319,
+      "heading": 2.8942119608390158,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840052",
+      "split": "final",
+      "seed": 840052,
+      "x": 593.1096110953116,
+      "y": 389.5776598537028,
+      "heading": 3.162381603411799,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840053",
+      "split": "final",
+      "seed": 840053,
+      "x": 704.8690321409124,
+      "y": 176.61158322409517,
+      "heading": 4.257073224477574,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840054",
+      "split": "final",
+      "seed": 840054,
+      "x": 580.8220973383548,
+      "y": 493.95301660568407,
+      "heading": 4.862752537469659,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840055",
+      "split": "final",
+      "seed": 840055,
+      "x": 781.2847395970194,
+      "y": 419.83578285519343,
+      "heading": 6.032185576384547,
+      "heading_sector": 7
+    },
+    {
+      "case_id": "food-recovery-final-840056",
+      "split": "final",
+      "seed": 840056,
+      "x": 662.5515207149386,
+      "y": 301.2441376700514,
+      "heading": 0.4412557639463732,
+      "heading_sector": 0
+    },
+    {
+      "case_id": "food-recovery-final-840057",
+      "split": "final",
+      "seed": 840057,
+      "x": 602.3966025969744,
+      "y": 196.70406506305184,
+      "heading": 1.568652196764582,
+      "heading_sector": 1
+    },
+    {
+      "case_id": "food-recovery-final-840058",
+      "split": "final",
+      "seed": 840058,
+      "x": 523.1960410669316,
+      "y": 303.9824408210171,
+      "heading": 2.0716949425981643,
+      "heading_sector": 2
+    },
+    {
+      "case_id": "food-recovery-final-840059",
+      "split": "final",
+      "seed": 840059,
+      "x": 503.9935366068903,
+      "y": 312.9259770035379,
+      "heading": 2.4637223010087137,
+      "heading_sector": 3
+    },
+    {
+      "case_id": "food-recovery-final-840060",
+      "split": "final",
+      "seed": 840060,
+      "x": 427.0561527701117,
+      "y": 209.7023852756539,
+      "heading": 3.618141552943099,
+      "heading_sector": 4
+    },
+    {
+      "case_id": "food-recovery-final-840061",
+      "split": "final",
+      "seed": 840061,
+      "x": 635.4427862461957,
+      "y": 180.94215551396707,
+      "heading": 4.30799615594168,
+      "heading_sector": 5
+    },
+    {
+      "case_id": "food-recovery-final-840062",
+      "split": "final",
+      "seed": 840062,
+      "x": 679.7597641315232,
+      "y": 376.49498992554106,
+      "heading": 5.049466501358854,
+      "heading_sector": 6
+    },
+    {
+      "case_id": "food-recovery-final-840063",
+      "split": "final",
+      "seed": 840063,
+      "x": 457.9164696615475,
+      "y": 413.45455956583714,
+      "heading": 5.876207301247689,
+      "heading_sector": 7
+    }
+  ]
+}

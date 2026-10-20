@@ -1,0 +1,11 @@
+{
+  "status": "exact-replay-passed",
+  "error": null,
+  "cases": 4,
+  "neural_steps": 96000,
+  "new_scientific_cases": 0,
+  "receipts": {
+    "development": "33d838a0a4727eaec327576c0d458ab66c44472a54144a4abbcb80100bcd1f9a",
+    "robustness": "b5745162dc97d5920d4751720723db5476a201c0d582f3a2808522d1b6207875"
+  }
+}

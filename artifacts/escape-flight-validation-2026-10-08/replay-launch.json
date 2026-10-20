@@ -1,0 +1,6 @@
+﻿{
+    "supervisor_launch_pid":  12728,
+    "new_scientific_cases":  0,
+    "purpose":  "saved action exact replay verification",
+    "max_replay_neural_steps":  576000
+}

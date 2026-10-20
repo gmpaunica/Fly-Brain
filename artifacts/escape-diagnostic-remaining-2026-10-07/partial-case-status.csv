@@ -1,0 +1,12 @@
+seed,case_order,status,chunks,records,trigger_step,selected,final_cumulative_b3,first_b3_difference_step,first_differential_right_DN_delivery_step
+1100008,1,completed,75,75,1300,left,4,627,558
+1100012,2,completed,75,75,1300,right,1,694,636
+1100014,3,completed,75,75,1300,left,4,627,538
+1100013,4,completed,75,75,900,right,2,627,612
+1100015,5,completed,75,75,860,left,7,524,524
+1100017,6,completed,75,75,820,right,8,574,535
+1100016,7,interrupted,55,55,,,3,621,548
+1100032,8,not started,0,0,,,,,
+1100033,9,not started,0,0,,,,,
+1100036,10,not started,0,0,,,,,
+1100037,11,not started,0,0,,,,,

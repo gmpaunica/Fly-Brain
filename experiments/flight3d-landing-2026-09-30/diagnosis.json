@@ -1,0 +1,26 @@
+{
+  "kind": "post-gate diagnosis; no new training or evaluation cases",
+  "seed": 960000,
+  "flower_pixels_initial": 0,
+  "teacher_requires_at_least_pixels": 2,
+  "position_range_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "commands_min": [
+    0.5,
+    0.0,
+    0.0,
+    0.15000000596046448,
+    1.0
+  ],
+  "commands_max": [
+    0.5,
+    0.0,
+    0.0,
+    0.15000000596046448,
+    1.0
+  ],
+  "interpretation": "Flower misses coarse vertical ray rows at the fixed initial height. Yaw-only searching preserves elevation, so this trial remains invisible. Teacher prerequisite is closed; no optimizer updates or validation/final episodes were run."
+}

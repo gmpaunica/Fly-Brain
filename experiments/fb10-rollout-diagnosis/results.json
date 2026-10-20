@@ -1,0 +1,60 @@
+{
+  "experiment": "fb10_rollout_diagnosis",
+  "historical_cases_only": true,
+  "cases": [
+    {
+      "case_id": "fb10-validation-620001",
+      "replay_exact": true,
+      "student_outcome": "timeout",
+      "teacher_outcome": "success",
+      "tail_mean_actual_turn": -0.33919895614497364,
+      "tail_mean_teacher_turn": -0.9297746402025223,
+      "tail_turn_mse": 0.4337937111888962,
+      "teacher_ticks": 129
+    },
+    {
+      "case_id": "fb10-validation-620007",
+      "replay_exact": true,
+      "student_outcome": "timeout",
+      "teacher_outcome": "success",
+      "tail_mean_actual_turn": -0.2761758480221033,
+      "tail_mean_teacher_turn": -0.9961078053712845,
+      "tail_turn_mse": 0.5197582467448574,
+      "teacher_ticks": 78
+    },
+    {
+      "case_id": "fb10-validation-620010",
+      "replay_exact": true,
+      "student_outcome": "timeout",
+      "teacher_outcome": "success",
+      "tail_mean_actual_turn": -0.27841461390256883,
+      "tail_mean_teacher_turn": -0.9930354711413384,
+      "tail_turn_mse": 0.5126036610659153,
+      "teacher_ticks": 93
+    },
+    {
+      "case_id": "fb10-validation-620012",
+      "replay_exact": true,
+      "student_outcome": "timeout",
+      "teacher_outcome": "success",
+      "tail_mean_actual_turn": -0.26507087498903276,
+      "tail_mean_teacher_turn": -0.9934668961167336,
+      "tail_turn_mse": 0.533094898969547,
+      "teacher_ticks": 57
+    },
+    {
+      "case_id": "fb10-validation-620013",
+      "replay_exact": true,
+      "student_outcome": "timeout",
+      "teacher_outcome": "success",
+      "tail_mean_actual_turn": -0.27930590577423575,
+      "tail_mean_teacher_turn": -0.9931973564624786,
+      "tail_turn_mse": 0.5114874645542078,
+      "teacher_ticks": 88
+    }
+  ],
+  "actual_world_ticks": 3445,
+  "actual_neural_steps": 68900,
+  "optimizer_steps": 0,
+  "provenance_preserved": true
+}

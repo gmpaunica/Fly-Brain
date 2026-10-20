@@ -1,0 +1,25 @@
+{
+  "schema": "food_stop_contact_diagnostic_v1",
+  "hypothesis": "Blocking engineered contact-cell drive changes the frozen readout stop response to the same local food observation.",
+  "checkpoint_sha256": "53526140b8b7f5e48b7f4a97f9db380171fad220275d339912638aadfaa8ee1b",
+  "intervention_code_sha256": "7fd067a3a14a717c05ea9cc6a52733fcd9c0b7a3b76807783c1b80877485bdd4",
+  "input": {
+    "odor_left": 1.5,
+    "odor_right": 1.5,
+    "food_contact": true
+  },
+  "conditions": [
+    "intact",
+    "blocked"
+  ],
+  "ticks_per_condition": 10,
+  "neural_steps_max": 400,
+  "optimizer_updates": 0,
+  "stop_condition": "One paired, fixed-input intervention; record the result without tuning or further trials. This is not fresh behavioral evaluation.",
+  "software_device": {
+    "python": "3.12.10",
+    "device": "CPU"
+  },
+  "commit": null,
+  "prepared_utc": "2026-09-28T23:27:12.525685+00:00"
+}

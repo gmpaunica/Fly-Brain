@@ -1,0 +1,13 @@
+........................................................................ [ 82%]
+...............                                                          [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\pygame\pkgdata.py:25
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\pygame\pkgdata.py:25: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    from pkg_resources import resource_stream, resource_exists
+
+.venv\Lib\site-packages\torch\jit\_script.py:1491
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+87 passed, 567 deselected, 2 warnings in 158.18s (0:02:38)

@@ -1,0 +1,32 @@
+{
+  "status": "captures-pass",
+  "simulation_seconds": 0,
+  "neural_steps": 0,
+  "protected_files": 3010,
+  "frames": [
+    "artifacts/dashboard-redesign-2026-10-12/previews/dashboard-1000.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/filtered-1000.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/inspect-1000.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/help-1000.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/empty-1000.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/dashboard-1440.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/filtered-1440.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/inspect-1440.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/help-1440.png",
+    "artifacts/dashboard-redesign-2026-10-12/previews/empty-1440.png"
+  ],
+  "bright_header_pixels": {
+    "dashboard-1000.png": 1566,
+    "filtered-1000.png": 1566,
+    "inspect-1000.png": 1566,
+    "help-1000.png": 1566,
+    "empty-1000.png": 1566,
+    "dashboard-1440.png": 2341,
+    "filtered-1440.png": 2341,
+    "inspect-1440.png": 2341,
+    "help-1440.png": 2341,
+    "empty-1440.png": 2341
+  },
+  "visual_review": "pending",
+  "native_input_review": "not performed"
+}

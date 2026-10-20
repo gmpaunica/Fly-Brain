@@ -1,0 +1,13 @@
+{
+  "total_existing_files": 2367,
+  "unchanged": 2366,
+  "changed": [
+    "src\\flybrain\\flight3d\\anatomical_viewer.py"
+  ],
+  "missing": [],
+  "allowed_existing_changes": [
+    "src\\flybrain\\flight3d\\anatomical_viewer.py"
+  ],
+  "passed": true,
+  "all_experiments_and_cached_geometry_unchanged": true
+}

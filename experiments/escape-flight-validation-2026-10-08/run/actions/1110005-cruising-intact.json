@@ -1,0 +1,12 @@
+{
+  "schema": "escape-flight-actions-v1",
+  "case": {
+    "azimuth": 45,
+    "state": "cruising",
+    "intervention": "intact",
+    "seed": 1110005
+  },
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "recovery_log": "1110005-cruising-intact.recovery.json",
+  "recovery_log_sha256": "aedd5adbf30d4edd727136449784fec5d5bd796e4c8ac0bc3630ab2c1896bb3a"
+}

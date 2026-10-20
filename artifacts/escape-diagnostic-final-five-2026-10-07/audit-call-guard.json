@@ -1,0 +1,27 @@
+{
+  "status": "audit-passed",
+  "classification": "supported",
+  "brain_sensor_simulation_calls": 0,
+  "project_calls": {
+    "__init__.py:<module>": 1,
+    "escape_diagnostic_final/__init__.py:<module>": 1,
+    "escape_diagnostic_final/audit.py:<module>": 1,
+    "escape_diagnostic_final/contract.py:<module>": 1,
+    "escape_diagnostic_remaining/__init__.py:<module>": 1,
+    "escape_diagnostic_remaining/contract.py:<module>": 1,
+    "escape_diagnostic_final/audit.py:audit": 1,
+    "escape_diagnostic_final/audit.py:sha": 3134,
+    "escape_diagnostic_final/audit.py:<lambda>": 7679,
+    "escape_diagnostic_remaining/contract.py:verify_prior_receipt": 1,
+    "escape_diagnostic_remaining/contract.py:sha": 2,
+    "escape_diagnostic_remaining/contract.py:<lambda>": 4,
+    "escape_diagnostic_final/contract.py:verify_failed_prior": 1,
+    "escape_diagnostic_final/contract.py:aggregate_sources": 1,
+    "escape_diagnostic_final/contract.py:final_cases": 1,
+    "escape_diagnostic_final/contract.py:<genexpr>": 19,
+    "escape_diagnostic_final/audit.py:exact": 365872,
+    "escape_diagnostic_final/audit.py:check_chunk": 1350,
+    "escape_diagnostic_final/audit.py:<genexpr>": 37806,
+    "escape_diagnostic_final/audit.py:csv_write": 3
+  }
+}

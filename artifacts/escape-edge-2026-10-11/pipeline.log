@@ -1,0 +1,11 @@
+{
+  "status": "source-frozen",
+  "test_counts": {
+    "targeted": 239,
+    "final-full": 922,
+    "spawn": 1,
+    "edge": 38
+  },
+  "protected_files": 3010
+}
+Both physical batches, independent audits and exact replay passed.

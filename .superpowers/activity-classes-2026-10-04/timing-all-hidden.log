@@ -1,0 +1,121 @@
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+{
+  "view": "repaired",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "cord_visible": false,
+  "activity_classes": "all",
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "target_display_hz": 60,
+  "conditions": {
+    "paused": {
+      "mean_ms": 3.188673340870688,
+      "p95_ms": 4.662095080129802,
+      "max_ms": 5.9715998359024525,
+      "frames_per_wall_second": 313.6100481609519,
+      "paced_frames_per_wall_second": 58.44046078566935,
+      "pause_barrier_ms": 0.021900050342082977,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "full_model_firing_min": 462,
+      "full_model_firing_max": 462,
+      "enabled_firing_min": 462,
+      "enabled_firing_max": 462,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "running": {
+      "mean_ms": 6.587740841011207,
+      "p95_ms": 9.072994987946004,
+      "max_ms": 10.003099916502833,
+      "frames_per_wall_second": 151.7971067979204,
+      "paced_frames_per_wall_second": 58.35710736787237,
+      "pause_barrier_ms": 0.028499867767095566,
+      "simulation_seconds": 2.0799999999999996,
+      "simulation_ticks": 104,
+      "simulation_compute_ms": 1071.3150987867266,
+      "simulation_step_p95_ms": 12.114790128543973,
+      "simulation_seconds_per_wall_second": 1.0115231943764544,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "full_model_firing_min": 458,
+      "full_model_firing_max": 524,
+      "enabled_firing_min": 458,
+      "enabled_firing_max": 524,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "orbiting": {
+      "mean_ms": 4.553266653480629,
+      "p95_ms": 12.027814995963125,
+      "max_ms": 38.08870003558695,
+      "frames_per_wall_second": 219.62254269373295,
+      "paced_frames_per_wall_second": 57.39574552888098,
+      "pause_barrier_ms": 0.04529999569058418,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "full_model_firing_min": 497,
+      "full_model_firing_max": 497,
+      "enabled_firing_min": 497,
+      "enabled_firing_max": 497,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "selecting": {
+      "mean_ms": 4.646976649140318,
+      "p95_ms": 15.191229968331752,
+      "max_ms": 26.33959986269474,
+      "frames_per_wall_second": 215.19367870828404,
+      "paced_frames_per_wall_second": 57.68937607174573,
+      "pause_barrier_ms": 0.01759990118443966,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        7.2888999711722136,
+        6.5033999271690845,
+        4.1767000220716,
+        5.744500085711479,
+        4.810800077393651,
+        7.65229994431138
+      ],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "full_model_firing_min": 497,
+      "full_model_firing_max": 497,
+      "enabled_firing_min": 497,
+      "enabled_firing_max": 497,
+      "source_batches": 75,
+      "geometry_nodes": 81
+    }
+  },
+  "gates": {
+    "p95_below_33_ms": true,
+    "hundreds_visible_active": true
+  }
+}

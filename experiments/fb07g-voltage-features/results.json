@@ -1,0 +1,467 @@
+{
+  "experiment": "fb07g_voltage_features",
+  "timestamp_utc": "2026-09-21T23:36:37.623549+00:00",
+  "git_commit": null,
+  "objective": "probe subthreshold sensory voltage as readout information",
+  "feature_rule": "seven per-group 20 ms spike-count EMA values followed by post-interval mean membrane voltage of ten left and ten right sensory neurons",
+  "encoder_rule": "2.5*c/(c+0.005)",
+  "gate_rule": "hybrid alias ticks and turn MSE floor strictly lower than seven EMA features, with at least one conflicting pair resolved, separately on train and validation",
+  "gate": {
+    "train": {
+      "alias_improved": true,
+      "turn_floor_improved": true,
+      "collision_pairs_resolved": true
+    },
+    "validation": {
+      "alias_improved": true,
+      "turn_floor_improved": true,
+      "collision_pairs_resolved": true
+    },
+    "passed": true
+  },
+  "config": {
+    "horizon_ticks": 600,
+    "success_radius": 20.0,
+    "network_seed": 7,
+    "world_dt_seconds": 0.02,
+    "arena_width": 800.0,
+    "arena_height": 600.0,
+    "source_x": 600.0,
+    "source_y": 300.0,
+    "source_strength": 1000.0,
+    "source_softening": 20.0
+  },
+  "probe_ticks": {
+    "train": 200,
+    "validation": 600
+  },
+  "network_seed": 7,
+  "network_size": 100,
+  "topology_sha256": "6a16dc392aaf69a0b6177ee3ac0a623f6253a0e3cb8befd09ece9e6e094c00f7",
+  "topology_unchanged": true,
+  "feature_alpha": 0.5,
+  "feature_size": 9,
+  "cases": {
+    "train": [
+      {
+        "case_id": "train-0",
+        "split": "train",
+        "seed": 0,
+        "x": 689.1529296011761,
+        "y": 167.78486490492682,
+        "heading": 2.642529177293657
+      },
+      {
+        "case_id": "train-1",
+        "split": "train",
+        "seed": 1,
+        "x": 711.1712365350527,
+        "y": 425.08816007544306,
+        "heading": 4.798937463950548
+      },
+      {
+        "case_id": "train-2",
+        "split": "train",
+        "seed": 2,
+        "x": 769.1123315212826,
+        "y": 252.05783740020632,
+        "heading": 0.3553227228019942
+      },
+      {
+        "case_id": "train-3",
+        "split": "train",
+        "seed": 3,
+        "x": 610.4883970077904,
+        "y": 438.43336020168834,
+        "heading": 2.3244968667700685
+      },
+      {
+        "case_id": "train-4",
+        "split": "train",
+        "seed": 4,
+        "x": 607.0970669731752,
+        "y": 380.75155370779487,
+        "heading": 2.488507330758799
+      },
+      {
+        "case_id": "train-5",
+        "split": "train",
+        "seed": 5,
+        "x": 486.8151342736775,
+        "y": 189.76093495850324,
+        "heading": 4.996348527526132
+      },
+      {
+        "case_id": "train-6",
+        "split": "train",
+        "seed": 6,
+        "x": 644.4170259994085,
+        "y": 140.9421356229878,
+        "heading": 3.047562447689033
+      },
+      {
+        "case_id": "train-7",
+        "split": "train",
+        "seed": 7,
+        "x": 560.1185875183394,
+        "y": 379.71153710406855,
+        "heading": 4.089941916940695
+      }
+    ],
+    "validation": [
+      {
+        "case_id": "validation-100",
+        "split": "validation",
+        "seed": 100,
+        "x": 678.7794432675239,
+        "y": 402.448509254468,
+        "heading": 4.842977482728734
+      },
+      {
+        "case_id": "validation-101",
+        "split": "validation",
+        "seed": 101,
+        "x": 516.2437022071913,
+        "y": 253.16185260468248,
+        "heading": 6.064851573625203
+      },
+      {
+        "case_id": "validation-102",
+        "split": "validation",
+        "seed": 102,
+        "x": 687.2168366881617,
+        "y": 417.1879843068639,
+        "heading": 1.066167466050309
+      },
+      {
+        "case_id": "validation-103",
+        "split": "validation",
+        "seed": 103,
+        "x": 728.269186425164,
+        "y": 283.01747453905205,
+        "heading": 4.516649122768229
+      }
+    ]
+  },
+  "probe": {
+    "train": {
+      "cases": [
+        {
+          "case_id": "train-0",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 120,
+              "aliased_ticks": 119,
+              "turn_mse_floor": 0.007919727054016319
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 197,
+              "aliased_ticks": 4,
+              "turn_mse_floor": 1.2311416981999335e-05
+            },
+            "conflicting_ema_pairs": 146,
+            "pairs_resolved_by_voltage": 140,
+            "resolution_fraction": 0.958904109589041
+          }
+        },
+        {
+          "case_id": "train-1",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 81,
+              "aliased_ticks": 122,
+              "turn_mse_floor": 0.0030013687919210807
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 2420,
+            "pairs_resolved_by_voltage": 2420,
+            "resolution_fraction": 1.0
+          }
+        },
+        {
+          "case_id": "train-2",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 64,
+              "aliased_ticks": 157,
+              "turn_mse_floor": 0.0011384922256027167
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 511,
+            "pairs_resolved_by_voltage": 511,
+            "resolution_fraction": 1.0
+          }
+        },
+        {
+          "case_id": "train-3",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 0,
+            "pairs_resolved_by_voltage": 0,
+            "resolution_fraction": 0.0
+          }
+        },
+        {
+          "case_id": "train-4",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 179,
+              "aliased_ticks": 24,
+              "turn_mse_floor": 9.432335042574208e-05
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 84,
+            "pairs_resolved_by_voltage": 84,
+            "resolution_fraction": 1.0
+          }
+        },
+        {
+          "case_id": "train-5",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 178,
+              "aliased_ticks": 31,
+              "turn_mse_floor": 4.118354142579882e-06
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 200,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 39,
+            "pairs_resolved_by_voltage": 39,
+            "resolution_fraction": 1.0
+          }
+        },
+        {
+          "case_id": "train-6",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 195,
+              "aliased_ticks": 10,
+              "turn_mse_floor": 3.184186030872338e-05
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 199,
+              "aliased_ticks": 2,
+              "turn_mse_floor": 6.29957274576931e-06
+            },
+            "conflicting_ema_pairs": 5,
+            "pairs_resolved_by_voltage": 4,
+            "resolution_fraction": 0.8
+          }
+        },
+        {
+          "case_id": "train-7",
+          "split": "train",
+          "ticks": 200,
+          "features": {
+            "ema": {
+              "ticks": 200,
+              "unique_vectors": 160,
+              "aliased_ticks": 60,
+              "turn_mse_floor": 0.0033295938442319184
+            },
+            "hybrid": {
+              "ticks": 200,
+              "unique_vectors": 199,
+              "aliased_ticks": 2,
+              "turn_mse_floor": 0.00018349481370151467
+            },
+            "conflicting_ema_pairs": 117,
+            "pairs_resolved_by_voltage": 116,
+            "resolution_fraction": 0.9914529914529915
+          }
+        }
+      ],
+      "features": {
+        "ema": {
+          "ticks": 1600,
+          "unique_vectors": 1121,
+          "aliased_ticks": 627,
+          "turn_mse_floor": 0.0063546235671435684
+        },
+        "hybrid": {
+          "ticks": 1600,
+          "unique_vectors": 1590,
+          "aliased_ticks": 18,
+          "turn_mse_floor": 0.0005495815374364681
+        },
+        "conflicting_ema_pairs": 3402,
+        "pairs_resolved_by_voltage": 3389,
+        "resolution_fraction": 0.9961787184009406
+      },
+      "feature_size": 9,
+      "topology_unchanged": true
+    },
+    "validation": {
+      "cases": [
+        {
+          "case_id": "validation-100",
+          "split": "validation",
+          "ticks": 600,
+          "features": {
+            "ema": {
+              "ticks": 600,
+              "unique_vectors": 373,
+              "aliased_ticks": 298,
+              "turn_mse_floor": 0.0002291868632206236
+            },
+            "hybrid": {
+              "ticks": 600,
+              "unique_vectors": 590,
+              "aliased_ticks": 12,
+              "turn_mse_floor": 4.764903706775315e-05
+            },
+            "conflicting_ema_pairs": 555,
+            "pairs_resolved_by_voltage": 509,
+            "resolution_fraction": 0.9171171171171171
+          }
+        },
+        {
+          "case_id": "validation-101",
+          "split": "validation",
+          "ticks": 600,
+          "features": {
+            "ema": {
+              "ticks": 600,
+              "unique_vectors": 244,
+              "aliased_ticks": 416,
+              "turn_mse_floor": 0.005467795178521463
+            },
+            "hybrid": {
+              "ticks": 600,
+              "unique_vectors": 596,
+              "aliased_ticks": 7,
+              "turn_mse_floor": 0.0002961151174679531
+            },
+            "conflicting_ema_pairs": 2272,
+            "pairs_resolved_by_voltage": 2268,
+            "resolution_fraction": 0.9982394366197183
+          }
+        },
+        {
+          "case_id": "validation-102",
+          "split": "validation",
+          "ticks": 600,
+          "features": {
+            "ema": {
+              "ticks": 600,
+              "unique_vectors": 200,
+              "aliased_ticks": 4,
+              "turn_mse_floor": 1.842136995151208e-10
+            },
+            "hybrid": {
+              "ticks": 600,
+              "unique_vectors": 202,
+              "aliased_ticks": 0,
+              "turn_mse_floor": 0.0
+            },
+            "conflicting_ema_pairs": 2,
+            "pairs_resolved_by_voltage": 2,
+            "resolution_fraction": 1.0
+          }
+        },
+        {
+          "case_id": "validation-103",
+          "split": "validation",
+          "ticks": 600,
+          "features": {
+            "ema": {
+              "ticks": 600,
+              "unique_vectors": 410,
+              "aliased_ticks": 205,
+              "turn_mse_floor": 0.00023177099314460262
+            },
+            "hybrid": {
+              "ticks": 600,
+              "unique_vectors": 589,
+              "aliased_ticks": 12,
+              "turn_mse_floor": 3.0717024385323375e-05
+            },
+            "conflicting_ema_pairs": 1379,
+            "pairs_resolved_by_voltage": 1313,
+            "resolution_fraction": 0.9521392313270486
+          }
+        }
+      ],
+      "features": {
+        "ema": {
+          "ticks": 2400,
+          "unique_vectors": 1165,
+          "aliased_ticks": 992,
+          "turn_mse_floor": 0.03404792659223818
+        },
+        "hybrid": {
+          "ticks": 2400,
+          "unique_vectors": 1967,
+          "aliased_ticks": 46,
+          "turn_mse_floor": 0.002997121135211222
+        },
+        "conflicting_ema_pairs": 4392,
+        "pairs_resolved_by_voltage": 4259,
+        "resolution_fraction": 0.9697176684881603
+      },
+      "feature_size": 9,
+      "topology_unchanged": true
+    }
+  },
+  "training_run": false,
+  "final_cases_evaluated": false,
+  "software": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "pygame": "2.6.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu"
+  }
+}

@@ -1,0 +1,1147 @@
+{
+  "schema": "food_stop_fit_v1",
+  "hypothesis": "One fixed 85-cell circuit and a 419-parameter neural-history readout can imitate sensory-only variable speed, steering and contact stop on the declared training starts.",
+  "cases": {
+    "train": [
+      {
+        "case_id": "food-train-810000",
+        "split": "train",
+        "seed": 810000,
+        "x": 547.6848969004792,
+        "y": 254.0156727941863,
+        "heading": 0.7349265105169184
+      },
+      {
+        "case_id": "food-train-810001",
+        "split": "train",
+        "seed": 810001,
+        "x": 525.9230356626545,
+        "y": 247.67726367887516,
+        "heading": 1.3345367679313516
+      },
+      {
+        "case_id": "food-train-810002",
+        "split": "train",
+        "seed": 810002,
+        "x": 683.9616140965819,
+        "y": 99.81090467570698,
+        "heading": 1.8064411654184547
+      },
+      {
+        "case_id": "food-train-810003",
+        "split": "train",
+        "seed": 810003,
+        "x": 780.9409480643366,
+        "y": 330.32292922613493,
+        "heading": 2.403103181864591
+      },
+      {
+        "case_id": "food-train-810004",
+        "split": "train",
+        "seed": 810004,
+        "x": 496.37043931895437,
+        "y": 294.54770631153497,
+        "heading": 3.8465182342783524
+      },
+      {
+        "case_id": "food-train-810005",
+        "split": "train",
+        "seed": 810005,
+        "x": 728.4061580834064,
+        "y": 346.31665959566027,
+        "heading": 4.024583065667174
+      },
+      {
+        "case_id": "food-train-810006",
+        "split": "train",
+        "seed": 810006,
+        "x": 658.5128272654317,
+        "y": 211.77351283072306,
+        "heading": 4.798374217543456
+      },
+      {
+        "case_id": "food-train-810007",
+        "split": "train",
+        "seed": 810007,
+        "x": 765.4106042820229,
+        "y": 444.37910262759385,
+        "heading": 5.811213102921527
+      },
+      {
+        "case_id": "food-train-810008",
+        "split": "train",
+        "seed": 810008,
+        "x": 652.9984452199913,
+        "y": 420.24166388724905,
+        "heading": 0.3076060829227523
+      },
+      {
+        "case_id": "food-train-810009",
+        "split": "train",
+        "seed": 810009,
+        "x": 645.3259249972444,
+        "y": 465.6451729301274,
+        "heading": 0.9190359277046094
+      },
+      {
+        "case_id": "food-train-810010",
+        "split": "train",
+        "seed": 810010,
+        "x": 605.1439981606187,
+        "y": 156.52732759502007,
+        "heading": 2.088166524913029
+      },
+      {
+        "case_id": "food-train-810011",
+        "split": "train",
+        "seed": 810011,
+        "x": 478.6313639988789,
+        "y": 425.74589185405085,
+        "heading": 2.659718236113114
+      },
+      {
+        "case_id": "food-train-810012",
+        "split": "train",
+        "seed": 810012,
+        "x": 510.6635253434375,
+        "y": 229.28190909079373,
+        "heading": 3.818788555453005
+      },
+      {
+        "case_id": "food-train-810013",
+        "split": "train",
+        "seed": 810013,
+        "x": 563.7301980205364,
+        "y": 442.96634639202205,
+        "heading": 4.377417435987821
+      },
+      {
+        "case_id": "food-train-810014",
+        "split": "train",
+        "seed": 810014,
+        "x": 738.2383102550585,
+        "y": 157.2113605310605,
+        "heading": 5.238487081184643
+      },
+      {
+        "case_id": "food-train-810015",
+        "split": "train",
+        "seed": 810015,
+        "x": 670.8133830373027,
+        "y": 274.6800582181576,
+        "heading": 5.886612797554666
+      },
+      {
+        "case_id": "food-train-810016",
+        "split": "train",
+        "seed": 810016,
+        "x": 428.00034964803353,
+        "y": 280.9968855231349,
+        "heading": 0.2824220620452611
+      },
+      {
+        "case_id": "food-train-810017",
+        "split": "train",
+        "seed": 810017,
+        "x": 700.2432756562822,
+        "y": 239.75835696826982,
+        "heading": 1.226637838098086
+      },
+      {
+        "case_id": "food-train-810018",
+        "split": "train",
+        "seed": 810018,
+        "x": 560.6552028251989,
+        "y": 209.09018140330966,
+        "heading": 2.236315101490976
+      },
+      {
+        "case_id": "food-train-810019",
+        "split": "train",
+        "seed": 810019,
+        "x": 578.0006668364632,
+        "y": 210.80814701806628,
+        "heading": 2.7297582452772766
+      },
+      {
+        "case_id": "food-train-810020",
+        "split": "train",
+        "seed": 810020,
+        "x": 527.8261283138193,
+        "y": 429.2700072462243,
+        "heading": 3.4253959271010355
+      },
+      {
+        "case_id": "food-train-810021",
+        "split": "train",
+        "seed": 810021,
+        "x": 678.243460703167,
+        "y": 497.85646065852177,
+        "heading": 4.6007888164634405
+      },
+      {
+        "case_id": "food-train-810022",
+        "split": "train",
+        "seed": 810022,
+        "x": 741.1236037973999,
+        "y": 344.0431552801011,
+        "heading": 5.123808342124789
+      },
+      {
+        "case_id": "food-train-810023",
+        "split": "train",
+        "seed": 810023,
+        "x": 670.5235975491873,
+        "y": 488.10128521469755,
+        "heading": 5.946091416375561
+      },
+      {
+        "case_id": "food-train-810024",
+        "split": "train",
+        "seed": 810024,
+        "x": 614.4325593400355,
+        "y": 415.66762577271027,
+        "heading": 0.5382452569817343
+      },
+      {
+        "case_id": "food-train-810025",
+        "split": "train",
+        "seed": 810025,
+        "x": 549.7060431545415,
+        "y": 257.146154187648,
+        "heading": 1.4390824770611974
+      },
+      {
+        "case_id": "food-train-810026",
+        "split": "train",
+        "seed": 810026,
+        "x": 530.8971851770197,
+        "y": 205.49245408402055,
+        "heading": 2.026420190069747
+      },
+      {
+        "case_id": "food-train-810027",
+        "split": "train",
+        "seed": 810027,
+        "x": 668.7247022192337,
+        "y": 286.80109749620823,
+        "heading": 2.8368523291372565
+      },
+      {
+        "case_id": "food-train-810028",
+        "split": "train",
+        "seed": 810028,
+        "x": 745.6723277995886,
+        "y": 169.26001244414036,
+        "heading": 3.860404952170862
+      },
+      {
+        "case_id": "food-train-810029",
+        "split": "train",
+        "seed": 810029,
+        "x": 510.4079282334876,
+        "y": 396.01175422176306,
+        "heading": 4.454594545129005
+      },
+      {
+        "case_id": "food-train-810030",
+        "split": "train",
+        "seed": 810030,
+        "x": 674.4539215733414,
+        "y": 270.232169844728,
+        "heading": 4.9581941480884035
+      },
+      {
+        "case_id": "food-train-810031",
+        "split": "train",
+        "seed": 810031,
+        "x": 637.3067976849064,
+        "y": 178.6410690641364,
+        "heading": 5.84286275252734
+      },
+      {
+        "case_id": "food-train-edge-0",
+        "split": "train",
+        "seed": 810100,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 0.0
+      },
+      {
+        "case_id": "food-train-edge-1",
+        "split": "train",
+        "seed": 810101,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 0.7853981633974483
+      },
+      {
+        "case_id": "food-train-edge-2",
+        "split": "train",
+        "seed": 810102,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 1.5707963267948966
+      },
+      {
+        "case_id": "food-train-edge-3",
+        "split": "train",
+        "seed": 810103,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 2.356194490192345
+      },
+      {
+        "case_id": "food-train-edge-4",
+        "split": "train",
+        "seed": 810104,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 3.141592653589793
+      },
+      {
+        "case_id": "food-train-edge-5",
+        "split": "train",
+        "seed": 810105,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 3.9269908169872414
+      },
+      {
+        "case_id": "food-train-edge-6",
+        "split": "train",
+        "seed": 810106,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 4.71238898038469
+      },
+      {
+        "case_id": "food-train-edge-7",
+        "split": "train",
+        "seed": 810107,
+        "x": 400.0,
+        "y": 300.0,
+        "heading": 5.497787143782138
+      }
+    ],
+    "validation": [
+      {
+        "case_id": "food-validation-820000",
+        "split": "validation",
+        "seed": 820000,
+        "x": 404.53529418333665,
+        "y": 320.9906977722764,
+        "heading": 0.501677036565464
+      },
+      {
+        "case_id": "food-validation-820001",
+        "split": "validation",
+        "seed": 820001,
+        "x": 557.4073592549537,
+        "y": 206.65457538679266,
+        "heading": 0.8771695369694721
+      },
+      {
+        "case_id": "food-validation-820002",
+        "split": "validation",
+        "seed": 820002,
+        "x": 723.5485358189451,
+        "y": 345.21601492036984,
+        "heading": 2.0566908924196556
+      },
+      {
+        "case_id": "food-validation-820003",
+        "split": "validation",
+        "seed": 820003,
+        "x": 655.9432292687112,
+        "y": 251.42685721501826,
+        "heading": 2.6888309521830003
+      },
+      {
+        "case_id": "food-validation-820004",
+        "split": "validation",
+        "seed": 820004,
+        "x": 416.2165805106167,
+        "y": 275.52082751535403,
+        "heading": 3.249058708280542
+      },
+      {
+        "case_id": "food-validation-820005",
+        "split": "validation",
+        "seed": 820005,
+        "x": 468.9681771574533,
+        "y": 363.84559832116656,
+        "heading": 4.03318208353708
+      },
+      {
+        "case_id": "food-validation-820006",
+        "split": "validation",
+        "seed": 820006,
+        "x": 793.3598822864578,
+        "y": 236.36797089323855,
+        "heading": 5.456941711688152
+      },
+      {
+        "case_id": "food-validation-820007",
+        "split": "validation",
+        "seed": 820007,
+        "x": 672.499515385012,
+        "y": 499.9424399617807,
+        "heading": 5.56375606946788
+      },
+      {
+        "case_id": "food-validation-820008",
+        "split": "validation",
+        "seed": 820008,
+        "x": 705.1158018741918,
+        "y": 373.24252016190167,
+        "heading": 0.6999103374162791
+      },
+      {
+        "case_id": "food-validation-820009",
+        "split": "validation",
+        "seed": 820009,
+        "x": 640.5405179371118,
+        "y": 502.58916754170446,
+        "heading": 0.8515993298248713
+      },
+      {
+        "case_id": "food-validation-820010",
+        "split": "validation",
+        "seed": 820010,
+        "x": 702.9713389005697,
+        "y": 295.34219337425174,
+        "heading": 2.297193103553931
+      },
+      {
+        "case_id": "food-validation-820011",
+        "split": "validation",
+        "seed": 820011,
+        "x": 669.4304394591912,
+        "y": 260.46789505594194,
+        "heading": 2.4940095936364
+      },
+      {
+        "case_id": "food-validation-820012",
+        "split": "validation",
+        "seed": 820012,
+        "x": 710.1153640932996,
+        "y": 348.3277816497817,
+        "heading": 3.141652164624583
+      },
+      {
+        "case_id": "food-validation-820013",
+        "split": "validation",
+        "seed": 820013,
+        "x": 592.7658882288295,
+        "y": 218.15572194393673,
+        "heading": 4.184367813965044
+      },
+      {
+        "case_id": "food-validation-820014",
+        "split": "validation",
+        "seed": 820014,
+        "x": 621.5407742603558,
+        "y": 173.59151930077377,
+        "heading": 5.488668467219835
+      },
+      {
+        "case_id": "food-validation-820015",
+        "split": "validation",
+        "seed": 820015,
+        "x": 584.713109143061,
+        "y": 199.88448628826484,
+        "heading": 6.1773147363943215
+      }
+    ],
+    "final": [
+      {
+        "case_id": "food-final-830000",
+        "split": "final",
+        "seed": 830000,
+        "x": 439.4403199018433,
+        "y": 171.3234533290629,
+        "heading": 0.04519226017701803
+      },
+      {
+        "case_id": "food-final-830001",
+        "split": "final",
+        "seed": 830001,
+        "x": 639.0679352754645,
+        "y": 208.19620785661277,
+        "heading": 1.0300917877880917
+      },
+      {
+        "case_id": "food-final-830002",
+        "split": "final",
+        "seed": 830002,
+        "x": 663.6209105284242,
+        "y": 271.6022443878296,
+        "heading": 1.7175109653858887
+      },
+      {
+        "case_id": "food-final-830003",
+        "split": "final",
+        "seed": 830003,
+        "x": 690.8853314887554,
+        "y": 361.02545707700745,
+        "heading": 2.376073364332242
+      },
+      {
+        "case_id": "food-final-830004",
+        "split": "final",
+        "seed": 830004,
+        "x": 675.1724029523843,
+        "y": 165.87485814593614,
+        "heading": 3.861217730957718
+      },
+      {
+        "case_id": "food-final-830005",
+        "split": "final",
+        "seed": 830005,
+        "x": 733.8749261602902,
+        "y": 154.4414134661464,
+        "heading": 4.315234880709945
+      },
+      {
+        "case_id": "food-final-830006",
+        "split": "final",
+        "seed": 830006,
+        "x": 664.7860970228384,
+        "y": 186.44251428719878,
+        "heading": 5.263138200692921
+      },
+      {
+        "case_id": "food-final-830007",
+        "split": "final",
+        "seed": 830007,
+        "x": 760.6921226912689,
+        "y": 253.65662418275016,
+        "heading": 5.9664309772930135
+      },
+      {
+        "case_id": "food-final-830008",
+        "split": "final",
+        "seed": 830008,
+        "x": 609.9086768326971,
+        "y": 222.9845535250824,
+        "heading": 0.22623336674887515
+      },
+      {
+        "case_id": "food-final-830009",
+        "split": "final",
+        "seed": 830009,
+        "x": 660.5377266983231,
+        "y": 299.3361162187678,
+        "heading": 1.1122179786682247
+      },
+      {
+        "case_id": "food-final-830010",
+        "split": "final",
+        "seed": 830010,
+        "x": 478.6911005409841,
+        "y": 245.92973989665495,
+        "heading": 1.8061747432103061
+      },
+      {
+        "case_id": "food-final-830011",
+        "split": "final",
+        "seed": 830011,
+        "x": 530.3139980181991,
+        "y": 178.69263880583676,
+        "heading": 2.790111274946064
+      },
+      {
+        "case_id": "food-final-830012",
+        "split": "final",
+        "seed": 830012,
+        "x": 524.155124784193,
+        "y": 469.67011355453417,
+        "heading": 3.3454441935783548
+      },
+      {
+        "case_id": "food-final-830013",
+        "split": "final",
+        "seed": 830013,
+        "x": 675.6133421183673,
+        "y": 325.46133847123866,
+        "heading": 4.491745742508085
+      },
+      {
+        "case_id": "food-final-830014",
+        "split": "final",
+        "seed": 830014,
+        "x": 578.2640361698907,
+        "y": 241.94907209888981,
+        "heading": 5.231120684902154
+      },
+      {
+        "case_id": "food-final-830015",
+        "split": "final",
+        "seed": 830015,
+        "x": 764.2967092231657,
+        "y": 348.1382339206264,
+        "heading": 5.8544570927196755
+      },
+      {
+        "case_id": "food-final-830016",
+        "split": "final",
+        "seed": 830016,
+        "x": 471.85347940372276,
+        "y": 215.30028156840214,
+        "heading": 0.14307475059593153
+      },
+      {
+        "case_id": "food-final-830017",
+        "split": "final",
+        "seed": 830017,
+        "x": 584.4825337069893,
+        "y": 413.7177196962905,
+        "heading": 1.5415656656824817
+      },
+      {
+        "case_id": "food-final-830018",
+        "split": "final",
+        "seed": 830018,
+        "x": 422.5965903499375,
+        "y": 181.49210273237094,
+        "heading": 1.899423057133355
+      },
+      {
+        "case_id": "food-final-830019",
+        "split": "final",
+        "seed": 830019,
+        "x": 585.679456099845,
+        "y": 137.8664036982661,
+        "heading": 2.826699158380237
+      },
+      {
+        "case_id": "food-final-830020",
+        "split": "final",
+        "seed": 830020,
+        "x": 617.1696443555606,
+        "y": 91.74415270920221,
+        "heading": 3.510704172787944
+      },
+      {
+        "case_id": "food-final-830021",
+        "split": "final",
+        "seed": 830021,
+        "x": 697.6326515865952,
+        "y": 268.57034511311434,
+        "heading": 4.374257042421275
+      },
+      {
+        "case_id": "food-final-830022",
+        "split": "final",
+        "seed": 830022,
+        "x": 401.89356214692475,
+        "y": 334.5683536006145,
+        "heading": 4.926794939617755
+      },
+      {
+        "case_id": "food-final-830023",
+        "split": "final",
+        "seed": 830023,
+        "x": 681.2919894649176,
+        "y": 320.77186462631323,
+        "heading": 6.191871932196581
+      },
+      {
+        "case_id": "food-final-830024",
+        "split": "final",
+        "seed": 830024,
+        "x": 700.4345430854958,
+        "y": 449.49595661817887,
+        "heading": 0.1841392970549504
+      },
+      {
+        "case_id": "food-final-830025",
+        "split": "final",
+        "seed": 830025,
+        "x": 672.411727202275,
+        "y": 231.04172381848724,
+        "heading": 1.032617940338424
+      },
+      {
+        "case_id": "food-final-830026",
+        "split": "final",
+        "seed": 830026,
+        "x": 463.45795542059074,
+        "y": 213.35994773509333,
+        "heading": 2.054282517734468
+      },
+      {
+        "case_id": "food-final-830027",
+        "split": "final",
+        "seed": 830027,
+        "x": 642.5394648536926,
+        "y": 380.3721230671746,
+        "heading": 2.888206034837355
+      },
+      {
+        "case_id": "food-final-830028",
+        "split": "final",
+        "seed": 830028,
+        "x": 526.8730628606238,
+        "y": 263.00133620193566,
+        "heading": 3.839481287560306
+      },
+      {
+        "case_id": "food-final-830029",
+        "split": "final",
+        "seed": 830029,
+        "x": 670.246841630834,
+        "y": 253.55708982119486,
+        "heading": 4.368162498140679
+      },
+      {
+        "case_id": "food-final-830030",
+        "split": "final",
+        "seed": 830030,
+        "x": 660.2197180293776,
+        "y": 118.21564078290817,
+        "heading": 4.8070323480111705
+      },
+      {
+        "case_id": "food-final-830031",
+        "split": "final",
+        "seed": 830031,
+        "x": 468.4850483774843,
+        "y": 178.98405417564965,
+        "heading": 5.922439715489098
+      },
+      {
+        "case_id": "food-final-830032",
+        "split": "final",
+        "seed": 830032,
+        "x": 569.8843908580363,
+        "y": 179.872716099106,
+        "heading": 0.7408850256490227
+      },
+      {
+        "case_id": "food-final-830033",
+        "split": "final",
+        "seed": 830033,
+        "x": 585.3910372045713,
+        "y": 427.47037047490574,
+        "heading": 0.9321974132067491
+      },
+      {
+        "case_id": "food-final-830034",
+        "split": "final",
+        "seed": 830034,
+        "x": 545.5437616510437,
+        "y": 237.9853005906525,
+        "heading": 2.0686904126704504
+      },
+      {
+        "case_id": "food-final-830035",
+        "split": "final",
+        "seed": 830035,
+        "x": 619.0514563953736,
+        "y": 462.5009030956913,
+        "heading": 3.0798410305045776
+      },
+      {
+        "case_id": "food-final-830036",
+        "split": "final",
+        "seed": 830036,
+        "x": 708.0753646129012,
+        "y": 381.56693794353134,
+        "heading": 3.8006028499438695
+      },
+      {
+        "case_id": "food-final-830037",
+        "split": "final",
+        "seed": 830037,
+        "x": 420.9220691342058,
+        "y": 361.55775301019287,
+        "heading": 4.514415788931259
+      },
+      {
+        "case_id": "food-final-830038",
+        "split": "final",
+        "seed": 830038,
+        "x": 609.305036325153,
+        "y": 228.899033137137,
+        "heading": 4.893371616137514
+      },
+      {
+        "case_id": "food-final-830039",
+        "split": "final",
+        "seed": 830039,
+        "x": 519.0540937017294,
+        "y": 289.7173971327615,
+        "heading": 5.774145748184727
+      },
+      {
+        "case_id": "food-final-830040",
+        "split": "final",
+        "seed": 830040,
+        "x": 625.3947836665702,
+        "y": 413.13258720024646,
+        "heading": 0.44476623861136866
+      },
+      {
+        "case_id": "food-final-830041",
+        "split": "final",
+        "seed": 830041,
+        "x": 465.641658662742,
+        "y": 129.41801389580087,
+        "heading": 1.2382916098705816
+      },
+      {
+        "case_id": "food-final-830042",
+        "split": "final",
+        "seed": 830042,
+        "x": 616.5616922804007,
+        "y": 153.62152630184045,
+        "heading": 1.8862919494908161
+      },
+      {
+        "case_id": "food-final-830043",
+        "split": "final",
+        "seed": 830043,
+        "x": 554.224187109792,
+        "y": 468.84817607129844,
+        "heading": 2.804357093739585
+      },
+      {
+        "case_id": "food-final-830044",
+        "split": "final",
+        "seed": 830044,
+        "x": 686.7422131393128,
+        "y": 297.32942256176824,
+        "heading": 3.394500104715423
+      },
+      {
+        "case_id": "food-final-830045",
+        "split": "final",
+        "seed": 830045,
+        "x": 526.7499481348219,
+        "y": 304.9685346737549,
+        "heading": 4.17455173934449
+      },
+      {
+        "case_id": "food-final-830046",
+        "split": "final",
+        "seed": 830046,
+        "x": 684.0492813264118,
+        "y": 173.37640920550024,
+        "heading": 4.765361955115509
+      },
+      {
+        "case_id": "food-final-830047",
+        "split": "final",
+        "seed": 830047,
+        "x": 562.2964844206373,
+        "y": 390.6154564886908,
+        "heading": 5.592443563100076
+      },
+      {
+        "case_id": "food-final-830048",
+        "split": "final",
+        "seed": 830048,
+        "x": 633.9615783167088,
+        "y": 460.6124371009113,
+        "heading": 0.4842182325324504
+      },
+      {
+        "case_id": "food-final-830049",
+        "split": "final",
+        "seed": 830049,
+        "x": 506.74218150768223,
+        "y": 342.9798723240542,
+        "heading": 1.0184254307613083
+      },
+      {
+        "case_id": "food-final-830050",
+        "split": "final",
+        "seed": 830050,
+        "x": 609.7564912986358,
+        "y": 106.99976222234488,
+        "heading": 1.9929403098084706
+      },
+      {
+        "case_id": "food-final-830051",
+        "split": "final",
+        "seed": 830051,
+        "x": 663.3236836317716,
+        "y": 447.6475826055349,
+        "heading": 2.940447417338886
+      },
+      {
+        "case_id": "food-final-830052",
+        "split": "final",
+        "seed": 830052,
+        "x": 515.9054249440936,
+        "y": 335.2074515402928,
+        "heading": 3.1626290362881484
+      },
+      {
+        "case_id": "food-final-830053",
+        "split": "final",
+        "seed": 830053,
+        "x": 674.0875928759034,
+        "y": 170.47639775985866,
+        "heading": 4.074022697821928
+      },
+      {
+        "case_id": "food-final-830054",
+        "split": "final",
+        "seed": 830054,
+        "x": 591.3889029493898,
+        "y": 406.24276674650946,
+        "heading": 5.094298944945704
+      },
+      {
+        "case_id": "food-final-830055",
+        "split": "final",
+        "seed": 830055,
+        "x": 662.7239132678078,
+        "y": 165.13508359026534,
+        "heading": 6.037882243283255
+      },
+      {
+        "case_id": "food-final-830056",
+        "split": "final",
+        "seed": 830056,
+        "x": 445.86356054876353,
+        "y": 234.20850321339037,
+        "heading": 0.7209562087210734
+      },
+      {
+        "case_id": "food-final-830057",
+        "split": "final",
+        "seed": 830057,
+        "x": 701.1782462773893,
+        "y": 151.02967139759977,
+        "heading": 1.5654392684330576
+      },
+      {
+        "case_id": "food-final-830058",
+        "split": "final",
+        "seed": 830058,
+        "x": 725.3081738452547,
+        "y": 254.57818898399745,
+        "heading": 1.953948372662523
+      },
+      {
+        "case_id": "food-final-830059",
+        "split": "final",
+        "seed": 830059,
+        "x": 674.2950195140016,
+        "y": 257.18197980035177,
+        "heading": 2.82335725195103
+      },
+      {
+        "case_id": "food-final-830060",
+        "split": "final",
+        "seed": 830060,
+        "x": 688.2041745356513,
+        "y": 270.79729036634444,
+        "heading": 3.427976369685166
+      },
+      {
+        "case_id": "food-final-830061",
+        "split": "final",
+        "seed": 830061,
+        "x": 458.1854639696421,
+        "y": 194.9536700572218,
+        "heading": 4.500662421108162
+      },
+      {
+        "case_id": "food-final-830062",
+        "split": "final",
+        "seed": 830062,
+        "x": 640.8997428364197,
+        "y": 181.1238304484319,
+        "heading": 5.279588790993062
+      },
+      {
+        "case_id": "food-final-830063",
+        "split": "final",
+        "seed": 830063,
+        "x": 532.3782254442581,
+        "y": 373.4670217690072,
+        "heading": 6.075804358025813
+      }
+    ]
+  },
+  "collection": "All 40 teacher and 40 fixed-decoder 20-second trajectories; teacher labels use sensory observation only. No validation/final rows.",
+  "normalization": "Training-only conditioned feature mean and population std, scale floor 1 Hz.",
+  "objective": "Moving speed MSE + moving turn MSE + equal-class stop BCE; 256 moving and 256 stopped rows per update.",
+  "seed": 1010,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 512,
+  "max_updates": 1500,
+  "network_size": 85,
+  "trainable_parameters": 419,
+  "training_gates": {
+    "speed_mse_below_constant": true,
+    "turn_mse_below_constant": true,
+    "balanced_stop_accuracy_min": 0.95,
+    "train_successes_min": 35,
+    "train_paired_gain_min": 8,
+    "checkpoint_reload_exact": true
+  },
+  "budget": {
+    "data_episodes": 80,
+    "training_case_episodes": 120,
+    "world_ticks": 200000,
+    "neural_steps": 4000000,
+    "optimizer_updates": 1500
+  },
+  "stop_condition": "One seed-1010 candidate, at most 1500 updates. Stop on nonfinite values or any numerical or matched training gate failure. No fresh validation or retry after failure.",
+  "preflight_sha256": {
+    "protocol.json": "6c78493aa2a50c3a0dbdc48d8946f32096ca4ccb9b8ff1c4af93268eef0709f5",
+    "execution.json": "15658985215ecaab340855f8ed9647872d70045699062993ac7ebf8cd2323492",
+    "results.json": "8a4de48c2fb3558bfa4198950d1b64974521bbaccae629b914bcf6fff0bc189d"
+  },
+  "source_sha256": {
+    "src/flybrain/neural/food_contact.py": "c85d7276a450654bc43de6619e312a293869b5a246093ca90628c37ce028eaa0",
+    "src/flybrain/neural/food_readout.py": "c20668f6106945187f15bce28c215876d8759f950a8e6df52bc4d305ec7f89a4",
+    "src/flybrain/training/food_teacher.py": "492475e87653bf38ed816bb0d7af4bdbf6624079b6963331ed8787abe07f83f9",
+    "src/flybrain/training/food_preflight.py": "690490d77c14879c28d4ce9ba1d7cb806cc1a8da794b5985de5b91df24201323",
+    "src/flybrain/training/food_evaluation.py": "122319c967dd2397f7f4c4a9b5fb0f3608f5b1faf57f9be181775c121427f353",
+    "src/flybrain/training/food_fit.py": "b5b39d2755188cb3d9f9dddc0fbee872c3f7e6890917c40763957933db1aa51b"
+  },
+  "contract": {
+    "schema": "food_stop_readout_v1",
+    "source_subset_sha256": null,
+    "source_ids": [
+      "720575941407977263",
+      "720575941413696145",
+      "720575941430295544",
+      "720575941434323982",
+      "720575941437598738",
+      "720575941439099615",
+      "720575941452381865",
+      "720575941456701677",
+      "720575941456897005",
+      "720575941459177119",
+      "720575941460291824",
+      "720575941462662099",
+      "720575941467736854",
+      "720575941474500923",
+      "720575941477612906",
+      "720575941477787498",
+      "720575941478318641",
+      "720575941479988610",
+      "720575941489178064",
+      "720575941493082800",
+      "720575941496827008",
+      "720575941497888384",
+      "720575941498056571",
+      "720575941499022305",
+      "720575941500284745",
+      "720575941504828722",
+      "720575941505070679",
+      "720575941506441751",
+      "720575941508586625",
+      "720575941510475536",
+      "720575941511808210",
+      "720575941513865425",
+      "720575941515305306",
+      "720575941516307603",
+      "720575941516827795",
+      "720575941516903571",
+      "720575941519664856",
+      "720575941520585143",
+      "720575941521305011",
+      "720575941531180261",
+      "720575941531923147",
+      "720575941535417610",
+      "720575941538982376",
+      "720575941538992021",
+      "720575941539370133",
+      "720575941541997085",
+      "720575941545971132",
+      "720575941546505148",
+      "720575941554625363",
+      "720575941560125422",
+      "720575941565684480",
+      "720575941566007959",
+      "720575941568355066",
+      "720575941568502522",
+      "720575941569415418",
+      "720575941573770909",
+      "720575941573903369",
+      "720575941574235145",
+      "720575941574355016",
+      "720575941577670489",
+      "720575941579784529",
+      "720575941585752030",
+      "720575941594189864",
+      "720575941594458987",
+      "720575941609080685",
+      "720575941610526697",
+      "720575941611414758",
+      "720575941612052653",
+      "720575941612364362",
+      "720575941615493529",
+      "720575941625100187",
+      "720575941638453621",
+      "720575941642647141",
+      "720575941642650469",
+      "720575941643991928",
+      "720575941645545928",
+      "720575941653217813",
+      "720575941654502105",
+      "720575941680234941",
+      "720575941680248509",
+      "720575941689827340",
+      "720575941690792344",
+      "720575941702695386"
+    ],
+    "engineered_ids": [
+      "engineered:food-contact",
+      "engineered:contact-relay"
+    ],
+    "effective_weights_sha256": "1009f288c7cc56a2f02d75a7072160e0dc301d0d176c1b0025fb2c71d3a83254",
+    "feature_names": [
+      "fast100ms:steering_left:720575941510475536",
+      "fast100ms:steering_right:720575941456897005",
+      "fast100ms:motor_left:720575941519664856",
+      "fast100ms:motor_left:720575941531923147",
+      "fast100ms:motor_left:720575941538992021",
+      "fast100ms:motor_right:720575941531180261",
+      "fast100ms:motor_right:720575941568355066",
+      "fast100ms:motor_right:720575941574355016",
+      "slow500ms:steering_left:720575941510475536",
+      "slow500ms:steering_right:720575941456897005",
+      "slow500ms:motor_left:720575941519664856",
+      "slow500ms:motor_left:720575941531923147",
+      "slow500ms:motor_left:720575941538992021",
+      "slow500ms:motor_right:720575941531180261",
+      "slow500ms:motor_right:720575941568355066",
+      "slow500ms:motor_right:720575941574355016",
+      "fast100ms:incoming:projection_left:720575941653217813",
+      "fast100ms:incoming:projection_right:720575941497888384",
+      "slow500ms:incoming:projection_left:720575941653217813",
+      "slow500ms:incoming:projection_right:720575941497888384",
+      "fast50ms:engineered:contact-relay",
+      "slow200ms:engineered:contact-relay"
+    ],
+    "architecture": {
+      "inputs": 22,
+      "hidden": 16,
+      "outputs": 3,
+      "parameters": 419,
+      "stop_rule": "logit > 0 -> exact zero"
+    },
+    "odor_rate": "96 * concentration / (concentration + 0.1) Hz",
+    "contact_rate_hz": 100.0,
+    "contact_relay_jump": 2.0,
+    "feature_signal": "actual spikes and PN incoming events only; no raw odor or geometry"
+  },
+  "software_device": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "device": "CPU"
+  },
+  "commit": null,
+  "prepared_utc": "2026-09-28T21:48:49.183237+00:00"
+}

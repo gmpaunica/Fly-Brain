@@ -1,0 +1,102 @@
+{
+  "postprocessing_only": true,
+  "excludes_edges_entering_voltage_clamped_sensory_cells": true,
+  "rows": [
+    {
+      "label": "far-0",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-1",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-2",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-3",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-4",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-5",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-6",
+      "reachable_wings": 48
+    },
+    {
+      "label": "far-7",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-0",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-1",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-2",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-3",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-4",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-5",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-6",
+      "reachable_wings": 48
+    },
+    {
+      "label": "near-7",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-0",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-1",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-2",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-3",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-4",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-5",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-6",
+      "reachable_wings": 48
+    },
+    {
+      "label": "sequence-7",
+      "reachable_wings": 48
+    }
+  ]
+}

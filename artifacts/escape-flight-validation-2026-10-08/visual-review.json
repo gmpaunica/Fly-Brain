@@ -1,0 +1,14 @@
+{
+  "saved_review": "reviewed",
+  "receipt_sha256": "00c7ecbd27ca5f10e4d092d3f9123f1b38486c7e88a36e6ca3a6eb19b9cfb592",
+  "figures": {
+    "artifacts/escape-flight-validation-2026-10-08/flight-visuals/flight-cruising.png": "4238a679584fa304da4573725917f642537991eaf548bf27088834669d229be4",
+    "artifacts/escape-flight-validation-2026-10-08/flight-visuals/flight-hovering.png": "ce833f0005e7659f9c337a8a05af41405be9c4410dc8b99e8e1a7dec578cfd42",
+    "artifacts/escape-flight-validation-2026-10-08/flight-visuals/flight-resting.png": "6c5c1ea0df90c01b32110e2694f7c7c7c7d5781429b224a2490bca44d80107ec",
+    "artifacts/escape-flight-validation-2026-10-08/flight-visuals/physical-timelines.png": "c5e1ae6b6eb38b7d33ae1f907f4c060d673c35a204e89fd4364e477a76d5846a"
+  },
+  "reviewed": "all three 8-direction paired trajectory figures and representative physical timelines",
+  "live_review": "pending/unavailable; prototype launch disabled after physical failure",
+  "scope": "offline saved trajectories; preflight offscreen UI checked separately",
+  "neural_steps": 0
+}

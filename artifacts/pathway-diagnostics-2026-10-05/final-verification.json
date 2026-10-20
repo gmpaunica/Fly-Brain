@@ -1,0 +1,27 @@
+{
+  "test_receipts": {
+    "targeted": {
+      "tests": 111,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "panel-final": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "full": {
+      "tests": 678,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "post_suite_unchanged": 2395,
+  "original_integration_archives_verified": true,
+  "historical_data_and_experiments_unchanged": true,
+  "scientific_presentations": 120,
+  "scientific_steps": 120000
+}

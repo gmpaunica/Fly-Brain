@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-12",
+  "status": "reviewed-with-preview-limitation",
+  "frames": {
+    "artifacts/escape-ui-2026-10-12/isolated-frames/demo-1000.png": {
+      "sha256": "a7500238320b00041eb4108310c6263b9317a1f199b5af44997c20b219d22e61",
+      "opaque_header_pixels": 1152
+    },
+    "artifacts/escape-ui-2026-10-12/isolated-frames/demo-1440.png": {
+      "sha256": "5f65e53a0b1b19c7216401b93b98090a19f5d928ed1153f98a88ad3cf2a9f1e0",
+      "opaque_header_pixels": 1021
+    },
+    "artifacts/escape-ui-2026-10-12/isolated-frames/diagnostics-1000.png": {
+      "sha256": "99a4068fe39638210d075a2ffd2011071f72d793ca042e05eeff5c6e444d8ee9",
+      "opaque_header_pixels": 1152
+    },
+    "artifacts/escape-ui-2026-10-12/isolated-frames/diagnostics-1440.png": {
+      "sha256": "402c76fccf46b8703b77f3adba39bde5be47dd5935cb0d53445a1ace33d043bf",
+      "opaque_header_pixels": 1021
+    },
+    "artifacts/escape-ui-2026-10-12/isolated-frames/settings-1000.png": {
+      "sha256": "d05b42245f00d0d8b33715c2a7c6cdff16657932d4246c39fa13bbad0f3635d8",
+      "opaque_header_pixels": 1152
+    },
+    "artifacts/escape-ui-2026-10-12/isolated-frames/settings-1440.png": {
+      "sha256": "bf9a71fd4da2a4b18c4060889cfa548e1c77e5523d0110206bfc6114bdde08ce",
+      "opaque_header_pixels": 1021
+    }
+  },
+  "protected_files": 3010,
+  "delivery_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "simulation_seconds": 0,
+  "neural_steps": 0,
+  "native_input_review": "not performed",
+  "limitation": "Some image-tool previews omit text that is present and opaque in the PNG. Native input remains unreviewed.",
+  "acceptance": [
+    "primary button targets and fill",
+    "readable status and settings",
+    "two-pane layout",
+    "optional diagnostics",
+    "retained inspector and replay",
+    "standing educational guidance"
+  ]
+}

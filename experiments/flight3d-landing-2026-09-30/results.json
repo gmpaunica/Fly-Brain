@@ -1,0 +1,22 @@
+{
+  "status": "closed_failed_gate",
+  "stage": "teacher",
+  "learned_landing_accepted": false,
+  "elapsed_seconds": 46.92200000002049,
+  "episodes": [
+    {
+      "label": "teacher-train",
+      "seed": 960000,
+      "height_group": "lower",
+      "sector": 0,
+      "success": false,
+      "crashed": false,
+      "dwell_seconds": 0.0,
+      "first_contact_seconds": null,
+      "impact_speed_m_s": null,
+      "departures": 0,
+      "ticks": 1500
+    }
+  ],
+  "required": "48/48"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "closed-validation-failed",
+  "sha256": {
+    "calibration.json": "2db354bb9350286b35a23ae5afdefc01642bdd7ee0b41042512785248e1fdba3",
+    "config.json": "234a4fb8796b602eb410da1f464e9dcf012bcf8cd56f536f729122fcc60c4bd0",
+    "lock.json": "c4d34b38a57992174210e91be312cd39e473a0a369af7a9baa649d9c8748b3a6",
+    "response.json": "265d71773fb6595c95a0f17ccc8320bb168e635ff40634ef8995b15bd7ab3ecc",
+    "results.json": "c5de34b0f500785793026c532c0dd304e3c6f9b0a5c46f1bc5844464f6d9317c",
+    "traces.csv": "312005805ec22ad1b7947280a24ac852bd0248aa53f169944b771f9f69bfccfb",
+    "traces.jsonl.gz": "d7848e621f4a37b4a44ce59b77c794ef117df4a09bb1b64f856e0adf687e230d"
+  }
+}

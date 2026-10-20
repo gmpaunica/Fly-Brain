@@ -1,0 +1,11 @@
+{
+  "status": "reviewed",
+  "offscreen": "reviewed",
+  "plots": [
+    "trajectories.png",
+    "hover.png"
+  ],
+  "observations": "Trajectories reach inset map edges; full-speed flight precedes edge braking; all intact curves settle within hover bands through 12 s.",
+  "native_input_automation": false,
+  "reviewer": "single project agent"
+}

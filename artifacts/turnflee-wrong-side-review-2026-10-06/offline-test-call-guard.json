@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "brain_sensor_simulation_calls": 0,
+  "project_calls": {
+    "turnflee/audit.py:<module>": 1,
+    "flight3d/anatomy.py:load_manifest": 1,
+    "flight3d/anatomy.py:validate_manifest": 1,
+    "flight3d/anatomy.py:<genexpr>": 590,
+    "flight3d/anatomy.py:digest": 1,
+    "flight3d/anatomy.py:<lambda>": 3,
+    "turnflee/audit.py:audit_counts": 2,
+    "turnflee/audit.py:require": 95,
+    "turnflee/audit.py:<genexpr>": 13
+  }
+}

@@ -1,0 +1,1 @@
+{"schema": "append-only-reservations-v1", "limit": 24000, "reserved_steps": 0, "journal": "live-review-progress.reservations.jsonl"}

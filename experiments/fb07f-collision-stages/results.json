@@ -1,0 +1,1994 @@
+{
+  "experiment": "fb07f_collision_stages",
+  "timestamp_utc": "2026-09-21T23:29:00.046653+00:00",
+  "git_commit": null,
+  "objective": "locate remaining exact readout-feature collisions",
+  "stage_order": [
+    "current",
+    "sensory_counts",
+    "all_counts",
+    "group_means",
+    "ema"
+  ],
+  "pair_categories": [
+    "raw_to_current",
+    "current_to_spikes",
+    "sensory_spikes_to_group_means",
+    "other_spikes_to_group_means",
+    "group_means_to_ema"
+  ],
+  "pair_rule": "pairs of ticks with distinct raw readings and teacher turns but identical EMA features; label the latest earlier representation that differs; this is not causal proof",
+  "encoder_rules": {
+    "original": "2*min(c/0.025,1)",
+    "wider": "2*min(c/0.05,1)",
+    "candidate": "2.5*c/(c+0.005)"
+  },
+  "config": {
+    "horizon_ticks": 600,
+    "success_radius": 20.0,
+    "network_seed": 7,
+    "world_dt_seconds": 0.02,
+    "arena_width": 800.0,
+    "arena_height": 600.0,
+    "source_x": 600.0,
+    "source_y": 300.0,
+    "source_strength": 1000.0,
+    "source_softening": 20.0
+  },
+  "probe_ticks": {
+    "train": 200,
+    "validation": 600
+  },
+  "network_seed": 7,
+  "network_size": 100,
+  "topology_sha256": "6a16dc392aaf69a0b6177ee3ac0a623f6253a0e3cb8befd09ece9e6e094c00f7",
+  "topology_unchanged": true,
+  "feature_alpha": 0.5,
+  "cases": {
+    "train": [
+      {
+        "case_id": "train-0",
+        "split": "train",
+        "seed": 0,
+        "x": 689.1529296011761,
+        "y": 167.78486490492682,
+        "heading": 2.642529177293657
+      },
+      {
+        "case_id": "train-1",
+        "split": "train",
+        "seed": 1,
+        "x": 711.1712365350527,
+        "y": 425.08816007544306,
+        "heading": 4.798937463950548
+      },
+      {
+        "case_id": "train-2",
+        "split": "train",
+        "seed": 2,
+        "x": 769.1123315212826,
+        "y": 252.05783740020632,
+        "heading": 0.3553227228019942
+      },
+      {
+        "case_id": "train-3",
+        "split": "train",
+        "seed": 3,
+        "x": 610.4883970077904,
+        "y": 438.43336020168834,
+        "heading": 2.3244968667700685
+      },
+      {
+        "case_id": "train-4",
+        "split": "train",
+        "seed": 4,
+        "x": 607.0970669731752,
+        "y": 380.75155370779487,
+        "heading": 2.488507330758799
+      },
+      {
+        "case_id": "train-5",
+        "split": "train",
+        "seed": 5,
+        "x": 486.8151342736775,
+        "y": 189.76093495850324,
+        "heading": 4.996348527526132
+      },
+      {
+        "case_id": "train-6",
+        "split": "train",
+        "seed": 6,
+        "x": 644.4170259994085,
+        "y": 140.9421356229878,
+        "heading": 3.047562447689033
+      },
+      {
+        "case_id": "train-7",
+        "split": "train",
+        "seed": 7,
+        "x": 560.1185875183394,
+        "y": 379.71153710406855,
+        "heading": 4.089941916940695
+      }
+    ],
+    "validation": [
+      {
+        "case_id": "validation-100",
+        "split": "validation",
+        "seed": 100,
+        "x": 678.7794432675239,
+        "y": 402.448509254468,
+        "heading": 4.842977482728734
+      },
+      {
+        "case_id": "validation-101",
+        "split": "validation",
+        "seed": 101,
+        "x": 516.2437022071913,
+        "y": 253.16185260468248,
+        "heading": 6.064851573625203
+      },
+      {
+        "case_id": "validation-102",
+        "split": "validation",
+        "seed": 102,
+        "x": 687.2168366881617,
+        "y": 417.1879843068639,
+        "heading": 1.066167466050309
+      },
+      {
+        "case_id": "validation-103",
+        "split": "validation",
+        "seed": 103,
+        "x": 728.269186425164,
+        "y": 283.01747453905205,
+        "heading": 4.516649122768229
+      }
+    ]
+  },
+  "probe": {
+    "train": {
+      "cases": [
+        {
+          "case_id": "train-0",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 1,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.06327876221732134
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 2,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.06327225614726517
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 8,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.06319630697455512
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 8,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.06319630697455512
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 46,
+                "aliased_ticks": 175,
+                "turn_mse_floor": 0.04953959374715502
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 644,
+              "raw_to_current": 644,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 26,
+                "aliased_ticks": 174,
+                "turn_mse_floor": 0.04687960897183898
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.059669946683233645
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 21,
+                "aliased_ticks": 192,
+                "turn_mse_floor": 0.051669058985499144
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 21,
+                "aliased_ticks": 192,
+                "turn_mse_floor": 0.051669058985499144
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 65,
+                "aliased_ticks": 156,
+                "turn_mse_floor": 0.03865836989530938
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 504,
+              "raw_to_current": 483,
+              "current_to_spikes": 21,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0607941036671601
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 22,
+                "aliased_ticks": 195,
+                "turn_mse_floor": 0.032551138583502844
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 22,
+                "aliased_ticks": 195,
+                "turn_mse_floor": 0.032551138583502844
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 120,
+                "aliased_ticks": 119,
+                "turn_mse_floor": 0.007919727054016319
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 146,
+              "raw_to_current": 0,
+              "current_to_spikes": 146,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-1",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 5,
+                "aliased_ticks": 196,
+                "turn_mse_floor": 0.013481753513628044
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 2,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.014621245522931616
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 10,
+                "aliased_ticks": 198,
+                "turn_mse_floor": 0.014023694317796997
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 10,
+                "aliased_ticks": 198,
+                "turn_mse_floor": 0.014023694317796997
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 48,
+                "aliased_ticks": 173,
+                "turn_mse_floor": 0.013177125883377338
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 628,
+              "raw_to_current": 612,
+              "current_to_spikes": 16,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 110,
+                "aliased_ticks": 90,
+                "turn_mse_floor": 0.0006340040479230495
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0073316333688871905
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 49,
+                "aliased_ticks": 176,
+                "turn_mse_floor": 0.0049343239664149914
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 49,
+                "aliased_ticks": 176,
+                "turn_mse_floor": 0.0049343239664149914
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 151,
+                "aliased_ticks": 70,
+                "turn_mse_floor": 0.0004344447541769681
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 84,
+              "raw_to_current": 81,
+              "current_to_spikes": 3,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.013743908803616388
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 26,
+                "aliased_ticks": 190,
+                "turn_mse_floor": 0.005605910713305387
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 26,
+                "aliased_ticks": 190,
+                "turn_mse_floor": 0.005605910713305387
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 81,
+                "aliased_ticks": 122,
+                "turn_mse_floor": 0.0030013687919210807
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 2420,
+              "raw_to_current": 0,
+              "current_to_spikes": 2420,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-2",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 188,
+                "aliased_ticks": 13,
+                "turn_mse_floor": 5.628572698103385e-06
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0023519717173533647
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 23,
+                "aliased_ticks": 193,
+                "turn_mse_floor": 0.0016063399678489425
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 23,
+                "aliased_ticks": 193,
+                "turn_mse_floor": 0.0016063399678489425
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 89,
+                "aliased_ticks": 124,
+                "turn_mse_floor": 0.0005155785127144894
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 561,
+              "raw_to_current": 0,
+              "current_to_spikes": 561,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.002113392508559149
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 6,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.0021073639925147957
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 6,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.0021073639925147957
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 169,
+                "aliased_ticks": 34,
+                "turn_mse_floor": 1.1929413913002025e-05
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 176,
+              "raw_to_current": 0,
+              "current_to_spikes": 176,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.002204476048697625
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 18,
+                "aliased_ticks": 196,
+                "turn_mse_floor": 0.0018472231700290673
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 18,
+                "aliased_ticks": 196,
+                "turn_mse_floor": 0.0018472231700290673
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 64,
+                "aliased_ticks": 157,
+                "turn_mse_floor": 0.0011384922256027167
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 511,
+              "raw_to_current": 0,
+              "current_to_spikes": 511,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-3",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 151,
+                "aliased_ticks": 50,
+                "turn_mse_floor": 0.0006445168597693546
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0020465486768058224
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 28,
+                "aliased_ticks": 188,
+                "turn_mse_floor": 0.00182630854358828
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 28,
+                "aliased_ticks": 188,
+                "turn_mse_floor": 0.00182630854358828
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 193,
+                "aliased_ticks": 14,
+                "turn_mse_floor": 6.268326647258237e-05
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 7,
+              "raw_to_current": 4,
+              "current_to_spikes": 3,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 5,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0010886451430234716
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 17,
+                "aliased_ticks": 189,
+                "turn_mse_floor": 0.0009733607552219099
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 17,
+                "aliased_ticks": 189,
+                "turn_mse_floor": 0.0009733607552219099
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 200,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 6,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.0034175861624337386
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 54,
+                "aliased_ticks": 179,
+                "turn_mse_floor": 0.0014583783019948848
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 54,
+                "aliased_ticks": 179,
+                "turn_mse_floor": 0.0014583783019948848
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 200,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-4",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 100,
+                "aliased_ticks": 101,
+                "turn_mse_floor": 0.012985847173718718
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.018453585163560625
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 29,
+                "aliased_ticks": 185,
+                "turn_mse_floor": 0.017544029151672396
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 29,
+                "aliased_ticks": 185,
+                "turn_mse_floor": 0.017544029151672396
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 144,
+                "aliased_ticks": 77,
+                "turn_mse_floor": 0.00288378844911539
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 105,
+              "raw_to_current": 102,
+              "current_to_spikes": 3,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 150,
+                "aliased_ticks": 51,
+                "turn_mse_floor": 0.0038110671750984106
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.008937745542670761
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 31,
+                "aliased_ticks": 183,
+                "turn_mse_floor": 0.007234025744068673
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 31,
+                "aliased_ticks": 183,
+                "turn_mse_floor": 0.007234025744068673
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 193,
+                "aliased_ticks": 14,
+                "turn_mse_floor": 0.00029454743484021775
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 7,
+              "raw_to_current": 5,
+              "current_to_spikes": 2,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.017919324407480446
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 41,
+                "aliased_ticks": 184,
+                "turn_mse_floor": 0.006664142762378399
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 41,
+                "aliased_ticks": 184,
+                "turn_mse_floor": 0.006664142762378399
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 179,
+                "aliased_ticks": 24,
+                "turn_mse_floor": 9.432335042574208e-05
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 84,
+              "raw_to_current": 0,
+              "current_to_spikes": 84,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-5",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 159,
+                "aliased_ticks": 42,
+                "turn_mse_floor": 0.00030697784925431124
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.001776054604825998
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 36,
+                "aliased_ticks": 181,
+                "turn_mse_floor": 0.0014709258943741619
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 36,
+                "aliased_ticks": 181,
+                "turn_mse_floor": 0.0014709258943741619
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 200,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.001467257768126308
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 19,
+                "aliased_ticks": 187,
+                "turn_mse_floor": 0.0011780552948487588
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 19,
+                "aliased_ticks": 187,
+                "turn_mse_floor": 0.0011780552948487588
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 2,
+                "turn_mse_floor": 8.63480309476472e-09
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 1,
+              "raw_to_current": 0,
+              "current_to_spikes": 1,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.003664952915544271
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 35,
+                "aliased_ticks": 190,
+                "turn_mse_floor": 0.00249363909085152
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 35,
+                "aliased_ticks": 190,
+                "turn_mse_floor": 0.00249363909085152
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 178,
+                "aliased_ticks": 31,
+                "turn_mse_floor": 4.118354142579882e-06
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 39,
+              "raw_to_current": 0,
+              "current_to_spikes": 39,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-6",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 73,
+                "aliased_ticks": 128,
+                "turn_mse_floor": 0.0020445600786203086
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.007850917773649962
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 34,
+                "aliased_ticks": 181,
+                "turn_mse_floor": 0.006690262516792953
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 34,
+                "aliased_ticks": 181,
+                "turn_mse_floor": 0.006690262516792953
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 116,
+                "aliased_ticks": 105,
+                "turn_mse_floor": 0.0019679229171256
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 210,
+              "raw_to_current": 202,
+              "current_to_spikes": 8,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 5,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.0018109753573185017
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 40,
+                "aliased_ticks": 175,
+                "turn_mse_floor": 0.0011830769097994562
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 40,
+                "aliased_ticks": 175,
+                "turn_mse_floor": 0.0011830769097994562
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 200,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.010534852244968182
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 39,
+                "aliased_ticks": 196,
+                "turn_mse_floor": 0.003769710073113814
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 39,
+                "aliased_ticks": 196,
+                "turn_mse_floor": 0.003769710073113814
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 195,
+                "aliased_ticks": 10,
+                "turn_mse_floor": 3.184186030872338e-05
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 5,
+              "raw_to_current": 0,
+              "current_to_spikes": 5,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "train-7",
+          "split": "train",
+          "ticks": 200,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 40,
+                "aliased_ticks": 161,
+                "turn_mse_floor": 0.06422348686865553
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 198,
+                "turn_mse_floor": 0.08510968826202912
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 23,
+                "aliased_ticks": 185,
+                "turn_mse_floor": 0.08099334691067332
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 23,
+                "aliased_ticks": 185,
+                "turn_mse_floor": 0.08099334691067332
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 83,
+                "aliased_ticks": 138,
+                "turn_mse_floor": 0.04756283476139166
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 387,
+              "raw_to_current": 375,
+              "current_to_spikes": 12,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 91,
+                "aliased_ticks": 110,
+                "turn_mse_floor": 0.024042389024881334
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 7,
+                "aliased_ticks": 199,
+                "turn_mse_floor": 0.04540794581274737
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 28,
+                "aliased_ticks": 187,
+                "turn_mse_floor": 0.04018181055292102
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 28,
+                "aliased_ticks": 187,
+                "turn_mse_floor": 0.04018181055292102
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 135,
+                "aliased_ticks": 86,
+                "turn_mse_floor": 0.017815099498293643
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 134,
+              "raw_to_current": 130,
+              "current_to_spikes": 4,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 200,
+                "unique_vectors": 199,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 200,
+                "unique_vectors": 4,
+                "aliased_ticks": 200,
+                "turn_mse_floor": 0.06956222204672359
+              },
+              "all_counts": {
+                "ticks": 200,
+                "unique_vectors": 39,
+                "aliased_ticks": 186,
+                "turn_mse_floor": 0.035214966143051314
+              },
+              "group_means": {
+                "ticks": 200,
+                "unique_vectors": 39,
+                "aliased_ticks": 186,
+                "turn_mse_floor": 0.035214966143051314
+              },
+              "ema": {
+                "ticks": 200,
+                "unique_vectors": 160,
+                "aliased_ticks": 60,
+                "turn_mse_floor": 0.0033295938442319184
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 117,
+              "raw_to_current": 0,
+              "current_to_spikes": 117,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        }
+      ],
+      "topology_unchanged": true,
+      "original": {
+        "stages": {
+          "current": {
+            "ticks": 1600,
+            "unique_vectors": 710,
+            "aliased_ticks": 891,
+            "turn_mse_floor": 0.14550132604812893
+          },
+          "sensory_counts": {
+            "ticks": 1600,
+            "unique_vectors": 7,
+            "aliased_ticks": 1600,
+            "turn_mse_floor": 0.15922528018373408
+          },
+          "all_counts": {
+            "ticks": 1600,
+            "unique_vectors": 72,
+            "aliased_ticks": 1575,
+            "turn_mse_floor": 0.1548282729985549
+          },
+          "group_means": {
+            "ticks": 1600,
+            "unique_vectors": 72,
+            "aliased_ticks": 1575,
+            "turn_mse_floor": 0.1548282729985549
+          },
+          "ema": {
+            "ticks": 1600,
+            "unique_vectors": 629,
+            "aliased_ticks": 1030,
+            "turn_mse_floor": 0.13451093855839594
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 13059,
+          "raw_to_current": 12080,
+          "current_to_spikes": 979,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      },
+      "wider": {
+        "stages": {
+          "current": {
+            "ticks": 1600,
+            "unique_vectors": 1170,
+            "aliased_ticks": 425,
+            "turn_mse_floor": 0.11100397091996755
+          },
+          "sensory_counts": {
+            "ticks": 1600,
+            "unique_vectors": 7,
+            "aliased_ticks": 1600,
+            "turn_mse_floor": 0.11239453641078487
+          },
+          "all_counts": {
+            "ticks": 1600,
+            "unique_vectors": 88,
+            "aliased_ticks": 1574,
+            "turn_mse_floor": 0.08174646263511783
+          },
+          "group_means": {
+            "ticks": 1600,
+            "unique_vectors": 88,
+            "aliased_ticks": 1574,
+            "turn_mse_floor": 0.08174646263511783
+          },
+          "ema": {
+            "ticks": 1600,
+            "unique_vectors": 1250,
+            "aliased_ticks": 452,
+            "turn_mse_floor": 0.009460937358929765
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 1108,
+          "raw_to_current": 830,
+          "current_to_spikes": 278,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      },
+      "candidate": {
+        "stages": {
+          "current": {
+            "ticks": 1600,
+            "unique_vectors": 1592,
+            "aliased_ticks": 0,
+            "turn_mse_floor": 0.0
+          },
+          "sensory_counts": {
+            "ticks": 1600,
+            "unique_vectors": 6,
+            "aliased_ticks": 1599,
+            "turn_mse_floor": 0.1621213929655486
+          },
+          "all_counts": {
+            "ticks": 1600,
+            "unique_vectors": 78,
+            "aliased_ticks": 1586,
+            "turn_mse_floor": 0.11162417056694857
+          },
+          "group_means": {
+            "ticks": 1600,
+            "unique_vectors": 78,
+            "aliased_ticks": 1586,
+            "turn_mse_floor": 0.11162417056694857
+          },
+          "ema": {
+            "ticks": 1600,
+            "unique_vectors": 1121,
+            "aliased_ticks": 627,
+            "turn_mse_floor": 0.0063546235671435684
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 3402,
+          "raw_to_current": 0,
+          "current_to_spikes": 3402,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      }
+    },
+    "validation": {
+      "cases": [
+        {
+          "case_id": "validation-100",
+          "split": "validation",
+          "ticks": 600,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 407,
+                "aliased_ticks": 194,
+                "turn_mse_floor": 0.01424836255344341
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 7,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.021553447070440133
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 30,
+                "aliased_ticks": 585,
+                "turn_mse_floor": 0.02039741217244556
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 30,
+                "aliased_ticks": 585,
+                "turn_mse_floor": 0.02039741217244556
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 269,
+                "aliased_ticks": 355,
+                "turn_mse_floor": 0.014292584135019496
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 6216,
+              "raw_to_current": 596,
+              "current_to_spikes": 5620,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 462,
+                "aliased_ticks": 139,
+                "turn_mse_floor": 0.004235119989020201
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 6,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.00964846584675298
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 28,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 0.008488047393888106
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 28,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 0.008488047393888106
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 251,
+                "aliased_ticks": 373,
+                "turn_mse_floor": 0.003993335550247286
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 11065,
+              "raw_to_current": 255,
+              "current_to_spikes": 10810,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 599,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 4,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.02749211540322775
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 52,
+                "aliased_ticks": 593,
+                "turn_mse_floor": 0.009578528749800586
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 52,
+                "aliased_ticks": 593,
+                "turn_mse_floor": 0.009578528749800586
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 373,
+                "aliased_ticks": 298,
+                "turn_mse_floor": 0.0002291868632206236
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 555,
+              "raw_to_current": 0,
+              "current_to_spikes": 555,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "validation-101",
+          "split": "validation",
+          "ticks": 600,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 413,
+                "aliased_ticks": 188,
+                "turn_mse_floor": 0.032267704174251795
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 7,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.05861692336021098
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 65,
+                "aliased_ticks": 567,
+                "turn_mse_floor": 0.04957666259053942
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 65,
+                "aliased_ticks": 567,
+                "turn_mse_floor": 0.04957666259053942
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 361,
+                "aliased_ticks": 272,
+                "turn_mse_floor": 0.03131453470456164
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 975,
+              "raw_to_current": 538,
+              "current_to_spikes": 437,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 461,
+                "aliased_ticks": 140,
+                "turn_mse_floor": 0.014827486312238817
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 7,
+                "aliased_ticks": 599,
+                "turn_mse_floor": 0.02624447887995985
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 24,
+                "aliased_ticks": 590,
+                "turn_mse_floor": 0.02406980250529091
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 24,
+                "aliased_ticks": 590,
+                "turn_mse_floor": 0.02406980250529091
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 244,
+                "aliased_ticks": 380,
+                "turn_mse_floor": 0.01640234623056853
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 11652,
+              "raw_to_current": 245,
+              "current_to_spikes": 11407,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 599,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 4,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.05247731140334075
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 46,
+                "aliased_ticks": 591,
+                "turn_mse_floor": 0.0273604946626425
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 46,
+                "aliased_ticks": 591,
+                "turn_mse_floor": 0.0273604946626425
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 244,
+                "aliased_ticks": 416,
+                "turn_mse_floor": 0.005467795178521463
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 2272,
+              "raw_to_current": 0,
+              "current_to_spikes": 2272,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "validation-102",
+          "split": "validation",
+          "ticks": 600,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 132,
+                "aliased_ticks": 34,
+                "turn_mse_floor": 3.0706288849014875e-06
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 6,
+                "aliased_ticks": 599,
+                "turn_mse_floor": 2.444261790946878e-05
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 27,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 2.0100213965986016e-05
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 27,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 2.0100213965986016e-05
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 246,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 164,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 4,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 2.0469086576967963e-05
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 15,
+                "aliased_ticks": 593,
+                "turn_mse_floor": 1.62115153494633e-05
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 15,
+                "aliased_ticks": 593,
+                "turn_mse_floor": 1.62115153494633e-05
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 187,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 0,
+              "raw_to_current": 0,
+              "current_to_spikes": 0,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 164,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 6,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 4.831135698828341e-05
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 38,
+                "aliased_ticks": 539,
+                "turn_mse_floor": 3.0844908507545864e-05
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 38,
+                "aliased_ticks": 539,
+                "turn_mse_floor": 3.0844908507545864e-05
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 200,
+                "aliased_ticks": 4,
+                "turn_mse_floor": 1.842136995151208e-10
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 2,
+              "raw_to_current": 0,
+              "current_to_spikes": 2,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        },
+        {
+          "case_id": "validation-103",
+          "split": "validation",
+          "ticks": 600,
+          "original": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 490,
+                "aliased_ticks": 111,
+                "turn_mse_floor": 0.0022275356558868736
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 7,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.0075108800773431425
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 31,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 0.007065207642328605
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 31,
+                "aliased_ticks": 587,
+                "turn_mse_floor": 0.007065207642328605
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 282,
+                "aliased_ticks": 342,
+                "turn_mse_floor": 0.0017195263392463097
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 10929,
+              "raw_to_current": 134,
+              "current_to_spikes": 10795,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "wider": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 570,
+                "aliased_ticks": 31,
+                "turn_mse_floor": 1.3122825379702565e-05
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 7,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.005927715672132465
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 35,
+                "aliased_ticks": 582,
+                "turn_mse_floor": 0.005611708235677722
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 35,
+                "aliased_ticks": 582,
+                "turn_mse_floor": 0.005611708235677722
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 265,
+                "aliased_ticks": 338,
+                "turn_mse_floor": 0.0014765236606235712
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 18872,
+              "raw_to_current": 0,
+              "current_to_spikes": 18872,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          },
+          "candidate": {
+            "stages": {
+              "current": {
+                "ticks": 600,
+                "unique_vectors": 599,
+                "aliased_ticks": 0,
+                "turn_mse_floor": 0.0
+              },
+              "sensory_counts": {
+                "ticks": 600,
+                "unique_vectors": 6,
+                "aliased_ticks": 600,
+                "turn_mse_floor": 0.014021046651388322
+              },
+              "all_counts": {
+                "ticks": 600,
+                "unique_vectors": 67,
+                "aliased_ticks": 577,
+                "turn_mse_floor": 0.004800556161467533
+              },
+              "group_means": {
+                "ticks": 600,
+                "unique_vectors": 67,
+                "aliased_ticks": 577,
+                "turn_mse_floor": 0.004800556161467533
+              },
+              "ema": {
+                "ticks": 600,
+                "unique_vectors": 410,
+                "aliased_ticks": 205,
+                "turn_mse_floor": 0.00023177099314460262
+              }
+            },
+            "final_pair_attribution": {
+              "conflicting_pairs": 1379,
+              "raw_to_current": 0,
+              "current_to_spikes": 1379,
+              "sensory_spikes_to_group_means": 0,
+              "other_spikes_to_group_means": 0,
+              "group_means_to_ema": 0
+            }
+          }
+        }
+      ],
+      "topology_unchanged": true,
+      "original": {
+        "stages": {
+          "current": {
+            "ticks": 2400,
+            "unique_vectors": 1439,
+            "aliased_ticks": 527,
+            "turn_mse_floor": 0.07131464033939203
+          },
+          "sensory_counts": {
+            "ticks": 2400,
+            "unique_vectors": 7,
+            "aliased_ticks": 2400,
+            "turn_mse_floor": 0.08178077146090723
+          },
+          "all_counts": {
+            "ticks": 2400,
+            "unique_vectors": 80,
+            "aliased_ticks": 2367,
+            "turn_mse_floor": 0.07950044930027009
+          },
+          "group_means": {
+            "ticks": 2400,
+            "unique_vectors": 80,
+            "aliased_ticks": 2367,
+            "turn_mse_floor": 0.07950044930027009
+          },
+          "ema": {
+            "ticks": 2400,
+            "unique_vectors": 1019,
+            "aliased_ticks": 1446,
+            "turn_mse_floor": 0.07221064034879322
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 89506,
+          "raw_to_current": 4274,
+          "current_to_spikes": 85232,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      },
+      "wider": {
+        "stages": {
+          "current": {
+            "ticks": 2400,
+            "unique_vectors": 1655,
+            "aliased_ticks": 310,
+            "turn_mse_floor": 0.06461675691139766
+          },
+          "sensory_counts": {
+            "ticks": 2400,
+            "unique_vectors": 7,
+            "aliased_ticks": 2400,
+            "turn_mse_floor": 0.08180274908075916
+          },
+          "all_counts": {
+            "ticks": 2400,
+            "unique_vectors": 57,
+            "aliased_ticks": 2371,
+            "turn_mse_floor": 0.0802177509584913
+          },
+          "group_means": {
+            "ticks": 2400,
+            "unique_vectors": 57,
+            "aliased_ticks": 2371,
+            "turn_mse_floor": 0.0802177509584913
+          },
+          "ema": {
+            "ticks": 2400,
+            "unique_vectors": 860,
+            "aliased_ticks": 1589,
+            "turn_mse_floor": 0.07058449373969267
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 242162,
+          "raw_to_current": 1276,
+          "current_to_spikes": 240886,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      },
+      "candidate": {
+        "stages": {
+          "current": {
+            "ticks": 2400,
+            "unique_vectors": 1961,
+            "aliased_ticks": 0,
+            "turn_mse_floor": 0.0
+          },
+          "sensory_counts": {
+            "ticks": 2400,
+            "unique_vectors": 6,
+            "aliased_ticks": 2400,
+            "turn_mse_floor": 0.0833934421009525
+          },
+          "all_counts": {
+            "ticks": 2400,
+            "unique_vectors": 85,
+            "aliased_ticks": 2391,
+            "turn_mse_floor": 0.07350476445897756
+          },
+          "group_means": {
+            "ticks": 2400,
+            "unique_vectors": 85,
+            "aliased_ticks": 2391,
+            "turn_mse_floor": 0.07350476445897756
+          },
+          "ema": {
+            "ticks": 2400,
+            "unique_vectors": 1165,
+            "aliased_ticks": 992,
+            "turn_mse_floor": 0.03404792659223818
+          }
+        },
+        "final_pair_attribution": {
+          "conflicting_pairs": 4392,
+          "raw_to_current": 0,
+          "current_to_spikes": 4392,
+          "sensory_spikes_to_group_means": 0,
+          "other_spikes_to_group_means": 0,
+          "group_means_to_ema": 0
+        }
+      }
+    }
+  },
+  "training_run": false,
+  "final_cases_evaluated": false,
+  "software": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "pygame": "2.6.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu"
+  }
+}

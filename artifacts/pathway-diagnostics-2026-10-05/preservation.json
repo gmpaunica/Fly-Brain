@@ -1,0 +1,13 @@
+{
+  "recorded_existing_files": 2398,
+  "unchanged": 2395,
+  "intentional_integration_changes": [
+    "src/flybrain/encounters3d/scene.py",
+    "src/flybrain/encounters3d/session.py",
+    "src/flybrain/encounters3d/viewer.py"
+  ],
+  "original_integration_bytes_archived": true,
+  "missing": [],
+  "historical_experiments_and_data_unchanged": true,
+  "historical_flight3d_sources_unchanged": true
+}

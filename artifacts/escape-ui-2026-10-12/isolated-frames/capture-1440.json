@@ -1,0 +1,18 @@
+{
+  "status": "captures-pass",
+  "simulation_seconds": 0,
+  "neural_steps": 0,
+  "protected_files": 3010,
+  "frames": [
+    "artifacts/escape-ui-2026-10-12/isolated-frames/demo-1440.png",
+    "artifacts/escape-ui-2026-10-12/isolated-frames/diagnostics-1440.png",
+    "artifacts/escape-ui-2026-10-12/isolated-frames/settings-1440.png"
+  ],
+  "bright_header_pixels": {
+    "demo-1440.png": 1171,
+    "diagnostics-1440.png": 1171,
+    "settings-1440.png": 1171
+  },
+  "visual_review": "pending",
+  "native_input_review": "not performed"
+}

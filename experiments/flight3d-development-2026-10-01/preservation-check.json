@@ -1,0 +1,24 @@
+{
+  "protected_files": 392,
+  "unchanged": 392,
+  "changed": [],
+  "current_3d_sources": {
+    "src\\flybrain\\flight3d\\anatomy.py": "271971057eadc6b9de2748c066e20484d9f0d78a3ee1a877da073226a7c6ad72",
+    "src\\flybrain\\flight3d\\assets.py": "0a5bd3e69db92c5c6b2842b3873c859c5d085d18a8f6e4035b43d4e4679cc02b",
+    "src\\flybrain\\flight3d\\audit.py": "44b28d8e717b26ef79a84c35bd61c759fc799223c0835ea6840760e462540e21",
+    "src\\flybrain\\flight3d\\contracts.py": "1bc424eb6c24485964d8497aa0f50aae5131bc5c6f516aa20195854544fbecfd",
+    "src\\flybrain\\flight3d\\experiment.py": "a5dcd90e3a99d6313d43feb11b2ed3a059cc2a312f09e87ac5fa15b65d4d3271",
+    "src\\flybrain\\flight3d\\navigation.py": "6e362a2b1a3343fac1ccc718a5c6579bc044c25d179ad47298d85c5452ab9d92",
+    "src\\flybrain\\flight3d\\network.py": "f96fd15670d5b9b3238ced3fce033687c97f1f27026cce202ff8616205bdffb5",
+    "src\\flybrain\\flight3d\\network_viewer.py": "011944fcd9678b7761069726f394aaef2917b07cfffcfa37c0cc304db3e86a32",
+    "src\\flybrain\\flight3d\\neural.py": "0b3d6fc9809d893c1d8587c7a2593400f56f23809d08f2fee41a52bbefe5690a",
+    "src\\flybrain\\flight3d\\protocol.py": "e389195b736f3c010479c757c5aefe0a797fb0c5b4bdff5518e8f23642d27789",
+    "src\\flybrain\\flight3d\\sensors.py": "c3dd07d81d1b0f111ebaa93981b0802b2717d21b2e9118c0d5a255d145d9fd00",
+    "src\\flybrain\\flight3d\\session.py": "c84688ca6d73301b629ed070880377ceb77a7476cafb31a04886a5f7ee08ab7f",
+    "src\\flybrain\\flight3d\\teacher.py": "b0345a270bc19eea05e6e0900115fd3ca0ff134919fe2c153fdd044342fd81ae",
+    "src\\flybrain\\flight3d\\viewer.py": "e07c3590c8caac79549ea4175b329e21ac75a1e5f3780515bb43306ca9184942",
+    "src\\flybrain\\flight3d\\world.py": "c340a9b52f990da518205b1ad5a1c22852a53e765144665fa7ed5a622b0d1e8d",
+    "src\\flybrain\\flight3d\\__init__.py": "c11b6977b1ffcfc28b24f2c10b2e2529331c0636076ed3191113a2e0d51400a6",
+    "src\\flybrain\\flight3d\\__main__.py": "1adc5bdb93d2498d38bc98be46a8f8ead4526f64702be284fa0363e6c349833c"
+  }
+}

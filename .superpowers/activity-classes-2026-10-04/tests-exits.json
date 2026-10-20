@@ -1,0 +1,27 @@
+[
+  {
+    "name": "targeted",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "-k",
+      "flight3d"
+    ],
+    "exit": 0,
+    "wall_seconds": 54.781900299945846
+  },
+  {
+    "name": "full",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "exit": 0,
+    "wall_seconds": 165.53782330011018
+  }
+]

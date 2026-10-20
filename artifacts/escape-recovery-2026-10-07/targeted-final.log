@@ -1,0 +1,9 @@
+..........................                                               [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\torch\jit\_script.py:1491
+tests/test_escape_recovery.py::test_candidate_tamper_and_fresh_experiment_lock
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+26 passed, 2 warnings in 11.09s

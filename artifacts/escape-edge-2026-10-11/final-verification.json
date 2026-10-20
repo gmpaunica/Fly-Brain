@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "protected_files_unchanged": 3010,
+  "source_frozen": true,
+  "scientific_steps": 2304000,
+  "replay_steps": 96000,
+  "viewer_engineering_steps": 24000,
+  "new_training_steps": 0,
+  "native_mouse_keyboard_review": "unavailable: missing helper pipe",
+  "native_capture_label_loss": "separate known issue"
+}

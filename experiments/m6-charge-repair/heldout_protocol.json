@@ -1,0 +1,496 @@
+{
+  "protocol": "m6_charge_fresh_matched_evaluation",
+  "state": "prepared_for_review_not_executed",
+  "candidate_checkpoints": {
+    "trained": {
+      "file": "trained.pt",
+      "sha256": "f6fed3cfe9d7c331d3195c948d09f776cdd3c320b6a731de876554b69cf83e0c"
+    },
+    "untrained": {
+      "file": "untrained.pt",
+      "sha256": "3044316c099ad17426d601b8dcbdcb8dd5b589d1768e556b4bed3861e1801553"
+    }
+  },
+  "checkpoint_directory": "experiments/m6-charge-repair",
+  "network_seed": 7,
+  "config": {
+    "horizon_ticks": 600,
+    "success_radius": 20.0,
+    "network_seed": 7,
+    "world_dt_seconds": 0.02,
+    "arena_width": 800.0,
+    "arena_height": 600.0,
+    "source_x": 600.0,
+    "source_y": 300.0,
+    "source_strength": 1000.0,
+    "source_softening": 20.0
+  },
+  "cases": {
+    "validation": [
+      {
+        "case_id": "charge-validation-31000",
+        "split": "validation",
+        "seed": 31000,
+        "x": 457.28442108134846,
+        "y": 301.47120449674566,
+        "heading": 1.8782282382418851
+      },
+      {
+        "case_id": "charge-validation-31001",
+        "split": "validation",
+        "seed": 31001,
+        "x": 696.1787099064798,
+        "y": 261.14367489632826,
+        "heading": 1.7904717690717382
+      },
+      {
+        "case_id": "charge-validation-31002",
+        "split": "validation",
+        "seed": 31002,
+        "x": 448.76139004316025,
+        "y": 284.9924967264148,
+        "heading": 2.854469675811128
+      },
+      {
+        "case_id": "charge-validation-31003",
+        "split": "validation",
+        "seed": 31003,
+        "x": 507.3188099796481,
+        "y": 363.0485445674108,
+        "heading": 6.137041905664364
+      },
+      {
+        "case_id": "charge-validation-31004",
+        "split": "validation",
+        "seed": 31004,
+        "x": 716.9075063380559,
+        "y": 358.66367678238885,
+        "heading": 3.6330620038575434
+      },
+      {
+        "case_id": "charge-validation-31005",
+        "split": "validation",
+        "seed": 31005,
+        "x": 425.88982322645853,
+        "y": 311.80835516006897,
+        "heading": 2.046480154298488
+      },
+      {
+        "case_id": "charge-validation-31006",
+        "split": "validation",
+        "seed": 31006,
+        "x": 519.6292371202375,
+        "y": 159.86069844750432,
+        "heading": 6.147960635640932
+      },
+      {
+        "case_id": "charge-validation-31007",
+        "split": "validation",
+        "seed": 31007,
+        "x": 647.6199837206135,
+        "y": 421.75177352693845,
+        "heading": 6.136605807772213
+      },
+      {
+        "case_id": "charge-validation-31008",
+        "split": "validation",
+        "seed": 31008,
+        "x": 624.5566252100087,
+        "y": 127.84376441684572,
+        "heading": 5.414241721162191
+      },
+      {
+        "case_id": "charge-validation-31009",
+        "split": "validation",
+        "seed": 31009,
+        "x": 648.255505224114,
+        "y": 260.4295280610878,
+        "heading": 3.968711446787892
+      },
+      {
+        "case_id": "charge-validation-31010",
+        "split": "validation",
+        "seed": 31010,
+        "x": 574.3722426707535,
+        "y": 477.99522334267533,
+        "heading": 2.1861767439720095
+      },
+      {
+        "case_id": "charge-validation-31011",
+        "split": "validation",
+        "seed": 31011,
+        "x": 550.0407976850627,
+        "y": 183.79671630501048,
+        "heading": 2.98251321594825
+      },
+      {
+        "case_id": "charge-validation-31012",
+        "split": "validation",
+        "seed": 31012,
+        "x": 685.0604301150856,
+        "y": 315.28677888942036,
+        "heading": 2.950984747732237
+      },
+      {
+        "case_id": "charge-validation-31013",
+        "split": "validation",
+        "seed": 31013,
+        "x": 738.3125862183033,
+        "y": 264.5723475227784,
+        "heading": 4.700713450064667
+      },
+      {
+        "case_id": "charge-validation-31014",
+        "split": "validation",
+        "seed": 31014,
+        "x": 582.4158637515823,
+        "y": 152.32476129170598,
+        "heading": 5.222083756314124
+      },
+      {
+        "case_id": "charge-validation-31015",
+        "split": "validation",
+        "seed": 31015,
+        "x": 702.6389814282553,
+        "y": 391.84789783967665,
+        "heading": 3.68972683346222
+      }
+    ],
+    "final": [
+      {
+        "case_id": "charge-final-41000",
+        "split": "final",
+        "seed": 41000,
+        "x": 619.2607092394516,
+        "y": 130.77136979791428,
+        "heading": 3.6195115241473124
+      },
+      {
+        "case_id": "charge-final-41001",
+        "split": "final",
+        "seed": 41001,
+        "x": 707.8683859869062,
+        "y": 353.7549176812733,
+        "heading": 4.392280318213397
+      },
+      {
+        "case_id": "charge-final-41002",
+        "split": "final",
+        "seed": 41002,
+        "x": 685.652309430282,
+        "y": 198.55009432417492,
+        "heading": 4.628532580755982
+      },
+      {
+        "case_id": "charge-final-41003",
+        "split": "final",
+        "seed": 41003,
+        "x": 562.3805323667534,
+        "y": 148.885969073415,
+        "heading": 1.2019651352980842
+      },
+      {
+        "case_id": "charge-final-41004",
+        "split": "final",
+        "seed": 41004,
+        "x": 584.0467254115122,
+        "y": 387.3740547268528,
+        "heading": 1.301708629428794
+      },
+      {
+        "case_id": "charge-final-41005",
+        "split": "final",
+        "seed": 41005,
+        "x": 486.02871500153736,
+        "y": 429.30374858656694,
+        "heading": 0.8027240545791244
+      },
+      {
+        "case_id": "charge-final-41006",
+        "split": "final",
+        "seed": 41006,
+        "x": 675.6545998378338,
+        "y": 413.0317982292677,
+        "heading": 1.3408820085813826
+      },
+      {
+        "case_id": "charge-final-41007",
+        "split": "final",
+        "seed": 41007,
+        "x": 460.1461033464881,
+        "y": 407.4453424938824,
+        "heading": 1.061092676568238
+      },
+      {
+        "case_id": "charge-final-41008",
+        "split": "final",
+        "seed": 41008,
+        "x": 710.8685540344968,
+        "y": 166.15316631605904,
+        "heading": 2.0300139236635357
+      },
+      {
+        "case_id": "charge-final-41009",
+        "split": "final",
+        "seed": 41009,
+        "x": 725.0638727196192,
+        "y": 188.61372194280423,
+        "heading": 4.862207360853584
+      },
+      {
+        "case_id": "charge-final-41010",
+        "split": "final",
+        "seed": 41010,
+        "x": 617.8524470233688,
+        "y": 177.63194174179333,
+        "heading": 1.9022532622084039
+      },
+      {
+        "case_id": "charge-final-41011",
+        "split": "final",
+        "seed": 41011,
+        "x": 556.02540337565,
+        "y": 215.72167732581556,
+        "heading": 1.614373853254889
+      },
+      {
+        "case_id": "charge-final-41012",
+        "split": "final",
+        "seed": 41012,
+        "x": 669.374431099269,
+        "y": 223.2096577088263,
+        "heading": 4.9600211153537055
+      },
+      {
+        "case_id": "charge-final-41013",
+        "split": "final",
+        "seed": 41013,
+        "x": 631.9140502413852,
+        "y": 450.23100380164715,
+        "heading": 0.09060196862120283
+      },
+      {
+        "case_id": "charge-final-41014",
+        "split": "final",
+        "seed": 41014,
+        "x": 688.5712138960579,
+        "y": 427.4550461457153,
+        "heading": 0.6657402750567424
+      },
+      {
+        "case_id": "charge-final-41015",
+        "split": "final",
+        "seed": 41015,
+        "x": 435.9708557307887,
+        "y": 246.6779831088467,
+        "heading": 2.56080543099342
+      },
+      {
+        "case_id": "charge-final-41016",
+        "split": "final",
+        "seed": 41016,
+        "x": 569.1880336505972,
+        "y": 414.8726126300594,
+        "heading": 3.0902812809040867
+      },
+      {
+        "case_id": "charge-final-41017",
+        "split": "final",
+        "seed": 41017,
+        "x": 776.6964671700439,
+        "y": 328.4125718845631,
+        "heading": 4.9387859850618225
+      },
+      {
+        "case_id": "charge-final-41018",
+        "split": "final",
+        "seed": 41018,
+        "x": 472.8238728447835,
+        "y": 364.595756420937,
+        "heading": 1.8475764931490064
+      },
+      {
+        "case_id": "charge-final-41019",
+        "split": "final",
+        "seed": 41019,
+        "x": 649.8965556801668,
+        "y": 198.84361889593194,
+        "heading": 5.5433465491947205
+      },
+      {
+        "case_id": "charge-final-41020",
+        "split": "final",
+        "seed": 41020,
+        "x": 548.1499068486319,
+        "y": 201.9061866374767,
+        "heading": 0.2278960225645087
+      },
+      {
+        "case_id": "charge-final-41021",
+        "split": "final",
+        "seed": 41021,
+        "x": 593.4938796191416,
+        "y": 206.8817876464241,
+        "heading": 0.7145912337254514
+      },
+      {
+        "case_id": "charge-final-41022",
+        "split": "final",
+        "seed": 41022,
+        "x": 526.2656963757402,
+        "y": 189.30342046422123,
+        "heading": 2.950411715499428
+      },
+      {
+        "case_id": "charge-final-41023",
+        "split": "final",
+        "seed": 41023,
+        "x": 740.3463439491002,
+        "y": 318.5477564726277,
+        "heading": 2.4577121589162965
+      },
+      {
+        "case_id": "charge-final-41024",
+        "split": "final",
+        "seed": 41024,
+        "x": 759.0628933722732,
+        "y": 246.0169496489508,
+        "heading": 5.866594478211092
+      },
+      {
+        "case_id": "charge-final-41025",
+        "split": "final",
+        "seed": 41025,
+        "x": 490.84970706847866,
+        "y": 170.09622750400254,
+        "heading": 0.2753873661589681
+      },
+      {
+        "case_id": "charge-final-41026",
+        "split": "final",
+        "seed": 41026,
+        "x": 625.7921632463086,
+        "y": 412.03311305171695,
+        "heading": 3.5872622604076807
+      },
+      {
+        "case_id": "charge-final-41027",
+        "split": "final",
+        "seed": 41027,
+        "x": 577.0420775820538,
+        "y": 460.61864266121887,
+        "heading": 5.053180702147746
+      },
+      {
+        "case_id": "charge-final-41028",
+        "split": "final",
+        "seed": 41028,
+        "x": 767.8244695708503,
+        "y": 252.04849649967733,
+        "heading": 5.459713581851635
+      },
+      {
+        "case_id": "charge-final-41029",
+        "split": "final",
+        "seed": 41029,
+        "x": 570.3788295129691,
+        "y": 436.155783293669,
+        "heading": 2.6536587985564366
+      },
+      {
+        "case_id": "charge-final-41030",
+        "split": "final",
+        "seed": 41030,
+        "x": 665.0457417080419,
+        "y": 169.7145321329769,
+        "heading": 1.2082449561327657
+      },
+      {
+        "case_id": "charge-final-41031",
+        "split": "final",
+        "seed": 41031,
+        "x": 651.2863310565317,
+        "y": 221.08102037337676,
+        "heading": 0.33610301143106325
+      }
+    ]
+  },
+  "generation": "random.Random(seed); angle uniform(0,2*pi), radius sqrt(uniform(60**2,180**2)), heading uniform(0,2*pi); center=(600,300)",
+  "controllers": [
+    "trained_schema3",
+    "frozen_untrained_schema3",
+    "original_fixed"
+  ],
+  "primary_metric": "food arrivals / all cases; paired by case for both control comparisons",
+  "secondary_metrics": [
+    "all-case progress",
+    "all-case final distance",
+    "collision count",
+    "success-only time and path efficiency with denominators"
+  ],
+  "validation_gate": "trained arrivals >=13/16 and strictly above both controls; else stop with no final evaluation",
+  "final_gate": "trained arrivals >=26/32 and at least 8 more arrivals than each control; for each paired comparison require one-sided exact discordant-pair binomial p<=0.025",
+  "paired_p_definition": "For w cases with trained success/control failure and l with trained failure/control success, n=w+l; p=sum(comb(n,k) for k=w..n)/2**n, or 1 if n=0. Two comparisons use Bonferroni .025 each.",
+  "budget": {
+    "training_updates": 0,
+    "validation_episodes": 48,
+    "final_episodes_if_validation_passes": 96,
+    "maximum_world_ticks": 86400,
+    "horizon_ticks_per_episode": 600
+  },
+  "stop_rule": "Any numerical/contract mismatch aborts; failed validation closes evaluation without final; failed final closes candidate. No tuning, retraining, gain changes, or case replacement.",
+  "retired_final_seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "limit": "Same arena, odor source, annular starts, frozen network seed and software/device. No claim about zero-odor exploration, other environments, biological fidelity or topology benefit.",
+  "software": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "pygame": "2.6.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu"
+  },
+  "frozen_source_sha256": {
+    "src/flybrain/__init__.py": "d4fdf044c2c9d076c0f1dba70d1a226623b60109a6c8879310daf9dcab8d90d4",
+    "src/flybrain/app.py": "4edafef9060728d21e7a0fce0886a8f6f6c84f3df81d4e7e856e739a33d6734c",
+    "src/flybrain/closed_loop.py": "84c0e5ba86a6b5b5ea2ae59574ce91affe24481e1a13dc939f37f38fdb759246",
+    "src/flybrain/neural/__init__.py": "34a0cab44b332e34839765d90f313c529ac21b966e82f59f61d268c6630c1e36",
+    "src/flybrain/neural/charge_readout.py": "28565999dcdaea3669f9f559f9f8777e5b4554aa961859c0a7d0160a75658ce0",
+    "src/flybrain/neural/controller.py": "4bac52658bc36fe62ad2700575799e612b5590cfe39f7ccaaf965bff5fed3beb",
+    "src/flybrain/neural/lif.py": "15cf476b28ec9c29b9f472d1b05caee3a60f6364fc2bcd86fbc8f7cd7302b554",
+    "src/flybrain/neural/motor.py": "55fa49804d885a59bd92f99712e1ded0a6463e87029aa467afc5095a8717a9ab",
+    "src/flybrain/neural/network.py": "43248dcd11d4b4ba5bf51567c8e7ea52aed908a3eb9d0ffb80e80e40ca2a4fc3",
+    "src/flybrain/neural/readout.py": "fb01d60557a9dd95ff29632a70a9171814a50942e0b67bab6839e6ecd9ba4de9",
+    "src/flybrain/neural/sensory.py": "eb70867f4765883f5403c3059f4dc5e7f9278f35e1350f31d6fc1d11597b1b9a",
+    "src/flybrain/neural/topology.py": "8ab520693d30a50067548808791025a0e6012c4d0d67f802b0449638cc908d15",
+    "src/flybrain/simulation.py": "63151cb83140010af5ab1cc9087ae312998941e9541ddb016b58b8152e9c9b3b",
+    "src/flybrain/training/__init__.py": "cebf21db82a544734b6ebdb75f0dd2d9e84a30c032a66149d58ae3378301564e",
+    "src/flybrain/training/charge_repair.py": "e818247d991076c53d92dff554445d0d69cb6b644a2af8403064d458f93c14c4",
+    "src/flybrain/training/evaluation.py": "d13da0f5f0cf9cd737b67e3f82d43a5c801e117c4687bff89a53658f5c57dfa2",
+    "src/flybrain/training/fb07d_diagnosis.py": "1aba9b7e0cf128eed21e8a4eca1bc187d09af045264be10a3395c22a0dfccb02",
+    "src/flybrain/training/fb07e_probe.py": "70cb8cac13c0404fb97f2f24ea303e02458d0ccc2416f2689b2ebf85792a5a1d",
+    "src/flybrain/training/fb07f_collision.py": "bac79b88dfee23707be18db8361f0ddefb897e598f017f228dad776fb683f4ef",
+    "src/flybrain/training/fb07g_voltage.py": "c38a070645f7c648efe278650bd5db6bb1fa1436be9a931f7f4eb2a73809f89d",
+    "src/flybrain/training/fb07h_training.py": "e26658027d3f913356c296f3670591c42a9cb3ebe6d988099fa12d18512490e1",
+    "src/flybrain/training/fb07i_diagnosis.py": "950089173219b76c7a4409986f203aafbdfa4dad86486f96ba884b5f9b022f4a",
+    "src/flybrain/training/fb07j_gain.py": "7a8459d392d707daba9a5e270716387dd5bbb011851d4e25237523e2aeac8cd8",
+    "src/flybrain/training/m6_recovery.py": "5703a120db15c6ea7d00df867e74dc2811152ce847ec5828f17c879e130cdde8",
+    "src/flybrain/training/readout_experiment.py": "30cefd547268d60006ff4abd0a7066196ee098b1783c2cffb9a90a046293a5f0",
+    "src/flybrain/training/records.py": "bfa71fabdb6860fbf3d48a09dc1ce1054175abbc2e7375e259baa82d321c11e7",
+    "src/flybrain/visualization/__init__.py": "5b35055b22745b19ff529199194d653c7993ec3d4b22dc47ab5a7fa80478af09",
+    "src/flybrain/visualization/brain_view.py": "4042a7fe43803ec16e022ac6dc0e3515dfd2be037e7050c112ee3c8e129636e9",
+    "src/flybrain/visualization/world_view.py": "986c608c00e59792e70746a2632e4b04c1441e7a30e4dd5546dc8ec8ff5f9d4b",
+    "src/flybrain/world/__init__.py": "1aecf7512294cb62194643fef83fe25c50b7a4d3bde844a2a1c82e914d3022f0",
+    "src/flybrain/world/arena.py": "09da8a83af261125ec4ed38ce0945360d355883b94b9b8847781b739e24ba3f6",
+    "src/flybrain/world/fly.py": "4528d0d28d17d41f81899743ba94de50e3d8960fe8285ec463ca478e6338cd34",
+    "src/flybrain/world/odor.py": "9dfd5be124343e3dff44bf1adaf7925c08d9115ada9ef4666849bdce7f47b2b9",
+    "src/flybrain/world/sensing.py": "391fd36658518bafd6606b387092cb482d32650e7e64e097fac3592dcafcfaaf"
+  }
+}

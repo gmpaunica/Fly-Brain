@@ -1,0 +1,15 @@
+{
+  "original_samples": 1008,
+  "original_strong_left_samples": 0,
+  "original_strong_right_samples": 32,
+  "original_min_turn": -0.4634667634963989,
+  "original_max_turn": 0.8914980292320251,
+  "diagnostic_tail_samples": 1000,
+  "tail_mean_teacher_turn": -0.9811164338588715,
+  "nearest_training_target_mean": -0.07575165314762854,
+  "nearest_training_distance_mean": 7.204771041870117,
+  "nearest_target_disagreement_mse": 0.8243354701797247,
+  "optimizer_steps": 0,
+  "world_ticks": 0,
+  "neural_steps": 0
+}

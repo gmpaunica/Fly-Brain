@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-26",
+  "scope": "FB-09 inclusive; no FB-10 optimizer work",
+  "accepted_measurement": "source-delay-aligned 750ms sustained rate, unchanged 1Hz and 2percent thresholds",
+  "dynamics_passed": true,
+  "causal_controls_passed": 4,
+  "neural_substeps": 30000,
+  "readiness_passed": true,
+  "world_ticks": 5808,
+  "teacher_successes": 8,
+  "fixed_untrained_successes": 0,
+  "training_samples": 1008,
+  "optimizer_steps": 0,
+  "current_provenance_preserved": true,
+  "protected_prior_files": 106,
+  "protected_source_files": 45,
+  "dynamics_results_sha256": "559598bad475c14a96e5c3fe6ab91ca59d9e2385a1b490768ab4b8d1d7d64991",
+  "readiness_results_sha256": "fecd9b81f0d96e005ded4a482bea44b962e2f144c266522e273cf4a14eb23004",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider --junitxml=.fb09-final-verification.xml",
+    "passed": 358,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "observed_seconds": 22.4,
+    "warnings": 1,
+    "report_sha256": "7fc003746f7ca16eef5a4daa01b70143ffd924117eb2fe52703d1e620668d8b9"
+  },
+  "app_smokes": [
+    {
+      "ticks": 120,
+      "mode": "manual",
+      "exit_code": 0
+    },
+    {
+      "ticks": 120,
+      "mode": "neural",
+      "exit_code": 0
+    },
+    {
+      "ticks": 120,
+      "mode": "banc",
+      "exit_code": 0
+    }
+  ],
+  "visual_review": "Actual saved BANC frame and contrast plot inspected; not live manual interaction review",
+  "independent_review": "Astra final read-only code review: no blocking or important findings",
+  "limits": [
+    "Original simultaneous-window mid-right contrast still fails; historical results unchanged",
+    "Fixed untrained BANC arrives 0/8; learned navigation not established",
+    "Readiness odor extends beyond contrast band; encoder saturation recorded",
+    "Not a full reconstructed brain or evidence of topology benefit"
+  ],
+  "next_task": "FB-10: define one bounded endpoint-readout training protocol before optimization"
+}

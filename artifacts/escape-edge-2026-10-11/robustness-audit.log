@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+{
+  "status": "audit-passed",
+  "experiment_status": "passed",
+  "cases": 48,
+  "intact_successes": 24,
+  "silent_triggers": 0,
+  "neural_steps_added": 0,
+  "receipt_sha256": "b5745162dc97d5920d4751720723db5476a201c0d582f3a2808522d1b6207875"
+}

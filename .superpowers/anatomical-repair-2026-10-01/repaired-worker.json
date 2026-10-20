@@ -1,0 +1,78 @@
+{
+  "view": "repaired",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "target_display_hz": 60,
+  "conditions": {
+    "paused": {
+      "mean_ms": 4.73804833018221,
+      "p95_ms": 6.622514966875315,
+      "max_ms": 7.088899961672723,
+      "frames_per_wall_second": 211.0573658841389,
+      "paced_frames_per_wall_second": 58.641201271620076,
+      "pause_barrier_ms": 0.029999995604157448,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "running": {
+      "mean_ms": 9.929190832190216,
+      "p95_ms": 16.219595051370558,
+      "max_ms": 60.673799947835505,
+      "frames_per_wall_second": 100.71314137281179,
+      "paced_frames_per_wall_second": 53.9122769092661,
+      "pause_barrier_ms": 25.521399918943644,
+      "simulation_seconds": 1.2400000000000002,
+      "simulation_ticks": 62,
+      "simulation_compute_ms": 2249.371299520135,
+      "simulation_step_p95_ms": 42.75475996546447,
+      "simulation_seconds_per_wall_second": 0.5570935280624164,
+      "selection_ms": []
+    },
+    "orbiting": {
+      "mean_ms": 6.509617509436794,
+      "p95_ms": 8.69225010392256,
+      "max_ms": 9.231299976818264,
+      "frames_per_wall_second": 153.6188567992406,
+      "paced_frames_per_wall_second": 57.82694438801718,
+      "pause_barrier_ms": 0.026099965907633305,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "selecting": {
+      "mean_ms": 6.708017500932328,
+      "p95_ms": 16.025484970305115,
+      "max_ms": 31.604500021785498,
+      "frames_per_wall_second": 149.07534153883958,
+      "paced_frames_per_wall_second": 57.89404338459116,
+      "pause_barrier_ms": 0.024799956008791924,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        9.56519995816052,
+        8.537600049749017,
+        8.497199974954128,
+        6.360800005495548,
+        6.50430005043745,
+        6.095100077800453
+      ]
+    }
+  }
+}

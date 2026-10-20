@@ -1,0 +1,14 @@
+{
+  "reason": "review found missing modified mouse binding and pan-clearance corner case",
+  "scope": "UI only; neither file imported by experiment runner; all scientific modules remain identical to frozen source",
+  "changes": {
+    "navigation.py": {
+      "frozen": "6e362a2b1a3343fac1ccc718a5c6579bc044c25d179ad47298d85c5452ab9d92",
+      "current": "55c9539d214826db40853932fa2bb7aea90357320407263a3e0876d982b030f7"
+    },
+    "network_viewer.py": {
+      "frozen": "011944fcd9678b7761069726f394aaef2917b07cfffcfa37c0cc304db3e86a32",
+      "current": "f6ecac2f8c4fe186e7cf5e1e71b824872312171ceb22a34cbb0248df2df8f4e3"
+    }
+  }
+}

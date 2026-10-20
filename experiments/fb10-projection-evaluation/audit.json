@@ -1,0 +1,41 @@
+{
+  "experiment": "fb10_frozen_offline_audit",
+  "checks": {
+    "protocol_digest": true,
+    "receipts": true,
+    "eligibility": true,
+    "covered_failure_preserved": true,
+    "original_gates_pass": true,
+    "zero_updates": true,
+    "checkpoint": true,
+    "frozen_integrity": true,
+    "protocol_provenance": true,
+    "validation_identities": true,
+    "validation_summaries_gates": true,
+    "validation_split_record": true,
+    "validation_csv": true,
+    "final_identities": true,
+    "final_summaries_gates": true,
+    "final_split_record": true,
+    "final_csv": true,
+    "journal_exact": true,
+    "actual_counters": true,
+    "validation_stop": true,
+    "scientific_result": true,
+    "all_pre_session_files_preserved": true,
+    "cases_now_historical": true
+  },
+  "verified": true,
+  "actual_world_ticks": 0,
+  "actual_neural_steps": 0,
+  "optimizer_steps": 0,
+  "preserved_file_counts": {
+    "accepted_bundle_and_subset_sha256": 4,
+    "source_code_sha256": 63,
+    "previous_files_sha256": 219
+  },
+  "assay_world_ticks": 63599,
+  "assay_neural_steps": 1271980,
+  "assay_episodes": 144,
+  "fb10_gate_passed": true
+}

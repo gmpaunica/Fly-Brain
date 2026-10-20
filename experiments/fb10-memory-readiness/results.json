@@ -1,0 +1,36 @@
+{
+  "experiment": "fb10_memory_readiness",
+  "samples": 1008,
+  "filter_tau_seconds": 0.5,
+  "maximum_count_reconstruction_error": 1.7763568394002505e-15,
+  "original_teacher_arrivals": 8,
+  "features": {
+    "samples": 1008,
+    "feature_std": [
+      63.52200249219355,
+      63.088266455788016,
+      63.547927701513615,
+      63.547927701513615,
+      63.547927701513615,
+      63.07811470570931,
+      63.07811470570931,
+      63.07811470570931
+    ],
+    "unique_feature_rows": 993,
+    "mean_command": [
+      0.699999988079071,
+      0.16428607385739544
+    ],
+    "constant_mse": [
+      0.0,
+      0.0890109258624746
+    ],
+    "exact_alias_turn_mse_lower_bound": 0.002384919884343799
+  },
+  "steering_contrast_std_hz": 1.4554765938072813,
+  "steering_contrast_target_correlation": 0.6736944810426423,
+  "optimizer_steps": 0,
+  "world_ticks": 0,
+  "neural_steps": 0,
+  "provenance_preserved": true
+}

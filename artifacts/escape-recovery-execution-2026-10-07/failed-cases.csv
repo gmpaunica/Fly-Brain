@@ -1,0 +1,3 @@
+seed,azimuth,elevation,profile,old_success,new_success,selected,strong_seconds,trigger_seconds,cumulative_at_strong,temporal_scores_at_trigger,rolling_scores_at_trigger
+1100018,86.25,-20,0,True,False,,1.3,,"[0, 0, 0, 0, 0, 0]",,
+1100021,86.25,0,1,True,False,right,0.86,0.9,"[1, 2, 0, 1, 0, 0]","{""left"": 1, ""right"": 2, ""candidate"": ""right"", ""streak"": 2}","{""left"": 0.0, ""right"": 2.0, ""strength"": 1.4142135623730951, ""bilateral"": false}"

@@ -1,0 +1,82 @@
+[
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "cord": false,
+    "classes": "odor",
+    "visible_pulses": 69,
+    "full_firing": 462,
+    "enabled_firing": 69
+  },
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "cord": false,
+    "classes": "all",
+    "visible_pulses": 359,
+    "full_firing": 462,
+    "enabled_firing": 462
+  },
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "cord": true,
+    "classes": "all",
+    "visible_pulses": 527
+  },
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "cord": true,
+    "classes": "odor",
+    "visible_pulses": 69
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "cord": false,
+    "classes": "odor",
+    "visible_pulses": 69,
+    "full_firing": 462,
+    "enabled_firing": 69
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "cord": false,
+    "classes": "all",
+    "visible_pulses": 359,
+    "full_firing": 462,
+    "enabled_firing": 462
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "cord": true,
+    "classes": "all",
+    "visible_pulses": 527
+  },
+  {
+    "size": [
+      1000,
+      700
+    ],
+    "cord": true,
+    "classes": "odor",
+    "visible_pulses": 69
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="27.542" timestamp="2026-10-12T13:49:48.646509+01:00" hostname="Thinkpad"><testcase classname="tests.test_dashboard_ui" name="test_filtered_selection_bounds_empty_state_and_replay" time="22.459"><failure message="AssertionError: &#10;Not equal to tolerance rtol=1e-07, atol=0&#10;&#10;Mismatched elements: 2 / 2 (100%)&#10;Mismatch at indices:&#10; [0]: 0.8404775261878967 (ACTUAL), 1.0404775142669678 (DESIRED)&#10; [1]: 0.20371100306510925 (ACTUAL), 0.4037110209465027 (DESIRED)&#10;Max absolute difference among violations: 0.20000002&#10;Max relative difference among violations: 0.49540392&#10; ACTUAL: array([0.840478, 0.203711], dtype=float32)&#10; DESIRED: array([1.040478, 0.403711], dtype=float32)">tests\test_dashboard_ui.py:216: in test_filtered_selection_bounds_empty_state_and_replay
+    np.testing.assert_allclose(app.visible_bounds()[1, [0, 2]],
+E   AssertionError: 
+E   Not equal to tolerance rtol=1e-07, atol=0
+E   
+E   Mismatched elements: 2 / 2 (100%)
+E   Mismatch at indices:
+E    [0]: 0.8404775261878967 (ACTUAL), 1.0404775142669678 (DESIRED)
+E    [1]: 0.20371100306510925 (ACTUAL), 0.4037110209465027 (DESIRED)
+E   Max absolute difference among violations: 0.20000002
+E   Max relative difference among violations: 0.49540392
+E    ACTUAL: array([0.840478, 0.203711], dtype=float32)
+E    DESIRED: array([1.040478, 0.403711], dtype=float32)</failure></testcase></testsuite></testsuites>

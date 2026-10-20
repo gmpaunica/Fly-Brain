@@ -1,0 +1,12 @@
+{
+  "existing_files": 2369,
+  "changed": [
+    "src\\flybrain\\flight3d\\anatomical_display.py",
+    "src\\flybrain\\flight3d\\anatomical_viewer.py",
+    "src\\flybrain\\flight3d\\brain_controls.py",
+    "src\\flybrain\\flight3d\\simulation_pump.py"
+  ],
+  "protected_files": 2365,
+  "protected_changed": [],
+  "protected_unchanged": 2365
+}

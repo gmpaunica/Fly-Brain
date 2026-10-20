@@ -1,0 +1,8 @@
+{
+  "authorization": "flight3d-visual-repair-2026-10-01",
+  "consumed": true,
+  "directory": "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\experiments\\flight3d-landing-2026-10-01",
+  "protocol_sha256": "fd6b9df5f08031f07ffd3786b761102045957018eba5ebcf6aa69f2cba7f354e",
+  "utc": "2026-10-01T13:36:40.196294+00:00",
+  "interruption": "incomplete; authorization remains consumed"
+}

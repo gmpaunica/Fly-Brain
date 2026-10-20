@@ -1,0 +1,83 @@
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+{
+  "view": "repaired",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "target_display_hz": 60,
+  "conditions": {
+    "paused": {
+      "mean_ms": 2.8597558334392184,
+      "p95_ms": 4.4400800252333275,
+      "max_ms": 5.637900088913739,
+      "frames_per_wall_second": 349.6802028715065,
+      "paced_frames_per_wall_second": 58.495715407926845,
+      "pause_barrier_ms": 0.019699917174875736,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "running": {
+      "mean_ms": 4.227350834601869,
+      "p95_ms": 5.866994982352479,
+      "max_ms": 13.846599962562323,
+      "frames_per_wall_second": 236.5547689618668,
+      "paced_frames_per_wall_second": 58.3993753232093,
+      "pause_barrier_ms": 0.020799925550818443,
+      "simulation_seconds": 2.0,
+      "simulation_ticks": 100,
+      "simulation_compute_ms": 848.8964994903654,
+      "simulation_step_p95_ms": 10.384739952860398,
+      "simulation_seconds_per_wall_second": 0.9733229220534884,
+      "selection_ms": []
+    },
+    "orbiting": {
+      "mean_ms": 2.716045005945489,
+      "p95_ms": 3.9064000418875366,
+      "max_ms": 6.087500019930303,
+      "frames_per_wall_second": 368.18241148838683,
+      "paced_frames_per_wall_second": 58.55781757428658,
+      "pause_barrier_ms": 0.031100003980100155,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "selecting": {
+      "mean_ms": 3.477872499691633,
+      "p95_ms": 9.051119978539646,
+      "max_ms": 12.110500014387071,
+      "frames_per_wall_second": 287.5321047820659,
+      "paced_frames_per_wall_second": 58.57175413313041,
+      "pause_barrier_ms": 0.019499915651977062,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        4.211100051179528,
+        4.14109998382628,
+        4.655499942600727,
+        5.167499999515712,
+        4.314599907957017,
+        3.415800048969686
+      ]
+    }
+  }
+}

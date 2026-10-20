@@ -1,0 +1,8 @@
+title = "FlyBrain secret scanning"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Unpublished environments, Git internals and generated caches"
+paths = ['''(^|[\\/])(?:\.venv(?:-py314)?|\.git|__pycache__|\.pytest_cache|pytest-cache-files-[^\\/]+)[\\/]''']

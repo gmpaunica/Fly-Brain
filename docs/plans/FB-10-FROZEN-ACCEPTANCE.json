@@ -1,0 +1,8 @@
+{
+  "rule": "original_gates_with_covered_failure_retained",
+  "covered_failure_retained": true,
+  "user_decision": "conitnue",
+  "decision_date_local": "2026-09-28",
+  "context": "User requested fix and finish FB-10 with Astra, then said conitnue after being asked to choose the original-gate frozen assay or retain the extra threshold and stop. The assistant explicitly acknowledged proceeding with the proposed frozen evaluation under the original training gates while preserving the extra recovery failure.",
+  "scope": "One frozen zero-update assay, existing 16/32 fresh cases and unchanged stopping gates; no new training, retries or topology claim. The covered fit remains closed negative."
+}

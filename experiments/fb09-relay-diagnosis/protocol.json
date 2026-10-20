@@ -1,0 +1,78 @@
+{
+  "name": "fb09-pn-relay-timing-diagnosis",
+  "created_utc": "2026-09-26T11:27:27.555318+00:00",
+  "hypothesis": "The six-to-four steady contrast change can be localized by exact event matching and charge accounting along the sourced PN-to-DNa02 corridors.",
+  "cases": [
+    {
+      "name": "0.1-equal",
+      "center": 0.1,
+      "pattern": "equal",
+      "left": 0.1,
+      "right": 0.1
+    },
+    {
+      "name": "0.1-right_stronger",
+      "center": 0.1,
+      "pattern": "right_stronger",
+      "left": 0.08000000000000002,
+      "right": 0.12
+    }
+  ],
+  "config": {
+    "synaptic_budget": 3.0,
+    "encoder_min_scale": 0.005,
+    "encoder_max_scale": 0.05,
+    "projection_filter_tau": 0.0,
+    "sensory_mode": "phase_rate",
+    "projection_dynamics": "charge_preserving"
+  },
+  "timing_substeps": {
+    "baseline": 250,
+    "pulse": 1000,
+    "washout": 250,
+    "pulse_steady_start": 250,
+    "washout_grace": 20
+  },
+  "budget": {
+    "neural_substeps": 3000,
+    "optimizer_steps": 0
+  },
+  "stop_condition": "Exactly two unchanged-parameter replays; no candidate, window, threshold or training changes.",
+  "acceptance": "Diagnostic fidelity only: exact full-pulse and steady counts for all83 cells; frozen source and previous files; no training-readiness promotion.",
+  "source_code_sha256": {
+    "src/flybrain/data/banc.py": "efe4739cb53637e5d593de26c5d016d3cd5abcac88f0d7bccbe8477a290efb3f",
+    "src/flybrain/neural/banc_network.py": "68e46b9d2c62cdbbd1dc3947f11fab66784211469594f63f0c184c8942481ab5",
+    "src/flybrain/neural/banc_motor.py": "22c35c0ee47edc6280634b5f8424c8feadda65e26884315e1ed4fef172339fb3",
+    "src/flybrain/neural/lif.py": "ea2fa72b9a383876720b136c88ff1098299856851251d73a9fbf4c4e0000525e",
+    "src/flybrain/training/banc_recovery.py": "36319bd77e615ca241ae53f3c61991c716f044fc132ec193c3273b6688964275",
+    "src/flybrain/neural/banc_synapses.py": "5f6717a62f5938853d8196a249099591066d7d0158f0c67ac22401a322badfa0"
+  },
+  "diagnostic_code_sha256": "f8b2920939712fc845135f3ce7fe814123aa6f7e13af5204468fc59a1df7e878",
+  "original_results_sha256": "cdda2a8ba6ce4fa7b16f7ad040e534e9ac7fb5dd2925b346bf86a4630787ef63",
+  "original_protocol_sha256": "d76c16afd4d67a178fb7d7c96c819b8c8ea9dcb2f69fa225bc87c06cb8d13b26",
+  "subset_sha256": "76c254e22741230b3d97aeb21c9938405b2e98c07ca29b8cde9331f3c4e6d0ae",
+  "software": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu",
+    "commit": null
+  },
+  "seed": null,
+  "seed_reason": "No random draws; fixed graph, input and reset.",
+  "paths": {
+    "left": [
+      "720575941653217813",
+      "720575941539370133",
+      "720575941594458987",
+      "720575941500284745",
+      "720575941510475536"
+    ],
+    "right": [
+      "720575941497888384",
+      "720575941504828722",
+      "720575941645545928",
+      "720575941456897005"
+    ]
+  }
+}

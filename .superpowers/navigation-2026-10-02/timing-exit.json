@@ -1,0 +1,13 @@
+{
+  "command": [
+    ".venv/Scripts/python.exe",
+    "scripts/benchmark_flight3d_viewer.py",
+    "--view",
+    "repaired",
+    "--frames",
+    "120",
+    "--output",
+    ".superpowers\\navigation-2026-10-02\\navigation-timing.json"
+  ],
+  "exit_code": 0
+}

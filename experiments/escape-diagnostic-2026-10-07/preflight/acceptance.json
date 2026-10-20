@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "tests_passed": 10,
+  "tests_skipped": 0,
+  "warning": "upstream TorchScript deprecation",
+  "engineering_steps": 1747,
+  "source_hashes": {
+    "src/flybrain/escape_diagnostic/__init__.py": "b70c04f8ad35d4a2bcfa7846d1e1a763596efdd571efd6259c4521a500deff9d",
+    "src/flybrain/escape_diagnostic/audit.py": "069ac918e1bb4e90e5004ec05404225848f109933361b785af1bdb73eb6351db",
+    "src/flybrain/escape_diagnostic/recorder.py": "3ecd8a413e1160be881b285eddfb1dc5f27799a82350670a360be108ed45dccf",
+    "src/flybrain/escape_diagnostic/runner.py": "cf7d466ede07dfa32337b66b412872d261dbc91696e1147b2b9f68431a6fe3de",
+    "tests/test_escape_diagnostic.py": "f9a612d7c048dde2026b723ea811ec777636a982189878deb4daccdd0708f638"
+  },
+  "protected_files": 2720,
+  "original_audit": "passed: 10800 intervals, zero kernel steps",
+  "preservation": "2510 unchanged",
+  "full_suite": "not run: user reserves full simulation suite for approved repair",
+  "checks": "10 preflight tests passed; final 6 non-parity tests passed after serialization/receipt refinements. Four kernel parity checks unchanged.",
+  "verification_hashes": {
+    "preflight-tests.xml": "a58bbc8c4e94b2ff2aac3abc91b583169dff8423a08bb143b7e850a546db4336",
+    "serialization-final.xml": "f41b85a5bedd87d4d0a1b021f743170ecbccc8c3e11a0924a8087d0210d6c93b",
+    "engineering.json": "52684a341163361eeb8551b036a4a468aeb9c49b8f70162c2351a4622383c062",
+    "request.md": "47f7b917fb6bad4f9b5a79812032b9bb9d2708da2faf9716a7ca91270473e034"
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "schema": "food_stop_recovery_v1",
+  "hypothesis": "The unchanged frozen food-stop checkpoint meets the original final full-episode and paired-control gates on 64 new starts.",
+  "cases_manifest_sha256": "1941e4436fa3b857faf26746560c43874df1cea352a8fe55e0ffa91072ac1d32",
+  "cases": [
+    {
+      "case_id": "food-recovery-final-840000",
+      "split": "final",
+      "seed": 840000,
+      "x": 595.0499271588396,
+      "y": 226.45185641140756,
+      "heading": 0.5354470773151649
+    },
+    {
+      "case_id": "food-recovery-final-840001",
+      "split": "final",
+      "seed": 840001,
+      "x": 570.4463721216473,
+      "y": 159.17274249748252,
+      "heading": 1.5249688130247
+    },
+    {
+      "case_id": "food-recovery-final-840002",
+      "split": "final",
+      "seed": 840002,
+      "x": 481.39128681871864,
+      "y": 228.3534205563468,
+      "heading": 2.212773006966901
+    },
+    {
+      "case_id": "food-recovery-final-840003",
+      "split": "final",
+      "seed": 840003,
+      "x": 538.9314922697297,
+      "y": 396.61567588469666,
+      "heading": 2.4257726097486003
+    },
+    {
+      "case_id": "food-recovery-final-840004",
+      "split": "final",
+      "seed": 840004,
+      "x": 564.9174202976017,
+      "y": 194.42819666895792,
+      "heading": 3.168161599974804
+    },
+    {
+      "case_id": "food-recovery-final-840005",
+      "split": "final",
+      "seed": 840005,
+      "x": 725.1543673836937,
+      "y": 258.9170604978078,
+      "heading": 4.575063346487856
+    },
+    {
+      "case_id": "food-recovery-final-840006",
+      "split": "final",
+      "seed": 840006,
+      "x": 458.37543812799305,
+      "y": 415.8494269318907,
+      "heading": 5.218381389445462
+    },
+    {
+      "case_id": "food-recovery-final-840007",
+      "split": "final",
+      "seed": 840007,
+      "x": 704.6341233267689,
+      "y": 407.9024369417709,
+      "heading": 5.869925472578215
+    },
+    {
+      "case_id": "food-recovery-final-840008",
+      "split": "final",
+      "seed": 840008,
+      "x": 413.8969133843673,
+      "y": 365.5678948718405,
+      "heading": 0.4278533459034717
+    },
+    {
+      "case_id": "food-recovery-final-840009",
+      "split": "final",
+      "seed": 840009,
+      "x": 750.8402868088131,
+      "y": 362.2082098899991,
+      "heading": 0.8480928235973765
+    },
+    {
+      "case_id": "food-recovery-final-840010",
+      "split": "final",
+      "seed": 840010,
+      "x": 748.9633896136677,
+      "y": 191.19569406148906,
+      "heading": 1.8127147966028407
+    },
+    {
+      "case_id": "food-recovery-final-840011",
+      "split": "final",
+      "seed": 840011,
+      "x": 444.54866420668935,
+      "y": 152.2145784562056,
+      "heading": 2.412565900663293
+    },
+    {
+      "case_id": "food-recovery-final-840012",
+      "split": "final",
+      "seed": 840012,
+      "x": 650.5211636258164,
+      "y": 438.28037808748866,
+      "heading": 3.6798303178729816
+    },
+    {
+      "case_id": "food-recovery-final-840013",
+      "split": "final",
+      "seed": 840013,
+      "x": 585.2177956787959,
+      "y": 489.7593616112497,
+      "heading": 3.994898466287443
+    },
+    {
+      "case_id": "food-recovery-final-840014",
+      "split": "final",
+      "seed": 840014,
+      "x": 633.38991681685,
+      "y": 192.13412655843462,
+      "heading": 4.967492137140674
+    },
+    {
+      "case_id": "food-recovery-final-840015",
+      "split": "final",
+      "seed": 840015,
+      "x": 560.6267367793863,
+      "y": 221.38026772287674,
+      "heading": 5.965047251375359
+    },
+    {
+      "case_id": "food-recovery-final-840016",
+      "split": "final",
+      "seed": 840016,
+      "x": 758.4686063830054,
+      "y": 295.86236102016477,
+      "heading": 0.7556512757441023
+    },
+    {
+      "case_id": "food-recovery-final-840017",
+      "split": "final",
+      "seed": 840017,
+      "x": 718.7997654188142,
+      "y": 200.23613182307332,
+      "heading": 0.9118847324195001
+    },
+    {
+      "case_id": "food-recovery-final-840018",
+      "split": "final",
+      "seed": 840018,
+      "x": 601.9148094975866,
+      "y": 440.5060340491576,
+      "heading": 2.0706564629983673
+    },
+    {
+      "case_id": "food-recovery-final-840019",
+      "split": "final",
+      "seed": 840019,
+      "x": 697.3433591024408,
+      "y": 231.02477425962087,
+      "heading": 2.7523263900532875
+    },
+    {
+      "case_id": "food-recovery-final-840020",
+      "split": "final",
+      "seed": 840020,
+      "x": 646.9177395988936,
+      "y": 473.2991750219785,
+      "heading": 3.6584121432862116
+    },
+    {
+      "case_id": "food-recovery-final-840021",
+      "split": "final",
+      "seed": 840021,
+      "x": 597.5879280433393,
+      "y": 169.2839237719811,
+      "heading": 4.57023839598885
+    },
+    {
+      "case_id": "food-recovery-final-840022",
+      "split": "final",
+      "seed": 840022,
+      "x": 651.8609618835303,
+      "y": 259.0858905917595,
+      "heading": 5.2427600145302735
+    },
+    {
+      "case_id": "food-recovery-final-840023",
+      "split": "final",
+      "seed": 840023,
+      "x": 547.9556081488666,
+      "y": 123.42828619000878,
+      "heading": 6.062597701205962
+    },
+    {
+      "case_id": "food-recovery-final-840024",
+      "split": "final",
+      "seed": 840024,
+      "x": 542.1075634385899,
+      "y": 94.29674325445305,
+      "heading": 0.44563676034558425
+    },
+    {
+      "case_id": "food-recovery-final-840025",
+      "split": "final",
+      "seed": 840025,
+      "x": 648.2999661734029,
+      "y": 200.98100573956293,
+      "heading": 1.062732535924754
+    },
+    {
+      "case_id": "food-recovery-final-840026",
+      "split": "final",
+      "seed": 840026,
+      "x": 470.67729534702676,
+      "y": 280.7030504476279,
+      "heading": 2.280588713046677
+    },
+    {
+      "case_id": "food-recovery-final-840027",
+      "split": "final",
+      "seed": 840027,
+      "x": 737.4002963564203,
+      "y": 181.3743945465647,
+      "heading": 2.9516069363651773
+    },
+    {
+      "case_id": "food-recovery-final-840028",
+      "split": "final",
+      "seed": 840028,
+      "x": 614.6234528615437,
+      "y": 382.6460220770767,
+      "heading": 3.4445214910501716
+    },
+    {
+      "case_id": "food-recovery-final-840029",
+      "split": "final",
+      "seed": 840029,
+      "x": 662.5915560707654,
+      "y": 419.23231067104786,
+      "heading": 4.40561205444222
+    },
+    {
+      "case_id": "food-recovery-final-840030",
+      "split": "final",
+      "seed": 840030,
+      "x": 541.9678256173324,
+      "y": 214.11243396018466,
+      "heading": 5.285062724838606
+    },
+    {
+      "case_id": "food-recovery-final-840031",
+      "split": "final",
+      "seed": 840031,
+      "x": 637.2393524049169,
+      "y": 175.64435736307297,
+      "heading": 5.961112215253701
+    },
+    {
+      "case_id": "food-recovery-final-840032",
+      "split": "final",
+      "seed": 840032,
+      "x": 665.4927985586436,
+      "y": 442.025199188654,
+      "heading": 0.18022817187542192
+    },
+    {
+      "case_id": "food-recovery-final-840033",
+      "split": "final",
+      "seed": 840033,
+      "x": 600.1198684842454,
+      "y": 441.5119015384112,
+      "heading": 1.4992322535258744
+    },
+    {
+      "case_id": "food-recovery-final-840034",
+      "split": "final",
+      "seed": 840034,
+      "x": 666.7048509264844,
+      "y": 232.61272025682436,
+      "heading": 1.818303202241486
+    },
+    {
+      "case_id": "food-recovery-final-840035",
+      "split": "final",
+      "seed": 840035,
+      "x": 628.7886041454611,
+      "y": 355.81850219373393,
+      "heading": 2.3805714313546322
+    },
+    {
+      "case_id": "food-recovery-final-840036",
+      "split": "final",
+      "seed": 840036,
+      "x": 400.1269778801883,
+      "y": 292.2196384636861,
+      "heading": 3.4740732858529157
+    },
+    {
+      "case_id": "food-recovery-final-840037",
+      "split": "final",
+      "seed": 840037,
+      "x": 614.4840895147867,
+      "y": 448.1278496317003,
+      "heading": 4.679460345245095
+    },
+    {
+      "case_id": "food-recovery-final-840038",
+      "split": "final",
+      "seed": 840038,
+      "x": 495.89031245158003,
+      "y": 473.8145182555306,
+      "heading": 5.277823217072395
+    },
+    {
+      "case_id": "food-recovery-final-840039",
+      "split": "final",
+      "seed": 840039,
+      "x": 445.4066323895719,
+      "y": 329.89653068599847,
+      "heading": 6.282465280200745
+    },
+    {
+      "case_id": "food-recovery-final-840040",
+      "split": "final",
+      "seed": 840040,
+      "x": 550.7582968856798,
+      "y": 211.0313450597206,
+      "heading": 0.12025193183716447
+    },
+    {
+      "case_id": "food-recovery-final-840041",
+      "split": "final",
+      "seed": 840041,
+      "x": 731.0818052919337,
+      "y": 177.38775920112977,
+      "heading": 0.8001369442531633
+    },
+    {
+      "case_id": "food-recovery-final-840042",
+      "split": "final",
+      "seed": 840042,
+      "x": 616.2014589928514,
+      "y": 203.4937717929719,
+      "heading": 2.3453948237646665
+    },
+    {
+      "case_id": "food-recovery-final-840043",
+      "split": "final",
+      "seed": 840043,
+      "x": 593.5238515895545,
+      "y": 434.53059874725,
+      "heading": 2.3801687059262875
+    },
+    {
+      "case_id": "food-recovery-final-840044",
+      "split": "final",
+      "seed": 840044,
+      "x": 559.9348407369554,
+      "y": 114.83306489515721,
+      "heading": 3.4269242111327043
+    },
+    {
+      "case_id": "food-recovery-final-840045",
+      "split": "final",
+      "seed": 840045,
+      "x": 504.8493258765652,
+      "y": 444.07559048032863,
+      "heading": 4.500851698645718
+    },
+    {
+      "case_id": "food-recovery-final-840046",
+      "split": "final",
+      "seed": 840046,
+      "x": 631.3699119456651,
+      "y": 505.6365874947827,
+      "heading": 4.96076708991801
+    },
+    {
+      "case_id": "food-recovery-final-840047",
+      "split": "final",
+      "seed": 840047,
+      "x": 563.0929355982423,
+      "y": 380.4202547266726,
+      "heading": 5.950938276519269
+    },
+    {
+      "case_id": "food-recovery-final-840048",
+      "split": "final",
+      "seed": 840048,
+      "x": 528.9388582812637,
+      "y": 388.0699154515231,
+      "heading": 0.2338370771296368
+    },
+    {
+      "case_id": "food-recovery-final-840049",
+      "split": "final",
+      "seed": 840049,
+      "x": 739.2409986121208,
+      "y": 359.0383849843993,
+      "heading": 1.2985093089299518
+    },
+    {
+      "case_id": "food-recovery-final-840050",
+      "split": "final",
+      "seed": 840050,
+      "x": 484.78202546338343,
+      "y": 228.85896207160545,
+      "heading": 1.6138417448627305
+    },
+    {
+      "case_id": "food-recovery-final-840051",
+      "split": "final",
+      "seed": 840051,
+      "x": 632.088853851365,
+      "y": 447.1767754349319,
+      "heading": 2.8942119608390158
+    },
+    {
+      "case_id": "food-recovery-final-840052",
+      "split": "final",
+      "seed": 840052,
+      "x": 593.1096110953116,
+      "y": 389.5776598537028,
+      "heading": 3.162381603411799
+    },
+    {
+      "case_id": "food-recovery-final-840053",
+      "split": "final",
+      "seed": 840053,
+      "x": 704.8690321409124,
+      "y": 176.61158322409517,
+      "heading": 4.257073224477574
+    },
+    {
+      "case_id": "food-recovery-final-840054",
+      "split": "final",
+      "seed": 840054,
+      "x": 580.8220973383548,
+      "y": 493.95301660568407,
+      "heading": 4.862752537469659
+    },
+    {
+      "case_id": "food-recovery-final-840055",
+      "split": "final",
+      "seed": 840055,
+      "x": 781.2847395970194,
+      "y": 419.83578285519343,
+      "heading": 6.032185576384547
+    },
+    {
+      "case_id": "food-recovery-final-840056",
+      "split": "final",
+      "seed": 840056,
+      "x": 662.5515207149386,
+      "y": 301.2441376700514,
+      "heading": 0.4412557639463732
+    },
+    {
+      "case_id": "food-recovery-final-840057",
+      "split": "final",
+      "seed": 840057,
+      "x": 602.3966025969744,
+      "y": 196.70406506305184,
+      "heading": 1.568652196764582
+    },
+    {
+      "case_id": "food-recovery-final-840058",
+      "split": "final",
+      "seed": 840058,
+      "x": 523.1960410669316,
+      "y": 303.9824408210171,
+      "heading": 2.0716949425981643
+    },
+    {
+      "case_id": "food-recovery-final-840059",
+      "split": "final",
+      "seed": 840059,
+      "x": 503.9935366068903,
+      "y": 312.9259770035379,
+      "heading": 2.4637223010087137
+    },
+    {
+      "case_id": "food-recovery-final-840060",
+      "split": "final",
+      "seed": 840060,
+      "x": 427.0561527701117,
+      "y": 209.7023852756539,
+      "heading": 3.618141552943099
+    },
+    {
+      "case_id": "food-recovery-final-840061",
+      "split": "final",
+      "seed": 840061,
+      "x": 635.4427862461957,
+      "y": 180.94215551396707,
+      "heading": 4.30799615594168
+    },
+    {
+      "case_id": "food-recovery-final-840062",
+      "split": "final",
+      "seed": 840062,
+      "x": 679.7597641315232,
+      "y": 376.49498992554106,
+      "heading": 5.049466501358854
+    },
+    {
+      "case_id": "food-recovery-final-840063",
+      "split": "final",
+      "seed": 840063,
+      "x": 457.9164696615475,
+      "y": 413.45455956583714,
+      "heading": 5.876207301247689
+    }
+  ],
+  "prior_evidence_sha256": {
+    "fit_protocol_sha256": "3771cd4bd2b3304f40421fb19f7666d01fa3f8a91894a96a3c410352ad1e7452",
+    "fit_results_sha256": "0d55d9661d0a02b8690a39a0915cccfa90f879ce8b8ddf7463f3ae2e5b2c3237",
+    "trained_checkpoint_sha256": "53526140b8b7f5e48b7f4a97f9db380171fad220275d339912638aadfaa8ee1b",
+    "untrained_checkpoint_sha256": "1d036901efd72d18977b2c8382e1b23121be271b89b2259db7cde54c6ff15b48",
+    "old_fresh_protocol_sha256": "825c590d6e8c65b170c7e0363bb287503a4693e1c4f7034eb30d5190a52a0731",
+    "old_validation_sha256": "e7f4bc8eeb25a8899e4bf819f7ac58cdf3f31626aed18a2d9a6e0c2e18024ac5",
+    "old_interruption_sha256": "aa5f2a19dbea6df9a6d25b425a99a85b542c57c099b39143ec863fe87ddfc6c5",
+    "contact_protocol_sha256": "66bfb9bd3c2e082f373c38b4914a17219b0d4eb68be26a0ae9bd5ac9f7748750",
+    "contact_results_sha256": "fb1f19131e33e29d7ccc64248e75d7f02569ed75eb7584340d73325949a8f762",
+    "fit_source_sha256": {
+      "src/flybrain/neural/food_contact.py": "c85d7276a450654bc43de6619e312a293869b5a246093ca90628c37ce028eaa0",
+      "src/flybrain/neural/food_readout.py": "c20668f6106945187f15bce28c215876d8759f950a8e6df52bc4d305ec7f89a4",
+      "src/flybrain/training/food_teacher.py": "492475e87653bf38ed816bb0d7af4bdbf6624079b6963331ed8787abe07f83f9",
+      "src/flybrain/training/food_preflight.py": "690490d77c14879c28d4ce9ba1d7cb806cc1a8da794b5985de5b91df24201323",
+      "src/flybrain/training/food_evaluation.py": "122319c967dd2397f7f4c4a9b5fb0f3608f5b1faf57f9be181775c121427f353",
+      "src/flybrain/training/food_fit.py": "b5b39d2755188cb3d9f9dddc0fbee872c3f7e6890917c40763957933db1aa51b"
+    }
+  },
+  "source_sha256": {
+    "src/flybrain/behavior.py": "40b4964685e48e5191133ded051c1af88cd864c511061edba6d63e502e56c15d",
+    "src/flybrain/closed_loop.py": "84c0e5ba86a6b5b5ea2ae59574ce91affe24481e1a13dc939f37f38fdb759246",
+    "src/flybrain/data/__init__.py": "a2a5eeb723007fff33dcfad78bbb60f80082e4eb7fc6d92ba0215eef8a89aae5",
+    "src/flybrain/data/banc.py": "efe4739cb53637e5d593de26c5d016d3cd5abcac88f0d7bccbe8477a290efb3f",
+    "src/flybrain/foraging.py": "b28aa6e378e1b03f64808ad0ba281b65b82eb57f21b0223c97012c0ce601670b",
+    "src/flybrain/neural/__init__.py": "34a0cab44b332e34839765d90f313c529ac21b966e82f59f61d268c6630c1e36",
+    "src/flybrain/neural/banc_capacity.py": "4c9e8571a8e03df83d19a2be3b71f8db6d6ab9c3b4e339112b9397ea0c90f77f",
+    "src/flybrain/neural/banc_conditioning.py": "28b3fb931e3ec7494c9a9c6a37f5ba33d4a508b5be60121055e76b72d63ed956",
+    "src/flybrain/neural/banc_memory.py": "ad11d39323d2ce6d0558ce4ce159d1582e93f6df16dde7265ea4926995c391ab",
+    "src/flybrain/neural/banc_motor.py": "22c35c0ee47edc6280634b5f8424c8feadda65e26884315e1ed4fef172339fb3",
+    "src/flybrain/neural/banc_network.py": "68e46b9d2c62cdbbd1dc3947f11fab66784211469594f63f0c184c8942481ab5",
+    "src/flybrain/neural/banc_projection.py": "cea2265073aafee70c16652bb54f4f9efaef3c9d0b6d3f9259bcb3bc6cc82c3f",
+    "src/flybrain/neural/banc_range.py": "ac48f7d8cb1d77a9a51e86e6cc8656917e1bd283a21ce29555cfeb92512c872a",
+    "src/flybrain/neural/banc_readout.py": "c02b03880b706442b6f05765a5573aa1c03763edc7998a469d856345d4e55636",
+    "src/flybrain/neural/banc_synapses.py": "5f6717a62f5938853d8196a249099591066d7d0158f0c67ac22401a322badfa0",
+    "src/flybrain/neural/charge_readout.py": "28565999dcdaea3669f9f559f9f8777e5b4554aa961859c0a7d0160a75658ce0",
+    "src/flybrain/neural/controller.py": "8fafcbd9ae207e1e082bb9a174dbdc6863112efbbb85025fa34e7e8c3e798083",
+    "src/flybrain/neural/food_contact.py": "c85d7276a450654bc43de6619e312a293869b5a246093ca90628c37ce028eaa0",
+    "src/flybrain/neural/food_readout.py": "c20668f6106945187f15bce28c215876d8759f950a8e6df52bc4d305ec7f89a4",
+    "src/flybrain/neural/frozen_banc.py": "dcf30a1f50086cc8ec88d259990df16ba816594b2bcaf5bc568e146f4627797c",
+    "src/flybrain/neural/lif.py": "ea2fa72b9a383876720b136c88ff1098299856851251d73a9fbf4c4e0000525e",
+    "src/flybrain/neural/motor.py": "55fa49804d885a59bd92f99712e1ded0a6463e87029aa467afc5095a8717a9ab",
+    "src/flybrain/neural/network.py": "43248dcd11d4b4ba5bf51567c8e7ea52aed908a3eb9d0ffb80e80e40ca2a4fc3",
+    "src/flybrain/neural/readout.py": "fb01d60557a9dd95ff29632a70a9171814a50942e0b67bab6839e6ecd9ba4de9",
+    "src/flybrain/neural/sensory.py": "cfa5962dec42c541430c0a3ce1683e3512f35bdf62e0d040b506adca192d2fa4",
+    "src/flybrain/neural/topology.py": "042fc8132d8dc13a4b5510934683a61038339a01847d5bea7afa0cabb9a9edde",
+    "src/flybrain/neural/verified_banc.py": "0e1c8832ac5b3e4007472bc16f6dcb85fc09d525baf30a457c1d30cab0d12946",
+    "src/flybrain/simulation.py": "63151cb83140010af5ab1cc9087ae312998941e9541ddb016b58b8152e9c9b3b",
+    "src/flybrain/training/evaluation.py": "d13da0f5f0cf9cd737b67e3f82d43a5c801e117c4687bff89a53658f5c57dfa2",
+    "src/flybrain/training/food_evaluation.py": "122319c967dd2397f7f4c4a9b5fb0f3608f5b1faf57f9be181775c121427f353",
+    "src/flybrain/training/food_fresh.py": "7fd067a3a14a717c05ea9cc6a52733fcd9c0b7a3b76807783c1b80877485bdd4",
+    "src/flybrain/training/food_preflight.py": "690490d77c14879c28d4ce9ba1d7cb806cc1a8da794b5985de5b91df24201323",
+    "src/flybrain/training/food_recovery.py": "604f033807e58fce32092cc6f40c07413672a9de99766927c94b86fb0389a8b0",
+    "src/flybrain/world/__init__.py": "1aecf7512294cb62194643fef83fe25c50b7a4d3bde844a2a1c82e914d3022f0",
+    "src/flybrain/world/arena.py": "09da8a83af261125ec4ed38ce0945360d355883b94b9b8847781b739e24ba3f6",
+    "src/flybrain/world/fly.py": "4528d0d28d17d41f81899743ba94de50e3d8960fe8285ec463ca478e6338cd34",
+    "src/flybrain/world/food.py": "b2716a4425e1d1487a76e1198a33fd41e562bcb0a3c659178a38b5d9e8e183c2",
+    "src/flybrain/world/odor.py": "9dfd5be124343e3dff44bf1adaf7925c08d9115ada9ef4666849bdce7f47b2b9",
+    "src/flybrain/world/sensing.py": "391fd36658518bafd6606b387092cb482d32650e7e64e097fac3592dcafcfaaf"
+  },
+  "network_size": 85,
+  "trainable_parameters": 419,
+  "objective": "20-second contact, braking, exact stop and uninterrupted dwell against matched frozen controls",
+  "optimizer_steps": 0,
+  "learning_rate": null,
+  "gates": {
+    "final_successes_min": 58,
+    "sector_successes_min": 7,
+    "paired_gain_min": 8,
+    "one_sided_exact_p_max": 0.025,
+    "contact_block_changes_stop": true
+  },
+  "budget": {
+    "episodes": 192,
+    "world_ticks": 192000,
+    "neural_steps": 3840000,
+    "optimizer_updates": 0
+  },
+  "stop_condition": "One use. On any interruption or failed gate, preserve the journal and stop; no replay, tuning or additional split.",
+  "software_device": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "device": "CPU"
+  },
+  "commit": null,
+  "prepared_utc": "2026-09-28T23:56:10.214419+00:00"
+}

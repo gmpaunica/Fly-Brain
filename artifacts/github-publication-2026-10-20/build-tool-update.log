@@ -1,0 +1,13 @@
+Looking in links: c:\Users\Lenovo\AppData\Local\Temp/flybrain-publication-tools/wheels
+Processing c:\users\lenovo\appdata\local\temp\flybrain-publication-tools\wheels\pip-26.2.2-py3-none-any.whl
+Processing c:\users\lenovo\appdata\local\temp\flybrain-publication-tools\wheels\setuptools-84.2.0-py3-none-any.whl
+Installing collected packages: setuptools, pip
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 78.1.0
+    Uninstalling setuptools-78.1.0:
+      Successfully uninstalled setuptools-78.1.0
+  Attempting uninstall: pip
+    Found existing installation: pip 25.0.1
+    Uninstalling pip-25.0.1:
+      Successfully uninstalled pip-25.0.1
+Successfully installed pip-26.2.2 setuptools-84.2.0

@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "error": "NameError: name 'math' is not defined",
+  "validation": [],
+  "closed_loop": [],
+  "cases": 0,
+  "recorded_intervals": 0,
+  "reserved_kernel_steps": 0,
+  "validation_successes": 0,
+  "intact_successes": 0,
+  "silent_triggers": 0,
+  "retry_authorized": false
+}

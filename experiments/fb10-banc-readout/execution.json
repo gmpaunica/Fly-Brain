@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "f25f9c528dcba29302aeb2372df6fea23f3ea4e0a8ecab8f881cc580d4c13d05",
+  "started_utc": "2026-09-27T01:13:25.432293+00:00",
+  "status": "consumed",
+  "stop_rule": "One 500-update attempt; stop on nonfinite numerics. Record training controls after a finite fit even if turn gate fails. No retries, sweeps or held-out execution."
+}

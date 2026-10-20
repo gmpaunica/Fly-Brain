@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic\runner.py", line 234, in <module>
+    else: print(json.dumps(run(),indent=2))
+                           ^^^^^
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic\runner.py", line 209, in run
+    raise ValueError(f'historical mismatch seed {case["seed"]} interval {interval}: {different}')
+ValueError: historical mismatch seed 1100000 interval 0: ['pathway']

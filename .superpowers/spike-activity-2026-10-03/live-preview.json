@@ -1,0 +1,7 @@
+﻿{
+    "verification_date":  "2026-10-04",
+    "pid":  29368,
+    "command":  ".venv\\Scripts\\pythonw.exe -m flybrain.flight3d --seed 970000",
+    "user_review":  "full-activity appearance approved; individual native interaction checks unconfirmed",
+    "follow_up":  "User requests planning selectable All activity and defined-circuit focus"
+}

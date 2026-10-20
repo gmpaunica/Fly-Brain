@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="13.015" timestamp="2026-10-11T13:46:30.840955+01:00" hostname="Thinkpad"><testcase classname="tests.test_escape_edge" name="test_viewer_predator_spawn_remains_valid_at_the_edge" time="1.267" /></testsuite></testsuites>

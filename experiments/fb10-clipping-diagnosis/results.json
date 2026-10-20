@@ -1,0 +1,15 @@
+{
+  "experiment": "fb10_clipping_diagnosis",
+  "protocol_sha256": "87968c2f4895dc07655ccaec7dfb1cfb8e4e9c3536e78ac05c2dd8444097737e",
+  "optimizer_steps": 0,
+  "actual_episodes": 1,
+  "actual_world_ticks": 600,
+  "actual_neural_steps": 12000,
+  "historical_episode_exact": true,
+  "both_clipped_ticks": 133,
+  "clipped_strong_left": 58,
+  "clipped_strong_right": 60,
+  "clipped_target_min": -1.0,
+  "clipped_target_max": 1.0,
+  "provenance_preserved": true
+}

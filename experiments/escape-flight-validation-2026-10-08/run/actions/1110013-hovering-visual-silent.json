@@ -1,0 +1,12 @@
+{
+  "schema": "escape-flight-actions-v1",
+  "case": {
+    "azimuth": 180,
+    "state": "hovering",
+    "intervention": "visual-silent",
+    "seed": 1110013
+  },
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "recovery_log": "1110013-hovering-visual-silent.recovery.json",
+  "recovery_log_sha256": "b33beab583f4e9fafabb95b1177cfd2852b112539aa0c7c4d9a7a759aa70540f"
+}

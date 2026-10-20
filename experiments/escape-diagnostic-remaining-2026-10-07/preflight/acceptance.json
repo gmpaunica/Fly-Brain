@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "tests_passed": 26,
+  "added_kernel_steps": 0,
+  "engineering_steps": 1747,
+  "source_hashes": {
+    "src/flybrain/escape_diagnostic/__init__.py": "b70c04f8ad35d4a2bcfa7846d1e1a763596efdd571efd6259c4521a500deff9d",
+    "src/flybrain/escape_diagnostic/audit.py": "069ac918e1bb4e90e5004ec05404225848f109933361b785af1bdb73eb6351db",
+    "src/flybrain/escape_diagnostic/recorder.py": "3ecd8a413e1160be881b285eddfb1dc5f27799a82350670a360be108ed45dccf",
+    "src/flybrain/escape_diagnostic/runner.py": "cf7d466ede07dfa32337b66b412872d261dbc91696e1147b2b9f68431a6fe3de",
+    "src/flybrain/escape_diagnostic_recovery/__init__.py": "4de4390b42967b8c4c9615e734aadedcf9538e0d7ca0f499777fa6267a0db205",
+    "src/flybrain/escape_diagnostic_recovery/audit.py": "1977b5c68f9a0637f1d1282e0649bc7cacc12be512f91d9da7d5ec01d62870b2",
+    "src/flybrain/escape_diagnostic_recovery/comparator.py": "7eecbc57b9f8c9d2ec63b603a3f9568df4b882ba993f00e6735114eb3ed4f5cd",
+    "src/flybrain/escape_diagnostic_recovery/runner.py": "75ea73eec88a0db4f41e47c060a79d78ed6d130195d2d836748425f88702fd16",
+    "src/flybrain/escape_diagnostic_remaining/__init__.py": "ae1c4ce1075a7c372867ba05a9fd94ad94d9570fdad352683ef3ca4b6cffaa98",
+    "src/flybrain/escape_diagnostic_remaining/audit.py": "12e4492ab5a713956e9ce7b373f6825411660e35e71f5bf461585ba098a5dd3d",
+    "src/flybrain/escape_diagnostic_remaining/contract.py": "3b073e96ca5211ade61ff37fabf4c95552c6dc45f455eddd29ed9cb39a78e1e7",
+    "src/flybrain/escape_diagnostic_remaining/runner.py": "3fdc86fb92d20f1d17274ca2249d4094178fa9640cd037acf671a3ab2c44a64d",
+    "src/flybrain/escape_diagnostic_remaining/worker.py": "0310ea8ecfedb360688006bcc030820a824e99d5ef71ffe4bc21768d1ef3ecc2",
+    "tests/test_escape_diagnostic.py": "f9a612d7c048dde2026b723ea811ec777636a982189878deb4daccdd0708f638",
+    "tests/test_escape_diagnostic_recovery.py": "6f8ec528485573a3597aecbd412346c70ae8d43a1add9af40928e4f229e9e57e",
+    "tests/test_escape_diagnostic_remaining.py": "7adbbee9a4dd96687d6d8946ba7e1b2cc0a39218f2526a8e023a68db436d78c6"
+  },
+  "verification_hashes": {
+    "artifacts/escape-diagnostic-remaining-2026-10-07/remaining-tests.xml": "967c2e17a9b3bfdba29103c20351dfda32408e571f83ceea05cdcdf00d7a89a8",
+    "artifacts/escape-diagnostic-remaining-2026-10-07/offline-call-guard.json": "a4ec2ac9d640f278f212afc9b3db2ed8fa614e5b51db214fde660b9c18a7e7eb"
+  },
+  "budget": {
+    "additional_cases": 11,
+    "additional_seconds": 16.5,
+    "additional_steps": 33000,
+    "cumulative_steps": 55160
+  },
+  "full_suite": "not run: reserved for subsequently approved neural repair"
+}

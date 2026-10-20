@@ -1,0 +1,38 @@
+{
+  "status": "incomplete",
+  "actual_optimizer_updates": 1050,
+  "completed_teacher_episodes": 48,
+  "teacher_successes": 48,
+  "positive_recorded_gradient_norms": true,
+  "candidate_matches_last_completed_update": true,
+  "interrupted_matches_candidate": true,
+  "changed_parameter_tensors": 12,
+  "last_parameter_change_file_update": 1049,
+  "parameter_changes_at_1050": {
+    "heads.0.0.weight": 2.528813123703003,
+    "heads.0.0.bias": 1.6703752279281616,
+    "heads.0.2.weight": 1.114111304283142,
+    "heads.0.2.bias": 0.14982545375823975,
+    "heads.1.0.weight": 1.151586651802063,
+    "heads.1.0.bias": 0.2341797947883606,
+    "heads.1.2.weight": 0.35624003410339355,
+    "heads.1.2.bias": 0.05903036147356033,
+    "heads.2.0.weight": 3.1186656951904297,
+    "heads.2.0.bias": 1.4793851375579834,
+    "heads.2.2.weight": 1.3337796926498413,
+    "heads.2.2.bias": 0.16148826479911804
+  },
+  "error": "PermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\Lenovo\\\\Documents\\\\Gabriel\\\\Projects\\\\Fly-Brain\\\\experiments\\\\flight3d-landing-2026-10-01\\\\progress.json.tmp' -> 'C:\\\\Users\\\\Lenovo\\\\Documents\\\\Gabriel\\\\Projects\\\\Fly-Brain\\\\experiments\\\\flight3d-landing-2026-10-01\\\\progress.json'",
+  "validation_evaluated": false,
+  "final_evaluated": false,
+  "reload_gate_executed": false,
+  "frozen_source_intact": true,
+  "one_use_receipt_consumed": true,
+  "protocol_sha256": "fd6b9df5f08031f07ffd3786b761102045957018eba5ebcf6aa69f2cba7f354e",
+  "checkpoint_sha256": {
+    "candidate.pt": "0fc14ef7660fe1343b01299c1e6189d796ac57a83cbf1e3b9b9402ed93870ca0",
+    "interrupted.pt": "84e793fd37da370c42742245046c39500318816d7d5c00bec9d0bd91b78d3468",
+    "untrained.pt": "d7bab8dc92803699f7f8eefd531f0916abe216f117f8a7b142fc5ec47d20067a"
+  },
+  "note": "Read-only reconciliation; no fitting, neural stepping or behavioral evaluation"
+}

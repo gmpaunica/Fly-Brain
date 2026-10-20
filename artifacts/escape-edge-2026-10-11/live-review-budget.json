@@ -1,0 +1,9 @@
+{
+  "classification": "engineering viewer API review",
+  "seed": 1110000,
+  "initial_state": "resting",
+  "seconds": 12,
+  "max_individual_neural_steps": 24000,
+  "native_input_automation": false,
+  "new_scientific_cases": 0
+}

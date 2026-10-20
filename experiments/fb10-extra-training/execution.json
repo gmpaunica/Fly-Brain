@@ -1,0 +1,6 @@
+{
+  "status": "consumed",
+  "protocol_sha256": "60dc3b242fb1a50c713b7e381222094488a631a80707c95be7316e7dafbdbd01",
+  "started_utc": "2026-09-28T11:03:59.696658+00:00",
+  "stop_rule": "Exactly one 750-update candidate from seed 1010; stop immediately on nonfinite numerics, record original matched training behavior after a finite fit, close on any failed gate. No sweep/retry or fresh case in this fit."
+}

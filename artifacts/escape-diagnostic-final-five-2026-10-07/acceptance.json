@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "tests_passed": 36,
+  "added_kernel_steps": 0,
+  "engineering_steps": 1747,
+  "source_hashes": {
+    "src/flybrain/escape_diagnostic/__init__.py": "b70c04f8ad35d4a2bcfa7846d1e1a763596efdd571efd6259c4521a500deff9d",
+    "src/flybrain/escape_diagnostic/audit.py": "069ac918e1bb4e90e5004ec05404225848f109933361b785af1bdb73eb6351db",
+    "src/flybrain/escape_diagnostic/recorder.py": "3ecd8a413e1160be881b285eddfb1dc5f27799a82350670a360be108ed45dccf",
+    "src/flybrain/escape_diagnostic/runner.py": "cf7d466ede07dfa32337b66b412872d261dbc91696e1147b2b9f68431a6fe3de",
+    "src/flybrain/escape_diagnostic_recovery/__init__.py": "4de4390b42967b8c4c9615e734aadedcf9538e0d7ca0f499777fa6267a0db205",
+    "src/flybrain/escape_diagnostic_recovery/audit.py": "1977b5c68f9a0637f1d1282e0649bc7cacc12be512f91d9da7d5ec01d62870b2",
+    "src/flybrain/escape_diagnostic_recovery/comparator.py": "7eecbc57b9f8c9d2ec63b603a3f9568df4b882ba993f00e6735114eb3ed4f5cd",
+    "src/flybrain/escape_diagnostic_recovery/runner.py": "75ea73eec88a0db4f41e47c060a79d78ed6d130195d2d836748425f88702fd16",
+    "src/flybrain/escape_diagnostic_remaining/__init__.py": "ae1c4ce1075a7c372867ba05a9fd94ad94d9570fdad352683ef3ca4b6cffaa98",
+    "src/flybrain/escape_diagnostic_remaining/audit.py": "12e4492ab5a713956e9ce7b373f6825411660e35e71f5bf461585ba098a5dd3d",
+    "src/flybrain/escape_diagnostic_remaining/contract.py": "3b073e96ca5211ade61ff37fabf4c95552c6dc45f455eddd29ed9cb39a78e1e7",
+    "src/flybrain/escape_diagnostic_remaining/runner.py": "3fdc86fb92d20f1d17274ca2249d4094178fa9640cd037acf671a3ab2c44a64d",
+    "src/flybrain/escape_diagnostic_remaining/worker.py": "0310ea8ecfedb360688006bcc030820a824e99d5ef71ffe4bc21768d1ef3ecc2",
+    "src/flybrain/escape_diagnostic_final/__init__.py": "fbbc127934d11080a3755e608f964ef6bd5bbbe817223500709ee30d2dca5d79",
+    "src/flybrain/escape_diagnostic_final/audit.py": "6d5f441c1f9328ed9160ab29232bb58abef3ce2a005378fc0b5ba1ae34b501e2",
+    "src/flybrain/escape_diagnostic_final/contract.py": "54f993c18fbb41969ff8547abe3d0363848b8f1386e888a34a37230f479dd94b",
+    "src/flybrain/escape_diagnostic_final/runner.py": "70917b4ec2d31fc40e543080e07faec6bae45f551b9fa2d087c7333a52ad5b98",
+    "src/flybrain/escape_diagnostic_final/worker.py": "3ee0a683eae142b72b57f6add2e1c79abf14cb8d1301c51a888470dfc0765a8d",
+    "src/flybrain/escape_diagnostic_journal.py": "e67a1c6fc0e51144f661c0675062033c581a8edf839a6b711b5d55cc303e9574",
+    "tests/test_escape_diagnostic.py": "f9a612d7c048dde2026b723ea811ec777636a982189878deb4daccdd0708f638",
+    "tests/test_escape_diagnostic_final.py": "b6352779699a8b54666a9184db131df8a08d18530818799145bad416c08502c0",
+    "tests/test_escape_diagnostic_journal.py": "3c9a9ab11913937e2d611ac07c67e972dfcafd4d890d992b24cee30333d4fdf0",
+    "tests/test_escape_diagnostic_recovery.py": "6f8ec528485573a3597aecbd412346c70ae8d43a1add9af40928e4f229e9e57e",
+    "tests/test_escape_diagnostic_remaining.py": "7adbbee9a4dd96687d6d8946ba7e1b2cc0a39218f2526a8e023a68db436d78c6"
+  },
+  "verification_hashes": {
+    "artifacts/escape-diagnostic-final-five-2026-10-07/final-tests.xml": "cf78f2fa781d37d6864958f3ac4d6e26bc290c1dc58e2108bf2e28c0bcfd6bf5",
+    "artifacts/escape-diagnostic-final-five-2026-10-07/offline-call-guard.json": "bb49c8557d32f0545621e7cbf0cc90a92860a32270d4b6d254d027e04ac3a162"
+  },
+  "budget": {
+    "cases": 5,
+    "new_seconds": 7.5,
+    "new_steps": 15000,
+    "cumulative_executed_steps": 57360,
+    "cumulative_attempted_steps": 57400
+  },
+  "full_suite": "not run: diagnostic scope reserves full suite for subsequent approved neural repair"
+}

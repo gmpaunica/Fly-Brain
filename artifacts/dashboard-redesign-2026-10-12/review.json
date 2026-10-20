@@ -1,0 +1,30 @@
+{
+  "status": "visual-and-local-review-passed",
+  "protected_files": 3010,
+  "source_bound_candidate": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "simulation_seconds": 0,
+  "neural_steps": 0,
+  "native_input_review": "not performed; native control tools unavailable",
+  "evidence": {
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/dashboard-1000.png": "2e36f190ada8e6792cce211418f6eda73162682e17f5ee9847bd50e30aa2095b",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/filtered-1000.png": "7e63e8a96af8402f79f6d625b19fe0ef5f3acd808e64239b45720d857dea73af",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/inspect-1000.png": "9138170d9948ae03f2bca162c1f1a660c6bdceb1b18ad652c50bb8c2043843ec",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/help-1000.png": "6ccf7a681992da271b7dccb9359a706a2daf459756ba6971063c802ef1d9785f",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/empty-1000.png": "1a757e9d4cf05a14ea5bd2c01c873475ff0a75c7aff9d10f9ff1be509a8b7b90",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/dashboard-1440.png": "35b320b895d8308c64d9c91fb7f99228b27e062d2088a59a4b4dbd359904f3e6",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/filtered-1440.png": "53e50c2d1879307d34c4e3d354e7d79753db47f2fb361dbb88e3434e3f7f90b5",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/inspect-1440.png": "41002fb7ca81582dfc1c0b0c552ae217155d0e1fb7f8d9177025922a3238bcf1",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/help-1440.png": "0c2c40e2d8180c27c69d8369e2842f6c183cd099fea737363ca426bf1f7a1487",
+    "artifacts/dashboard-redesign-2026-10-12/reviewed-frames/empty-1440.png": "b3a6a9a56dc0ce2b019cac699c4357872f06958a32309b9029e81f5b42c89cce",
+    "src/flybrain/escape_ui/filters.py": "f18b8ce2707174b5ad2290f8a1725b5abdc0237e48a594e6f854a1a6f3288594",
+    "src/flybrain/escape_ui/groups.py": "7cd3272ebdbba6fc3af96adadf9a6b1450d24693d6d98c198f4561ca1e2c5d8e",
+    "src/flybrain/escape_ui/inspector.py": "640efc7284f45eb607f931707ec3a9aceedd4309444d7b1c0a59ae376defd314",
+    "src/flybrain/escape_ui/layout.py": "f7fb0273b57ba876ade9343e7f479445d69971d40b32f32f6352ae1ad1aa11e0",
+    "src/flybrain/escape_ui/viewer.py": "da75bf1553cac77fd8d28514b35755d652b0ed8a8a2af6d579e31f11547f567a",
+    "src/flybrain/escape_ui/widgets.py": "3a9ae30cda8b7c67a31137dc9970fa97d67226d4d41b6c60af0af74106f6dade",
+    "src/flybrain/escape_ui/__init__.py": "edf940282ef3cddfcb8787677c92829276fcfe2ea24c1c8b9272f6815cb41330",
+    "src/flybrain/escape_ui/__main__.py": "a8664566249a9d8910633e4c46573a8cbee02269c1f38dba1cb02ed7ae4ea5f8",
+    "tests/test_dashboard_ui.py": "2a384e22221fb89251f91c6b754612e9cd424349d7277905016f08492a351286",
+    "scripts/review_escape_ui.py": "d6cf96a6248a65960549e14afcebf5a8cbf25924a5c58413b558557a15bb5485"
+  }
+}

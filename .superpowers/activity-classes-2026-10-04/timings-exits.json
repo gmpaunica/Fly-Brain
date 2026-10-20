@@ -1,0 +1,78 @@
+[
+  {
+    "name": "timing-all-hidden",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--frames",
+      "120",
+      "--activity",
+      "all",
+      "--cord",
+      "hidden",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\activity-classes-2026-10-04\\timing-all-hidden.json"
+    ],
+    "exit": 0,
+    "wall_seconds": 20.982603000011295
+  },
+  {
+    "name": "timing-all-shown",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--frames",
+      "120",
+      "--activity",
+      "all",
+      "--cord",
+      "shown",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\activity-classes-2026-10-04\\timing-all-shown.json"
+    ],
+    "exit": 0,
+    "wall_seconds": 24.355369500117376
+  },
+  {
+    "name": "timing-odor-hidden",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--frames",
+      "120",
+      "--activity",
+      "odor",
+      "--cord",
+      "hidden",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\activity-classes-2026-10-04\\timing-odor-hidden.json"
+    ],
+    "exit": 0,
+    "wall_seconds": 21.052859799936414
+  },
+  {
+    "name": "timing-odor-shown",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--frames",
+      "120",
+      "--activity",
+      "odor",
+      "--cord",
+      "shown",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\activity-classes-2026-10-04\\timing-odor-shown.json"
+    ],
+    "exit": 0,
+    "wall_seconds": 25.074582899920642
+  }
+]

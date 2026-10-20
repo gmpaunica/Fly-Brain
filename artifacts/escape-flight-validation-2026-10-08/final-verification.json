@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scientific_status": "closed-physical-failed",
+  "protected_files": 4858,
+  "original_diagnostic_steps": 1747,
+  "new_isolated_diagnostic_steps": {
+    "full": 529,
+    "post-audit-full": 529
+  },
+  "source_preservation": "current and archived frozen candidate/adjacent experiment sources unchanged",
+  "full_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "847",
+    "time": "413.194",
+    "timestamp": "2026-10-08T17:56:16.051451+01:00",
+    "hostname": "Thinkpad"
+  },
+  "science_neural_steps": 576000,
+  "replay_neural_steps": 576000,
+  "new_scientific_cases_during_replay": 0,
+  "audit_neural_steps": 0,
+  "activation": "disabled",
+  "cli_refusal_exit_code": 1,
+  "verification_hashes": {
+    "artifacts/escape-flight-validation-2026-10-08/audit.json": "01b8ad024511b0f8e7b4b18f3d214fd1c577580e746515caf768731b92fef4b7",
+    "artifacts/escape-flight-validation-2026-10-08/replay.json": "2622893549e274bbd59718862a8be3d345f6effc677d7192a03e081bff310d31",
+    "artifacts/escape-flight-validation-2026-10-08/visual-review.json": "2647f68c12e897d5504ef07cd78572c5b98e3c18e141a369e2ee16f94c1884f2",
+    "artifacts/escape-flight-validation-2026-10-08/prototype-acceptance.json": "12e75aef24ebe49784400bc31e6742a65b3f98ddcea63f7e131173982282d896",
+    "artifacts/escape-flight-validation-2026-10-08/post-audit-full.xml": "931ec37b8829b855dc6fa2f4226a483df9480f9146fe3b257c9830a6f2ecffdf",
+    "artifacts/escape-flight-validation-2026-10-08/post-audit-full.log": "83dc16e464add9319fa148c87552649da02475e4e711f36f7d64ca2887d30247",
+    "artifacts/escape-flight-validation-2026-10-08/serialized.xml": "624b7833a911894a1a1a76e6814a6dadf9ca980ab2389d3ab678e432281e29f9",
+    "artifacts/escape-flight-validation-2026-10-08/audit_serialized.py": "d656c8355c306e43f01bee70cc7363ea06aa58ecc84d7d2ea994bd2d8e2c966f",
+    "artifacts/escape-flight-validation-2026-10-08/test_serialized_audit.py": "7ec0def2f02908643f7c59b831f0071c85502c5fc2a83834d42e4be86a59a42c",
+    "artifacts/escape-flight-validation-2026-10-08/replay_driver.py": "872f8aaefd1367d81c5c9697d8b8f1d3e9f0cfc2b72b416e139c0523d1b2c97d",
+    "artifacts/escape-flight-validation-2026-10-08/final-cli-refusal.log": "25481a4a27a5f319d3e0c997f2f80d004fc4cf89f474418b39e7168ee8aa5f23"
+  }
+}

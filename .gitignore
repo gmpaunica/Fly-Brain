@@ -1,0 +1,36 @@
+.venv/
+.venv-py314/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and machine-specific settings must never be published.
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.netrc
+_netrc
+.pypirc
+.git-credentials
+.aws/
+.ssh/
+.idea/
+.vscode/
+
+# Disposable pytest directories and operating-system files.
+pytest-cache-files-*/
+Thumbs.db
+Desktop.ini
+.DS_Store

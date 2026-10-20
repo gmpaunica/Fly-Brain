@@ -1,0 +1,72 @@
+{
+  "name": "fb09_unsigned_banc_dynamics_diagnostic",
+  "date": "2026-09-24",
+  "objective": "Finite, selective propagation and washout before training",
+  "hypothesis": "At least one of the two fixed gains will reach left DNa02 and motor cells from left odor, keep right steering and motor cells silent, and wash out after odor ends",
+  "source": {
+    "dataset_doi": "10.7910/DVN/7WTH1N",
+    "release": "3.0",
+    "materialization": "888",
+    "subset_sha256": "76c254e22741230b3d97aeb21c9938405b2e98c07ca29b8cde9331f3c4e6d0ae"
+  },
+  "software": {"python": "3.12.10", "torch": "2.14.0+cpu", "device": "cpu", "commit": null},
+  "model": {
+    "neurons": 83,
+    "edges": 176,
+    "synapse_count_sum": 6062,
+    "self_edges": 31,
+    "weight_rule": "W[post,pre] = connectome_gain * source_norm",
+    "functional_signs": "unknown; all imported edges nonnegative",
+    "lif_dt_seconds": 0.001,
+    "lif_tau_seconds": 0.02,
+    "lif_threshold": 1.0,
+    "odor_encoder": "linear 2*min(concentration/0.025,1) to matching ORNs only"
+  },
+  "budget_and_stop": {
+    "gain_candidates": [1.0, 600.0],
+    "input_substeps": 100,
+    "silent_substeps": 100,
+    "training_updates": 0,
+    "learning_rate": null,
+    "checkpoint": null,
+    "behavioral_evaluation_cases": [],
+    "stop_condition": "Stop after both fixed gain candidates; do not tune from these outputs"
+  },
+  "input": {
+    "odor_left": 0.025,
+    "odor_right": 0.0,
+    "seed": null,
+    "reason_no_seed": "The fixed graph and deterministic current use no random draw"
+  },
+  "gate": {
+    "selective_propagation": "left projection, DNa02 and motor spikes; right DNa02 and motor silent",
+    "washout": "all selected cells silent in the following zero-input interval",
+    "numerical_stability": "all voltages finite"
+  },
+  "results": [
+    {
+      "connectome_gain": 1.0,
+      "input_spikes": {"sensory_left": 217, "projection_left": 0, "corridor_left": 0,
+                       "steering_left": 0, "motor_left": 0, "sensory_right": 0,
+                       "steering_right": 0, "motor_right": 0},
+      "silent_spikes": {"sensory_left": 0, "projection_left": 0, "corridor_left": 0,
+                        "steering_left": 0, "motor_left": 0, "sensory_right": 0,
+                        "steering_right": 0, "motor_right": 0},
+      "finite_voltages": true,
+      "gate_passed": false
+    },
+    {
+      "connectome_gain": 600.0,
+      "input_spikes": {"sensory_left": 697, "projection_left": 86, "corridor_left": 255,
+                       "steering_left": 83, "motor_left": 246, "sensory_right": 0,
+                       "steering_right": 83, "motor_right": 246},
+      "silent_spikes": {"sensory_left": 600, "projection_left": 100,
+                        "corridor_left": 300, "steering_left": 100,
+                        "motor_left": 300, "sensory_right": 0,
+                        "steering_right": 100, "motor_right": 300},
+      "finite_voltages": true,
+      "gate_passed": false
+    }
+  ],
+  "conclusion": "Neither candidate passed selective propagation and washout; no training or embodied evaluation was run."
+}

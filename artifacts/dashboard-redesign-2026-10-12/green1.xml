@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="5" time="4.611" timestamp="2026-10-12T13:30:54.497932+01:00" hostname="Thinkpad"><testcase classname="tests.test_dashboard_ui" name="test_compact_layout_has_ten_rows_and_nonoverlapping_viewport_routing" time="0.005" /><testcase classname="tests.test_dashboard_ui" name="test_owner_visibility_filters_alpha_without_changing_spike_history" time="0.058" /><testcase classname="tests.test_dashboard_ui" name="test_dashboard_real_checkboxes_tabs_and_passive_capture[size0]" time="1.564"><failure message="OSError: Could not load font file: C:/Windows/Fonts/segoeui.ttf">tests\test_dashboard_ui.py:51: in test_dashboard_real_checkboxes_tabs_and_passive_capture
+    app = app_api()(1110000, verified_candidate(), verified=True,
+src\flybrain\escape_ui\viewer.py:61: in __init__
+    super().__init__(seed, candidate, verified=verified, **kwargs)
+src\flybrain\escape_edge\viewer.py:26: in __init__
+    super().__init__(seed,candidate,verified=False,**kwargs)
+src\flybrain\escape_recovery\viewer.py:12: in __init__
+    super().__init__(seed,candidate.response,**kwargs);self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\turnflee\viewer.py:27: in __init__
+    super().__init__(seed,**kwargs); self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\retreat3d\viewer.py:20: in __init__
+    super().__init__(seed, 'flower', **kwargs)
+src\flybrain\encounters3d\viewer.py:24: in __init__
+    super().__init__(seed,'teacher',**kwargs)
+src\flybrain\flight3d\anatomical_viewer.py:49: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\network_viewer.py:21: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\viewer.py:108: in __init__
+    self._world(); self._anatomy(); self._ui(); self.preset('front')
+                                    ^^^^^^^^^^
+src\flybrain\escape_ui\viewer.py:92: in _ui
+    self._load_ui_font()
+src\flybrain\escape_ui\viewer.py:73: in _load_ui_font
+    self.ui_font = self.loader.loadFont(path.as_posix()) if path.exists() else None
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\direct\showbase\Loader.py:648: in loadFont
+    raise IOError(message)
+E   OSError: Could not load font file: C:/Windows/Fonts/segoeui.ttf</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_dashboard_real_checkboxes_tabs_and_passive_capture[size1]" time="0.374"><failure message="Exception: Attempt to spawn multiple ShowBase instances!">tests\test_dashboard_ui.py:51: in test_dashboard_real_checkboxes_tabs_and_passive_capture
+    app = app_api()(1110000, verified_candidate(), verified=True,
+src\flybrain\escape_ui\viewer.py:61: in __init__
+    super().__init__(seed, candidate, verified=verified, **kwargs)
+src\flybrain\escape_edge\viewer.py:26: in __init__
+    super().__init__(seed,candidate,verified=False,**kwargs)
+src\flybrain\escape_recovery\viewer.py:12: in __init__
+    super().__init__(seed,candidate.response,**kwargs);self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\turnflee\viewer.py:27: in __init__
+    super().__init__(seed,**kwargs); self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\retreat3d\viewer.py:20: in __init__
+    super().__init__(seed, 'flower', **kwargs)
+src\flybrain\encounters3d\viewer.py:24: in __init__
+    super().__init__(seed,'teacher',**kwargs)
+src\flybrain\flight3d\anatomical_viewer.py:49: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\network_viewer.py:21: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\viewer.py:81: in __init__
+    super().__init__(windowType='offscreen' if offscreen else None)
+.venv\Lib\site-packages\direct\showbase\ShowBase.py:429: in __init__
+    raise Exception("Attempt to spawn multiple ShowBase instances!")
+E   Exception: Attempt to spawn multiple ShowBase instances!</failure></testcase><testcase classname="tests.test_dashboard_ui" name="test_filtered_selection_bounds_empty_state_and_replay" time="0.343"><failure message="Exception: Attempt to spawn multiple ShowBase instances!">tests\test_dashboard_ui.py:113: in test_filtered_selection_bounds_empty_state_and_replay
+    app = app_api()(1110000, verified_candidate(), verified=True,
+src\flybrain\escape_ui\viewer.py:61: in __init__
+    super().__init__(seed, candidate, verified=verified, **kwargs)
+src\flybrain\escape_edge\viewer.py:26: in __init__
+    super().__init__(seed,candidate,verified=False,**kwargs)
+src\flybrain\escape_recovery\viewer.py:12: in __init__
+    super().__init__(seed,candidate.response,**kwargs);self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\turnflee\viewer.py:27: in __init__
+    super().__init__(seed,**kwargs); self.simulation.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\flybrain\retreat3d\viewer.py:20: in __init__
+    super().__init__(seed, 'flower', **kwargs)
+src\flybrain\encounters3d\viewer.py:24: in __init__
+    super().__init__(seed,'teacher',**kwargs)
+src\flybrain\flight3d\anatomical_viewer.py:49: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\network_viewer.py:21: in __init__
+    super().__init__(*args,**kwargs)
+src\flybrain\flight3d\viewer.py:81: in __init__
+    super().__init__(windowType='offscreen' if offscreen else None)
+.venv\Lib\site-packages\direct\showbase\ShowBase.py:429: in __init__
+    raise Exception("Attempt to spawn multiple ShowBase instances!")
+E   Exception: Attempt to spawn multiple ShowBase instances!</failure></testcase></testsuite></testsuites>

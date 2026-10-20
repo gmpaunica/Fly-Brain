@@ -1,0 +1,12 @@
+{
+  "url": "https://storage.googleapis.com/lee-lab_brain-and-nerve-cord-fly-connectome/compiled_data/banc_888/banc_banc_space_swc/720575941482028483_skeleton.swc",
+  "generation": "1777944543498799",
+  "etag": "\"89e71d12451572bc3d6d4c3ddb54fb68\"",
+  "sha256": "789045d7ed4808c723e51a8b6b0622de29522e8a3d4fd268f938845d662a8ff6",
+  "bytes": 3077138,
+  "id": "720575941482028483",
+  "status": "available",
+  "points": 45555,
+  "segments": 45554,
+  "units": "source nm; cached mm"
+}

@@ -1,0 +1,69 @@
+{
+  "view": "previous-anatomy",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "conditions": {
+    "paused": {
+      "mean_ms": 20.06429083024462,
+      "p95_ms": 24.92798501625657,
+      "max_ms": 28.873799950815737,
+      "frames_per_wall_second": 49.83978793272945,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "running": {
+      "mean_ms": 56.04049499864535,
+      "p95_ms": 78.91117997933179,
+      "max_ms": 89.62380001321435,
+      "frames_per_wall_second": 17.84423924207259,
+      "simulation_seconds": 2.0,
+      "simulation_ticks": 100,
+      "simulation_compute_ms": 3018.075699917972,
+      "simulation_step_p95_ms": 43.16528500639833,
+      "simulation_seconds_per_wall_second": 0.2974039873678765,
+      "selection_ms": []
+    },
+    "orbiting": {
+      "mean_ms": 26.398680842248723,
+      "p95_ms": 34.36372507712804,
+      "max_ms": 42.56969993002713,
+      "frames_per_wall_second": 37.88068070430207,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "selecting": {
+      "mean_ms": 28.69099416517808,
+      "p95_ms": 37.62427005567588,
+      "max_ms": 109.93749997578561,
+      "frames_per_wall_second": 34.85414253137621,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        58.900499949231744,
+        10.118699981831014,
+        6.01090001873672,
+        6.490400061011314,
+        5.775200086645782,
+        73.19280004594475
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "task": "fb10_protocol_preparation",
+  "timestamp_utc": "2026-09-26T18:12:13.505220+00:00",
+  "protocol_sha256": "f25f9c528dcba29302aeb2372df6fea23f3ea4e0a8ecab8f881cc580d4c13d05",
+  "protocol_validation_passed": true,
+  "experiment_optimizer_steps": 0,
+  "experiment_world_ticks": 0,
+  "experiment_neural_steps": 0,
+  "experiment_execution_started": false,
+  "scientific_training_or_learning_gate_measured": false,
+  "held_out_evaluated": false,
+  "sample_shape": [
+    1008,
+    8
+  ],
+  "target_shape": [
+    1008,
+    2
+  ],
+  "turn_mse_gate": 0.02225273146561865,
+  "previous_files_preserved": true,
+  "preserved_group_counts": {
+    "accepted_bundle_and_subset_sha256": 4,
+    "source_code_sha256": 45,
+    "previous_files_sha256": 110
+  },
+  "new_source_files": [
+    "src/flybrain/neural/banc_readout.py",
+    "src/flybrain/training/banc_protocol.py",
+    "src/flybrain/training/banc_training.py"
+  ],
+  "targeted_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_banc_readout.py tests/test_banc_training.py -q -p no:cacheprovider",
+    "passed": 38,
+    "seconds": 24.12
+  },
+  "full_suite": {
+    "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider --junitxml=.fb10-final-verification.xml",
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "396",
+    "time": "102.684",
+    "timestamp": "2026-09-26T19:06:34.011154+01:00",
+    "hostname": "Thinkpad",
+    "warnings": "one existing upstream Pygame deprecation warning"
+  },
+  "limits": [
+    "Software optimizer tests used artificial data; they are not BANC training results.",
+    "Full scientific runner has not been executed.",
+    "No UI change or new visual review.",
+    "Local review only; no subagent or Git repository."
+  ],
+  "next_task": "FB-10 / Sol High: one capped training fit under the frozen protocol; no automatic retry or held-out run."
+}

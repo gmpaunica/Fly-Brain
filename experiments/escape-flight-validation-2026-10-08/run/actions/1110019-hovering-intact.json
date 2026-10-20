@@ -1,0 +1,12 @@
+{
+  "schema": "escape-flight-actions-v1",
+  "case": {
+    "azimuth": 270,
+    "state": "hovering",
+    "intervention": "intact",
+    "seed": 1110019
+  },
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "recovery_log": "1110019-hovering-intact.recovery.json",
+  "recovery_log_sha256": "5d15d9ce569582a295797e80af9439298bf178f6e50f6eec7615de7d7569baec"
+}

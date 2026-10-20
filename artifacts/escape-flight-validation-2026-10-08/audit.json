@@ -1,0 +1,23 @@
+{
+  "status": "audit-passed",
+  "experiment_status": "closed-physical-failed",
+  "cases": 48,
+  "intervals": 14400,
+  "neural_steps": 576000,
+  "intact_successes": 19,
+  "per_state": {
+    "resting": 6,
+    "hovering": 7,
+    "cruising": 6
+  },
+  "silent_triggers": 0,
+  "audit_steps": 0,
+  "serialization_adapter": {
+    "source_sha256": "d656c8355c306e43f01bee70cc7363ea06aa58ecc84d7d2ea994bd2d8e2c966f",
+    "raw_csv_sha256": "01c75d8ff424774bdf07bea7a146593f43b78416423765ba964ce6c1749a154d",
+    "json_sha256": "803875edfc432974b6b18c4886216587ce5c0960b6648a8b5f76f72a4f363385",
+    "compared_intervals": 14400,
+    "comparison": "exact float64 hexadecimal values; scalar text unchanged",
+    "neural_steps": 0
+  }
+}

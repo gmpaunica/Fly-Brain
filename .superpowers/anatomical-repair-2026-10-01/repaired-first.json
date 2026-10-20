@@ -1,0 +1,69 @@
+{
+  "view": "repaired",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "conditions": {
+    "paused": {
+      "mean_ms": 3.8466158313288665,
+      "p95_ms": 4.777380044106394,
+      "max_ms": 6.41100003849715,
+      "frames_per_wall_second": 259.9687735529691,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "running": {
+      "mean_ms": 31.531475830706768,
+      "p95_ms": 45.124245033366606,
+      "max_ms": 65.98770001437515,
+      "frames_per_wall_second": 31.71434173804688,
+      "simulation_seconds": 2.0,
+      "simulation_ticks": 100,
+      "simulation_compute_ms": 2646.2801004527137,
+      "simulation_step_p95_ms": 31.86126500950195,
+      "simulation_seconds_per_wall_second": 0.5285723623007813,
+      "selection_ms": []
+    },
+    "orbiting": {
+      "mean_ms": 4.019212498678826,
+      "p95_ms": 4.944015044020489,
+      "max_ms": 5.747699993662536,
+      "frames_per_wall_second": 248.8049587646124,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": []
+    },
+    "selecting": {
+      "mean_ms": 5.687334170215763,
+      "p95_ms": 14.529870054684578,
+      "max_ms": 36.97490005288273,
+      "frames_per_wall_second": 175.82930245895196,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        6.6641999874264,
+        7.0980999153107405,
+        4.913800046779215,
+        6.539400084875524,
+        6.8032999988645315,
+        5.532399984076619
+      ]
+    }
+  }
+}

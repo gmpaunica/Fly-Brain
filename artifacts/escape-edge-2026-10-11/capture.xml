@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="5.044" timestamp="2026-10-11T13:54:34.282485+01:00" hostname="Thinkpad"><testcase classname="tests.test_escape_edge" name="test_paused_capture_runs_frame_tasks_without_advancing_neurons" time="3.042"><failure message="RuntimeError: frame write failed">tmp_path = WindowsPath('C:/Users/Lenovo/AppData/Local/Temp/pytest-of-Lenovo/pytest-384/test_paused_capture_runs_frame0')
+
+    def test_paused_capture_runs_frame_tasks_without_advancing_neurons(tmp_path):
+        from flybrain.escape_recovery.config import CandidateConfig
+        m = api('viewer')
+        assert hasattr(m.EdgeViewer,'capture_paused'), 'normal-frame zero-step capture required'
+        app = m.EdgeViewer(1110000,CandidateConfig.create(),offscreen=True)
+        try:
+            before = app.session.snapshot
+&gt;           app.capture_paused(tmp_path/'frame.png')
+
+tests\test_escape_edge.py:262: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;flybrain.escape_edge.viewer.EdgeViewer object at 0x000002780B43D070&gt;
+path = WindowsPath('C:/Users/Lenovo/AppData/Local/Temp/pytest-of-Lenovo/pytest-384/test_paused_capture_runs_frame0/frame.png')
+
+    def capture_paused(self,path: Path) -&gt; None:
+        """Render with normal frame tasks while physics and neural state stay paused."""
+        from panda3d.core import PNMImage
+        self.paused = True
+        self.simulation.pause()
+        before = self.session.snapshot
+        for _ in range(20):
+            self.taskMgr.step()
+            self.graphicsEngine.syncFrame()
+        if self.session.snapshot != before:
+            raise RuntimeError('rendering advanced simulation state')
+        image = PNMImage()
+        self.win.getScreenshot(image)
+        if not image.write(str(path)):
+&gt;           raise RuntimeError('frame write failed')
+E           RuntimeError: frame write failed
+
+src\flybrain\escape_edge\viewer.py:96: RuntimeError</failure></testcase></testsuite></testsuites>

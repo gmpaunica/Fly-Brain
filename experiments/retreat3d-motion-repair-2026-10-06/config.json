@@ -1,0 +1,1441 @@
+{
+  "hypothesis": "Restoring motion input produces directional wing-spike responses sufficient for a frozen decoder to support escape from an approaching predator.",
+  "max_cases": 192,
+  "max_seconds": 504,
+  "max_neural_steps": 1008000,
+  "stop": "first failed gate; no tuning/retry/alternate decoder/neural changes",
+  "calibration": [
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000000
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000001
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000002
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000003
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000004
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 0,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000005
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000006
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000007
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000008
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000009
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000010
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 45,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000011
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000012
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000013
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000014
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000015
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000016
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 90,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000017
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000018
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000019
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000020
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000021
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000022
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 135,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000023
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000024
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000025
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000026
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000027
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000028
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 180,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000029
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000030
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000031
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000032
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000033
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000034
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 225,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000035
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000036
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000037
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000038
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000039
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000040
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 270,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000041
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000042
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000043
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000044
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000045
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000046
+    },
+    {
+      "phase": "calibration",
+      "azimuth": 315,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000047
+    }
+  ],
+  "validation": [
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000000
+    },
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000001
+    },
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000002
+    },
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000003
+    },
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000004
+    },
+    {
+      "phase": "validation",
+      "azimuth": 11.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000005
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000006
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000007
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000008
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000009
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000010
+    },
+    {
+      "phase": "validation",
+      "azimuth": 33.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000011
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000012
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000013
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000014
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000015
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000016
+    },
+    {
+      "phase": "validation",
+      "azimuth": 56.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000017
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000018
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000019
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000020
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000021
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000022
+    },
+    {
+      "phase": "validation",
+      "azimuth": 78.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000023
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000024
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000025
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000026
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000027
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000028
+    },
+    {
+      "phase": "validation",
+      "azimuth": 101.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000029
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000030
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000031
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000032
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000033
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000034
+    },
+    {
+      "phase": "validation",
+      "azimuth": 123.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000035
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000036
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000037
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000038
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000039
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000040
+    },
+    {
+      "phase": "validation",
+      "azimuth": 146.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000041
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000042
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000043
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000044
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000045
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000046
+    },
+    {
+      "phase": "validation",
+      "azimuth": 168.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000047
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000048
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000049
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000050
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000051
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000052
+    },
+    {
+      "phase": "validation",
+      "azimuth": 191.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000053
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000054
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000055
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000056
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000057
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000058
+    },
+    {
+      "phase": "validation",
+      "azimuth": 213.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000059
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000060
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000061
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000062
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000063
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000064
+    },
+    {
+      "phase": "validation",
+      "azimuth": 236.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000065
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000066
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000067
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000068
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000069
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000070
+    },
+    {
+      "phase": "validation",
+      "azimuth": 258.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000071
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000072
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000073
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000074
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000075
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000076
+    },
+    {
+      "phase": "validation",
+      "azimuth": 281.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000077
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000078
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000079
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000080
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000081
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000082
+    },
+    {
+      "phase": "validation",
+      "azimuth": 303.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000083
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000084
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000085
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000086
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000087
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000088
+    },
+    {
+      "phase": "validation",
+      "azimuth": 326.25,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000089
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": -20,
+      "profile": 0,
+      "seed": 1000090
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": -20,
+      "profile": 1,
+      "seed": 1000091
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": 0,
+      "profile": 0,
+      "seed": 1000092
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": 0,
+      "profile": 1,
+      "seed": 1000093
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": 20,
+      "profile": 0,
+      "seed": 1000094
+    },
+    {
+      "phase": "validation",
+      "azimuth": 348.75,
+      "elevation": 20,
+      "profile": 1,
+      "seed": 1000095
+    }
+  ],
+  "closed_loop": [
+    {
+      "azimuth": 0,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 0,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 0,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 0,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 0,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 0,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010000
+    },
+    {
+      "azimuth": 45,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 45,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 45,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 45,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 45,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 45,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010001
+    },
+    {
+      "azimuth": 90,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 90,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 90,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 90,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 90,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 90,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010002
+    },
+    {
+      "azimuth": 135,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 135,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 135,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 135,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 135,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 135,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010003
+    },
+    {
+      "azimuth": 180,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 180,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 180,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 180,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 180,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 180,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010004
+    },
+    {
+      "azimuth": 225,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 225,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 225,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 225,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 225,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 225,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010005
+    },
+    {
+      "azimuth": 270,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 270,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 270,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 270,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 270,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 270,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010006
+    },
+    {
+      "azimuth": 315,
+      "state": "resting",
+      "intervention": "intact",
+      "seed": 1010007
+    },
+    {
+      "azimuth": 315,
+      "state": "resting",
+      "intervention": "visual-silent",
+      "seed": 1010007
+    },
+    {
+      "azimuth": 315,
+      "state": "hovering",
+      "intervention": "intact",
+      "seed": 1010007
+    },
+    {
+      "azimuth": 315,
+      "state": "hovering",
+      "intervention": "visual-silent",
+      "seed": 1010007
+    },
+    {
+      "azimuth": 315,
+      "state": "cruising",
+      "intervention": "intact",
+      "seed": 1010007
+    },
+    {
+      "azimuth": 315,
+      "state": "cruising",
+      "intervention": "visual-silent",
+      "seed": 1010007
+    }
+  ],
+  "seconds_per_presentation": 1.5,
+  "baseline_seconds": 0.5,
+  "window_seconds": 0.2,
+  "template_pool": "mean of five post-onset windows, across six cases per direction",
+  "validation_rule": "at least one confident window; every confident window error <=22.5 degrees",
+  "norm_min": 1.0,
+  "similarity_min": 0.8,
+  "margin_min": 0.1,
+  "validation_min": 90,
+  "group_min": 5,
+  "imu": {
+    "angular_velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "specific_force": [
+      0.0,
+      0.0,
+      9.81
+    ]
+  },
+  "seed": 1000000,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "software": {
+    "torch": "2.14.0+cpu",
+    "numpy": "2.5.3",
+    "panda3d": "1.10.16",
+    "pygame": "2.6.1"
+  },
+  "network_cells": 589,
+  "retained_edges": 4139,
+  "commit": null,
+  "optimizer_updates": 0,
+  "learning_rate": null,
+  "checkpoint": null,
+  "circuit_sha256": "c4f71df088ee964473b513c848fc0d3402c0f4f76d6b7427d71563f53100048a",
+  "source_sha256": {
+    "src/flybrain/retreat3d/experiment.py": "e5233eb5ad5332bc16696e720e6964c4631b2d7b60f343225a4341982b9e1da8",
+    "src/flybrain/retreat3d/neural.py": "0d3cf16d0acf49364c63ab684a084396331886551a1bdaf455f554b49f2a352a",
+    "src/flybrain/retreat3d/threat.py": "9722b20eddda894db73ba11af1fe081f6a7ff9bbfa3364dde5dfb569dd56ff2e",
+    "src/flybrain/retreat3d/__init__.py": "66a62108318311ed41481923c56e894b39e8b42a6379b3024caaa18c1723914c",
+    "src/flybrain/encounters3d/characterize.py": "22e6343912d848dd0b97775c40ca58cc7b1c8a54630eb50e464ef1c7021226ad",
+    "src/flybrain/encounters3d/controller.py": "424a011ebade4bd14fe7ea6d5746bd0afe94bc8f5004976e903e9257eb02e428",
+    "src/flybrain/encounters3d/diagnostics.py": "f83226ce1418e9d49ed5fc7fe37d1f489fd851a8ad204f9bae528d7ddf29f7e1",
+    "src/flybrain/encounters3d/diagnostic_panel.py": "edb7f013b0e913eeb63bf8fa1489188532d9875981283f704d9575651e90492c",
+    "src/flybrain/encounters3d/evaluate.py": "145faa834274c3f32053c9ce0a31287820163df05371663c26b185616bee934c",
+    "src/flybrain/encounters3d/investigate.py": "9a43abc0c0a4c2c64783c1bc501bc5fe91405d7aefd28c1bda3458324a9b14ca",
+    "src/flybrain/encounters3d/neural.py": "d41d0ca7ca2fd804ecbe61859c8f6abce59dd9517df35d1a1871ddf3892e0360",
+    "src/flybrain/encounters3d/scene.py": "ada0a1fce963d365ee56c88390dbaf7d8019421c1800dd4f1bd397454a6d9c7d",
+    "src/flybrain/encounters3d/session.py": "9af687843018363ab78324b92044f773c94bf73bdd6208f1fb6671675b4ac437",
+    "src/flybrain/encounters3d/viewer.py": "4c4cf065f95c776a457575baa2fe72c344a6409338b3caefac426e9e071416da",
+    "src/flybrain/encounters3d/__init__.py": "b4bb92f46c8b1c193d8dc7c061748deef9f7a68fddc8544ff9bcb2603a8bf871",
+    "src/flybrain/encounters3d/__main__.py": "693d13fc15b0f018d62f4b35f4d0066e0cc1dac1113aa1b448aa4a428c57d5be",
+    "src/flybrain/flight3d/activity.py": "55739e922d11aa04d89dfc92369366073c703e95f65d85ba28633ac1649a9f53",
+    "src/flybrain/flight3d/activity_classes.py": "88a1b586475a2b832ea1e191062430f5c9857304107ccdc89551858667e76e3f",
+    "src/flybrain/flight3d/anatomical_display.py": "e06f23244850cd9c8dc4f68d46dcb4f2b7e223013eb1dfc477dc58c763d860a6",
+    "src/flybrain/flight3d/anatomical_viewer.py": "23f4655ebe5838328c200b1bfb7cd7b49f8348a5a852900c208f898784af2738",
+    "src/flybrain/flight3d/anatomy.py": "271971057eadc6b9de2748c066e20484d9f0d78a3ee1a877da073226a7c6ad72",
+    "src/flybrain/flight3d/assets.py": "0a5bd3e69db92c5c6b2842b3873c859c5d085d18a8f6e4035b43d4e4679cc02b",
+    "src/flybrain/flight3d/audit.py": "44b28d8e717b26ef79a84c35bd61c759fc799223c0835ea6840760e462540e21",
+    "src/flybrain/flight3d/brain_camera.py": "36070a3cd1ab894aaa8b44a0a1cd6f4b05e5c32e5ffa2c57a9d05a7bf4130813",
+    "src/flybrain/flight3d/brain_controls.py": "645f477d8514cc3174208c7d809fcbbb8c64ece083edaeda5e54e6a4556762ae",
+    "src/flybrain/flight3d/branch_activity.py": "6861e55c77ed29352407389c036e834984e474dadb3c9327d5c19ec1f779c9cf",
+    "src/flybrain/flight3d/contracts.py": "1bc424eb6c24485964d8497aa0f50aae5131bc5c6f516aa20195854544fbecfd",
+    "src/flybrain/flight3d/experiment.py": "a5dcd90e3a99d6313d43feb11b2ed3a059cc2a312f09e87ac5fa15b65d4d3271",
+    "src/flybrain/flight3d/navigation.py": "55c9539d214826db40853932fa2bb7aea90357320407263a3e0876d982b030f7",
+    "src/flybrain/flight3d/network.py": "f96fd15670d5b9b3238ced3fce033687c97f1f27026cce202ff8616205bdffb5",
+    "src/flybrain/flight3d/network_viewer.py": "f6ecac2f8c4fe186e7cf5e1e71b824872312171ceb22a34cbb0248df2df8f4e3",
+    "src/flybrain/flight3d/neural.py": "0b3d6fc9809d893c1d8587c7a2593400f56f23809d08f2fee41a52bbefe5690a",
+    "src/flybrain/flight3d/protocol.py": "e389195b736f3c010479c757c5aefe0a797fb0c5b4bdff5518e8f23642d27789",
+    "src/flybrain/flight3d/sensors.py": "c3dd07d81d1b0f111ebaa93981b0802b2717d21b2e9118c0d5a255d145d9fd00",
+    "src/flybrain/flight3d/session.py": "c84688ca6d73301b629ed070880377ceb77a7476cafb31a04886a5f7ee08ab7f",
+    "src/flybrain/flight3d/simulation_pump.py": "d604d43585d6f4cea4cf367ce496fb1cf514eaf19a75b121679ffb2e08fe8af7",
+    "src/flybrain/flight3d/teacher.py": "b0345a270bc19eea05e6e0900115fd3ca0ff134919fe2c153fdd044342fd81ae",
+    "src/flybrain/flight3d/viewer.py": "e07c3590c8caac79549ea4175b329e21ac75a1e5f3780515bb43306ca9184942",
+    "src/flybrain/flight3d/world.py": "c340a9b52f990da518205b1ad5a1c22852a53e765144665fa7ed5a622b0d1e8d",
+    "src/flybrain/flight3d/__init__.py": "c11b6977b1ffcfc28b24f2c10b2e2529331c0636076ed3191113a2e0d51400a6",
+    "src/flybrain/flight3d/__main__.py": "bf84d937ad2267453aa2ababfbcf151ac4fcfbc96ea68d479ee4d72c78052720"
+  },
+  "wing_ids": [
+    "720575941432491145",
+    "720575941456201887",
+    "720575941458961604",
+    "720575941459347411",
+    "720575941463144336",
+    "720575941468288375",
+    "720575941468897856",
+    "720575941472734048",
+    "720575941474574132",
+    "720575941475745898",
+    "720575941479034563",
+    "720575941479658831",
+    "720575941483845954",
+    "720575941487139138",
+    "720575941489673420",
+    "720575941499558369",
+    "720575941513173763",
+    "720575941516770670",
+    "720575941519783640",
+    "720575941521196211",
+    "720575941530190027",
+    "720575941533190337",
+    "720575941542328837",
+    "720575941542412805",
+    "720575941547315060",
+    "720575941547394081",
+    "720575941549822781",
+    "720575941560383347",
+    "720575941565105206",
+    "720575941565378919",
+    "720575941566847847",
+    "720575941573368719",
+    "720575941580669817",
+    "720575941583644382",
+    "720575941590220684",
+    "720575941596050112",
+    "720575941597489344",
+    "720575941603635190",
+    "720575941614289683",
+    "720575941624155644",
+    "720575941624985226",
+    "720575941629172716",
+    "720575941630940642",
+    "720575941640465439",
+    "720575941645403000",
+    "720575941655597785",
+    "720575941692400603",
+    "720575941732789547"
+  ]
+}

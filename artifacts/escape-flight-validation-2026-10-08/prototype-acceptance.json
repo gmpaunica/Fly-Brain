@@ -1,0 +1,17 @@
+{
+  "schema": "escape-prototype-acceptance-v1",
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "exception_sha256": "915f667b21683534f0a44abfd9588764a294d08241d8185c4fda7b4fa78c6c49",
+  "directional_receipt_sha256": "7f5f01b60272ba6e5360ce521ef9102ebff8a5e2d3cb487621c17b5f528b00e9",
+  "physical_receipt_sha256": "00c7ecbd27ca5f10e4d092d3f9123f1b38486c7e88a36e6ca3a6eb19b9cfb592",
+  "original_directional_status": "closed-direction-failed",
+  "directional_successes": 94,
+  "known_failures": [
+    1100018,
+    1100021
+  ],
+  "physical_status": "closed-physical-failed",
+  "prototype_accepted": false,
+  "activation": "disabled: physical gate failed; experiment closed",
+  "learning": false
+}

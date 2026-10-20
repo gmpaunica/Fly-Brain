@@ -1,0 +1,19 @@
+order,pair,role,phase,candidate,azimuth,elevation,profile,seed,elevation_difference_comparison_minus_failure,profile_changed,status,completed_intervals,simulated_seconds,individual_kernel_steps,threat_intervals
+1,1,failure,validation,1,18.75,-20,0,1100000,40,False,stopped in baseline,1,0.02,40,0
+2,1,successful context,validation,1,18.75,20,0,1100004,40,False,not started,0,0,0,0
+3,2,failure,validation,1,18.75,-20,1,1100001,20,False,not started,0,0,0,0
+4,2,successful context,validation,1,18.75,0,1,1100003,20,False,not started,0,0,0,0
+5,3,failure,validation,1,18.75,0,0,1100002,20,True,not started,0,0,0,0
+6,3,successful context,validation,1,18.75,20,1,1100005,20,True,not started,0,0,0,0
+7,4,failure,validation,1,41.25,20,0,1100010,-20,False,not started,0,0,0,0
+8,4,successful context,validation,1,41.25,0,0,1100008,-20,False,not started,0,0,0,0
+9,5,failure,validation,1,63.75,-20,0,1100012,20,False,not started,0,0,0,0
+10,5,successful context,validation,1,63.75,0,0,1100014,20,False,not started,0,0,0,0
+11,6,failure,validation,1,63.75,-20,1,1100013,20,False,not started,0,0,0,0
+12,6,successful context,validation,1,63.75,0,1,1100015,20,False,not started,0,0,0,0
+13,7,failure,validation,1,63.75,20,1,1100017,0,True,not started,0,0,0,0
+14,7,successful context,validation,1,63.75,20,0,1100016,0,True,not started,0,0,0,0
+15,8,failure,validation,1,131.25,0,0,1100032,0,True,not started,0,0,0,0
+16,8,successful context,validation,1,131.25,0,1,1100033,0,True,not started,0,0,0,0
+17,9,failure,validation,1,153.75,-20,0,1100036,0,True,not started,0,0,0,0
+18,9,successful context,validation,1,153.75,-20,1,1100037,0,True,not started,0,0,0,0

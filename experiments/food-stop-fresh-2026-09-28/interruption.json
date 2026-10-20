@@ -1,0 +1,26 @@
+{
+  "schema": "food_stop_fresh_interruption_v1",
+  "status": "interrupted_after_validation",
+  "protocol_sha256": "825c590d6e8c65b170c7e0363bb287503a4693e1c4f7034eb30d5190a52a0731",
+  "validation_file": "validation.json",
+  "validation_episodes_recorded": 48,
+  "validation_world_ticks_recorded": 48000,
+  "validation_neural_steps_recorded": 960000,
+  "validation_successes": {
+    "trained": 16,
+    "untrained": 0,
+    "fixed": 0
+  },
+  "validation_gate_passed": true,
+  "final_result_recorded": false,
+  "final_episodes_completed": null,
+  "final_world_ticks_completed": null,
+  "final_neural_steps_completed": null,
+  "final_case_exposure": "Unknown partial execution; all 64 reserved final identities are treated as historical and cannot be represented as unseen in another assay.",
+  "optimizer_updates": 0,
+  "observed_problem": "The process and tool session became unavailable after the complete validation record. No final JSON/CSV, traceback, or completion message was captured.",
+  "cause": "undetermined",
+  "restarted": false,
+  "scientific_acceptance": false,
+  "default_app_promoted": false
+}

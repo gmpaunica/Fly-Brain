@@ -1,0 +1,66 @@
+{
+  "activity-front.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "activity-side.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "activity-top.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "anatomy-front.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "anatomy-side.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "anatomy-top.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "brain-and-cord.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  },
+  "source-selection.png": {
+    "mode": "RGB",
+    "size": [
+      1440,
+      900
+    ],
+    "header_red_sum": 206149
+  }
+}

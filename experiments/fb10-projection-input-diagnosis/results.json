@@ -1,0 +1,22 @@
+{
+  "experiment": "fb10_projection_input_diagnosis",
+  "feature_order": [
+    "PN fast left",
+    "PN fast right",
+    "PN slow left",
+    "PN slow right"
+  ],
+  "contrast_target_correlation": [
+    0.8778745758512104,
+    0.8201306567859952
+  ],
+  "contrast_std_hz": [
+    0.566452158464439,
+    0.42163762014524514
+  ],
+  "endpoint_replay_max_error": 0.0,
+  "actual_neural_steps": 20160,
+  "world_ticks": 0,
+  "optimizer_steps": 0,
+  "provenance_preserved": true
+}

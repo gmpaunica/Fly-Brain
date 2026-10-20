@@ -1,0 +1,52 @@
+{
+  "neural_steps": 0,
+  "changed_records": 0,
+  "cases": [
+    {
+      "seed": 1110000,
+      "recovered_seconds": 4.4,
+      "collision_seconds": 5.76,
+      "first_net_clearance_on_original_path": 3.88,
+      "late_small_samples": 101,
+      "late_small_samples_rejected_by_rectified_growth": 36,
+      "late_small_samples_with_original_weak": 22
+    },
+    {
+      "seed": 1110002,
+      "recovered_seconds": null,
+      "collision_seconds": null,
+      "first_net_clearance_on_original_path": 4.08,
+      "late_small_samples": 101,
+      "late_small_samples_rejected_by_rectified_growth": 42,
+      "late_small_samples_with_original_weak": 0
+    },
+    {
+      "seed": 1110012,
+      "recovered_seconds": 4.4,
+      "collision_seconds": 5.94,
+      "first_net_clearance_on_original_path": 3.96,
+      "late_small_samples": 101,
+      "late_small_samples_rejected_by_rectified_growth": 48,
+      "late_small_samples_with_original_weak": 6
+    },
+    {
+      "seed": 1110013,
+      "recovered_seconds": 4.48,
+      "collision_seconds": 5.66,
+      "first_net_clearance_on_original_path": 4.04,
+      "late_small_samples": 101,
+      "late_small_samples_rejected_by_rectified_growth": 59,
+      "late_small_samples_with_original_weak": 2
+    },
+    {
+      "seed": 1110014,
+      "recovered_seconds": null,
+      "collision_seconds": null,
+      "first_net_clearance_on_original_path": 3.94,
+      "late_small_samples": 48,
+      "late_small_samples_rejected_by_rectified_growth": 32,
+      "late_small_samples_with_original_weak": 0
+    }
+  ],
+  "limit": "Counterfactual clearance flag on original poses, not a new closed-loop performance result."
+}

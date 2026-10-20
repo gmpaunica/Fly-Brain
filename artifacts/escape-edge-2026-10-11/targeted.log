@@ -1,0 +1,16 @@
+........................................................................ [ 30%]
+........................................................................ [ 60%]
+........................................................................ [ 90%]
+.......................                                                  [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\pygame\pkgdata.py:25
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\pygame\pkgdata.py:25: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    from pkg_resources import resource_stream, resource_exists
+
+.venv\Lib\site-packages\torch\jit\_script.py:1491
+tests/test_escape_diagnostic.py::test_kernel_leak_reset_directed_delay_and_all_edge_measurements
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+239 passed, 675 deselected, 3 warnings in 342.29s (0:05:42)

@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+exact replay 1/4 | development case 0
+exact replay 2/4 | development case 1
+exact replay 3/4 | development case 4
+exact replay 4/4 | robustness case 28
+{
+  "status": "exact-replay-passed",
+  "error": null,
+  "cases": 4,
+  "neural_steps": 96000,
+  "new_scientific_cases": 0,
+  "receipts": {
+    "development": "33d838a0a4727eaec327576c0d458ab66c44472a54144a4abbcb80100bcd1f9a",
+    "robustness": "b5745162dc97d5920d4751720723db5476a201c0d582f3a2808522d1b6207875"
+  }
+}

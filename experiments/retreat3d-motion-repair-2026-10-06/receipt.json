@@ -1,0 +1,11 @@
+{
+  "status": "closed-validation-failed",
+  "sha256": {
+    "calibration.json": "653f36c00f399986d9bb82a98dacdfd3f42027e92ae31d80734fc3bb657d05a1",
+    "config.json": "f7473b7c7e591652da3b7a8e6683fdc8d31fb6f4a21672a62a643bb4d71391cf",
+    "results.json": "0890decd7ed97856ee8a9df38162a4587efdf1eeb9158f2fa647f787d07f71a4",
+    "templates.json": "52503efc2b84bca3ded3e9ea6a7aee3d1b158c9c0f2e78f2eb7bfe4ace3ce433",
+    "traces.csv": "da029202f776a6d12ae294860e6d1b0d0ba1ef1ab47f768b05c7c0aa5211562b",
+    "traces.jsonl.gz": "ca5e044fc26398c9a82a3515d249a1e8e4a17811501df3d983e2580891533258"
+  }
+}

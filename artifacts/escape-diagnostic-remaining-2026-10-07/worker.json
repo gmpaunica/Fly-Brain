@@ -1,0 +1,8 @@
+{
+  "status": "exited",
+  "exit_code": 1,
+  "supervisor_pid": 24904,
+  "child_pid": 24116,
+  "updated_unix_seconds": 1791384742.4051945,
+  "retry_authorized": false
+}

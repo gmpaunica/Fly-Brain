@@ -1,0 +1,18 @@
+{
+  "steps": 60,
+  "calls": [
+    {
+      "label": "parity original 20",
+      "steps": 20
+    },
+    {
+      "label": "parity measured 20",
+      "steps": 20
+    },
+    {
+      "label": "parity recorded 20",
+      "steps": 20
+    }
+  ],
+  "limit": 2000
+}

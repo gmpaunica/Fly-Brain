@@ -1,0 +1,8 @@
+..............................                                           [100%]
+============================== warnings summary ===============================
+tests/test_escape_diagnostic_recovery.py::test_new_lock_refuses_renamed_retry_and_keeps_old_lock
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+30 passed, 1 warning in 6.32s

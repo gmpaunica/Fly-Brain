@@ -1,0 +1,7 @@
+{
+  "src/flybrain/escape_ui/viewer.py": "90df5c66c23c5cce2ef9269f694d6958a24accbf09e243cf88ce377ad3e8383d",
+  "src/flybrain/escape_ui/__init__.py": "edf940282ef3cddfcb8787677c92829276fcfe2ea24c1c8b9272f6815cb41330",
+  "src/flybrain/escape_ui/__main__.py": "a8664566249a9d8910633e4c46573a8cbee02269c1f38dba1cb02ed7ae4ea5f8",
+  "tests/test_escape_ui.py": "aec3a06abddcb27c5ef5fb45e974098145b68f47dcfb53dd49d63e5e368ed2bc",
+  "scripts/review_escape_ui.py": "4f5a059f33f97f4e3d37a58f40d7d1a5a63d70ef57d92dc779343c46fbc988bb"
+}

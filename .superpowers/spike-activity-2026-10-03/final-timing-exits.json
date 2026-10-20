@@ -1,0 +1,36 @@
+[
+  {
+    "cord": "hidden",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--cord",
+      "hidden",
+      "--frames",
+      "120",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\spike-activity-2026-10-03\\final-timing-hidden.json"
+    ],
+    "returncode": 0,
+    "seconds": 30.876698800129816
+  },
+  {
+    "cord": "shown",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "scripts/benchmark_flight3d_viewer.py",
+      "--view",
+      "repaired",
+      "--cord",
+      "shown",
+      "--frames",
+      "120",
+      "--output",
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.superpowers\\spike-activity-2026-10-03\\final-timing-shown.json"
+    ],
+    "returncode": 0,
+    "seconds": 45.52264200011268
+  }
+]

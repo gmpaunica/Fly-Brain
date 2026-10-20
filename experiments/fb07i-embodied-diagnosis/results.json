@@ -1,0 +1,1315 @@
+{
+  "experiment": "fb07i_embodied_failure_diagnosis",
+  "timestamp_utc": "2026-09-22T10:10:20.669052+00:00",
+  "git_commit": null,
+  "objective": "locate teacher, command and wall contributors to no arrival",
+  "bearing_rule": "clockwise angle from pre-movement heading to source; scoring only, never a controller or teacher input",
+  "alignment_thresholds": {
+    "bearing_radians": 0.1,
+    "turn_command": 0.05
+  },
+  "config": {
+    "horizon_ticks": 600,
+    "success_radius": 20.0,
+    "network_seed": 7,
+    "world_dt_seconds": 0.02,
+    "arena_width": 800.0,
+    "arena_height": 600.0,
+    "source_x": 600.0,
+    "source_y": 300.0,
+    "source_strength": 1000.0,
+    "source_softening": 20.0
+  },
+  "probe_ticks": {
+    "train": 200,
+    "validation": 600
+  },
+  "network_seed": 7,
+  "network_size": 100,
+  "topology_sha256": "6a16dc392aaf69a0b6177ee3ac0a623f6253a0e3cb8befd09ece9e6e094c00f7",
+  "source_training_result": "experiments\\fb07h-matched-readout\\results.json",
+  "checkpoint_sha256": {
+    "seven": "773135249c02b89c20e234ce5a3c672fe64b9f8a34abafd7f5dc1bf5aef0d822",
+    "nine": "1f1c92b9b03b560e4d8b7876f0da57a574ae469eb051f54ea9eb956aebae43be"
+  },
+  "validation_replay_exact": true,
+  "cases": {
+    "train": [
+      {
+        "case_id": "train-0",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 456.8509685308213,
+          "final_y": 294.4096638156959,
+          "final_heading": 2.642529177293657,
+          "final_distance": 143.25814835190857
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 0,
+            "eligible": 0
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 16.206853465671173,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 107,
+          "retreat_ticks": 92,
+          "teacher_command_turn_mae": 0.606936844587326,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-0",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 115,
+          "outcome": "success",
+          "final_x": 584.7285794033611,
+          "final_y": 287.3637198436212,
+          "final_heading": 1.8535568213102276,
+          "final_distance": 19.82150002471911
+        },
+        "metrics": {
+          "ticks": 115,
+          "teacher_alignment": {
+            "matching": 115,
+            "eligible": 115
+          },
+          "command_alignment": {
+            "matching": 100,
+            "eligible": 101
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 139.64350179286063,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 115,
+          "retreat_ticks": 0,
+          "teacher_command_turn_mae": 0.46629913001847656,
+          "mean_forward_command": 0.7111708786176598
+        }
+      },
+      {
+        "case_id": "train-0",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 112,
+          "outcome": "success",
+          "final_x": 587.6192869754663,
+          "final_y": 284.6346427814852,
+          "final_heading": 1.8753660962875545,
+          "final_distance": 19.73261912287431
+        },
+        "metrics": {
+          "ticks": 112,
+          "teacher_alignment": {
+            "matching": 112,
+            "eligible": 112
+          },
+          "command_alignment": {
+            "matching": 100,
+            "eligible": 101
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 139.73238269470545,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 112,
+          "retreat_ticks": 0,
+          "teacher_command_turn_mae": 0.43765987509063314,
+          "mean_forward_command": 0.7103867903351784
+        }
+      },
+      {
+        "case_id": "train-1",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 734.0409160789625,
+          "final_y": 161.50701777978128,
+          "final_heading": 4.798937463950548,
+          "final_distance": 192.73627916803127
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 0,
+            "eligible": 0
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -25.38607264353277,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 87,
+          "retreat_ticks": 112,
+          "teacher_command_turn_mae": 0.4818736730515957,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-1",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 575.9520980923386,
+          "final_y": 203.54261232232392,
+          "final_heading": 3.4012351099298233,
+          "final_distance": 99.40990505861075
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 173,
+            "eligible": 174
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 67.94030146588776,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 141,
+          "retreat_ticks": 59,
+          "teacher_command_turn_mae": 0.6095244255755097,
+          "mean_forward_command": 0.7115063634514809
+        }
+      },
+      {
+        "case_id": "train-1",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 570.1986025454653,
+          "final_y": 206.73327415049056,
+          "final_heading": 3.392608892989495,
+          "final_distance": 97.91223335687273
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 181,
+            "eligible": 182
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 69.43797316762577,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 139,
+          "retreat_ticks": 61,
+          "teacher_command_turn_mae": 0.6188626799127087,
+          "mean_forward_command": 0.7114780372381211
+        }
+      },
+      {
+        "case_id": "train-2",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 344.10037138636585,
+          "final_heading": 0.3553227228019942,
+          "final_distance": 198.94934721284056
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 198,
+            "eligible": 198
+          },
+          "command_alignment": {
+            "matching": 0,
+            "eligible": 0
+          },
+          "wall_ticks": 179,
+          "first_wall_tick": 22,
+          "distance_change_before_wall": -21.82565540276255,
+          "distance_change_from_wall": -1.3470391302944904,
+          "approach_ticks": 83,
+          "retreat_ticks": 116,
+          "teacher_command_turn_mae": 0.13355192266404628,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-2",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 316.6762936219745,
+          "final_heading": 0.11140297413659131,
+          "final_distance": 194.7154302282341
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 152,
+            "eligible": 152
+          },
+          "command_alignment": {
+            "matching": 12,
+            "eligible": 70
+          },
+          "wall_ticks": 181,
+          "first_wall_tick": 20,
+          "distance_change_before_wall": -21.7095681339797,
+          "distance_change_from_wall": 2.770790585529113,
+          "approach_ticks": 103,
+          "retreat_ticks": 97,
+          "teacher_command_turn_mae": 0.12643700190528762,
+          "mean_forward_command": 0.6914462330937385
+        }
+      },
+      {
+        "case_id": "train-2",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 311.87378187402464,
+          "final_heading": 0.07788635715267597,
+          "final_distance": 194.36302810975116
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 146,
+            "eligible": 146
+          },
+          "command_alignment": {
+            "matching": 34,
+            "eligible": 119
+          },
+          "wall_ticks": 181,
+          "first_wall_tick": 20,
+          "distance_change_before_wall": -21.864154437498314,
+          "distance_change_from_wall": 3.2777790075306825,
+          "approach_ticks": 111,
+          "retreat_ticks": 89,
+          "teacher_command_turn_mae": 0.128688175289426,
+          "mean_forward_command": 0.6935245326161384
+        }
+      },
+      {
+        "case_id": "train-3",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 403.3388438898386,
+          "final_y": 594.0,
+          "final_heading": 2.638656132129048,
+          "final_distance": 353.7111962075632
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 27,
+            "eligible": 35
+          },
+          "wall_ticks": 8,
+          "first_wall_tick": 193,
+          "distance_change_before_wall": -209.87605827739563,
+          "distance_change_from_wall": -5.005019841463877,
+          "approach_ticks": 0,
+          "retreat_ticks": 199,
+          "teacher_command_turn_mae": 0.1917616659784457,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-3",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 429.03952198283105,
+          "final_y": 594.0,
+          "final_heading": 2.710620801272779,
+          "final_distance": 340.0933475442572
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 98,
+            "eligible": 131
+          },
+          "wall_ticks": 57,
+          "first_wall_tick": 144,
+          "distance_change_before_wall": -174.32614016274252,
+          "distance_change_from_wall": -26.93708929281098,
+          "approach_ticks": 0,
+          "retreat_ticks": 200,
+          "teacher_command_turn_mae": 0.12015889375295956,
+          "mean_forward_command": 0.6800405314564705
+        }
+      },
+      {
+        "case_id": "train-3",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 422.8304759813276,
+          "final_y": 594.0,
+          "final_heading": 2.830566794595592,
+          "final_distance": 343.25652250321906
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 104,
+            "eligible": 145
+          },
+          "wall_ticks": 57,
+          "first_wall_tick": 144,
+          "distance_change_before_wall": -175.2234847364385,
+          "distance_change_from_wall": -29.202919678076853,
+          "approach_ticks": 0,
+          "retreat_ticks": 200,
+          "teacher_command_turn_mae": 0.1264744646201143,
+          "mean_forward_command": 0.6868671843409538
+        }
+      },
+      {
+        "case_id": "train-4",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 390.0727681075493,
+          "final_y": 530.882900866647,
+          "final_heading": 2.677002889970522,
+          "final_distance": 312.05184922160726
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 20,
+            "eligible": 28
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -230.98902305668372,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 0,
+          "retreat_ticks": 199,
+          "teacher_command_turn_mae": 0.2361490748381306,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-4",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 449.6863415531304,
+          "final_y": 594.0,
+          "final_heading": 2.342970199720206,
+          "final_distance": 330.197207613393
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 109,
+            "eligible": 109
+          },
+          "command_alignment": {
+            "matching": 51,
+            "eligible": 122
+          },
+          "wall_ticks": 11,
+          "first_wall_tick": 190,
+          "distance_change_before_wall": -244.6057566289897,
+          "distance_change_from_wall": -4.528624819479774,
+          "approach_ticks": 0,
+          "retreat_ticks": 200,
+          "teacher_command_turn_mae": 0.16934508520702365,
+          "mean_forward_command": 0.6894515991210938
+        }
+      },
+      {
+        "case_id": "train-4",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 448.19563360857063,
+          "final_y": 594.0,
+          "final_heading": 2.4169021141319402,
+          "final_distance": 330.8784756606318
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 108,
+            "eligible": 108
+          },
+          "command_alignment": {
+            "matching": 63,
+            "eligible": 140
+          },
+          "wall_ticks": 13,
+          "first_wall_tick": 188,
+          "distance_change_before_wall": -243.4834606157753,
+          "distance_change_from_wall": -6.332188879932971,
+          "approach_ticks": 0,
+          "retreat_ticks": 200,
+          "teacher_command_turn_mae": 0.17999388541516964,
+          "mean_forward_command": 0.6939649578928947
+        }
+      },
+      {
+        "case_id": "train-5",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 608.4137177230534,
+          "final_y": 6.0,
+          "final_heading": 5.436171499028703,
+          "final_distance": 294.12036761489884
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 40,
+            "eligible": 53
+          },
+          "wall_ticks": 46,
+          "first_wall_tick": 155,
+          "distance_change_before_wall": -137.446881804359,
+          "distance_change_from_wall": 1.3248220623896714,
+          "approach_ticks": 36,
+          "retreat_ticks": 163,
+          "teacher_command_turn_mae": 0.24020015921607296,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-5",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 566.7634916071848,
+          "final_y": 6.0,
+          "final_heading": 5.332036035369109,
+          "final_distance": 295.87271839449085
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 85,
+            "eligible": 119
+          },
+          "wall_ticks": 63,
+          "first_wall_tick": 138,
+          "distance_change_before_wall": -144.3754197543683,
+          "distance_change_from_wall": 6.50100923280695,
+          "approach_ticks": 62,
+          "retreat_ticks": 138,
+          "teacher_command_turn_mae": 0.17236703873073567,
+          "mean_forward_command": 0.6812159621715546
+        }
+      },
+      {
+        "case_id": "train-5",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 567.0959333727818,
+          "final_y": 6.0,
+          "final_heading": 5.308972079961986,
+          "final_distance": 295.83555837763726
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 88,
+            "eligible": 125
+          },
+          "wall_ticks": 64,
+          "first_wall_tick": 137,
+          "distance_change_before_wall": -144.41143672964813,
+          "distance_change_from_wall": 6.574186224940377,
+          "approach_ticks": 63,
+          "retreat_ticks": 137,
+          "teacher_command_turn_mae": 0.17391456477664177,
+          "mean_forward_command": 0.6868226459622383
+        }
+      },
+      {
+        "case_id": "train-6",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 381.8362884982593,
+          "final_y": 170.75464233972303,
+          "final_heading": 2.859356723332259,
+          "final_distance": 253.57398820255136
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 19,
+            "eligible": 28
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -88.43078846726667,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 45,
+          "retreat_ticks": 154,
+          "teacher_command_turn_mae": 0.3830136151710758,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-6",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 421.90245837865416,
+          "final_y": 292.0381337836053,
+          "final_heading": 2.0797955044777243,
+          "final_distance": 178.27542075455827
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 128,
+            "eligible": 129
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -13.132221019273572,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 89,
+          "retreat_ticks": 111,
+          "teacher_command_turn_mae": 0.42079162477166393,
+          "mean_forward_command": 0.703430006802082
+        }
+      },
+      {
+        "case_id": "train-6",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 437.90390071839516,
+          "final_y": 304.4595943551237,
+          "final_heading": 1.8835200680801412,
+          "final_distance": 162.1574339465328
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 195,
+            "eligible": 196
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": 2.9857657887519053,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 104,
+          "retreat_ticks": 96,
+          "teacher_command_turn_mae": 0.4292233650851995,
+          "mean_forward_command": 0.7006838005781174
+        }
+      },
+      {
+        "case_id": "train-7",
+        "split": "train",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 406.6402604844952,
+          "final_y": 164.23625775206892,
+          "final_heading": 4.15252066318249,
+          "final_distance": 236.26210566797747
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 200,
+            "eligible": 200
+          },
+          "command_alignment": {
+            "matching": 7,
+            "eligible": 8
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -147.13042662497026,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 32,
+          "retreat_ticks": 167,
+          "teacher_command_turn_mae": 0.4757833909988403,
+          "mean_forward_command": 0.6614285714285714
+        }
+      },
+      {
+        "case_id": "train-7",
+        "split": "train",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 312.75142293887137,
+          "final_y": 265.87008067633633,
+          "final_heading": 3.448760799233386,
+          "final_distance": 289.26907269302563
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 144,
+            "eligible": 144
+          },
+          "command_alignment": {
+            "matching": 18,
+            "eligible": 118
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -200.1373936500184,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 21,
+          "retreat_ticks": 179,
+          "teacher_command_turn_mae": 0.37142907122848556,
+          "mean_forward_command": 0.6987149041891098
+        }
+      },
+      {
+        "case_id": "train-7",
+        "split": "train",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 200,
+          "outcome": "timeout",
+          "final_x": 312.7163451197172,
+          "final_y": 263.4355723324846,
+          "final_heading": 3.4616323471226207,
+          "final_distance": 289.60120119230584
+        },
+        "metrics": {
+          "ticks": 200,
+          "teacher_alignment": {
+            "matching": 141,
+            "eligible": 141
+          },
+          "command_alignment": {
+            "matching": 33,
+            "eligible": 140
+          },
+          "wall_ticks": 0,
+          "first_wall_tick": null,
+          "distance_change_before_wall": -200.4695221492986,
+          "distance_change_from_wall": 0,
+          "approach_ticks": 21,
+          "retreat_ticks": 179,
+          "teacher_command_turn_mae": 0.3755885685328394,
+          "mean_forward_command": 0.701238467991352
+        }
+      }
+    ],
+    "validation": [
+      {
+        "case_id": "validation-100",
+        "split": "validation",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 666.355331178408,
+          "final_y": 6.0,
+          "final_heading": 4.591650070441549,
+          "final_distance": 301.3951392703542
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 600,
+            "eligible": 600
+          },
+          "command_alignment": {
+            "matching": 25,
+            "eligible": 36
+          },
+          "wall_ticks": 299,
+          "first_wall_tick": 302,
+          "distance_change_before_wall": -185.98842154959948,
+          "distance_change_from_wall": 13.829104441693062,
+          "approach_ticks": 367,
+          "retreat_ticks": 232,
+          "teacher_command_turn_mae": 0.2566104538500735,
+          "mean_forward_command": 0.6652380952380953
+        }
+      },
+      {
+        "case_id": "validation-100",
+        "split": "validation",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 270.0676760066768,
+          "final_y": 6.0,
+          "final_heading": 6.1376220811377555,
+          "final_distance": 441.91779599336706
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 541,
+            "eligible": 541
+          },
+          "command_alignment": {
+            "matching": 431,
+            "eligible": 506
+          },
+          "wall_ticks": 46,
+          "first_wall_tick": 555,
+          "distance_change_before_wall": -352.583114023306,
+          "distance_change_from_wall": 39.90114019238672,
+          "approach_ticks": 159,
+          "retreat_ticks": 441,
+          "teacher_command_turn_mae": 0.30333684311258063,
+          "mean_forward_command": 0.6780157288908959
+        }
+      },
+      {
+        "case_id": "validation-100",
+        "split": "validation",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 337.2242126150611,
+          "final_y": 6.0,
+          "final_heading": 6.25212500159988,
+          "final_distance": 394.3185443721543
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 539,
+            "eligible": 539
+          },
+          "command_alignment": {
+            "matching": 427,
+            "eligible": 504
+          },
+          "wall_ticks": 109,
+          "first_wall_tick": 492,
+          "distance_change_before_wall": -341.2605240074146,
+          "distance_change_from_wall": 76.17780179770807,
+          "approach_ticks": 207,
+          "retreat_ticks": 393,
+          "teacher_command_turn_mae": 0.2955923592839584,
+          "mean_forward_command": 0.684260325829188
+        }
+      },
+      {
+        "case_id": "validation-101",
+        "split": "validation",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 341.29875863102967,
+          "final_heading": 0.40998479716357666,
+          "final_distance": 198.34713878567558
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 600,
+            "eligible": 600
+          },
+          "command_alignment": {
+            "matching": 61,
+            "eligible": 81
+          },
+          "wall_ticks": 386,
+          "first_wall_tick": 215,
+          "distance_change_before_wall": -124.8870913235923,
+          "distance_change_from_wall": 22.503119802149627,
+          "approach_ticks": 311,
+          "retreat_ticks": 288,
+          "teacher_command_turn_mae": 0.31082773425751803,
+          "mean_forward_command": 0.6652380952380953
+        }
+      },
+      {
+        "case_id": "validation-101",
+        "split": "validation",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 193.14038252354518,
+          "final_heading": 1.002121691511265,
+          "final_distance": 221.48358369688316
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 506,
+            "eligible": 506
+          },
+          "command_alignment": {
+            "matching": 330,
+            "eligible": 473
+          },
+          "wall_ticks": 356,
+          "first_wall_tick": 245,
+          "distance_change_before_wall": -225.92760403763836,
+          "distance_change_from_wall": 100.40718760498811,
+          "approach_ticks": 269,
+          "retreat_ticks": 270,
+          "teacher_command_turn_mae": 0.2368227386069581,
+          "mean_forward_command": 0.6798146334290505
+        }
+      },
+      {
+        "case_id": "validation-101",
+        "split": "validation",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 190.79558303550678,
+          "final_heading": 1.004253499278304,
+          "final_distance": 222.62435779706337
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 522,
+            "eligible": 522
+          },
+          "command_alignment": {
+            "matching": 310,
+            "eligible": 459
+          },
+          "wall_ticks": 350,
+          "first_wall_tick": 251,
+          "distance_change_before_wall": -233.09927046894356,
+          "distance_change_from_wall": 106.4380799361131,
+          "approach_ticks": 269,
+          "retreat_ticks": 258,
+          "teacher_command_turn_mae": 0.2419613011923502,
+          "mean_forward_command": 0.6857143002748489
+        }
+      },
+      {
+        "case_id": "validation-102",
+        "split": "validation",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 794.0,
+          "final_y": 594.0,
+          "final_heading": 1.0661674660503087,
+          "final_distance": 352.23855552735847
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 17,
+            "eligible": 17
+          },
+          "command_alignment": {
+            "matching": 15,
+            "eligible": 39
+          },
+          "wall_ticks": 446,
+          "first_wall_tick": 155,
+          "distance_change_before_wall": -202.45492439621862,
+          "distance_change_from_wall": -3.7021461037920176,
+          "approach_ticks": 0,
+          "retreat_ticks": 163,
+          "teacher_command_turn_mae": 0.03616100913078308,
+          "mean_forward_command": 0.6652380952380953
+        }
+      },
+      {
+        "case_id": "validation-102",
+        "split": "validation",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 360.75688333588766,
+          "final_y": 528.0753329537857,
+          "final_heading": 3.9244049085680346,
+          "final_distance": 330.5383886527226
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 476,
+            "eligible": 476
+          },
+          "command_alignment": {
+            "matching": 459,
+            "eligible": 482
+          },
+          "wall_ticks": 314,
+          "first_wall_tick": 150,
+          "distance_change_before_wall": -201.28023501865582,
+          "distance_change_from_wall": 16.82333139328108,
+          "approach_ticks": 226,
+          "retreat_ticks": 374,
+          "teacher_command_turn_mae": 0.11425799193646526,
+          "mean_forward_command": 0.6700323819120725
+        }
+      },
+      {
+        "case_id": "validation-102",
+        "split": "validation",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 365.6014618499309,
+          "final_y": 530.8450074851768,
+          "final_heading": 4.0829391948965945,
+          "final_distance": 328.98646198243586
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 482,
+            "eligible": 482
+          },
+          "command_alignment": {
+            "matching": 426,
+            "eligible": 461
+          },
+          "wall_ticks": 346,
+          "first_wall_tick": 149,
+          "distance_change_before_wall": -201.31030253562542,
+          "distance_change_from_wall": 18.405325580537408,
+          "approach_ticks": 266,
+          "retreat_ticks": 334,
+          "teacher_command_turn_mae": 0.1103438289075469,
+          "mean_forward_command": 0.6771059313416481
+        }
+      },
+      {
+        "case_id": "validation-103",
+        "split": "validation",
+        "controller": "fixed",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 376.5747516807298,
+          "final_y": 6.0,
+          "final_heading": 4.139658004337452,
+          "final_distance": 369.26256456148866
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 445,
+            "eligible": 445
+          },
+          "command_alignment": {
+            "matching": 34,
+            "eligible": 45
+          },
+          "wall_ticks": 382,
+          "first_wall_tick": 219,
+          "distance_change_before_wall": -168.52796492535558,
+          "distance_change_from_wall": -71.34607480798144,
+          "approach_ticks": 79,
+          "retreat_ticks": 520,
+          "teacher_command_turn_mae": 0.17039599255387708,
+          "mean_forward_command": 0.6652380952380953
+        }
+      },
+      {
+        "case_id": "validation-103",
+        "split": "validation",
+        "controller": "seven",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 609.3220472016822,
+          "final_y": 6.0,
+          "final_heading": 5.900725805492008,
+          "final_distance": 294.14775294744373
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 544,
+            "eligible": 544
+          },
+          "command_alignment": {
+            "matching": 359,
+            "eligible": 447
+          },
+          "wall_ticks": 335,
+          "first_wall_tick": 266,
+          "distance_change_before_wall": -180.766877928482,
+          "distance_change_from_wall": 16.0076498091899,
+          "approach_ticks": 216,
+          "retreat_ticks": 384,
+          "teacher_command_turn_mae": 0.2040855219507163,
+          "mean_forward_command": 0.6783694829543432
+        }
+      },
+      {
+        "case_id": "validation-103",
+        "split": "validation",
+        "controller": "nine",
+        "endpoint": {
+          "ticks": 600,
+          "outcome": "timeout",
+          "final_x": 557.0656221590314,
+          "final_y": 6.0,
+          "final_heading": 5.934353569578803,
+          "final_distance": 297.11842891444996
+        },
+        "metrics": {
+          "ticks": 600,
+          "teacher_alignment": {
+            "matching": 548,
+            "eligible": 548
+          },
+          "command_alignment": {
+            "matching": 401,
+            "eligible": 491
+          },
+          "wall_ticks": 307,
+          "first_wall_tick": 294,
+          "distance_change_before_wall": -201.17000242305417,
+          "distance_change_from_wall": 33.44009833675585,
+          "approach_ticks": 209,
+          "retreat_ticks": 391,
+          "teacher_command_turn_mae": 0.21445478480910726,
+          "mean_forward_command": 0.6808747804164886
+        }
+      }
+    ]
+  },
+  "summary": {
+    "train": {
+      "fixed": {
+        "episodes": 8,
+        "successes": 0,
+        "ticks": 1600,
+        "wall_ticks": 233,
+        "approach_ticks": 390,
+        "retreat_ticks": 1202,
+        "teacher_alignment": {
+          "matching": 1598,
+          "eligible": 1598
+        },
+        "command_alignment": {
+          "matching": 113,
+          "eligible": 152
+        },
+        "mean_teacher_command_turn_mae": 0.34365879331319166
+      },
+      "seven": {
+        "episodes": 8,
+        "successes": 1,
+        "ticks": 1515,
+        "wall_ticks": 312,
+        "approach_ticks": 531,
+        "retreat_ticks": 984,
+        "teacher_alignment": {
+          "matching": 1320,
+          "eligible": 1320
+        },
+        "command_alignment": {
+          "matching": 665,
+          "eligible": 964
+        },
+        "mean_teacher_command_turn_mae": 0.3070440338987678
+      },
+      "nine": {
+        "episodes": 8,
+        "successes": 1,
+        "ticks": 1512,
+        "wall_ticks": 315,
+        "approach_ticks": 550,
+        "retreat_ticks": 962,
+        "teacher_alignment": {
+          "matching": 1307,
+          "eligible": 1307
+        },
+        "command_alignment": {
+          "matching": 798,
+          "eligible": 1148
+        },
+        "mean_teacher_command_turn_mae": 0.30880069734034155
+      }
+    },
+    "validation": {
+      "fixed": {
+        "episodes": 4,
+        "successes": 0,
+        "ticks": 2400,
+        "wall_ticks": 1513,
+        "approach_ticks": 757,
+        "retreat_ticks": 1203,
+        "teacher_alignment": {
+          "matching": 1662,
+          "eligible": 1662
+        },
+        "command_alignment": {
+          "matching": 135,
+          "eligible": 201
+        },
+        "mean_teacher_command_turn_mae": 0.19349879744806292
+      },
+      "seven": {
+        "episodes": 4,
+        "successes": 0,
+        "ticks": 2400,
+        "wall_ticks": 1051,
+        "approach_ticks": 870,
+        "retreat_ticks": 1469,
+        "teacher_alignment": {
+          "matching": 2067,
+          "eligible": 2067
+        },
+        "command_alignment": {
+          "matching": 1579,
+          "eligible": 1908
+        },
+        "mean_teacher_command_turn_mae": 0.21462577390168008
+      },
+      "nine": {
+        "episodes": 4,
+        "successes": 0,
+        "ticks": 2400,
+        "wall_ticks": 1112,
+        "approach_ticks": 951,
+        "retreat_ticks": 1376,
+        "teacher_alignment": {
+          "matching": 2091,
+          "eligible": 2091
+        },
+        "command_alignment": {
+          "matching": 1564,
+          "eligible": 1915
+        },
+        "mean_teacher_command_turn_mae": 0.2155880685482407
+      }
+    }
+  },
+  "tick_rows": {
+    "train": 4627,
+    "validation": 7200
+  },
+  "training_run": false,
+  "final_cases_evaluated": false,
+  "software": {
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "pygame": "2.6.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cpu"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "escape-prototype-exception-v1",
+  "authorized_date": "2026-10-08",
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "directional_directory": "experiments/escape-recovery-execution-2026-10-07/run",
+  "directional_receipt_sha256": "7f5f01b60272ba6e5360ce521ef9102ebff8a5e2d3cb487621c17b5f528b00e9",
+  "original_status": "closed-direction-failed",
+  "directional_successes": 94,
+  "directional_cases": 96,
+  "failed_azimuth": 86.25,
+  "azimuth_successes": 4,
+  "azimuth_cases": 6,
+  "original_required": 5,
+  "known_failures": [
+    1100018,
+    1100021
+  ],
+  "scope": "this frozen prototype only",
+  "directional_rerun": false,
+  "retuning": false,
+  "learning": false,
+  "motion_baseline": "previously verified fixed-body directional evidence; no new closed-case baseline",
+  "physical_receipt_sha256": null,
+  "bound_files": {
+    "experiments/escape-recovery-execution-2026-10-07/run/config.json": "1d961882de6a588f1b6d0c76c849974a854d0e14fc9c424d57e7526216b14ebb",
+    "experiments/escape-recovery-execution-2026-10-07/run/results.json": "87c7f16c614330daa4fc859c8bc136a2245ce7b77aa4c589bd8cb16203c0db3a",
+    "experiments/escape-recovery-execution-2026-10-07/run/receipt.json": "7f5f01b60272ba6e5360ce521ef9102ebff8a5e2d3cb487621c17b5f528b00e9",
+    "experiments/escape-recovery-execution-2026-10-07/run/circuit.json": "c4f71df088ee964473b513c848fc0d3402c0f4f76d6b7427d71563f53100048a",
+    "experiments/escape-recovery-execution-2026-10-07/escape-recovery-seal.json": "d35d3af7aa121ea7f900d8169a59f863fb7968765ceb7c18975a4e9d4ec956b0",
+    "artifacts/escape-recovery-execution-2026-10-07/audit.json": "99c42ee36c3f0c0d5b5eaa8513b70d3a8ebc829be8db7886f11358d047b49abb",
+    "artifacts/escape-recovery-execution-2026-10-07/analysis.json": "e71cd0bf8010cee72f698f10503a99127218a45a233cfdfdb84ed2d40eecc725",
+    "experiments/turnflee-2026-10-06/receipt.json": "31327a7d031bfa6894a49fa9687d8bc27efa6115594ec0840e9df07d2bddf3ea",
+    "experiments/turnflee-2026-10-06/results.json": "c5de34b0f500785793026c532c0dd304e3c6f9b0a5c46f1bc5844464f6d9317c",
+    "experiments/turnflee-2026-10-06/calibration.json": "2db354bb9350286b35a23ae5afdefc01642bdd7ee0b41042512785248e1fdba3"
+  }
+}

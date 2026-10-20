@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+case 1/18 seed 1100000: 75/75 intervals identical | steps 3000
+case 2/18 seed 1100004: 75/75 intervals identical | steps 6000
+case 3/18 seed 1100001: 75/75 intervals identical | steps 9000
+case 4/18 seed 1100003: 75/75 intervals identical | steps 12000
+case 5/18 seed 1100002: 75/75 intervals identical | steps 15000
+case 6/18 seed 1100005: 75/75 intervals identical | steps 18000
+case 7/18 seed 1100010: 75/75 intervals identical | steps 21000

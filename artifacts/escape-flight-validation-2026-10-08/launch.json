@@ -1,0 +1,6 @@
+﻿{
+    "launch":  "python -m flybrain.escape_flight_validation.worker",
+    "supervisor_pid":  19956,
+    "retry_authorized":  false,
+    "scientific_attempt":  1
+}

@@ -1,0 +1,1 @@
+{"schema": "append-only-reservations-v1", "limit": 576000, "reserved_steps": 0, "journal": "replay-progress.reservations.jsonl"}

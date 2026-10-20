@@ -1,0 +1,53 @@
+{
+  "experiment": "fb10_spike_interface_diagnosis",
+  "filter_order": [
+    "raw100ms",
+    "right_delayed100ms",
+    "raw500ms"
+  ],
+  "cases": {
+    "equal": {
+      "contrast_mean_hz": [
+        -0.7961525942494105,
+        -0.8030691302130097,
+        -0.8180707675869655
+      ],
+      "contrast_std_hz": [
+        3.8879612179640937,
+        3.790595691609364,
+        0.8155645467585512
+      ],
+      "teacher_turn": 0.0
+    },
+    "right": {
+      "contrast_mean_hz": [
+        0.6475435986945465,
+        0.6469785526598758,
+        0.578301971352009
+      ],
+      "contrast_std_hz": [
+        4.720981708705779,
+        4.795544969104775,
+        0.9553993819948302
+      ],
+      "teacher_turn": 0.38095238095238065
+    },
+    "left": {
+      "contrast_mean_hz": [
+        -1.9010203289864467,
+        -1.7780974905307643,
+        -1.9617799183318696
+      ],
+      "contrast_std_hz": [
+        4.5288600574040165,
+        4.344679625971553,
+        0.9199377397376766
+      ],
+      "teacher_turn": -0.38095238095238065
+    }
+  },
+  "actual_neural_steps": 9000,
+  "optimizer_steps": 0,
+  "world_ticks": 0,
+  "provenance_preserved": true
+}

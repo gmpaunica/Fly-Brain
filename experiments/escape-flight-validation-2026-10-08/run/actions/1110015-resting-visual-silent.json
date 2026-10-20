@@ -1,0 +1,12 @@
+{
+  "schema": "escape-flight-actions-v1",
+  "case": {
+    "azimuth": 225,
+    "state": "resting",
+    "intervention": "visual-silent",
+    "seed": 1110015
+  },
+  "candidate_identity": "ea70e22d8879874f14df4299ba797170d7624e0b26c6e0baeddf720d3494dcab",
+  "recovery_log": "1110015-resting-visual-silent.recovery.json",
+  "recovery_log_sha256": "35484da4c8f1271cec5678605992877759a92950b463bc90edb3f336e27f62bc"
+}

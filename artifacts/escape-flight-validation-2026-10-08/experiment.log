@@ -1,0 +1,67 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+closed 1/48 | intact 0 | 0 resting intact
+closed 2/48 | intact 0 | 0 resting visual-silent
+closed 3/48 | intact 1 | 0 hovering intact
+closed 4/48 | intact 1 | 0 hovering visual-silent
+closed 5/48 | intact 1 | 0 cruising intact
+closed 6/48 | intact 1 | 0 cruising visual-silent
+closed 7/48 | intact 2 | 45 resting intact
+closed 8/48 | intact 2 | 45 resting visual-silent
+closed 9/48 | intact 3 | 45 hovering intact
+closed 10/48 | intact 3 | 45 hovering visual-silent
+closed 11/48 | intact 4 | 45 cruising intact
+closed 12/48 | intact 4 | 45 cruising visual-silent
+closed 13/48 | intact 5 | 90 resting intact
+closed 14/48 | intact 5 | 90 resting visual-silent
+closed 15/48 | intact 6 | 90 hovering intact
+closed 16/48 | intact 6 | 90 hovering visual-silent
+closed 17/48 | intact 7 | 90 cruising intact
+closed 18/48 | intact 7 | 90 cruising visual-silent
+closed 19/48 | intact 8 | 135 resting intact
+closed 20/48 | intact 8 | 135 resting visual-silent
+closed 21/48 | intact 9 | 135 hovering intact
+closed 22/48 | intact 9 | 135 hovering visual-silent
+closed 23/48 | intact 10 | 135 cruising intact
+closed 24/48 | intact 10 | 135 cruising visual-silent
+closed 25/48 | intact 10 | 180 resting intact
+closed 26/48 | intact 10 | 180 resting visual-silent
+closed 27/48 | intact 10 | 180 hovering intact
+closed 28/48 | intact 10 | 180 hovering visual-silent
+closed 29/48 | intact 10 | 180 cruising intact
+closed 30/48 | intact 10 | 180 cruising visual-silent
+closed 31/48 | intact 11 | 225 resting intact
+closed 32/48 | intact 11 | 225 resting visual-silent
+closed 33/48 | intact 12 | 225 hovering intact
+closed 34/48 | intact 12 | 225 hovering visual-silent
+closed 35/48 | intact 13 | 225 cruising intact
+closed 36/48 | intact 13 | 225 cruising visual-silent
+closed 37/48 | intact 14 | 270 resting intact
+closed 38/48 | intact 14 | 270 resting visual-silent
+closed 39/48 | intact 15 | 270 hovering intact
+closed 40/48 | intact 15 | 270 hovering visual-silent
+closed 41/48 | intact 16 | 270 cruising intact
+closed 42/48 | intact 16 | 270 cruising visual-silent
+closed 43/48 | intact 17 | 315 resting intact
+closed 44/48 | intact 17 | 315 resting visual-silent
+closed 45/48 | intact 18 | 315 hovering intact
+closed 46/48 | intact 18 | 315 hovering visual-silent
+closed 47/48 | intact 19 | 315 cruising intact
+closed 48/48 | intact 19 | 315 cruising visual-silent
+{
+  "status": "closed-physical-failed",
+  "error": null,
+  "cases": 48,
+  "recorded_intervals": 14400,
+  "reserved_kernel_steps": 576000,
+  "simulated_seconds": 288.0,
+  "intact_successes": 19,
+  "per_state": {
+    "resting": 6,
+    "hovering": 7,
+    "cruising": 6
+  },
+  "silent_triggers": 0,
+  "optimizer_updates": 0,
+  "retry_authorized": false
+}

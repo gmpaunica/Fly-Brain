@@ -1,0 +1,695 @@
+{
+  "postprocessing_only": true,
+  "comparisons": [
+    {
+      "label": "far-0",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-0",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-0",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-1",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-1",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-1",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-2",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-2",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-2",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-3",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-3",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-3",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-4",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.11041049441256133,
+      "wing_current_l1": 3.1823762580230213
+    },
+    {
+      "label": "far-4",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-4",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.11041049441256133,
+      "wing_current_l1": 3.1823762580230213
+    },
+    {
+      "label": "far-5",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-5",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-5",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-6",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-6",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-6",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-7",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-7",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "far-7",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-0",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-0",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-0",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-1",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.08205010710453016,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "near-1",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-1",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.08205010710453016,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "near-2",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.09847857773201049,
+      "wing_current_l1": 3.2416826214350984
+    },
+    {
+      "label": "near-2",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-2",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.09847857773201049,
+      "wing_current_l1": 3.2416826214350984
+    },
+    {
+      "label": "near-3",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.08261966681359559,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "near-3",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-3",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.08261966681359559,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "near-4",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.15377056784843549,
+      "wing_current_l1": 5.834356473042205
+    },
+    {
+      "label": "near-4",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-4",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.15377056784843549,
+      "wing_current_l1": 5.834356473042205
+    },
+    {
+      "label": "near-5",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.10505985236789217,
+      "wing_current_l1": 2.6519802150191842
+    },
+    {
+      "label": "near-5",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.06976744186046512,
+      "wing_current_l1": 0.21948539086307706
+    },
+    {
+      "label": "near-5",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.10505985236789217,
+      "wing_current_l1": 2.871465605882261
+    },
+    {
+      "label": "near-6",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.08674698795180723,
+      "wing_current_l1": 0.5303960430038368
+    },
+    {
+      "label": "near-6",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-6",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.08674698795180723,
+      "wing_current_l1": 0.5303960430038368
+    },
+    {
+      "label": "near-7",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.11446450873919647,
+      "wing_current_l1": 3.1823762580230213
+    },
+    {
+      "label": "near-7",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "near-7",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.11446450873919647,
+      "wing_current_l1": 3.1823762580230213
+    },
+    {
+      "label": "sequence-0",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-0",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-0",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-1",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.08053204668434319,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "sequence-1",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-1",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.08053204668434319,
+      "wing_current_l1": 1.2966730485740394
+    },
+    {
+      "label": "sequence-2",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.1007764521069216,
+      "wing_current_l1": 2.593346097148079
+    },
+    {
+      "label": "sequence-2",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-2",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.1007764521069216,
+      "wing_current_l1": 2.593346097148079
+    },
+    {
+      "label": "sequence-3",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.08035714285714286,
+      "wing_current_l1": 0.6483365242870197
+    },
+    {
+      "label": "sequence-3",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-3",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.08035714285714286,
+      "wing_current_l1": 0.6483365242870197
+    },
+    {
+      "label": "sequence-4",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.14554581301897868,
+      "wing_current_l1": 3.712772301026858
+    },
+    {
+      "label": "sequence-4",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-4",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.14554581301897868,
+      "wing_current_l1": 3.712772301026858
+    },
+    {
+      "label": "sequence-5",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.1069166259038966,
+      "wing_current_l1": 2.121584172015347
+    },
+    {
+      "label": "sequence-5",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-5",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.1069166259038966,
+      "wing_current_l1": 2.121584172015347
+    },
+    {
+      "label": "sequence-6",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-6",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-6",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-7",
+      "intervention": "DNp03-silent",
+      "wing_voltage_linf": 0.11110828526270301,
+      "wing_current_l1": 2.121584172015347
+    },
+    {
+      "label": "sequence-7",
+      "intervention": "DNp26-silent",
+      "wing_voltage_linf": 0.0,
+      "wing_current_l1": 0.0
+    },
+    {
+      "label": "sequence-7",
+      "intervention": "both-DN-silent",
+      "wing_voltage_linf": 0.11110828526270301,
+      "wing_current_l1": 2.121584172015347
+    }
+  ],
+  "leading_drive": [
+    {
+      "stage": "Visual neurons",
+      "leading_presynaptic_cells": []
+    },
+    {
+      "stage": "DNp03",
+      "leading_presynaptic_cells": [
+        {
+          "id": "720575941403505955",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 17.949029126213585
+        },
+        {
+          "id": "720575941460943315",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 16.092233009708718
+        },
+        {
+          "id": "720575941524212215",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 14.235436893203872
+        },
+        {
+          "id": "720575941416119444",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 12.467405475880037
+        },
+        {
+          "id": "720575941563398568",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 10.971316818774453
+        },
+        {
+          "id": "720575941478593054",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 9.97392438070405
+        },
+        {
+          "id": "720575941671360177",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 9.902912621359214
+        },
+        {
+          "id": "720575941611580774",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 9.408344198174706
+        }
+      ]
+    },
+    {
+      "stage": "DNp26",
+      "leading_presynaptic_cells": [
+        {
+          "id": "720575941526941540",
+          "cell_type": "PLP034",
+          "roles": [
+            "structural_corridor"
+          ],
+          "incoming_current_sum": 11.755234657039722
+        },
+        {
+          "id": "720575941525709643",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 10.054873646209366
+        },
+        {
+          "id": "720575941498446720",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 8.929961089494146
+        },
+        {
+          "id": "720575941548096700",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 8.745487364620942
+        },
+        {
+          "id": "720575941487618957",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 7.824909747292417
+        },
+        {
+          "id": "720575941629808364",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 7.769675090252706
+        },
+        {
+          "id": "720575941625140732",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 7.364620938628154
+        },
+        {
+          "id": "720575941563398568",
+          "cell_type": "LPLC4",
+          "roles": [
+            "vision"
+          ],
+          "incoming_current_sum": 7.069552529182882
+        }
+      ]
+    },
+    {
+      "stage": "Wing-control neurons",
+      "leading_presynaptic_cells": [
+        {
+          "id": "720575941539809997",
+          "cell_type": "DNp03",
+          "roles": [
+            "structural_corridor"
+          ],
+          "incoming_current_sum": 23.337425892168827
+        },
+        {
+          "id": "720575941558607396",
+          "cell_type": "DNp03",
+          "roles": [
+            "structural_corridor"
+          ],
+          "incoming_current_sum": 10.373384388592315
+        },
+        {
+          "id": "720575941439437586",
+          "cell_type": "DNb05",
+          "roles": [
+            "structural_corridor"
+          ],
+          "incoming_current_sum": 2.8702167521761686
+        },
+        {
+          "id": "720575941496426695",
+          "cell_type": "DNg02_f",
+          "roles": [
+            "flight_power_dn"
+          ],
+          "incoming_current_sum": 2.187632769270751
+        },
+        {
+          "id": "720575941489083596",
+          "cell_type": "DNg02_f",
+          "roles": [
+            "flight_power_dn"
+          ],
+          "incoming_current_sum": 1.8267861578622417
+        },
+        {
+          "id": "720575941566309174",
+          "cell_type": "DNp26",
+          "roles": [
+            "structural_corridor"
+          ],
+          "incoming_current_sum": 0.2194853908630771
+        }
+      ]
+    }
+  ],
+  "existing_motion_cells": 16,
+  "motion_reachable_wings": [
+    "720575941432491145",
+    "720575941456201887",
+    "720575941458961604",
+    "720575941459347411",
+    "720575941463144336",
+    "720575941468288375",
+    "720575941468897856",
+    "720575941472734048",
+    "720575941474574132",
+    "720575941475745898",
+    "720575941479034563",
+    "720575941479658831",
+    "720575941483845954",
+    "720575941487139138",
+    "720575941489673420",
+    "720575941499558369",
+    "720575941513173763",
+    "720575941516770670",
+    "720575941519783640",
+    "720575941521196211",
+    "720575941530190027",
+    "720575941533190337",
+    "720575941542328837",
+    "720575941542412805",
+    "720575941547315060",
+    "720575941547394081",
+    "720575941549822781",
+    "720575941560383347",
+    "720575941565105206",
+    "720575941565378919",
+    "720575941566847847",
+    "720575941573368719",
+    "720575941580669817",
+    "720575941583644382",
+    "720575941590220684",
+    "720575941596050112",
+    "720575941597489344",
+    "720575941603635190",
+    "720575941614289683",
+    "720575941624155644",
+    "720575941624985226",
+    "720575941629172716",
+    "720575941630940642",
+    "720575941640465439",
+    "720575941645403000",
+    "720575941655597785",
+    "720575941692400603",
+    "720575941732789547"
+  ],
+  "motion_reachable_DN": {
+    "DNp03": [
+      "720575941539809997",
+      "720575941558607396"
+    ],
+    "DNp26": [
+      "720575941392812548",
+      "720575941566309174"
+    ]
+  }
+}

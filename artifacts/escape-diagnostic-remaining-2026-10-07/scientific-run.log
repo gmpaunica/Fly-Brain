@@ -1,0 +1,21 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+case 1/11 seed 1100008: 75/75 intervals identical | steps 3000
+case 2/11 seed 1100012: 75/75 intervals identical | steps 6000
+case 3/11 seed 1100014: 75/75 intervals identical | steps 9000
+case 4/11 seed 1100013: 75/75 intervals identical | steps 12000
+case 5/11 seed 1100015: 75/75 intervals identical | steps 15000
+case 6/11 seed 1100017: 75/75 intervals identical | steps 18000
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic_remaining\runner.py", line 246, in <module>
+    else: print(json.dumps(run(),indent=2))
+                           ^^^^^
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic_remaining\runner.py", line 208, in run
+    budget.reserve_interval()
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic_remaining\runner.py", line 78, in reserve_interval
+    write(self.path,dict(reserved_steps=self.steps,limit=self.limit),False)
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_diagnostic_remaining\runner.py", line 51, in write
+    os.replace(p,path)
+PermissionError: [WinError 5] Access is denied: 'experiments\\escape-diagnostic-remaining-2026-10-07\\progress.tmp' -> 'experiments\\escape-diagnostic-remaining-2026-10-07\\progress.json'

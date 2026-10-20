@@ -1,0 +1,3 @@
+# Scientific receipts hash exact source/data bytes, including line endings.
+# Preserve those bytes when committing and checking out on every platform.
+* -text

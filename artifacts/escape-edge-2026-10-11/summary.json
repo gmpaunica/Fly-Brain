@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scientific_cases": 96,
+  "intact_successes": 48,
+  "silent_triggers": 0,
+  "scientific_neural_steps": 2304000,
+  "simulated_seconds": 1152,
+  "arrival_seconds": [
+    4.84,
+    5.0200000000000005
+  ],
+  "minimum_stable_hover_seconds": 7.0,
+  "hover_wall_clearance_m": [
+    0.010391447466461923,
+    0.015281527164585767
+  ],
+  "maximum_hover_speed_m_s": 0.008244840105251403,
+  "hover_altitude_m": [
+    0.09999975741680601,
+    0.10001321184251528
+  ],
+  "minimum_separation_gain_m": 0.21486157924834665,
+  "max_downstream_hz": 215.0,
+  "optimizer_updates": 0,
+  "source_environment": {
+    "torch": "2.14.0+cpu",
+    "numpy": "2.5.3",
+    "panda3d": "1.10.16",
+    "pygame": "2.6.1"
+  }
+}

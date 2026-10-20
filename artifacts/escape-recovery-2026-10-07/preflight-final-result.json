@@ -1,0 +1,36 @@
+[
+  {
+    "name": "targeted",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "tests/test_escape_recovery.py",
+      "tests/test_turnflee_neural.py",
+      "tests/test_turnflee_control.py",
+      "tests/test_turnflee_session.py",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "-p",
+      "flybrain.escape_recovery.pytest_plugin",
+      "--junitxml=artifacts\\escape-recovery-2026-10-07\\targeted-final.xml"
+    ]
+  },
+  {
+    "name": "full",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "-p",
+      "flybrain.escape_recovery.pytest_plugin",
+      "--junitxml=artifacts\\escape-recovery-2026-10-07\\full-final.xml"
+    ]
+  }
+]

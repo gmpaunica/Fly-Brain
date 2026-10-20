@@ -1,0 +1,7 @@
+{
+  "status": "exited",
+  "exit_code": 0,
+  "supervisor_pid": 12588,
+  "child_pid": 21900,
+  "retry_authorized": false
+}

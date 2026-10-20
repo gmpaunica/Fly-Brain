@@ -1,0 +1,99 @@
+{
+  "view": "repaired",
+  "frames_per_condition": 120,
+  "resolution": [
+    1440,
+    900
+  ],
+  "seed": 970000,
+  "cord_visible": false,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "renderer": "Intel(R) Iris(R) Xe Graphics",
+  "target_display_hz": 60,
+  "conditions": {
+    "paused": {
+      "mean_ms": 3.325176665869852,
+      "p95_ms": 4.652915126644075,
+      "max_ms": 9.46750002913177,
+      "frames_per_wall_second": 300.7359008211987,
+      "paced_frames_per_wall_second": 58.741461256399816,
+      "pause_barrier_ms": 0.016999896615743637,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "running": {
+      "mean_ms": 6.575914159960424,
+      "p95_ms": 9.394604992121456,
+      "max_ms": 11.956800008192658,
+      "frames_per_wall_second": 152.07011157305288,
+      "paced_frames_per_wall_second": 58.309785898335186,
+      "pause_barrier_ms": 0.01650000922381878,
+      "simulation_seconds": 2.0799999999999996,
+      "simulation_ticks": 104,
+      "simulation_compute_ms": 1352.1516001783311,
+      "simulation_step_p95_ms": 17.297594971023496,
+      "simulation_seconds_per_wall_second": 1.010702955571143,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "orbiting": {
+      "mean_ms": 3.6699133343063295,
+      "p95_ms": 4.606964916456491,
+      "max_ms": 5.836999975144863,
+      "frames_per_wall_second": 272.4859986888534,
+      "paced_frames_per_wall_second": 58.86119480258764,
+      "pause_barrier_ms": 0.01719989813864231,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "source_batches": 75,
+      "geometry_nodes": 79
+    },
+    "selecting": {
+      "mean_ms": 4.439101663107674,
+      "p95_ms": 12.16211497085169,
+      "max_ms": 18.500200007110834,
+      "frames_per_wall_second": 225.27080384546363,
+      "paced_frames_per_wall_second": 58.76887435723055,
+      "pause_barrier_ms": 0.0200001522898674,
+      "simulation_seconds": 0.0,
+      "simulation_ticks": 0,
+      "simulation_compute_ms": 0,
+      "simulation_step_p95_ms": null,
+      "simulation_seconds_per_wall_second": 0.0,
+      "selection_ms": [
+        6.679899990558624,
+        6.108199944719672,
+        3.9921998977661133,
+        5.013599991798401,
+        5.087000085040927,
+        5.913400091230869
+      ],
+      "visible_pulses_min": 359,
+      "visible_pulses_max": 359,
+      "source_batches": 75,
+      "geometry_nodes": 81
+    }
+  },
+  "gates": {
+    "p95_below_33_ms": true,
+    "hundreds_visible_active": true
+  }
+}

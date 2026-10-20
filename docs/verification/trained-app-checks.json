@@ -1,0 +1,34 @@
+{
+  "purpose": "App software integration verification; not a scientific experiment",
+  "pre_session_files": 300,
+  "changed_pre_session_files": [],
+  "reports": {
+    ".trained-app-full.xml": {
+      "tests": "494",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "263.374"
+    },
+    ".trained-app-targeted.xml": {
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "18.010"
+    }
+  },
+  "unique_tests_covered": 495,
+  "live_desktop_review": "blocked: Computer Use native pipe missing after retry/reset",
+  "saved_frame": "docs/verification/trained-app-frame.png",
+  "saved_frame_world_ticks": 120,
+  "saved_frame_neural_steps": 2400,
+  "saved_frame_visually_inspected": true,
+  "new_optimizer_updates": 0,
+  "new_scientific_assays": 0,
+  "source_counts": {
+    "source": 64,
+    "experiment": 232,
+    "data": 4
+  }
+}

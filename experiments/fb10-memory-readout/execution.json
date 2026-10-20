@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "27b3f42295972c7e5d7c78d43d5c55aa14c625d3ba1b8c7d17c8319e905f7bf3",
+  "status": "consumed",
+  "started_utc": "2026-09-27T10:37:25.109687+00:00",
+  "stop_rule": "One 500-update candidate; stop on nonfinite numerics. Record matched training controls after a finite fit, then close on failed gates. No sweep, retry or held-out stepping in this runner."
+}

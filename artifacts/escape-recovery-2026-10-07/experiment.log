@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_recovery\experiment.py", line 226, in <module>
+    r=run();print(json.dumps({k:r[k] for k in ('status','cases','reserved_kernel_steps','validation_successes','intact_successes','silent_triggers')},indent=2))
+      ^^^^^
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_recovery\experiment.py", line 198, in run
+    validation.append(presentation(case,pair,trace,writer,0,budget,dict(candidate.source_sha256),expected[case['seed']]))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\escape_recovery\experiment.py", line 90, in presentation
+    az=math.radians(case['azimuth']); el=math.radians(case['elevation'])
+       ^^^^
+NameError: name 'math' is not defined. Did you mean: 'Path'? Or did you forget to import 'math'?

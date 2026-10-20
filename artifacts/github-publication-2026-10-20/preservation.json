@@ -1,0 +1,11 @@
+{
+  "initial_staged_files": 6739,
+  "modified_original_tracked_files": [
+    "README.md",
+    "docs/decisions.md",
+    "pyproject.toml",
+    "requirements.txt"
+  ],
+  "source_data_experiment_changes": [],
+  "note": "Compared working tree with staged initial import after the regression checks; only publication metadata/documents changed."
+}

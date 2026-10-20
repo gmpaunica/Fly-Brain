@@ -1,0 +1,32 @@
+{
+  "kind": "static headless frame, not live interactive acceptance",
+  "seed": 7,
+  "world_ticks": 120,
+  "neural_substeps": 2400,
+  "config": {
+    "synaptic_budget": 3,
+    "encoder_min_scale": 0.005,
+    "encoder_max_scale": 0.05,
+    "projection_filter_tau": 0,
+    "sensory_mode": "phase_rate",
+    "projection_dynamics": "charge_preserving"
+  },
+  "body": {
+    "x": 336.02987689546893,
+    "y": 440.4037841309924,
+    "heading": 1.9493868677323432,
+    "radius": 6.0,
+    "forward_speed": 56.038305665468926,
+    "angular_speed": 0.11620384679107466
+  },
+  "command": {
+    "forward": 0.5603830566546892,
+    "turn": 0.036988833246185626
+  },
+  "nodes": 83,
+  "displayed_edges": 80,
+  "effective_edges": 145,
+  "rgb_sha256": "0060a5d4046f7bfe545ddbffa7ba8b7091319aa5ebe5967165870f5d6d726cf3",
+  "png_sha256": "78c8f5a847425aa76eeedcf177e25c21466993a3371d03fca68f4878aa77eb8d",
+  "script_sha256": "74a73551d88f66853f6c60e35ba7c758ff56ff4fd21d5035147e3873dac9dc74"
+}

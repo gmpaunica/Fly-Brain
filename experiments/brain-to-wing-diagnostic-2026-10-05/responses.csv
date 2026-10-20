@@ -1,0 +1,481 @@
+label,intervention,stage,spikes,peak_voltage,current_sum,current_peak,first_spike_seconds
+far-0,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-0,intact,DNp03,0,0.6965166687612221,6.657887874837027,0.05397653194263363,
+far-0,intact,DNp26,0,0.2504131413786122,2.3883268482490267,0.01926070038910506,
+far-0,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-0,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-0,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-0,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-0,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-0,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-0,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-0,DNp03-silent,DNp26,0,0.2504131413786122,2.3883268482490267,0.01926070038910506,
+far-0,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-0,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-0,DNp26-silent,DNp03,0,0.6965166687612221,6.657887874837027,0.05397653194263363,
+far-0,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-0,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-0,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-0,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-0,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-0,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-1,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-1,intact,DNp03,0,0.7686884126275387,7.040417209908733,0.05632333767926988,
+far-1,intact,DNp26,0,0.5680390093524648,4.146303501945524,0.17334630350194555,
+far-1,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-1,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-1,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-1,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-1,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-1,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-1,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-1,DNp03-silent,DNp26,0,0.5680390093524648,4.146303501945524,0.17334630350194555,
+far-1,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-1,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-1,DNp26-silent,DNp03,0,0.7686884126275387,7.040417209908733,0.05632333767926988,
+far-1,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-1,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-1,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-1,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-1,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-1,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-2,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-2,intact,DNp03,0,0.9067906149877939,8.673794002607565,0.07040417209908735,
+far-2,intact,DNp26,0,0.2939330469954441,2.810311284046693,0.022762645914396886,
+far-2,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-2,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-2,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-2,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-2,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-2,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-2,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-2,DNp03-silent,DNp26,0,0.2939330469954441,2.810311284046693,0.022762645914396886,
+far-2,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-2,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-2,DNp26-silent,DNp03,0,0.9067906149877939,8.673794002607565,0.07040417209908735,
+far-2,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-2,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-2,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-2,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-2,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-2,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-3,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-3,intact,DNp03,0,0.7545205409970515,7.214080834419814,0.05867014341590613,
+far-3,intact,DNp26,0,0.06829449310325782,0.6513618677042798,0.005252918287937744,
+far-3,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-3,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-3,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-3,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-3,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-3,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-3,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-3,DNp03-silent,DNp26,0,0.06829449310325782,0.6513618677042798,0.005252918287937744,
+far-3,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-3,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-3,DNp26-silent,DNp03,0,0.7545205409970515,7.214080834419814,0.05867014341590613,
+far-3,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-3,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-3,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-3,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-3,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-3,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-4,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-4,intact,DNp03,6,1.013669849188259,12.294174757281557,0.09611650485436893,0.162
+far-4,intact,DNp26,0,0.5292808684572634,4.145848375451265,0.17545126353790616,
+far-4,intact,Wing-control neurons,0,0.11041049441256133,3.1823762580230213,0.08674698795180723,
+far-4,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-4,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-4,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-4,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-4,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-4,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-4,DNp03-silent,DNp26,0,0.5292808684572634,4.145848375451265,0.17545126353790616,
+far-4,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-4,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-4,DNp26-silent,DNp03,6,1.013669849188259,12.294174757281557,0.09611650485436893,0.162
+far-4,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-4,DNp26-silent,Wing-control neurons,0,0.11041049441256133,3.1823762580230213,0.08674698795180723,
+far-4,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-4,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-4,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-4,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-5,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-5,intact,DNp03,0,0.9235749434218284,8.566019417475728,0.06844660194174756,
+far-5,intact,DNp26,0,0.7196675262823898,5.716245487364621,0.17545126353790616,
+far-5,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-5,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-5,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-5,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-5,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-5,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-5,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-5,DNp03-silent,DNp26,0,0.7196675262823898,5.716245487364621,0.17545126353790616,
+far-5,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-5,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-5,DNp26-silent,DNp03,0,0.9235749434218284,8.566019417475728,0.06844660194174756,
+far-5,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-5,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-5,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-5,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-5,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-5,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-6,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-6,intact,DNp03,0,0.7077672100329302,6.550485436893206,0.05242718446601942,
+far-6,intact,DNp26,0,0.672859492582349,5.159566787003611,0.17545126353790616,
+far-6,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-6,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-6,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-6,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-6,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-6,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-6,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-6,DNp03-silent,DNp26,0,0.672859492582349,5.159566787003611,0.17545126353790616,
+far-6,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-6,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-6,DNp26-silent,DNp03,0,0.7077672100329302,6.550485436893206,0.05242718446601942,
+far-6,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-6,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-6,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-6,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-6,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-6,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-7,intact,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-7,intact,DNp03,0,0.9643202834670636,9.224271844660194,0.07427184466019418,
+far-7,intact,DNp26,0,0.46013551477599557,4.394945848375453,0.035740072202166066,
+far-7,intact,Wing-control neurons,0,0.0,0.0,0.0,
+far-7,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+far-7,visual-silent,DNp03,0,0.0,0.0,0.0,
+far-7,visual-silent,DNp26,0,0.0,0.0,0.0,
+far-7,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-7,DNp03-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-7,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+far-7,DNp03-silent,DNp26,0,0.46013551477599557,4.394945848375453,0.035740072202166066,
+far-7,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-7,DNp26-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-7,DNp26-silent,DNp03,0,0.9643202834670636,9.224271844660194,0.07427184466019418,
+far-7,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+far-7,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+far-7,both-DN-silent,Visual neurons,492,0.0,0.0,0.0,0.009000000000000001
+far-7,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+far-7,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+far-7,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-0,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-0,intact,DNp03,0,0.9920399282568879,9.35436766623207,0.05397653194263363,
+near-0,intact,DNp26,0,0.524080793822969,3.9677042801556412,0.17334630350194555,
+near-0,intact,Wing-control neurons,0,0.0,0.0,0.0,
+near-0,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-0,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-0,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-0,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-0,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-0,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-0,DNp03-silent,DNp26,0,0.524080793822969,3.9677042801556412,0.17334630350194555,
+near-0,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-0,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-0,DNp26-silent,DNp03,0,0.9920399282568879,9.35436766623207,0.05397653194263363,
+near-0,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-0,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-0,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-0,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-0,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-0,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-1,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-1,intact,DNp03,2,1.025112646223625,9.887092568448498,0.06101694915254238,0.394
+near-1,intact,DNp26,0,0.7763518222286826,6.422568093385214,0.17334630350194555,
+near-1,intact,Wing-control neurons,0,0.08205010710453016,1.2966730485740394,0.08035714285714286,
+near-1,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-1,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-1,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-1,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-1,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-1,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-1,DNp03-silent,DNp26,0,0.7763518222286826,6.422568093385214,0.17334630350194555,
+near-1,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-1,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-1,DNp26-silent,DNp03,2,1.025112646223625,9.887092568448498,0.06101694915254238,0.394
+near-1,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-1,DNp26-silent,Wing-control neurons,0,0.08205010710453016,1.2966730485740394,0.08035714285714286,
+near-1,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-1,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-1,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-1,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-2,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-2,intact,DNp03,5,1.0106717058681902,11.968709256844855,0.07040417209908735,0.165
+near-2,intact,DNp26,0,0.3995358680015094,3.8696498054474744,0.022762645914396886,
+near-2,intact,Wing-control neurons,0,0.09847857773201049,3.2416826214350984,0.08035714285714286,
+near-2,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-2,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-2,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-2,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-2,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-2,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-2,DNp03-silent,DNp26,0,0.3995358680015094,3.8696498054474744,0.022762645914396886,
+near-2,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-2,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-2,DNp26-silent,DNp03,5,1.0106717058681902,11.968709256844855,0.07040417209908735,0.165
+near-2,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-2,DNp26-silent,Wing-control neurons,0,0.09847857773201049,3.2416826214350984,0.08035714285714286,
+near-2,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-2,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-2,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-2,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-3,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-3,intact,DNp03,2,1.006555122670547,9.973924380704036,0.05867014341590613,0.364
+near-3,intact,DNp26,0,0.0929689932450581,0.8929961089494167,0.005252918287937744,
+near-3,intact,Wing-control neurons,0,0.08261966681359559,1.2966730485740394,0.08035714285714286,
+near-3,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-3,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-3,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-3,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-3,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-3,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-3,DNp03-silent,DNp26,0,0.0929689932450581,0.8929961089494167,0.005252918287937744,
+near-3,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-3,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-3,DNp26-silent,DNp03,2,1.006555122670547,9.973924380704036,0.05867014341590613,0.364
+near-3,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-3,DNp26-silent,Wing-control neurons,0,0.08261966681359559,1.2966730485740394,0.08035714285714286,
+near-3,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-3,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-3,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-3,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-4,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-4,intact,DNp03,11,1.0293363027951052,17.152427184466017,0.09611650485436893,0.089
+near-4,intact,DNp26,0,0.7651362422684347,6.250180505415163,0.1884476534296029,
+near-4,intact,Wing-control neurons,0,0.15377056784843549,5.834356473042205,0.08674698795180723,
+near-4,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-4,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-4,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-4,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-4,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-4,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-4,DNp03-silent,DNp26,0,0.7651362422684347,6.250180505415163,0.1884476534296029,
+near-4,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-4,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-4,DNp26-silent,DNp03,11,1.0293363027951052,17.152427184466017,0.09611650485436893,0.089
+near-4,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-4,DNp26-silent,Wing-control neurons,0,0.15377056784843549,5.834356473042205,0.08674698795180723,
+near-4,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-4,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-4,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-4,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-5,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-5,intact,DNp03,5,1.0068385958629715,12.014563106796118,0.06844660194174756,0.165
+near-5,intact,DNp26,1,1.0002502175822636,8.584115523465707,0.1992779783393502,0.786
+near-5,intact,Wing-control neurons,0,0.1902394964926549,6.837011082107624,0.16874999999999998,
+near-5,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-5,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-5,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-5,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-5,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-5,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-5,DNp03-silent,DNp26,1,1.0002502175822636,8.584115523465707,0.1992779783393502,0.786
+near-5,DNp03-silent,Wing-control neurons,0,0.1902394964926549,4.1850308670884395,0.16874999999999998,
+near-5,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-5,DNp26-silent,DNp03,5,1.0068385958629715,12.014563106796118,0.06844660194174756,0.165
+near-5,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-5,DNp26-silent,Wing-control neurons,0,0.1902394964926549,6.617525691244547,0.16874999999999998,
+near-5,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-5,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-5,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-5,both-DN-silent,Wing-control neurons,0,0.1902394964926549,3.965545476225363,0.16874999999999998,
+near-6,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-6,intact,DNp03,1,1.004505081723902,9.294174757281553,0.056796116504854374,0.768
+near-6,intact,DNp26,0,0.9819038418466156,7.992779783393502,0.1884476534296029,
+near-6,intact,Wing-control neurons,0,0.08674698795180723,0.5303960430038368,0.08674698795180723,
+near-6,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-6,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-6,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-6,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-6,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-6,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-6,DNp03-silent,DNp26,0,0.9819038418466156,7.992779783393502,0.1884476534296029,
+near-6,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-6,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-6,DNp26-silent,DNp03,1,1.004505081723902,9.294174757281553,0.056796116504854374,0.768
+near-6,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-6,DNp26-silent,Wing-control neurons,0,0.08674698795180723,0.5303960430038368,0.08674698795180723,
+near-6,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-6,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-6,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-6,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-7,intact,Visual neurons,682,0.0,0.0,0.0,0.006
+near-7,intact,DNp03,6,1.0229012525398207,12.766019417475727,0.07427184466019418,0.148
+near-7,intact,DNp26,0,0.6287367911597664,6.07581227436823,0.035740072202166066,
+near-7,intact,Wing-control neurons,0,0.16874999999999998,3.541153352045042,0.16874999999999998,
+near-7,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+near-7,visual-silent,DNp03,0,0.0,0.0,0.0,
+near-7,visual-silent,DNp26,0,0.0,0.0,0.0,
+near-7,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+near-7,DNp03-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-7,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+near-7,DNp03-silent,DNp26,0,0.6287367911597664,6.07581227436823,0.035740072202166066,
+near-7,DNp03-silent,Wing-control neurons,0,0.16874999999999998,0.35877709402202107,0.16874999999999998,
+near-7,DNp26-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-7,DNp26-silent,DNp03,6,1.0229012525398207,12.766019417475727,0.07427184466019418,0.148
+near-7,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+near-7,DNp26-silent,Wing-control neurons,0,0.16874999999999998,3.541153352045042,0.16874999999999998,
+near-7,both-DN-silent,Visual neurons,682,0.0,0.0,0.0,0.006
+near-7,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+near-7,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+near-7,both-DN-silent,Wing-control neurons,0,0.16874999999999998,0.35877709402202107,0.16874999999999998,
+sequence-0,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-0,intact,DNp03,0,0.9846798122423086,7.142503259452411,0.05397653194263363,
+sequence-0,intact,DNp26,0,0.48386825061284544,2.8698443579766537,0.17334630350194555,
+sequence-0,intact,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-0,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-0,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-0,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-0,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-0,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-0,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-0,DNp03-silent,DNp26,0,0.48386825061284544,2.8698443579766537,0.17334630350194555,
+sequence-0,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-0,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-0,DNp26-silent,DNp03,0,0.9846798122423086,7.142503259452411,0.05397653194263363,
+sequence-0,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-0,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-0,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-0,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-0,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-0,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-1,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-1,intact,DNp03,2,1.0165422161362778,7.584876140808341,0.05632333767926988,0.358
+sequence-1,intact,DNp26,0,0.7612890769280705,4.880836575875486,0.17334630350194555,
+sequence-1,intact,Wing-control neurons,0,0.08053204668434319,1.2966730485740394,0.08035714285714286,
+sequence-1,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-1,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-1,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-1,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-1,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-1,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-1,DNp03-silent,DNp26,0,0.7612890769280705,4.880836575875486,0.17334630350194555,
+sequence-1,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-1,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-1,DNp26-silent,DNp03,2,1.0165422161362778,7.584876140808341,0.05632333767926988,0.358
+sequence-1,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-1,DNp26-silent,Wing-control neurons,0,0.08053204668434319,1.2966730485740394,0.08035714285714286,
+sequence-1,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-1,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-1,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-1,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-2,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-2,intact,DNp03,4,1.0074086339157482,9.194784876140806,0.07040417209908735,0.264
+sequence-2,intact,DNp26,0,0.40776430870739633,2.9757782101167334,0.022762645914396886,
+sequence-2,intact,Wing-control neurons,0,0.1007764521069216,2.593346097148079,0.08035714285714286,
+sequence-2,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-2,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-2,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-2,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-2,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-2,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-2,DNp03-silent,DNp26,0,0.40776430870739633,2.9757782101167334,0.022762645914396886,
+sequence-2,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-2,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-2,DNp26-silent,DNp03,4,1.0074086339157482,9.194784876140806,0.07040417209908735,0.264
+sequence-2,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-2,DNp26-silent,Wing-control neurons,0,0.1007764521069216,2.593346097148079,0.08035714285714286,
+sequence-2,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-2,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-2,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-2,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-3,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-3,intact,DNp03,1,1.0019391919072014,7.655280312907433,0.05867014341590613,0.368
+sequence-3,intact,DNp26,0,0.09496681666440027,0.6881322957198447,0.005252918287937744,
+sequence-3,intact,Wing-control neurons,0,0.08035714285714286,0.6483365242870197,0.08035714285714286,
+sequence-3,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-3,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-3,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-3,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-3,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-3,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-3,DNp03-silent,DNp26,0,0.09496681666440027,0.6881322957198447,0.005252918287937744,
+sequence-3,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-3,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-3,DNp26-silent,DNp03,1,1.0019391919072014,7.655280312907433,0.05867014341590613,0.368
+sequence-3,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-3,DNp26-silent,Wing-control neurons,0,0.08035714285714286,0.6483365242870197,0.08035714285714286,
+sequence-3,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-3,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-3,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-3,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-4,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-4,intact,DNp03,7,1.043590299201483,13.116990291262137,0.09611650485436893,0.162
+sequence-4,intact,DNp26,0,0.7257639596709384,4.520577617328521,0.17545126353790616,
+sequence-4,intact,Wing-control neurons,0,0.14554581301897868,3.712772301026858,0.08674698795180723,
+sequence-4,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-4,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-4,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-4,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-4,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-4,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-4,DNp03-silent,DNp26,0,0.7257639596709384,4.520577617328521,0.17545126353790616,
+sequence-4,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-4,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-4,DNp26-silent,DNp03,7,1.043590299201483,13.116990291262137,0.09611650485436893,0.162
+sequence-4,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-4,DNp26-silent,Wing-control neurons,0,0.14554581301897868,3.712772301026858,0.08674698795180723,
+sequence-4,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-4,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-4,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-4,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-5,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-5,intact,DNp03,4,1.0153848364009301,9.183495145631065,0.06844660194174756,0.264
+sequence-5,intact,DNp26,0,0.9568992077276085,6.386642599277982,0.17545126353790616,
+sequence-5,intact,Wing-control neurons,0,0.16978916585595977,4.323120187055103,0.16874999999999998,
+sequence-5,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-5,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-5,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-5,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-5,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-5,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-5,DNp03-silent,DNp26,0,0.9568992077276085,6.386642599277982,0.17545126353790616,
+sequence-5,DNp03-silent,Wing-control neurons,0,0.16978916585595977,2.2015360150397565,0.16874999999999998,
+sequence-5,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-5,DNp26-silent,DNp03,4,1.0153848364009301,9.183495145631065,0.06844660194174756,0.264
+sequence-5,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-5,DNp26-silent,Wing-control neurons,0,0.16978916585595977,4.323120187055103,0.16874999999999998,
+sequence-5,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-5,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-5,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-5,both-DN-silent,Wing-control neurons,0,0.16978916585595977,2.2015360150397565,0.16874999999999998,
+sequence-6,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-6,intact,DNp03,0,0.9857104209923884,7.118446601941747,0.05242718446601942,
+sequence-6,intact,DNp26,0,0.961836281759297,6.083393501805056,0.17545126353790616,
+sequence-6,intact,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-6,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-6,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-6,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-6,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-6,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-6,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-6,DNp03-silent,DNp26,0,0.961836281759297,6.083393501805056,0.17545126353790616,
+sequence-6,DNp03-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-6,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-6,DNp26-silent,DNp03,0,0.9857104209923884,7.118446601941747,0.05242718446601942,
+sequence-6,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-6,DNp26-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-6,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-6,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-6,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-6,both-DN-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-7,intact,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-7,intact,DNp03,4,1.0057776977738424,9.789320388349513,0.07427184466019418,0.244
+sequence-7,intact,DNp26,0,0.6406889215899904,4.663537906137185,0.035740072202166066,
+sequence-7,intact,Wing-control neurons,0,0.16874999999999998,2.4803612660373684,0.16874999999999998,
+sequence-7,visual-silent,Visual neurons,0,0.0,0.0,0.0,
+sequence-7,visual-silent,DNp03,0,0.0,0.0,0.0,
+sequence-7,visual-silent,DNp26,0,0.0,0.0,0.0,
+sequence-7,visual-silent,Wing-control neurons,0,0.0,0.0,0.0,
+sequence-7,DNp03-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-7,DNp03-silent,DNp03,0,0.0,0.0,0.0,
+sequence-7,DNp03-silent,DNp26,0,0.6406889215899904,4.663537906137185,0.035740072202166066,
+sequence-7,DNp03-silent,Wing-control neurons,0,0.16874999999999998,0.35877709402202107,0.16874999999999998,
+sequence-7,DNp26-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-7,DNp26-silent,DNp03,4,1.0057776977738424,9.789320388349513,0.07427184466019418,0.244
+sequence-7,DNp26-silent,DNp26,0,0.0,0.0,0.0,
+sequence-7,DNp26-silent,Wing-control neurons,0,0.16874999999999998,2.4803612660373684,0.16874999999999998,
+sequence-7,both-DN-silent,Visual neurons,522,0.0,0.0,0.0,0.009000000000000001
+sequence-7,both-DN-silent,DNp03,0,0.0,0.0,0.0,
+sequence-7,both-DN-silent,DNp26,0,0.0,0.0,0.0,
+sequence-7,both-DN-silent,Wing-control neurons,0,0.16874999999999998,0.35877709402202107,0.16874999999999998,

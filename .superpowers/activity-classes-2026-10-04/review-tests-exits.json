@@ -1,0 +1,27 @@
+[
+  {
+    "name": "review-targeted",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "tests",
+      "-k",
+      "flight3d"
+    ],
+    "exit": 0,
+    "wall_seconds": 94.07776669994928
+  },
+  {
+    "name": "review-full",
+    "command": [
+      "C:\\Users\\Lenovo\\Documents\\Gabriel\\Projects\\Fly-Brain\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "exit": 0,
+    "wall_seconds": 152.88733930001035
+  }
+]

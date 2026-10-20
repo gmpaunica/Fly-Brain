@@ -1,0 +1,99 @@
+{
+  "schema": "fb10_fit_verification_v1",
+  "timestamp_utc": "2026-09-27T01:16:34.712767+00:00",
+  "protocol_sha256": "f25f9c528dcba29302aeb2372df6fea23f3ea4e0a8ecab8f881cc580d4c13d05",
+  "checks_passed": true,
+  "preserved_experiment_files": 113,
+  "preserved_python_sources": 48,
+  "changed_prior_files": [],
+  "csv_matches_json": true,
+  "curve_rows": 501,
+  "episode_rows": 25,
+  "summaries_recomputed": true,
+  "checkpoint_mse_recomputed": [
+    1.7548342880626397e-05,
+    0.06678674714883089
+  ],
+  "checkpoint_changed_scalars": 178,
+  "first_training_sample": {
+    "endpoint_rates_hz": [
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907,
+      9.063462346100907
+    ],
+    "standardized_rates": [
+      -1.8107243776321411,
+      -1.823614478111267,
+      -1.8076201677322388,
+      -1.8076201677322388,
+      -1.8076201677322388,
+      -1.8218715190887451,
+      -1.8218715190887451,
+      -1.8218715190887451
+    ],
+    "target_command": [
+      0.699999988079071,
+      -0.25401660799980164
+    ],
+    "untrained_command": [
+      0.6264843344688416,
+      -0.37142089009284973
+    ],
+    "trained_command": [
+      0.6816015243530273,
+      0.19711029529571533
+    ]
+  },
+  "gates_recomputed": {
+    "turn_fit": false,
+    "training_arrivals": false,
+    "matched_arrival_improvement": true,
+    "matched_progress_improvement": true,
+    "numerical_and_integrity_checks": true,
+    "passed": false
+  },
+  "held_out_evaluated": false,
+  "additional_optimizer_steps": 0,
+  "additional_world_ticks": 0,
+  "test_runs": [
+    {
+      "suite": "targeted",
+      "command": ".venv/Scripts/python.exe -m pytest tests/test_banc_readout.py tests/test_banc_training.py -q -p no:cacheprovider --junitxml=.fb10-fit-targeted-verification.xml",
+      "tests": 38,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0,
+      "junit_seconds": 4.982
+    },
+    {
+      "suite": "full",
+      "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider --junitxml=.fb10-fit-full-verification.xml",
+      "tests": 396,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0,
+      "junit_seconds": 20.295
+    }
+  ],
+  "artifact_sha256": {
+    "execution.json": "c6676de0949ad32e2309929088514654e7ce8c153c3d4a1c8eb55c1e01919193",
+    "protocol.json": "f25f9c528dcba29302aeb2372df6fea23f3ea4e0a8ecab8f881cc580d4c13d05",
+    "protocol.sha256": "9ca98681f263a55afe26a7e25ab53be0e1fbc1edcaf9339506fe1ae2dbaade81",
+    "curve.csv": "85607a21d96ca63c6cf004158fb2025ab705a9a72a0136a97880d5ad9aa29194",
+    "episodes.csv": "6c26dd49e1c026c2a2ee4cecbd9490a5c20906e3ca1d108e75c4deb965ca4f84",
+    "results.json": "0c23f2f98ff406210794f2c26e39f764213a48703ec8800b89a7a0c7323b2aea",
+    "trained.pt": "490717ea74d26be2bfea1c23443d1dfb69a2a7094036203a7f022e2e5544fece",
+    "untrained.pt": "f54c398dcafe35738fb82113ff2aaf8661509966168987dafb00c2896893d556",
+    "training_summary.png": "389a6fa3eeacbef82cac08a6353c01a4efb786ebcd78d1667735c02c3cd1cd98",
+    "training_summary.svg": "01cc9f1c649e065191fbed400928031e243ccee84f6d42a72ebad8c6d434aa85"
+  },
+  "plot_visual_inspection": "PNG inspected: readable labels and thresholds, curve/arrivals/progress agree with recorded data; SVG generated from the same figure",
+  "local_acceptance_review": "Frozen plan reviewed locally: one attempt, failed gates closed, no code/candidate/gate changes, no retry or held-out execution; next task limited to train-only recovery protocol",
+  "final_review_utc": "2026-09-27T01:24:03.172015+00:00",
+  "documentation_links_verified": true
+}

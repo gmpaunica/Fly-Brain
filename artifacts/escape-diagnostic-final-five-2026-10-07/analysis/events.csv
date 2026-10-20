@@ -1,0 +1,1402 @@
+seed,kind,step,actual,reference
+1100000,actual b3 spike,136,1,0
+1100000,reference b3 spike,136,0,1
+1100000,actual b3 spike,212,1,0
+1100000,reference b3 spike,212,0,1
+1100000,actual b3 spike,269,1,0
+1100000,reference b3 spike,269,0,1
+1100000,actual b3 spike,387,1,0
+1100000,reference b3 spike,387,0,1
+1100000,actual b3 spike,461,1,0
+1100000,reference b3 spike,461,0,1
+1100000,actual b3 spike,527,1,0
+1100000,reference b3 spike,527,0,1
+1100000,actual b3 spike,628,1,0
+1100000,reference b3 spike,628,0,1
+1100000,actual b3 spike,702,1,0
+1100000,reference b3 spike,702,0,1
+1100000,actual b3 spike,754,1,0
+1100000,reference b3 spike,754,0,1
+1100000,right-DN to b3 delivery difference,824,0.05533453887884268,0.0
+1100000,actual b3 spike,852,1,0
+1100000,reference b3 spike,870,0,1
+1100000,actual b3 spike,928,1,0
+1100000,reference b3 spike,944,0,1
+1100000,right-DN to b3 delivery difference,997,0.05533453887884268,0.0
+1100000,actual b3 spike,1003,1,0
+1100000,reference b3 spike,1003,0,1
+1100000,actual b3 spike,1078,1,0
+1100000,reference b3 spike,1111,0,1
+1100000,right-DN to b3 delivery difference,1125,0.05533453887884268,0.0
+1100000,actual b3 spike,1144,1,0
+1100000,reference b3 spike,1178,0,1
+1100000,right-DN to b3 delivery difference,1223,0.05533453887884268,0.0
+1100000,actual b3 spike,1244,1,0
+1100000,reference b3 spike,1246,0,1
+1100000,right-DN to b3 delivery difference,1306,0.05533453887884268,0.0
+1100000,actual b3 spike,1307,1,0
+1100000,reference b3 spike,1346,0,1
+1100000,actual b3 spike,1372,1,0
+1100000,right-DN to b3 delivery difference,1372,0.05533453887884268,0.0
+1100000,reference b3 spike,1419,0,1
+1100000,right-DN to b3 delivery difference,1428,0.05533453887884268,0.0
+1100000,actual b3 spike,1429,1,0
+1100000,right-DN to b3 delivery difference,1476,0.05533453887884268,0.0
+1100000,reference b3 spike,1488,0,1
+1100000,actual b3 spike,1489,1,0
+1100001,actual b3 spike,136,1,0
+1100001,reference b3 spike,136,0,1
+1100001,actual b3 spike,212,1,0
+1100001,reference b3 spike,212,0,1
+1100001,actual b3 spike,269,1,0
+1100001,reference b3 spike,269,0,1
+1100001,actual b3 spike,387,1,0
+1100001,reference b3 spike,387,0,1
+1100001,actual b3 spike,461,1,0
+1100001,reference b3 spike,461,0,1
+1100001,actual b3 spike,527,1,0
+1100001,reference b3 spike,527,0,1
+1100001,right-DN to b3 delivery difference,617,0.05533453887884268,0.0
+1100001,actual b3 spike,627,1,0
+1100001,reference b3 spike,628,0,1
+1100001,actual b3 spike,694,1,0
+1100001,reference b3 spike,702,0,1
+1100001,right-DN to b3 delivery difference,722,0.05533453887884268,0.0
+1100001,actual b3 spike,754,1,0
+1100001,reference b3 spike,754,0,1
+1100001,right-DN to b3 delivery difference,819,0.05533453887884268,0.0
+1100001,actual b3 spike,820,1,0
+1100001,reference b3 spike,870,0,1
+1100001,right-DN to b3 delivery difference,897,0.05533453887884268,0.0
+1100001,actual b3 spike,903,1,0
+1100001,reference b3 spike,944,0,1
+1100001,actual b3 spike,953,1,0
+1100001,right-DN to b3 delivery difference,959,0.05533453887884268,0.0
+1100001,reference b3 spike,1003,0,1
+1100001,actual b3 spike,1011,1,0
+1100001,right-DN to b3 delivery difference,1016,0.05533453887884268,0.0
+1100001,right-DN to b3 delivery difference,1073,0.05533453887884268,0.0
+1100001,actual b3 spike,1111,1,0
+1100001,reference b3 spike,1111,0,1
+1100001,right-DN to b3 delivery difference,1122,0.05533453887884268,0.0
+1100001,right-DN to b3 delivery difference,1169,0.05533453887884268,0.0
+1100001,actual b3 spike,1177,1,0
+1100001,reference b3 spike,1178,0,1
+1100001,right-DN to b3 delivery difference,1210,0.05533453887884268,0.0
+1100001,actual b3 spike,1244,1,0
+1100001,reference b3 spike,1246,0,1
+1100001,right-DN to b3 delivery difference,1249,0.05533453887884268,0.0
+1100001,right-DN to b3 delivery difference,1286,0.05533453887884268,0.0
+1100001,actual b3 spike,1304,1,0
+1100001,right-DN to b3 delivery difference,1319,0.05533453887884268,0.0
+1100001,reference b3 spike,1346,0,1
+1100001,right-DN to b3 delivery difference,1351,0.05533453887884268,0.0
+1100001,actual b3 spike,1354,1,0
+1100001,right-DN to b3 delivery difference,1385,0.05533453887884268,0.0
+1100001,right-DN to b3 delivery difference,1408,0.026039783001808318,0.0
+1100001,right-DN to b3 delivery difference,1417,0.05533453887884268,0.0
+1100001,actual b3 spike,1419,1,0
+1100001,reference b3 spike,1419,0,1
+1100001,right-DN to b3 delivery difference,1447,0.05533453887884268,0.0
+1100001,actual b3 spike,1477,1,0
+1100001,right-DN to b3 delivery difference,1477,0.05533453887884268,0.0
+1100001,reference b3 spike,1488,0,1
+1100002,actual b3 spike,136,1,0
+1100002,reference b3 spike,136,0,1
+1100002,actual b3 spike,212,1,0
+1100002,reference b3 spike,212,0,1
+1100002,actual b3 spike,269,1,0
+1100002,reference b3 spike,269,0,1
+1100002,actual b3 spike,387,1,0
+1100002,reference b3 spike,387,0,1
+1100002,actual b3 spike,461,1,0
+1100002,reference b3 spike,461,0,1
+1100002,actual b3 spike,527,1,0
+1100002,reference b3 spike,527,0,1
+1100002,right-DN to b3 delivery difference,551,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,610,0.05533453887884268,0.0
+1100002,actual b3 spike,627,1,0
+1100002,reference b3 spike,628,0,1
+1100002,right-DN to b3 delivery difference,662,0.05533453887884268,0.0
+1100002,actual b3 spike,687,1,0
+1100002,reference b3 spike,702,0,1
+1100002,right-DN to b3 delivery difference,704,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,746,0.05533453887884268,0.0
+1100002,actual b3 spike,752,1,0
+1100002,reference b3 spike,754,0,1
+1100002,right-DN to b3 delivery difference,786,0.05533453887884268,0.0
+1100002,actual b3 spike,820,1,0
+1100002,right-DN to b3 delivery difference,822,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,864,0.05533453887884268,0.0
+1100002,reference b3 spike,870,0,1
+1100002,actual b3 spike,879,1,0
+1100002,right-DN to b3 delivery difference,888,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,900,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,933,0.05533453887884268,0.0
+1100002,reference b3 spike,944,0,1
+1100002,actual b3 spike,952,1,0
+1100002,right-DN to b3 delivery difference,960,0.05533453887884268,0.0
+1100002,actual b3 spike,995,1,0
+1100002,right-DN to b3 delivery difference,995,0.05533453887884268,0.0
+1100002,reference b3 spike,1003,0,1
+1100002,right-DN to b3 delivery difference,1023,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,1029,0.05533453887884268,0.0
+1100002,actual b3 spike,1057,1,0
+1100002,right-DN to b3 delivery difference,1057,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1091,0.05533453887884268,0.0
+1100002,actual b3 spike,1097,1,0
+1100002,reference b3 spike,1111,0,1
+1100002,right-DN to b3 delivery difference,1115,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,1119,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1149,0.05533453887884268,0.0
+1100002,actual b3 spike,1171,1,0
+1100002,reference b3 spike,1178,0,1
+1100002,right-DN to b3 delivery difference,1181,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1208,0.05533453887884268,0.0
+1100002,actual b3 spike,1230,1,0
+1100002,right-DN to b3 delivery difference,1230,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,1238,0.05533453887884268,0.0
+1100002,reference b3 spike,1246,0,1
+1100002,right-DN to b3 delivery difference,1270,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1296,0.05533453887884268,0.0
+1100002,actual b3 spike,1302,1,0
+1100002,right-DN to b3 delivery difference,1320,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,1322,0.05533453887884268,0.0
+1100002,actual b3 spike,1344,1,0
+1100002,reference b3 spike,1346,0,1
+1100002,right-DN to b3 delivery difference,1352,0.05533453887884268,0.0
+1100002,actual b3 spike,1380,1,0
+1100002,right-DN to b3 delivery difference,1380,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1410,0.05533453887884268,0.0
+1100002,reference b3 spike,1419,0,1
+1100002,actual b3 spike,1431,1,0
+1100002,right-DN to b3 delivery difference,1431,0.026039783001808318,0.0
+1100002,right-DN to b3 delivery difference,1437,0.05533453887884268,0.0
+1100002,right-DN to b3 delivery difference,1464,0.05533453887884268,0.0
+1100002,reference b3 spike,1488,0,1
+1100002,right-DN to b3 delivery difference,1491,0.05533453887884268,0.0
+1100003,actual b3 spike,136,1,0
+1100003,reference b3 spike,136,0,1
+1100003,actual b3 spike,212,1,0
+1100003,reference b3 spike,212,0,1
+1100003,actual b3 spike,269,1,0
+1100003,reference b3 spike,269,0,1
+1100003,actual b3 spike,387,1,0
+1100003,reference b3 spike,387,0,1
+1100003,actual b3 spike,461,1,0
+1100003,reference b3 spike,461,0,1
+1100003,actual b3 spike,524,1,0
+1100003,right-DN to b3 delivery difference,524,0.05533453887884268,0.0
+1100003,reference b3 spike,527,0,1
+1100003,right-DN to b3 delivery difference,559,0.05533453887884268,0.0
+1100003,actual b3 spike,572,1,0
+1100003,right-DN to b3 delivery difference,590,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,619,0.081374321880651,0.0
+1100003,reference b3 spike,628,0,1
+1100003,actual b3 spike,637,1,0
+1100003,right-DN to b3 delivery difference,648,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,679,0.05533453887884268,0.0
+1100003,actual b3 spike,694,1,0
+1100003,reference b3 spike,702,0,1
+1100003,right-DN to b3 delivery difference,707,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,712,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,738,0.05533453887884268,0.0
+1100003,actual b3 spike,752,1,0
+1100003,reference b3 spike,754,0,1
+1100003,right-DN to b3 delivery difference,767,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,798,0.05533453887884268,0.0
+1100003,actual b3 spike,804,1,0
+1100003,right-DN to b3 delivery difference,828,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,832,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,855,0.05533453887884268,0.0
+1100003,actual b3 spike,863,1,0
+1100003,reference b3 spike,870,0,1
+1100003,right-DN to b3 delivery difference,883,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,912,0.05533453887884268,0.0
+1100003,actual b3 spike,928,1,0
+1100003,right-DN to b3 delivery difference,935,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,942,0.05533453887884268,0.0
+1100003,reference b3 spike,944,0,1
+1100003,right-DN to b3 delivery difference,973,0.05533453887884268,0.0
+1100003,actual b3 spike,979,1,0
+1100003,right-DN to b3 delivery difference,1000,0.05533453887884268,0.0
+1100003,reference b3 spike,1003,0,1
+1100003,right-DN to b3 delivery difference,1021,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,1028,0.05533453887884268,0.0
+1100003,actual b3 spike,1036,1,0
+1100003,right-DN to b3 delivery difference,1059,0.05533453887884268,0.0
+1100003,actual b3 spike,1085,1,0
+1100003,right-DN to b3 delivery difference,1085,0.05533453887884268,0.0
+1100003,reference b3 spike,1111,0,1
+1100003,right-DN to b3 delivery difference,1113,0.05533453887884268,0.0
+1100003,actual b3 spike,1129,1,0
+1100003,right-DN to b3 delivery difference,1129,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,1142,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1170,0.05533453887884268,0.0
+1100003,reference b3 spike,1178,0,1
+1100003,actual b3 spike,1179,1,0
+1100003,right-DN to b3 delivery difference,1197,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1226,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,1227,0.05533453887884268,0.0
+1100003,reference b3 spike,1246,0,1
+1100003,actual b3 spike,1253,1,0
+1100003,right-DN to b3 delivery difference,1254,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1279,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1301,0.026039783001808318,0.0
+1100003,actual b3 spike,1302,1,0
+1100003,right-DN to b3 delivery difference,1304,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1330,0.05533453887884268,0.0
+1100003,reference b3 spike,1346,0,1
+1100003,actual b3 spike,1356,1,0
+1100003,right-DN to b3 delivery difference,1356,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1384,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1404,0.026039783001808318,0.0
+1100003,right-DN to b3 delivery difference,1411,0.05533453887884268,0.0
+1100003,reference b3 spike,1419,0,1
+1100003,actual b3 spike,1427,1,0
+1100003,right-DN to b3 delivery difference,1437,0.05533453887884268,0.0
+1100003,right-DN to b3 delivery difference,1463,0.05533453887884268,0.0
+1100003,actual b3 spike,1478,1,0
+1100003,right-DN to b3 delivery difference,1483,0.026039783001808318,0.0
+1100003,reference b3 spike,1488,0,1
+1100003,right-DN to b3 delivery difference,1489,0.05533453887884268,0.0
+1100004,actual b3 spike,136,1,0
+1100004,reference b3 spike,136,0,1
+1100004,actual b3 spike,212,1,0
+1100004,reference b3 spike,212,0,1
+1100004,actual b3 spike,269,1,0
+1100004,reference b3 spike,269,0,1
+1100004,actual b3 spike,387,1,0
+1100004,reference b3 spike,387,0,1
+1100004,actual b3 spike,461,1,0
+1100004,reference b3 spike,461,0,1
+1100004,actual b3 spike,527,1,0
+1100004,reference b3 spike,527,0,1
+1100004,right-DN to b3 delivery difference,547,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,598,0.05533453887884268,0.0
+1100004,actual b3 spike,627,1,0
+1100004,reference b3 spike,628,0,1
+1100004,right-DN to b3 delivery difference,647,0.05533453887884268,0.0
+1100004,actual b3 spike,693,1,0
+1100004,right-DN to b3 delivery difference,699,0.05533453887884268,0.0
+1100004,reference b3 spike,702,0,1
+1100004,right-DN to b3 delivery difference,732,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,748,0.05533453887884268,0.0
+1100004,actual b3 spike,752,1,0
+1100004,reference b3 spike,754,0,1
+1100004,right-DN to b3 delivery difference,797,0.05533453887884268,0.0
+1100004,actual b3 spike,804,1,0
+1100004,right-DN to b3 delivery difference,843,0.05533453887884268,0.0
+1100004,actual b3 spike,870,1,0
+1100004,reference b3 spike,870,0,1
+1100004,right-DN to b3 delivery difference,878,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,891,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,940,0.05533453887884268,0.0
+1100004,actual b3 spike,944,1,0
+1100004,reference b3 spike,944,0,1
+1100004,right-DN to b3 delivery difference,984,0.05533453887884268,0.0
+1100004,actual b3 spike,994,1,0
+1100004,right-DN to b3 delivery difference,1000,0.026039783001808318,0.0
+1100004,reference b3 spike,1003,0,1
+1100004,right-DN to b3 delivery difference,1026,0.05533453887884268,0.0
+1100004,actual b3 spike,1038,1,0
+1100004,right-DN to b3 delivery difference,1070,0.05533453887884268,0.0
+1100004,reference b3 spike,1111,0,1
+1100004,right-DN to b3 delivery difference,1111,0.081374321880651,0.0
+1100004,actual b3 spike,1120,1,0
+1100004,right-DN to b3 delivery difference,1139,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,1176,0.05533453887884268,0.0
+1100004,actual b3 spike,1178,1,0
+1100004,reference b3 spike,1178,0,1
+1100004,right-DN to b3 delivery difference,1182,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,1202,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,1232,0.05533453887884268,0.0
+1100004,actual b3 spike,1244,1,0
+1100004,reference b3 spike,1246,0,1
+1100004,right-DN to b3 delivery difference,1254,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,1261,0.05533453887884268,0.0
+1100004,actual b3 spike,1290,1,0
+1100004,right-DN to b3 delivery difference,1290,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,1314,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,1316,0.05533453887884268,0.0
+1100004,actual b3 spike,1320,1,0
+1100004,right-DN to b3 delivery difference,1336,0.05533453887884268,0.0
+1100004,reference b3 spike,1346,0,1
+1100004,right-DN to b3 delivery difference,1361,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,1363,0.026039783001808318,0.0
+1100004,actual b3 spike,1365,1,0
+1100004,right-DN to b3 delivery difference,1383,0.05533453887884268,0.0
+1100004,right-DN to b3 delivery difference,1403,0.081374321880651,0.0
+1100004,reference b3 spike,1419,0,1
+1100004,right-DN to b3 delivery difference,1425,0.05533453887884268,0.0
+1100004,actual b3 spike,1427,1,0
+1100004,right-DN to b3 delivery difference,1445,0.081374321880651,0.0
+1100004,right-DN to b3 delivery difference,1463,0.05533453887884268,0.0
+1100004,actual b3 spike,1479,1,0
+1100004,right-DN to b3 delivery difference,1483,0.05533453887884268,0.0
+1100004,reference b3 spike,1488,0,1
+1100004,right-DN to b3 delivery difference,1489,0.026039783001808318,0.0
+1100004,right-DN to b3 delivery difference,1498,0.05533453887884268,0.0
+1100005,actual b3 spike,136,1,0
+1100005,reference b3 spike,136,0,1
+1100005,actual b3 spike,212,1,0
+1100005,reference b3 spike,212,0,1
+1100005,actual b3 spike,269,1,0
+1100005,reference b3 spike,269,0,1
+1100005,actual b3 spike,387,1,0
+1100005,reference b3 spike,387,0,1
+1100005,actual b3 spike,461,1,0
+1100005,reference b3 spike,461,0,1
+1100005,actual b3 spike,527,1,0
+1100005,reference b3 spike,527,0,1
+1100005,right-DN to b3 delivery difference,540,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,573,0.05533453887884268,0.0
+1100005,actual b3 spike,574,1,0
+1100005,right-DN to b3 delivery difference,589,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,612,0.05533453887884268,0.0
+1100005,reference b3 spike,628,0,1
+1100005,right-DN to b3 delivery difference,644,0.05533453887884268,0.0
+1100005,actual b3 spike,652,1,0
+1100005,right-DN to b3 delivery difference,670,0.081374321880651,0.0
+1100005,actual b3 spike,702,1,0
+1100005,reference b3 spike,702,0,1
+1100005,right-DN to b3 delivery difference,707,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,733,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,736,0.026039783001808318,0.0
+1100005,reference b3 spike,754,0,1
+1100005,actual b3 spike,764,1,0
+1100005,right-DN to b3 delivery difference,764,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,796,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,808,0.026039783001808318,0.0
+1100005,actual b3 spike,812,1,0
+1100005,right-DN to b3 delivery difference,822,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,854,0.05533453887884268,0.0
+1100005,reference b3 spike,870,0,1
+1100005,actual b3 spike,871,1,0
+1100005,right-DN to b3 delivery difference,876,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,879,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,905,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,925,0.081374321880651,0.0
+1100005,actual b3 spike,938,1,0
+1100005,reference b3 spike,944,0,1
+1100005,right-DN to b3 delivery difference,948,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,972,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,974,0.026039783001808318,0.0
+1100005,actual b3 spike,986,1,0
+1100005,right-DN to b3 delivery difference,993,0.05533453887884268,0.0
+1100005,reference b3 spike,1003,0,1
+1100005,right-DN to b3 delivery difference,1014,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1023,0.026039783001808318,0.0
+1100005,actual b3 spike,1024,1,0
+1100005,right-DN to b3 delivery difference,1035,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1058,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1070,0.026039783001808318,0.0
+1100005,actual b3 spike,1071,1,0
+1100005,right-DN to b3 delivery difference,1079,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1098,0.05533453887884268,0.0
+1100005,reference b3 spike,1111,0,1
+1100005,right-DN to b3 delivery difference,1114,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1118,0.05533453887884268,0.0
+1100005,actual b3 spike,1121,1,0
+1100005,right-DN to b3 delivery difference,1133,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1156,0.081374321880651,0.0
+1100005,actual b3 spike,1162,1,0
+1100005,right-DN to b3 delivery difference,1170,0.05533453887884268,0.0
+1100005,reference b3 spike,1178,0,1
+1100005,right-DN to b3 delivery difference,1190,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1192,0.026039783001808318,0.0
+1100005,actual b3 spike,1204,1,0
+1100005,right-DN to b3 delivery difference,1208,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1224,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1226,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1241,0.05533453887884268,0.0
+1100005,reference b3 spike,1246,0,1
+1100005,actual b3 spike,1256,1,0
+1100005,right-DN to b3 delivery difference,1256,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1263,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1273,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1289,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1295,0.026039783001808318,0.0
+1100005,actual b3 spike,1296,1,0
+1100005,right-DN to b3 delivery difference,1303,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1317,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1328,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1334,0.05533453887884268,0.0
+1100005,actual b3 spike,1337,1,0
+1100005,reference b3 spike,1346,0,1
+1100005,right-DN to b3 delivery difference,1347,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1351,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1362,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1375,0.05533453887884268,0.0
+1100005,actual b3 spike,1376,1,0
+1100005,right-DN to b3 delivery difference,1384,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1389,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1405,0.05533453887884268,0.0
+1100005,actual b3 spike,1412,1,0
+1100005,right-DN to b3 delivery difference,1416,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1418,0.05533453887884268,0.0
+1100005,reference b3 spike,1419,0,1
+1100005,right-DN to b3 delivery difference,1432,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1446,0.026039783001808318,0.0
+1100005,right-DN to b3 delivery difference,1448,0.05533453887884268,0.0
+1100005,actual b3 spike,1462,1,0
+1100005,right-DN to b3 delivery difference,1463,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1474,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1476,0.026039783001808318,0.0
+1100005,reference b3 spike,1488,0,1
+1100005,right-DN to b3 delivery difference,1490,0.05533453887884268,0.0
+1100005,right-DN to b3 delivery difference,1500,0.081374321880651,0.0
+1100008,actual b3 spike,136,1,0
+1100008,reference b3 spike,136,0,1
+1100008,actual b3 spike,212,1,0
+1100008,reference b3 spike,212,0,1
+1100008,actual b3 spike,269,1,0
+1100008,reference b3 spike,269,0,1
+1100008,actual b3 spike,387,1,0
+1100008,reference b3 spike,387,0,1
+1100008,actual b3 spike,461,1,0
+1100008,reference b3 spike,461,0,1
+1100008,actual b3 spike,527,1,0
+1100008,reference b3 spike,527,0,1
+1100008,right-DN to b3 delivery difference,558,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,611,0.05533453887884268,0.0
+1100008,actual b3 spike,627,1,0
+1100008,reference b3 spike,628,0,1
+1100008,right-DN to b3 delivery difference,662,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,664,0.026039783001808318,0.0
+1100008,actual b3 spike,678,1,0
+1100008,right-DN to b3 delivery difference,697,0.05533453887884268,0.0
+1100008,reference b3 spike,702,0,1
+1100008,right-DN to b3 delivery difference,736,0.05533453887884268,0.0
+1100008,actual b3 spike,737,1,0
+1100008,reference b3 spike,754,0,1
+1100008,right-DN to b3 delivery difference,773,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,786,0.026039783001808318,0.0
+1100008,actual b3 spike,796,1,0
+1100008,right-DN to b3 delivery difference,807,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,840,0.05533453887884268,0.0
+1100008,actual b3 spike,853,1,0
+1100008,reference b3 spike,870,0,1
+1100008,right-DN to b3 delivery difference,877,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,905,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,906,0.05533453887884268,0.0
+1100008,actual b3 spike,920,1,0
+1100008,right-DN to b3 delivery difference,934,0.05533453887884268,0.0
+1100008,reference b3 spike,944,0,1
+1100008,right-DN to b3 delivery difference,960,0.05533453887884268,0.0
+1100008,actual b3 spike,961,1,0
+1100008,right-DN to b3 delivery difference,981,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,988,0.05533453887884268,0.0
+1100008,reference b3 spike,1003,0,1
+1100008,actual b3 spike,1011,1,0
+1100008,right-DN to b3 delivery difference,1016,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1043,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1070,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1072,0.026039783001808318,0.0
+1100008,actual b3 spike,1078,1,0
+1100008,right-DN to b3 delivery difference,1097,0.05533453887884268,0.0
+1100008,reference b3 spike,1111,0,1
+1100008,right-DN to b3 delivery difference,1121,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1135,0.026039783001808318,0.0
+1100008,actual b3 spike,1136,1,0
+1100008,right-DN to b3 delivery difference,1143,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1171,0.05533453887884268,0.0
+1100008,reference b3 spike,1178,0,1
+1100008,actual b3 spike,1188,1,0
+1100008,right-DN to b3 delivery difference,1194,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1218,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1220,0.026039783001808318,0.0
+1100008,actual b3 spike,1244,1,0
+1100008,right-DN to b3 delivery difference,1244,0.05533453887884268,0.0
+1100008,reference b3 spike,1246,0,1
+1100008,right-DN to b3 delivery difference,1268,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1283,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,1289,0.05533453887884268,0.0
+1100008,actual b3 spike,1294,1,0
+1100008,right-DN to b3 delivery difference,1312,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1337,0.05533453887884268,0.0
+1100008,actual b3 spike,1338,1,0
+1100008,reference b3 spike,1346,0,1
+1100008,right-DN to b3 delivery difference,1362,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1363,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,1384,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1408,0.05533453887884268,0.0
+1100008,actual b3 spike,1411,1,0
+1100008,reference b3 spike,1419,0,1
+1100008,right-DN to b3 delivery difference,1425,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,1430,0.05533453887884268,0.0
+1100008,right-DN to b3 delivery difference,1453,0.05533453887884268,0.0
+1100008,actual b3 spike,1469,1,0
+1100008,right-DN to b3 delivery difference,1476,0.05533453887884268,0.0
+1100008,reference b3 spike,1488,0,1
+1100008,right-DN to b3 delivery difference,1494,0.026039783001808318,0.0
+1100008,right-DN to b3 delivery difference,1496,0.05533453887884268,0.0
+1100010,actual b3 spike,136,1,0
+1100010,reference b3 spike,136,0,1
+1100010,actual b3 spike,212,1,0
+1100010,reference b3 spike,212,0,1
+1100010,actual b3 spike,269,1,0
+1100010,reference b3 spike,269,0,1
+1100010,actual b3 spike,387,1,0
+1100010,reference b3 spike,387,0,1
+1100010,actual b3 spike,461,1,0
+1100010,reference b3 spike,461,0,1
+1100010,actual b3 spike,527,1,0
+1100010,reference b3 spike,527,0,1
+1100010,right-DN to b3 delivery difference,614,0.026039783001808318,0.0
+1100010,right-DN to b3 delivery difference,615,0.05533453887884268,0.0
+1100010,actual b3 spike,621,1,0
+1100010,reference b3 spike,628,0,1
+1100010,actual b3 spike,694,1,0
+1100010,reference b3 spike,702,0,1
+1100010,right-DN to b3 delivery difference,708,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,716,0.026039783001808318,0.0
+1100010,actual b3 spike,753,1,0
+1100010,reference b3 spike,754,0,1
+1100010,right-DN to b3 delivery difference,784,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,808,0.026039783001808318,0.0
+1100010,actual b3 spike,811,1,0
+1100010,right-DN to b3 delivery difference,851,0.05533453887884268,0.0
+1100010,reference b3 spike,870,0,1
+1100010,actual b3 spike,888,1,0
+1100010,right-DN to b3 delivery difference,899,0.026039783001808318,0.0
+1100010,right-DN to b3 delivery difference,920,0.05533453887884268,0.0
+1100010,actual b3 spike,940,1,0
+1100010,reference b3 spike,944,0,1
+1100010,right-DN to b3 delivery difference,983,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,984,0.026039783001808318,0.0
+1100010,reference b3 spike,1003,0,1
+1100010,actual b3 spike,1012,1,0
+1100010,right-DN to b3 delivery difference,1040,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,1064,0.026039783001808318,0.0
+1100010,actual b3 spike,1071,1,0
+1100010,right-DN to b3 delivery difference,1097,0.05533453887884268,0.0
+1100010,reference b3 spike,1111,0,1
+1100010,actual b3 spike,1128,1,0
+1100010,right-DN to b3 delivery difference,1139,0.026039783001808318,0.0
+1100010,right-DN to b3 delivery difference,1150,0.05533453887884268,0.0
+1100010,reference b3 spike,1178,0,1
+1100010,right-DN to b3 delivery difference,1200,0.05533453887884268,0.0
+1100010,actual b3 spike,1204,1,0
+1100010,right-DN to b3 delivery difference,1207,0.026039783001808318,0.0
+1100010,reference b3 spike,1246,0,1
+1100010,right-DN to b3 delivery difference,1248,0.05533453887884268,0.0
+1100010,actual b3 spike,1256,1,0
+1100010,right-DN to b3 delivery difference,1277,0.026039783001808318,0.0
+1100010,right-DN to b3 delivery difference,1296,0.05533453887884268,0.0
+1100010,actual b3 spike,1320,1,0
+1100010,right-DN to b3 delivery difference,1336,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,1341,0.026039783001808318,0.0
+1100010,reference b3 spike,1346,0,1
+1100010,actual b3 spike,1370,1,0
+1100010,right-DN to b3 delivery difference,1379,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,1400,0.026039783001808318,0.0
+1100010,right-DN to b3 delivery difference,1415,0.05533453887884268,0.0
+1100010,reference b3 spike,1419,0,1
+1100010,actual b3 spike,1427,1,0
+1100010,right-DN to b3 delivery difference,1451,0.05533453887884268,0.0
+1100010,right-DN to b3 delivery difference,1456,0.026039783001808318,0.0
+1100010,reference b3 spike,1488,0,1
+1100010,right-DN to b3 delivery difference,1489,0.05533453887884268,0.0
+1100010,actual b3 spike,1492,1,0
+1100012,actual b3 spike,136,1,0
+1100012,reference b3 spike,136,0,1
+1100012,actual b3 spike,212,1,0
+1100012,reference b3 spike,212,0,1
+1100012,actual b3 spike,269,1,0
+1100012,reference b3 spike,269,0,1
+1100012,actual b3 spike,387,1,0
+1100012,reference b3 spike,387,0,1
+1100012,actual b3 spike,461,1,0
+1100012,reference b3 spike,461,0,1
+1100012,actual b3 spike,527,1,0
+1100012,reference b3 spike,527,0,1
+1100012,actual b3 spike,628,1,0
+1100012,reference b3 spike,628,0,1
+1100012,right-DN to b3 delivery difference,636,0.05533453887884268,0.0
+1100012,actual b3 spike,694,1,0
+1100012,reference b3 spike,702,0,1
+1100012,actual b3 spike,754,1,0
+1100012,reference b3 spike,754,0,1
+1100012,right-DN to b3 delivery difference,776,0.05533453887884268,0.0
+1100012,actual b3 spike,852,1,0
+1100012,reference b3 spike,870,0,1
+1100012,right-DN to b3 delivery difference,925,0.05533453887884268,0.0
+1100012,actual b3 spike,927,1,0
+1100012,reference b3 spike,944,0,1
+1100012,actual b3 spike,995,1,0
+1100012,reference b3 spike,1003,0,1
+1100012,actual b3 spike,1063,1,0
+1100012,right-DN to b3 delivery difference,1065,0.05533453887884268,0.0
+1100012,reference b3 spike,1111,0,1
+1100012,actual b3 spike,1170,1,0
+1100012,right-DN to b3 delivery difference,1172,0.05533453887884268,0.0
+1100012,reference b3 spike,1178,0,1
+1100012,actual b3 spike,1237,1,0
+1100012,reference b3 spike,1246,0,1
+1100012,right-DN to b3 delivery difference,1252,0.05533453887884268,0.0
+1100012,actual b3 spike,1304,1,0
+1100012,right-DN to b3 delivery difference,1317,0.05533453887884268,0.0
+1100012,reference b3 spike,1346,0,1
+1100012,actual b3 spike,1370,1,0
+1100012,right-DN to b3 delivery difference,1372,0.05533453887884268,0.0
+1100012,right-DN to b3 delivery difference,1417,0.05533453887884268,0.0
+1100012,reference b3 spike,1419,0,1
+1100012,actual b3 spike,1445,1,0
+1100012,right-DN to b3 delivery difference,1457,0.05533453887884268,0.0
+1100012,reference b3 spike,1488,0,1
+1100012,actual b3 spike,1494,1,0
+1100012,right-DN to b3 delivery difference,1494,0.05533453887884268,0.0
+1100013,actual b3 spike,136,1,0
+1100013,reference b3 spike,136,0,1
+1100013,actual b3 spike,212,1,0
+1100013,reference b3 spike,212,0,1
+1100013,actual b3 spike,269,1,0
+1100013,reference b3 spike,269,0,1
+1100013,actual b3 spike,387,1,0
+1100013,reference b3 spike,387,0,1
+1100013,actual b3 spike,461,1,0
+1100013,reference b3 spike,461,0,1
+1100013,actual b3 spike,527,1,0
+1100013,reference b3 spike,527,0,1
+1100013,right-DN to b3 delivery difference,612,0.05533453887884268,0.0
+1100013,actual b3 spike,627,1,0
+1100013,reference b3 spike,628,0,1
+1100013,actual b3 spike,694,1,0
+1100013,right-DN to b3 delivery difference,696,0.05533453887884268,0.0
+1100013,reference b3 spike,702,0,1
+1100013,reference b3 spike,754,0,1
+1100013,actual b3 spike,770,1,0
+1100013,right-DN to b3 delivery difference,774,0.05533453887884268,0.0
+1100013,actual b3 spike,820,1,0
+1100013,right-DN to b3 delivery difference,854,0.05533453887884268,0.0
+1100013,reference b3 spike,870,0,1
+1100013,right-DN to b3 delivery difference,915,0.05533453887884268,0.0
+1100013,actual b3 spike,919,1,0
+1100013,reference b3 spike,944,0,1
+1100013,right-DN to b3 delivery difference,970,0.05533453887884268,0.0
+1100013,actual b3 spike,977,1,0
+1100013,reference b3 spike,1003,0,1
+1100013,right-DN to b3 delivery difference,1016,0.05533453887884268,0.0
+1100013,actual b3 spike,1044,1,0
+1100013,right-DN to b3 delivery difference,1065,0.05533453887884268,0.0
+1100013,right-DN to b3 delivery difference,1108,0.05533453887884268,0.0
+1100013,reference b3 spike,1111,0,1
+1100013,actual b3 spike,1121,1,0
+1100013,right-DN to b3 delivery difference,1146,0.05533453887884268,0.0
+1100013,reference b3 spike,1178,0,1
+1100013,right-DN to b3 delivery difference,1182,0.05533453887884268,0.0
+1100013,actual b3 spike,1187,1,0
+1100013,right-DN to b3 delivery difference,1217,0.05533453887884268,0.0
+1100013,reference b3 spike,1246,0,1
+1100013,right-DN to b3 delivery difference,1249,0.05533453887884268,0.0
+1100013,actual b3 spike,1252,1,0
+1100013,right-DN to b3 delivery difference,1278,0.05533453887884268,0.0
+1100013,actual b3 spike,1294,1,0
+1100013,right-DN to b3 delivery difference,1307,0.05533453887884268,0.0
+1100013,right-DN to b3 delivery difference,1333,0.05533453887884268,0.0
+1100013,actual b3 spike,1346,1,0
+1100013,reference b3 spike,1346,0,1
+1100013,right-DN to b3 delivery difference,1362,0.05533453887884268,0.0
+1100013,right-DN to b3 delivery difference,1388,0.05533453887884268,0.0
+1100013,right-DN to b3 delivery difference,1414,0.05533453887884268,0.0
+1100013,actual b3 spike,1415,1,0
+1100013,reference b3 spike,1419,0,1
+1100013,right-DN to b3 delivery difference,1437,0.05533453887884268,0.0
+1100013,right-DN to b3 delivery difference,1463,0.05533453887884268,0.0
+1100013,actual b3 spike,1486,1,0
+1100013,reference b3 spike,1488,0,1
+1100013,right-DN to b3 delivery difference,1490,0.05533453887884268,0.0
+1100014,actual b3 spike,136,1,0
+1100014,reference b3 spike,136,0,1
+1100014,actual b3 spike,212,1,0
+1100014,reference b3 spike,212,0,1
+1100014,actual b3 spike,269,1,0
+1100014,reference b3 spike,269,0,1
+1100014,actual b3 spike,387,1,0
+1100014,reference b3 spike,387,0,1
+1100014,actual b3 spike,461,1,0
+1100014,reference b3 spike,461,0,1
+1100014,actual b3 spike,527,1,0
+1100014,reference b3 spike,527,0,1
+1100014,right-DN to b3 delivery difference,538,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,584,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,624,0.05533453887884268,0.0
+1100014,actual b3 spike,627,1,0
+1100014,reference b3 spike,628,0,1
+1100014,right-DN to b3 delivery difference,663,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,665,0.05533453887884268,0.0
+1100014,actual b3 spike,669,1,0
+1100014,right-DN to b3 delivery difference,700,0.05533453887884268,0.0
+1100014,reference b3 spike,702,0,1
+1100014,right-DN to b3 delivery difference,734,0.05533453887884268,0.0
+1100014,actual b3 spike,736,1,0
+1100014,reference b3 spike,754,0,1
+1100014,right-DN to b3 delivery difference,770,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,773,0.026039783001808318,0.0
+1100014,actual b3 spike,775,1,0
+1100014,right-DN to b3 delivery difference,801,0.05533453887884268,0.0
+1100014,actual b3 spike,829,1,0
+1100014,right-DN to b3 delivery difference,835,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,852,0.026039783001808318,0.0
+1100014,reference b3 spike,870,0,1
+1100014,right-DN to b3 delivery difference,870,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,905,0.05533453887884268,0.0
+1100014,actual b3 spike,911,1,0
+1100014,right-DN to b3 delivery difference,928,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,933,0.05533453887884268,0.0
+1100014,reference b3 spike,944,0,1
+1100014,actual b3 spike,960,1,0
+1100014,right-DN to b3 delivery difference,960,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,989,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,991,0.05533453887884268,0.0
+1100014,reference b3 spike,1003,0,1
+1100014,actual b3 spike,1012,1,0
+1100014,right-DN to b3 delivery difference,1019,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1050,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1053,0.026039783001808318,0.0
+1100014,actual b3 spike,1062,1,0
+1100014,right-DN to b3 delivery difference,1077,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1108,0.05533453887884268,0.0
+1100014,reference b3 spike,1111,0,1
+1100014,right-DN to b3 delivery difference,1113,0.026039783001808318,0.0
+1100014,actual b3 spike,1115,1,0
+1100014,right-DN to b3 delivery difference,1135,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1160,0.081374321880651,0.0
+1100014,reference b3 spike,1178,0,1
+1100014,actual b3 spike,1189,1,0
+1100014,right-DN to b3 delivery difference,1189,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1218,0.081374321880651,0.0
+1100014,actual b3 spike,1236,1,0
+1100014,reference b3 spike,1246,0,1
+1100014,right-DN to b3 delivery difference,1248,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1267,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,1273,0.05533453887884268,0.0
+1100014,actual b3 spike,1298,1,0
+1100014,right-DN to b3 delivery difference,1298,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1320,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,1325,0.05533453887884268,0.0
+1100014,actual b3 spike,1345,1,0
+1100014,reference b3 spike,1346,0,1
+1100014,right-DN to b3 delivery difference,1354,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1374,0.026039783001808318,0.0
+1100014,actual b3 spike,1379,1,0
+1100014,right-DN to b3 delivery difference,1379,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1406,0.05533453887884268,0.0
+1100014,reference b3 spike,1419,0,1
+1100014,right-DN to b3 delivery difference,1424,0.026039783001808318,0.0
+1100014,actual b3 spike,1427,1,0
+1100014,right-DN to b3 delivery difference,1431,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1458,0.05533453887884268,0.0
+1100014,right-DN to b3 delivery difference,1469,0.026039783001808318,0.0
+1100014,right-DN to b3 delivery difference,1484,0.05533453887884268,0.0
+1100014,reference b3 spike,1488,0,1
+1100015,actual b3 spike,136,1,0
+1100015,reference b3 spike,136,0,1
+1100015,actual b3 spike,212,1,0
+1100015,reference b3 spike,212,0,1
+1100015,actual b3 spike,269,1,0
+1100015,reference b3 spike,269,0,1
+1100015,actual b3 spike,387,1,0
+1100015,reference b3 spike,387,0,1
+1100015,actual b3 spike,461,1,0
+1100015,reference b3 spike,461,0,1
+1100015,actual b3 spike,524,1,0
+1100015,right-DN to b3 delivery difference,524,0.05533453887884268,0.0
+1100015,reference b3 spike,527,0,1
+1100015,right-DN to b3 delivery difference,553,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,559,0.026039783001808318,0.0
+1100015,actual b3 spike,562,1,0
+1100015,right-DN to b3 delivery difference,581,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,609,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,611,0.026039783001808318,0.0
+1100015,reference b3 spike,628,0,1
+1100015,actual b3 spike,637,1,0
+1100015,right-DN to b3 delivery difference,637,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,666,0.081374321880651,0.0
+1100015,actual b3 spike,687,1,0
+1100015,right-DN to b3 delivery difference,694,0.05533453887884268,0.0
+1100015,reference b3 spike,702,0,1
+1100015,right-DN to b3 delivery difference,719,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,721,0.05533453887884268,0.0
+1100015,actual b3 spike,744,1,0
+1100015,right-DN to b3 delivery difference,750,0.05533453887884268,0.0
+1100015,reference b3 spike,754,0,1
+1100015,right-DN to b3 delivery difference,773,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,779,0.05533453887884268,0.0
+1100015,actual b3 spike,804,1,0
+1100015,right-DN to b3 delivery difference,806,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,823,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,834,0.05533453887884268,0.0
+1100015,actual b3 spike,836,1,0
+1100015,right-DN to b3 delivery difference,860,0.05533453887884268,0.0
+1100015,reference b3 spike,870,0,1
+1100015,right-DN to b3 delivery difference,877,0.026039783001808318,0.0
+1100015,actual b3 spike,886,1,0
+1100015,right-DN to b3 delivery difference,888,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,916,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,930,0.026039783001808318,0.0
+1100015,reference b3 spike,944,0,1
+1100015,right-DN to b3 delivery difference,945,0.05533453887884268,0.0
+1100015,actual b3 spike,946,1,0
+1100015,right-DN to b3 delivery difference,973,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,987,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,999,0.05533453887884268,0.0
+1100015,actual b3 spike,1003,1,0
+1100015,reference b3 spike,1003,0,1
+1100015,right-DN to b3 delivery difference,1026,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1034,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1053,0.05533453887884268,0.0
+1100015,actual b3 spike,1061,1,0
+1100015,right-DN to b3 delivery difference,1080,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1085,0.026039783001808318,0.0
+1100015,actual b3 spike,1105,1,0
+1100015,right-DN to b3 delivery difference,1106,0.05533453887884268,0.0
+1100015,reference b3 spike,1111,0,1
+1100015,right-DN to b3 delivery difference,1133,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1136,0.026039783001808318,0.0
+1100015,actual b3 spike,1144,1,0
+1100015,right-DN to b3 delivery difference,1158,0.05533453887884268,0.0
+1100015,reference b3 spike,1178,0,1
+1100015,right-DN to b3 delivery difference,1185,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1191,0.026039783001808318,0.0
+1100015,actual b3 spike,1194,1,0
+1100015,right-DN to b3 delivery difference,1212,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1234,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1237,0.05533453887884268,0.0
+1100015,reference b3 spike,1246,0,1
+1100015,actual b3 spike,1264,1,0
+1100015,right-DN to b3 delivery difference,1264,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1284,0.081374321880651,0.0
+1100015,right-DN to b3 delivery difference,1311,0.05533453887884268,0.0
+1100015,actual b3 spike,1312,1,0
+1100015,right-DN to b3 delivery difference,1328,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1335,0.05533453887884268,0.0
+1100015,reference b3 spike,1346,0,1
+1100015,actual b3 spike,1361,1,0
+1100015,right-DN to b3 delivery difference,1361,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1381,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1385,0.05533453887884268,0.0
+1100015,actual b3 spike,1402,1,0
+1100015,right-DN to b3 delivery difference,1411,0.05533453887884268,0.0
+1100015,reference b3 spike,1419,0,1
+1100015,right-DN to b3 delivery difference,1425,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1436,0.05533453887884268,0.0
+1100015,right-DN to b3 delivery difference,1461,0.05533453887884268,0.0
+1100015,actual b3 spike,1463,1,0
+1100015,right-DN to b3 delivery difference,1478,0.026039783001808318,0.0
+1100015,right-DN to b3 delivery difference,1485,0.05533453887884268,0.0
+1100015,actual b3 spike,1488,1,0
+1100015,reference b3 spike,1488,0,1
+1100016,actual b3 spike,136,1,0
+1100016,reference b3 spike,136,0,1
+1100016,actual b3 spike,212,1,0
+1100016,reference b3 spike,212,0,1
+1100016,actual b3 spike,269,1,0
+1100016,reference b3 spike,269,0,1
+1100016,actual b3 spike,387,1,0
+1100016,reference b3 spike,387,0,1
+1100016,actual b3 spike,461,1,0
+1100016,reference b3 spike,461,0,1
+1100016,actual b3 spike,527,1,0
+1100016,reference b3 spike,527,0,1
+1100016,right-DN to b3 delivery difference,548,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,605,0.081374321880651,0.0
+1100016,actual b3 spike,621,1,0
+1100016,reference b3 spike,628,0,1
+1100016,right-DN to b3 delivery difference,653,0.05533453887884268,0.0
+1100016,actual b3 spike,687,1,0
+1100016,right-DN to b3 delivery difference,689,0.026039783001808318,0.0
+1100016,reference b3 spike,702,0,1
+1100016,right-DN to b3 delivery difference,705,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,748,0.05533453887884268,0.0
+1100016,actual b3 spike,752,1,0
+1100016,reference b3 spike,754,0,1
+1100016,right-DN to b3 delivery difference,754,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,796,0.05533453887884268,0.0
+1100016,actual b3 spike,802,1,0
+1100016,right-DN to b3 delivery difference,823,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,837,0.05533453887884268,0.0
+1100016,actual b3 spike,839,1,0
+1100016,reference b3 spike,870,0,1
+1100016,right-DN to b3 delivery difference,880,0.081374321880651,0.0
+1100016,right-DN to b3 delivery difference,926,0.05533453887884268,0.0
+1100016,actual b3 spike,928,1,0
+1100016,reference b3 spike,944,0,1
+1100016,right-DN to b3 delivery difference,948,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,965,0.05533453887884268,0.0
+1100016,actual b3 spike,979,1,0
+1100016,right-DN to b3 delivery difference,1000,0.026039783001808318,0.0
+1100016,reference b3 spike,1003,0,1
+1100016,right-DN to b3 delivery difference,1006,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1048,0.05533453887884268,0.0
+1100016,actual b3 spike,1052,1,0
+1100016,right-DN to b3 delivery difference,1057,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,1086,0.05533453887884268,0.0
+1100016,actual b3 spike,1094,1,0
+1100016,right-DN to b3 delivery difference,1102,0.026039783001808318,0.0
+1100016,reference b3 spike,1111,0,1
+1100016,right-DN to b3 delivery difference,1124,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1160,0.081374321880651,0.0
+1100016,actual b3 spike,1161,1,0
+1100016,reference b3 spike,1178,0,1
+1100016,right-DN to b3 delivery difference,1196,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1207,0.026039783001808318,0.0
+1100016,actual b3 spike,1209,1,0
+1100016,right-DN to b3 delivery difference,1231,0.05533453887884268,0.0
+1100016,reference b3 spike,1246,0,1
+1100016,right-DN to b3 delivery difference,1260,0.026039783001808318,0.0
+1100016,actual b3 spike,1262,1,0
+1100016,right-DN to b3 delivery difference,1265,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1293,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1305,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,1321,0.05533453887884268,0.0
+1100016,actual b3 spike,1336,1,0
+1100016,reference b3 spike,1346,0,1
+1100016,right-DN to b3 delivery difference,1349,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1352,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,1371,0.05533453887884268,0.0
+1100016,actual b3 spike,1377,1,0
+1100016,right-DN to b3 delivery difference,1394,0.081374321880651,0.0
+1100016,reference b3 spike,1419,0,1
+1100016,actual b3 spike,1420,1,0
+1100016,right-DN to b3 delivery difference,1420,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1431,0.026039783001808318,0.0
+1100016,right-DN to b3 delivery difference,1439,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1462,0.05533453887884268,0.0
+1100016,right-DN to b3 delivery difference,1478,0.026039783001808318,0.0
+1100016,actual b3 spike,1479,1,0
+1100016,right-DN to b3 delivery difference,1483,0.05533453887884268,0.0
+1100016,reference b3 spike,1488,0,1
+1100017,actual b3 spike,136,1,0
+1100017,reference b3 spike,136,0,1
+1100017,actual b3 spike,212,1,0
+1100017,reference b3 spike,212,0,1
+1100017,actual b3 spike,269,1,0
+1100017,reference b3 spike,269,0,1
+1100017,actual b3 spike,387,1,0
+1100017,reference b3 spike,387,0,1
+1100017,actual b3 spike,461,1,0
+1100017,reference b3 spike,461,0,1
+1100017,actual b3 spike,527,1,0
+1100017,reference b3 spike,527,0,1
+1100017,right-DN to b3 delivery difference,535,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,547,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,573,0.05533453887884268,0.0
+1100017,actual b3 spike,574,1,0
+1100017,right-DN to b3 delivery difference,606,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,612,0.05533453887884268,0.0
+1100017,reference b3 spike,628,0,1
+1100017,right-DN to b3 delivery difference,649,0.05533453887884268,0.0
+1100017,actual b3 spike,653,1,0
+1100017,right-DN to b3 delivery difference,658,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,686,0.05533453887884268,0.0
+1100017,actual b3 spike,696,1,0
+1100017,reference b3 spike,702,0,1
+1100017,right-DN to b3 delivery difference,714,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,720,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,752,0.05533453887884268,0.0
+1100017,actual b3 spike,753,1,0
+1100017,reference b3 spike,754,0,1
+1100017,right-DN to b3 delivery difference,759,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,785,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,809,0.026039783001808318,0.0
+1100017,actual b3 spike,811,1,0
+1100017,right-DN to b3 delivery difference,817,0.05533453887884268,0.0
+1100017,actual b3 spike,845,1,0
+1100017,right-DN to b3 delivery difference,848,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,859,0.026039783001808318,0.0
+1100017,reference b3 spike,870,0,1
+1100017,right-DN to b3 delivery difference,876,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,900,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,904,0.05533453887884268,0.0
+1100017,actual b3 spike,905,1,0
+1100017,right-DN to b3 delivery difference,933,0.05533453887884268,0.0
+1100017,reference b3 spike,944,0,1
+1100017,right-DN to b3 delivery difference,953,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,956,0.05533453887884268,0.0
+1100017,actual b3 spike,961,1,0
+1100017,right-DN to b3 delivery difference,985,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,992,0.026039783001808318,0.0
+1100017,reference b3 spike,1003,0,1
+1100017,right-DN to b3 delivery difference,1008,0.05533453887884268,0.0
+1100017,actual b3 spike,1011,1,0
+1100017,right-DN to b3 delivery difference,1030,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1040,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1058,0.05533453887884268,0.0
+1100017,actual b3 spike,1061,1,0
+1100017,right-DN to b3 delivery difference,1078,0.081374321880651,0.0
+1100017,right-DN to b3 delivery difference,1099,0.05533453887884268,0.0
+1100017,actual b3 spike,1104,1,0
+1100017,reference b3 spike,1111,0,1
+1100017,right-DN to b3 delivery difference,1123,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1126,0.026039783001808318,0.0
+1100017,actual b3 spike,1135,1,0
+1100017,right-DN to b3 delivery difference,1144,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1163,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1164,0.026039783001808318,0.0
+1100017,reference b3 spike,1178,0,1
+1100017,actual b3 spike,1179,1,0
+1100017,right-DN to b3 delivery difference,1185,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1206,0.081374321880651,0.0
+1100017,right-DN to b3 delivery difference,1224,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1241,0.081374321880651,0.0
+1100017,actual b3 spike,1243,1,0
+1100017,reference b3 spike,1246,0,1
+1100017,right-DN to b3 delivery difference,1262,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1279,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1284,0.026039783001808318,0.0
+1100017,actual b3 spike,1294,1,0
+1100017,right-DN to b3 delivery difference,1295,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1311,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1319,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1329,0.05533453887884268,0.0
+1100017,actual b3 spike,1336,1,0
+1100017,reference b3 spike,1346,0,1
+1100017,right-DN to b3 delivery difference,1347,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1355,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1361,0.05533453887884268,0.0
+1100017,actual b3 spike,1377,1,0
+1100017,right-DN to b3 delivery difference,1377,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1393,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1395,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1407,0.05533453887884268,0.0
+1100017,reference b3 spike,1419,0,1
+1100017,actual b3 spike,1420,1,0
+1100017,right-DN to b3 delivery difference,1423,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1426,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1440,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1456,0.05533453887884268,0.0
+1100017,right-DN to b3 delivery difference,1466,0.026039783001808318,0.0
+1100017,right-DN to b3 delivery difference,1469,0.05533453887884268,0.0
+1100017,actual b3 spike,1470,1,0
+1100017,right-DN to b3 delivery difference,1485,0.05533453887884268,0.0
+1100017,reference b3 spike,1488,0,1
+1100017,actual b3 spike,1495,1,0
+1100017,right-DN to b3 delivery difference,1500,0.081374321880651,0.0
+1100032,actual b3 spike,136,1,0
+1100032,reference b3 spike,136,0,1
+1100032,actual b3 spike,212,1,0
+1100032,reference b3 spike,212,0,1
+1100032,actual b3 spike,269,1,0
+1100032,reference b3 spike,269,0,1
+1100032,actual b3 spike,387,1,0
+1100032,reference b3 spike,387,0,1
+1100032,actual b3 spike,461,1,0
+1100032,reference b3 spike,461,0,1
+1100032,actual b3 spike,527,1,0
+1100032,reference b3 spike,527,0,1
+1100032,right-DN to b3 delivery difference,537,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,570,0.05533453887884268,0.0
+1100032,actual b3 spike,571,1,0
+1100032,right-DN to b3 delivery difference,597,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,605,0.05533453887884268,0.0
+1100032,reference b3 spike,628,0,1
+1100032,right-DN to b3 delivery difference,638,0.05533453887884268,0.0
+1100032,actual b3 spike,652,1,0
+1100032,right-DN to b3 delivery difference,671,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,688,0.026039783001808318,0.0
+1100032,actual b3 spike,696,1,0
+1100032,right-DN to b3 delivery difference,696,0.05533453887884268,0.0
+1100032,reference b3 spike,702,0,1
+1100032,right-DN to b3 delivery difference,724,0.05533453887884268,0.0
+1100032,actual b3 spike,752,1,0
+1100032,right-DN to b3 delivery difference,752,0.05533453887884268,0.0
+1100032,reference b3 spike,754,0,1
+1100032,right-DN to b3 delivery difference,765,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,778,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,804,0.05533453887884268,0.0
+1100032,actual b3 spike,821,1,0
+1100032,right-DN to b3 delivery difference,829,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,840,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,856,0.05533453887884268,0.0
+1100032,reference b3 spike,870,0,1
+1100032,actual b3 spike,871,1,0
+1100032,right-DN to b3 delivery difference,882,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,906,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,916,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,927,0.05533453887884268,0.0
+1100032,actual b3 spike,936,1,0
+1100032,reference b3 spike,944,0,1
+1100032,right-DN to b3 delivery difference,949,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,973,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,983,0.026039783001808318,0.0
+1100032,actual b3 spike,994,1,0
+1100032,right-DN to b3 delivery difference,995,0.05533453887884268,0.0
+1100032,reference b3 spike,1003,0,1
+1100032,right-DN to b3 delivery difference,1018,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1041,0.05533453887884268,0.0
+1100032,actual b3 spike,1045,1,0
+1100032,right-DN to b3 delivery difference,1052,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,1063,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1084,0.05533453887884268,0.0
+1100032,actual b3 spike,1095,1,0
+1100032,right-DN to b3 delivery difference,1104,0.05533453887884268,0.0
+1100032,reference b3 spike,1111,0,1
+1100032,right-DN to b3 delivery difference,1119,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,1124,0.05533453887884268,0.0
+1100032,actual b3 spike,1127,1,0
+1100032,right-DN to b3 delivery difference,1143,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1166,0.05533453887884268,0.0
+1100032,reference b3 spike,1178,0,1
+1100032,right-DN to b3 delivery difference,1186,0.081374321880651,0.0
+1100032,actual b3 spike,1188,1,0
+1100032,right-DN to b3 delivery difference,1208,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1228,0.05533453887884268,0.0
+1100032,actual b3 spike,1245,1,0
+1100032,reference b3 spike,1246,0,1
+1100032,right-DN to b3 delivery difference,1250,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1253,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,1270,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1289,0.05533453887884268,0.0
+1100032,actual b3 spike,1302,1,0
+1100032,right-DN to b3 delivery difference,1306,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1312,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,1328,0.05533453887884268,0.0
+1100032,reference b3 spike,1346,0,1
+1100032,actual b3 spike,1348,1,0
+1100032,right-DN to b3 delivery difference,1348,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1369,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1379,0.026039783001808318,0.0
+1100032,actual b3 spike,1380,1,0
+1100032,right-DN to b3 delivery difference,1389,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1408,0.05533453887884268,0.0
+1100032,reference b3 spike,1419,0,1
+1100032,actual b3 spike,1426,1,0
+1100032,right-DN to b3 delivery difference,1426,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1439,0.026039783001808318,0.0
+1100032,right-DN to b3 delivery difference,1447,0.05533453887884268,0.0
+1100032,right-DN to b3 delivery difference,1466,0.05533453887884268,0.0
+1100032,actual b3 spike,1470,1,0
+1100032,right-DN to b3 delivery difference,1484,0.05533453887884268,0.0
+1100032,reference b3 spike,1488,0,1
+1100032,right-DN to b3 delivery difference,1494,0.026039783001808318,0.0
+1100033,actual b3 spike,136,1,0
+1100033,reference b3 spike,136,0,1
+1100033,actual b3 spike,212,1,0
+1100033,reference b3 spike,212,0,1
+1100033,actual b3 spike,269,1,0
+1100033,reference b3 spike,269,0,1
+1100033,actual b3 spike,387,1,0
+1100033,reference b3 spike,387,0,1
+1100033,actual b3 spike,461,1,0
+1100033,reference b3 spike,461,0,1
+1100033,actual b3 spike,519,1,0
+1100033,right-DN to b3 delivery difference,519,0.05533453887884268,0.0
+1100033,reference b3 spike,527,0,1
+1100033,right-DN to b3 delivery difference,538,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,559,0.081374321880651,0.0
+1100033,actual b3 spike,562,1,0
+1100033,right-DN to b3 delivery difference,581,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,601,0.05533453887884268,0.0
+1100033,actual b3 spike,607,1,0
+1100033,right-DN to b3 delivery difference,620,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,626,0.026039783001808318,0.0
+1100033,reference b3 spike,628,0,1
+1100033,right-DN to b3 delivery difference,642,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,665,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,685,0.05533453887884268,0.0
+1100033,actual b3 spike,686,1,0
+1100033,right-DN to b3 delivery difference,689,0.026039783001808318,0.0
+1100033,reference b3 spike,702,0,1
+1100033,right-DN to b3 delivery difference,705,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,727,0.05533453887884268,0.0
+1100033,actual b3 spike,728,1,0
+1100033,right-DN to b3 delivery difference,750,0.05533453887884268,0.0
+1100033,reference b3 spike,754,0,1
+1100033,right-DN to b3 delivery difference,756,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,768,0.05533453887884268,0.0
+1100033,actual b3 spike,777,1,0
+1100033,right-DN to b3 delivery difference,791,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,810,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,822,0.026039783001808318,0.0
+1100033,actual b3 spike,829,1,0
+1100033,right-DN to b3 delivery difference,829,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,850,0.05533453887884268,0.0
+1100033,reference b3 spike,870,0,1
+1100033,actual b3 spike,871,1,0
+1100033,right-DN to b3 delivery difference,871,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,883,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,889,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,911,0.05533453887884268,0.0
+1100033,actual b3 spike,921,1,0
+1100033,right-DN to b3 delivery difference,930,0.05533453887884268,0.0
+1100033,reference b3 spike,944,0,1
+1100033,right-DN to b3 delivery difference,950,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,951,0.05533453887884268,0.0
+1100033,actual b3 spike,954,1,0
+1100033,right-DN to b3 delivery difference,973,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,994,0.05533453887884268,0.0
+1100033,reference b3 spike,1003,0,1
+1100033,right-DN to b3 delivery difference,1010,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1011,0.05533453887884268,0.0
+1100033,actual b3 spike,1012,1,0
+1100033,right-DN to b3 delivery difference,1032,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1053,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1074,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1075,0.026039783001808318,0.0
+1100033,actual b3 spike,1076,1,0
+1100033,right-DN to b3 delivery difference,1091,0.05533453887884268,0.0
+1100033,actual b3 spike,1111,1,0
+1100033,reference b3 spike,1111,0,1
+1100033,right-DN to b3 delivery difference,1111,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1130,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1135,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1150,0.05533453887884268,0.0
+1100033,actual b3 spike,1169,1,0
+1100033,right-DN to b3 delivery difference,1171,0.05533453887884268,0.0
+1100033,reference b3 spike,1178,0,1
+1100033,right-DN to b3 delivery difference,1191,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1197,0.026039783001808318,0.0
+1100033,actual b3 spike,1199,1,0
+1100033,right-DN to b3 delivery difference,1209,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1228,0.05533453887884268,0.0
+1100033,reference b3 spike,1246,0,1
+1100033,right-DN to b3 delivery difference,1249,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1254,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1265,0.05533453887884268,0.0
+1100033,actual b3 spike,1266,1,0
+1100033,right-DN to b3 delivery difference,1284,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1301,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1311,0.026039783001808318,0.0
+1100033,actual b3 spike,1313,1,0
+1100033,right-DN to b3 delivery difference,1320,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1340,0.05533453887884268,0.0
+1100033,reference b3 spike,1346,0,1
+1100033,right-DN to b3 delivery difference,1360,0.05533453887884268,0.0
+1100033,actual b3 spike,1361,1,0
+1100033,right-DN to b3 delivery difference,1370,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1377,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1395,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1415,0.05533453887884268,0.0
+1100033,actual b3 spike,1419,1,0
+1100033,reference b3 spike,1419,0,1
+1100033,right-DN to b3 delivery difference,1426,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1431,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1451,0.05533453887884268,0.0
+1100033,right-DN to b3 delivery difference,1468,0.05533453887884268,0.0
+1100033,actual b3 spike,1469,1,0
+1100033,right-DN to b3 delivery difference,1481,0.026039783001808318,0.0
+1100033,right-DN to b3 delivery difference,1486,0.05533453887884268,0.0
+1100033,reference b3 spike,1488,0,1
+1100033,actual b3 spike,1495,1,0
+1100036,actual b3 spike,136,1,0
+1100036,reference b3 spike,136,0,1
+1100036,actual b3 spike,212,1,0
+1100036,reference b3 spike,212,0,1
+1100036,actual b3 spike,269,1,0
+1100036,reference b3 spike,269,0,1
+1100036,actual b3 spike,387,1,0
+1100036,reference b3 spike,387,0,1
+1100036,actual b3 spike,461,1,0
+1100036,reference b3 spike,461,0,1
+1100036,actual b3 spike,527,1,0
+1100036,reference b3 spike,527,0,1
+1100036,right-DN to b3 delivery difference,563,0.05533453887884268,0.0
+1100036,actual b3 spike,627,1,0
+1100036,reference b3 spike,628,0,1
+1100036,right-DN to b3 delivery difference,631,0.05533453887884268,0.0
+1100036,actual b3 spike,694,1,0
+1100036,right-DN to b3 delivery difference,699,0.05533453887884268,0.0
+1100036,reference b3 spike,702,0,1
+1100036,reference b3 spike,754,0,1
+1100036,right-DN to b3 delivery difference,760,0.05533453887884268,0.0
+1100036,actual b3 spike,761,1,0
+1100036,actual b3 spike,820,1,0
+1100036,right-DN to b3 delivery difference,820,0.05533453887884268,0.0
+1100036,reference b3 spike,870,0,1
+1100036,right-DN to b3 delivery difference,880,0.05533453887884268,0.0
+1100036,actual b3 spike,881,1,0
+1100036,right-DN to b3 delivery difference,942,0.05533453887884268,0.0
+1100036,reference b3 spike,944,0,1
+1100036,actual b3 spike,953,1,0
+1100036,right-DN to b3 delivery difference,996,0.05533453887884268,0.0
+1100036,reference b3 spike,1003,0,1
+1100036,actual b3 spike,1011,1,0
+1100036,right-DN to b3 delivery difference,1055,0.05533453887884268,0.0
+1100036,actual b3 spike,1064,1,0
+1100036,right-DN to b3 delivery difference,1109,0.05533453887884268,0.0
+1100036,reference b3 spike,1111,0,1
+1100036,right-DN to b3 delivery difference,1163,0.05533453887884268,0.0
+1100036,actual b3 spike,1169,1,0
+1100036,reference b3 spike,1178,0,1
+1100036,right-DN to b3 delivery difference,1213,0.05533453887884268,0.0
+1100036,actual b3 spike,1228,1,0
+1100036,reference b3 spike,1246,0,1
+1100036,right-DN to b3 delivery difference,1266,0.05533453887884268,0.0
+1100036,actual b3 spike,1304,1,0
+1100036,right-DN to b3 delivery difference,1312,0.05533453887884268,0.0
+1100036,reference b3 spike,1346,0,1
+1100036,right-DN to b3 delivery difference,1354,0.05533453887884268,0.0
+1100036,actual b3 spike,1369,1,0
+1100036,right-DN to b3 delivery difference,1397,0.05533453887884268,0.0
+1100036,reference b3 spike,1419,0,1
+1100036,right-DN to b3 delivery difference,1435,0.05533453887884268,0.0
+1100036,actual b3 spike,1436,1,0
+1100036,right-DN to b3 delivery difference,1475,0.05533453887884268,0.0
+1100036,actual b3 spike,1488,1,0
+1100036,reference b3 spike,1488,0,1
+1100037,actual b3 spike,136,1,0
+1100037,reference b3 spike,136,0,1
+1100037,actual b3 spike,212,1,0
+1100037,reference b3 spike,212,0,1
+1100037,actual b3 spike,269,1,0
+1100037,reference b3 spike,269,0,1
+1100037,actual b3 spike,387,1,0
+1100037,reference b3 spike,387,0,1
+1100037,actual b3 spike,461,1,0
+1100037,reference b3 spike,461,0,1
+1100037,actual b3 spike,527,1,0
+1100037,reference b3 spike,527,0,1
+1100037,right-DN to b3 delivery difference,547,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,606,0.05533453887884268,0.0
+1100037,actual b3 spike,627,1,0
+1100037,reference b3 spike,628,0,1
+1100037,right-DN to b3 delivery difference,659,0.05533453887884268,0.0
+1100037,actual b3 spike,687,1,0
+1100037,reference b3 spike,702,0,1
+1100037,right-DN to b3 delivery difference,714,0.05533453887884268,0.0
+1100037,actual b3 spike,753,1,0
+1100037,reference b3 spike,754,0,1
+1100037,right-DN to b3 delivery difference,764,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,816,0.05533453887884268,0.0
+1100037,actual b3 spike,820,1,0
+1100037,right-DN to b3 delivery difference,864,0.05533453887884268,0.0
+1100037,reference b3 spike,870,0,1
+1100037,actual b3 spike,879,1,0
+1100037,right-DN to b3 delivery difference,910,0.05533453887884268,0.0
+1100037,reference b3 spike,944,0,1
+1100037,actual b3 spike,953,1,0
+1100037,right-DN to b3 delivery difference,957,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,998,0.05533453887884268,0.0
+1100037,actual b3 spike,1003,1,0
+1100037,reference b3 spike,1003,0,1
+1100037,right-DN to b3 delivery difference,1039,0.05533453887884268,0.0
+1100037,actual b3 spike,1064,1,0
+1100037,right-DN to b3 delivery difference,1079,0.05533453887884268,0.0
+1100037,reference b3 spike,1111,0,1
+1100037,right-DN to b3 delivery difference,1118,0.05533453887884268,0.0
+1100037,actual b3 spike,1144,1,0
+1100037,right-DN to b3 delivery difference,1154,0.05533453887884268,0.0
+1100037,reference b3 spike,1178,0,1
+1100037,right-DN to b3 delivery difference,1190,0.05533453887884268,0.0
+1100037,actual b3 spike,1194,1,0
+1100037,right-DN to b3 delivery difference,1224,0.05533453887884268,0.0
+1100037,actual b3 spike,1246,1,0
+1100037,reference b3 spike,1246,0,1
+1100037,right-DN to b3 delivery difference,1256,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,1289,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,1318,0.05533453887884268,0.0
+1100037,actual b3 spike,1320,1,0
+1100037,reference b3 spike,1346,0,1
+1100037,right-DN to b3 delivery difference,1351,0.05533453887884268,0.0
+1100037,actual b3 spike,1369,1,0
+1100037,right-DN to b3 delivery difference,1381,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,1409,0.05533453887884268,0.0
+1100037,actual b3 spike,1413,1,0
+1100037,reference b3 spike,1419,0,1
+1100037,right-DN to b3 delivery difference,1437,0.05533453887884268,0.0
+1100037,right-DN to b3 delivery difference,1465,0.05533453887884268,0.0
+1100037,actual b3 spike,1471,1,0
+1100037,reference b3 spike,1488,0,1
+1100037,right-DN to b3 delivery difference,1492,0.05533453887884268,0.0

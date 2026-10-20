@@ -1,0 +1,59 @@
+C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+robustness 1/48 | 0 resting intact | success=True | arrival=4.92
+robustness 2/48 | 0 resting visual-silent | success=False | arrival=None
+robustness 3/48 | 0 hovering intact | success=True | arrival=5.0200000000000005
+robustness 4/48 | 0 hovering visual-silent | success=False | arrival=None
+robustness 5/48 | 0 cruising intact | success=True | arrival=4.9
+robustness 6/48 | 0 cruising visual-silent | success=False | arrival=None
+robustness 7/48 | 45 resting intact | success=True | arrival=4.92
+robustness 8/48 | 45 resting visual-silent | success=False | arrival=None
+robustness 9/48 | 45 hovering intact | success=True | arrival=4.88
+robustness 10/48 | 45 hovering visual-silent | success=False | arrival=None
+robustness 11/48 | 45 cruising intact | success=True | arrival=4.9
+robustness 12/48 | 45 cruising visual-silent | success=False | arrival=None
+robustness 13/48 | 90 resting intact | success=True | arrival=4.92
+robustness 14/48 | 90 resting visual-silent | success=False | arrival=None
+robustness 15/48 | 90 hovering intact | success=True | arrival=4.88
+robustness 16/48 | 90 hovering visual-silent | success=False | arrival=None
+robustness 17/48 | 90 cruising intact | success=True | arrival=4.9
+robustness 18/48 | 90 cruising visual-silent | success=False | arrival=None
+robustness 19/48 | 135 resting intact | success=True | arrival=4.92
+robustness 20/48 | 135 resting visual-silent | success=False | arrival=None
+robustness 21/48 | 135 hovering intact | success=True | arrival=4.88
+robustness 22/48 | 135 hovering visual-silent | success=False | arrival=None
+robustness 23/48 | 135 cruising intact | success=True | arrival=4.88
+robustness 24/48 | 135 cruising visual-silent | success=False | arrival=None
+robustness 25/48 | 180 resting intact | success=True | arrival=4.98
+robustness 26/48 | 180 resting visual-silent | success=False | arrival=None
+robustness 27/48 | 180 hovering intact | success=True | arrival=4.98
+robustness 28/48 | 180 hovering visual-silent | success=False | arrival=None
+robustness 29/48 | 180 cruising intact | success=True | arrival=4.98
+robustness 30/48 | 180 cruising visual-silent | success=False | arrival=None
+robustness 31/48 | 225 resting intact | success=True | arrival=4.96
+robustness 32/48 | 225 resting visual-silent | success=False | arrival=None
+robustness 33/48 | 225 hovering intact | success=True | arrival=4.88
+robustness 34/48 | 225 hovering visual-silent | success=False | arrival=None
+robustness 35/48 | 225 cruising intact | success=True | arrival=4.88
+robustness 36/48 | 225 cruising visual-silent | success=False | arrival=None
+robustness 37/48 | 270 resting intact | success=True | arrival=4.96
+robustness 38/48 | 270 resting visual-silent | success=False | arrival=None
+robustness 39/48 | 270 hovering intact | success=True | arrival=4.84
+robustness 40/48 | 270 hovering visual-silent | success=False | arrival=None
+robustness 41/48 | 270 cruising intact | success=True | arrival=4.84
+robustness 42/48 | 270 cruising visual-silent | success=False | arrival=None
+robustness 43/48 | 315 resting intact | success=True | arrival=5.0200000000000005
+robustness 44/48 | 315 resting visual-silent | success=False | arrival=None
+robustness 45/48 | 315 hovering intact | success=True | arrival=4.86
+robustness 46/48 | 315 hovering visual-silent | success=False | arrival=None
+robustness 47/48 | 315 cruising intact | success=True | arrival=4.86
+robustness 48/48 | 315 cruising visual-silent | success=False | arrival=None
+{
+  "status": "passed",
+  "error": null,
+  "cases": 48,
+  "intact_successes": 24,
+  "silent_triggers": 0,
+  "reserved_kernel_steps": 1152000,
+  "optimizer_updates": 0
+}

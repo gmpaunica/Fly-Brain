@@ -1,0 +1,29 @@
+offline audit 1/18 seed 1100000: all cells/edges/steps verified
+offline audit 2/18 seed 1100004: all cells/edges/steps verified
+offline audit 3/18 seed 1100001: all cells/edges/steps verified
+offline audit 4/18 seed 1100003: all cells/edges/steps verified
+offline audit 5/18 seed 1100002: all cells/edges/steps verified
+offline audit 6/18 seed 1100005: all cells/edges/steps verified
+offline audit 7/18 seed 1100010: all cells/edges/steps verified
+offline audit 8/18 seed 1100008: all cells/edges/steps verified
+offline audit 9/18 seed 1100012: all cells/edges/steps verified
+offline audit 10/18 seed 1100014: all cells/edges/steps verified
+offline audit 11/18 seed 1100013: all cells/edges/steps verified
+offline audit 12/18 seed 1100015: all cells/edges/steps verified
+offline audit 13/18 seed 1100017: all cells/edges/steps verified
+offline audit 14/18 seed 1100016: all cells/edges/steps verified
+offline audit 15/18 seed 1100032: all cells/edges/steps verified
+offline audit 16/18 seed 1100033: all cells/edges/steps verified
+offline audit 17/18 seed 1100036: all cells/edges/steps verified
+offline audit 18/18 seed 1100037: all cells/edges/steps verified
+{
+  "status": "audit-passed",
+  "classification": "supported",
+  "cases": 18,
+  "intervals": 1350,
+  "recorded_kernel_steps": 54000,
+  "new_kernel_steps": 15000,
+  "cumulative_diagnostic_steps": 57360,
+  "cumulative_attempted_steps": 57400,
+  "audit_kernel_steps": 0
+}

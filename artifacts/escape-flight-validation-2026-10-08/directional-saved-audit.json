@@ -1,0 +1,11 @@
+{
+  "status": "audit-passed",
+  "experiment_status": "closed-direction-failed",
+  "cases": 96,
+  "intervals": 7200,
+  "neural_steps": 288000,
+  "validation_successes": 94,
+  "intact_successes": 0,
+  "silent_triggers": 0,
+  "audit_steps": 0
+}

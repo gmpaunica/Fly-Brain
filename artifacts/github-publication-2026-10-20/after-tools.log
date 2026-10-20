@@ -1,0 +1,8 @@
+.................                                                        [100%]
+============================== warnings summary ===============================
+tests/test_dashboard_ui.py::test_dashboard_real_checkboxes_tabs_and_passive_capture[size0]
+  C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+17 passed, 1 warning in 19.29s

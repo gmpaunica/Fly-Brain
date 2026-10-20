@@ -1,0 +1,43 @@
+         1464170 function calls (1464014 primitive calls) in 2.524 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      120    0.003    0.000    2.758    0.023 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\direct\task\Task.py:486(step)
+      120    0.009    0.000    2.743    0.023 {method 'poll' of 'panda3d.core.AsyncTaskManager' objects}
+      120    0.005    0.000    1.342    0.011 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:377(tick)
+      120    0.002    0.000    1.292    0.011 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\direct\showbase\ShowBase.py:2148(__igLoop)
+      876    0.519    0.001    1.120    0.001 {built-in method builtins.sum}
+      120    1.087    0.009    1.115    0.009 {method 'renderFrame' of 'panda3d.core.GraphicsEngine' objects}
+      120    0.005    0.000    1.005    0.008 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:321(draw_frame)
+      126    0.001    0.000    0.974    0.008 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:233(_refresh_selected_info)
+      132    0.009    0.000    0.959    0.007 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:199(_selection_info)
+      120    0.001    0.000    0.214    0.002 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:112(load_geometry)
+   546480    0.179    0.000    0.179    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:205(<genexpr>)
+   546480    0.174    0.000    0.174    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:203(<genexpr>)
+        6    0.000    0.000    0.153    0.026 C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py:54(run)
+      240    0.003    0.000    0.149    0.001 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:154(_refresh_coverage)
+      120    0.006    0.000    0.107    0.001 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\brain_controls.py:13(_brain_camera)
+      8/6    0.001    0.000    0.090    0.015 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:189(select)
+      240    0.009    0.000    0.090    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\brain_camera.py:17(rotate)
+        6    0.000    0.000    0.089    0.015 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:227(_show_selection_info)
+      480    0.028    0.000    0.081    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\_core\numeric.py:1563(cross)
+        6    0.000    0.000    0.079    0.013 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_display.py:30(full)
+        6    0.005    0.001    0.079    0.013 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_display.py:16(_load)
+        6    0.001    0.000    0.072    0.012 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\network_viewer.py:179(_buttons)
+        6    0.009    0.001    0.063    0.010 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\anatomical_viewer.py:179(_prepare_selection)
+       24    0.001    0.000    0.061    0.003 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\direct\gui\DirectButton.py:18(__init__)
+        6    0.000    0.000    0.057    0.009 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py:311(load)
+      138    0.001    0.000    0.056    0.000 C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:852(exists)
+      138    0.001    0.000    0.055    0.000 C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:835(stat)
+      120    0.001    0.000    0.055    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\brain_camera.py:62(position)
+       12    0.000    0.000    0.054    0.004 {method 'mean' of 'numpy.ndarray' objects}
+       12    0.004    0.000    0.054    0.004 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\_core\_methods.py:115(_mean)
+      120    0.001    0.000    0.053    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\src\flybrain\flight3d\brain_camera.py:54(back)
+      144    0.051    0.000    0.051    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        6    0.000    0.000    0.047    0.008 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py:192(__init__)
+     1440    0.013    0.000    0.047    0.000 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\_core\numeric.py:1489(moveaxis)
+        6    0.000    0.000    0.047    0.008 C:\Users\Lenovo\Documents\Gabriel\Projects\Fly-Brain\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py:100(zipfile_factory)
+
+
