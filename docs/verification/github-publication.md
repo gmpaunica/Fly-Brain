@@ -100,7 +100,19 @@ python -m pytest -q tests/test_app.py tests/test_dashboard_ui.py --junitxml=afte
 Observed: **17 passed**, zero skips/failures/errors, one upstream warning,
 19.29s, exit 0. These exercise application launch and the real dashboard after
 the build-tool update. No new native input or aesthetic review is claimed.
-Final remote verification is pending the initial push.
+The initial push succeeded. GitHub's `main` commit matches local
+`81c097846bff0c7da9f24232ba1f2e264bc93d7e`. A non-truncated recursive API tree
+matches every one of the **6,764** local file paths, modes, blob hashes and sizes
+(1,586,380,829 bytes), and the root tree hash matches. The API confirms private
+visibility and enabled Dependabot alerts. The receipt is
+`artifacts/github-publication-2026-10-20/initial-remote-verification.json`.
+
+GitHub accepted the push with warnings for the historical 52.38 MB results JSON
+and 69.60 MB compressed trace. Both are below its enforced per-file limit; they
+remain included to preserve the requested complete project and scientific
+records. See [GitHub large-file documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
+The final documentation/receipt follow-up is verified separately against the
+remote branch at handoff.
 
 ## Limits
 

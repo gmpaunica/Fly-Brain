@@ -1,5 +1,19 @@
 # FlyBrain task queue
 
+## Private GitHub publication - 2026-10-20
+
+- Created and pushed the complete project to private `gmpaunica/Fly-Brain`.
+  Initial remote tree matches all 6,764 local files; scientific sources/data and
+  historical results preserved. Environments, caches and credentials excluded.
+- Security review complete: zero detected secrets over 4.50 GB including archive
+  contents; readable portion of an existing truncated gzip checked separately.
+  Fixed vulnerable build tools; 30 audited dependencies, zero known advisories or
+  skips; Dependabot enabled. Full 928 and post-tool-update 17 checks pass.
+  [Evidence and limits](verification/github-publication.md).
+- **One next task / Sol Medium:** learning roadmap lesson 1, launch -> source
+  verification -> worker -> snapshot -> display. Confirm understanding through
+  the user's explanations and predictions.
+
 ## Relay color refinement — 2026-10-13
 
 - User reports the UI works well. Other relays now uses dashboard-only steel-blue,

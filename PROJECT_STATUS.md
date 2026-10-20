@@ -1,3 +1,25 @@
+# Private GitHub publication completed - 2026-10-20
+
+**Current Milestone:** Complete project imported into a private GitHub repository.
+**What Works:** https://github.com/gmpaunica/Fly-Brain; initial remote tree exactly
+matches 6,764 local files. Source, data, archived code and scientific records are
+included. Credentials/environments/caches are excluded; file bytes are preserved.
+Zero detected secrets across 4.50 GB; 30 dependency versions audited with no known
+vulnerabilities/skips after updating pip/setuptools. Dependabot enabled. Full
+928 tests pass; 17 launch/UI checks pass after the build-tool update.
+**In Progress:** None for publication. Comprehensive learning walkthrough is next.
+**Known Issues:** No scan establishes zero risk. One historical truncated gzip has
+no end marker; all recovered readable text was separately scanned. GitHub accepted
+two >50 MB historical files with size warnings. Existing scientific limits remain.
+**Important Decisions:** Private visibility; GitHub noreply author identity; exact
+line endings; audited installation constraints; no scientific source/data changes.
+**Next Task:** Learning-roadmap lesson 1 / preferred Sol Medium: launch -> source
+verification -> worker -> snapshot -> display, with user explanation/prediction.
+**How To Run:** `.\.venv\Scripts\python.exe -m flybrain.escape_ui`.
+Fresh installation: [security/setup guidance](SECURITY.md); [controls](docs/ESCAPE-UI.md).
+**How To Test:** `.\.venv\Scripts\python.exe -m pytest -q tests/test_app.py tests/test_dashboard_ui.py`.
+[Full command, audit evidence and limits](docs/verification/github-publication.md).
+
 # Relay display refinement — 2026-10-13
 
 **Current Milestone:** Dashboard accepted in user feedback; relay color refinement complete.

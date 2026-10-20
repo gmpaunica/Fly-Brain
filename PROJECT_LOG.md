@@ -5275,3 +5275,62 @@ for honest AI-assisted interview discussion.
 These neurons were selected as intermediate connection paths in a sourced graph.
 Their inclusion is structural evidence, not proof that each is a specific
 functional relay. A display color does not change PyTorch calculations.
+
+
+## 2026-10-20 - Private GitHub import and security review
+
+### Goal
+Publish the complete FlyBrain project to the user's GitHub with a security review.
+
+### Changes Made
+Created private gmpaunica/Fly-Brain, initialized main and pushed the complete
+source/tests/docs/data/archived-code/experiment collection. Added credential/cache
+ignore rules, exact-byte Git attributes, audited dependency constraints, security
+setup/report and weekly Dependabot configuration. Enabled dependency alerts and
+automated security fixes. Raised build setuptools floor and updated local pip to
+26.2.2 and setuptools to 84.2.0. Updated installation guidance/status/queue/decisions.
+
+### Decisions
+User explicitly authorized repository creation and push. Default private; use
+GitHub noreply identity and existing Git credential manager without exposing or
+saving a token in project files. Preserve scientific files and source-bound
+receipts exactly; no training, retuning or new scientific assay. Keep historical
+environment descriptions as history. One agent; no model-switch claim.
+
+### Tests / Verification
+Gitleaks 8.30.1, official release checksum verified: 4,496,200,962 bytes, zero
+secrets, exit 0 (10m36s). Supplementary publication-file and recovered truncated-log
+scans also clear. Bandit 1.9.4: no high, one reviewed fixed-HTTPS medium and 107 low
+findings, no scan errors. All 1,571 Python files parse; selected dangerous-call
+patterns absent. pip-audit 2.10.1: 30 versions, zero known advisories/skips after
+fixes, including a fresh installed-environment check. Editable installation dry
+run with all extras/constraints succeeds. Full suite: 928 passed, zero failures/
+errors/skips, three upstream warnings, 891.09s, exit 0. After build-tool-only update:
+17 launch/dashboard checks pass, zero skips, one upstream warning, 19.29s, exit 0.
+Full engineering tests used isolated ledgers, retained with reports under
+artifacts/github-publication-2026-10-20. Initial remote private visibility and all
+6,764 paths/modes/blob hashes/sizes match local commit 81c0978 and root tree.
+Exact commands/results/limits: docs/verification/github-publication.md.
+
+### Problems / Failed Attempts
+Initial dependency audit reported 16 advisory entries in pip/setuptools (some
+are duplicates); updated build tooling and constraints, fresh audit is clear.
+One pre-existing interrupted gzip caused a scanner EOF warning. Independently
+recovered/scanned all 1,771,585 readable bytes from its 142,040 compressed bytes;
+original unchanged. GitHub warns about two historical files above 50 MB but
+accepts both. Initial scan/staging contention increased full-suite wall time.
+
+### Current State
+Project published privately; scientific sources/data/results preserved. Local
+runtime dependency versions unchanged. Dependency monitoring configured. A passing
+scan cannot certify zero risk; no new native input/aesthetic review is claimed.
+Final documentation/receipt follow-up is checked against remote main at handoff.
+
+### Next Step
+One task / preferred Sol Medium: learning roadmap lesson 1, launch -> verified
+source -> worker -> snapshot -> display. Ask the user to explain/predict behavior.
+
+### Notes
+Git stores reproducible project files and dependency specifications; environments
+and credentials stay local. Exact line endings matter here because recorded
+scientific receipts hash source bytes. This remains an AI-assisted project.
